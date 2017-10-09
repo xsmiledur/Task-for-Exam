@@ -1,125 +1,1615 @@
-6 dist: 3 pos: (1.5, -12.5, 0.0)
-3 dist: 9 pos: (1.5, -6.5, 0.0)
-4 dist: 11 pos: (6.5, -9.5, 0.0)
-2 dist: 12 pos: (1.5, -3.5, 0.0)
-7 dist: 15 pos: (16.5, -15.5, 0.0)
-0 dist: 17 pos: (3.5, -0.5, 0.0)
-5 dist: 17 pos: (12.5, -9.5, 0.0)
-1 dist: 30 pos: (18.5, -2.5, 0.0)
+3 dist: 2 pos: (1.5, -2.5, 0.0)
+4 dist: 5 pos: (4.5, -2.5, 0.0)
+10 dist: 9 pos: (5.5, -5.5, 0.0)
+5 dist: 11 pos: (10.5, -2.5, 0.0)
+15 dist: 11 pos: (1.5, -11.5, 0.0)
+19 dist: 14 pos: (1.5, -14.5, 0.0)
+7 dist: 15 pos: (12.5, -4.5, 0.0)
+16 dist: 17 pos: (6.5, -12.5, 0.0)
+12 dist: 19 pos: (14.5, -6.5, 0.0)
+0 dist: 21 pos: (22.5, -0.5, 0.0)
+13 dist: 29 pos: (24.5, -6.5, 0.0)
+8 dist: 31 pos: (28.5, -4.5, 0.0)
+17 dist: 33 pos: (22.5, -12.5, 0.0)
+6 dist: 34 pos: (33.5, -2.5, 0.0)
+20 dist: 35 pos: (22.5, -14.5, 0.0)
+11 dist: 36 pos: (32.5, -5.5, 0.0)
+1 dist: 44 pos: (45.5, -0.5, 0.0)
+21 dist: 46 pos: (33.5, -14.5, 0.0)
+2 dist: 54 pos: (55.5, -0.5, 0.0)
+9 dist: 54 pos: (51.5, -4.5, 0.0)
+14 dist: 55 pos: (47.5, -9.5, 0.0)
+22 dist: 60 pos: (47.5, -14.5, 0.0)
+18 dist: 63 pos: (52.5, -12.5, 0.0)
+Item3 bfsDist: 2
+Item4 bfsDist: 3
+Item10 bfsDist: 3
+Item5 bfsDist: 3
+Item15 bfsDist: 3
+Item19 bfsDist: 3
+Item7 bfsDist: 3
+Item16 bfsDist: 3
+Item12 bfsDist: 3
+Item0 bfsDist: 3
+Item13 bfsDist: 3
+Item8 bfsDist: 3
+Item17 bfsDist: 3
 Item6 bfsDist: 3
-Item3 bfsDist: 4
-Item4 bfsDist: 4
-Item2 bfsDist: 4
-Item7 bfsDist: 4
-Item0 bfsDist: 4
-Item5 bfsDist: 4
-Item1 bfsDist: 4
-nearItm: Item6 dist: 3 Pos: (1.5, -12.5, 0.0)
-(1.5, -12.5, 0.0)
-(1.5, -13.5, 0.0)
-(1.5, -14.5, 0.0)
-(1.5, -15.5, 0.0)
-3 dist: 6 pos: (1.5, -6.5, 0.0)
-4 dist: 8 pos: (6.5, -9.5, 0.0)
-2 dist: 9 pos: (1.5, -3.5, 0.0)
-0 dist: 14 pos: (3.5, -0.5, 0.0)
-5 dist: 14 pos: (12.5, -9.5, 0.0)
-6 dist: 18 pos: (16.5, -15.5, 0.0)
-1 dist: 27 pos: (18.5, -2.5, 0.0)
-Item3 bfsDist: 10
-Item4 bfsDist: 8
-Item2 bfsDist: 9
+Item20 bfsDist: 3
+Item11 bfsDist: 3
+Item1 bfsDist: 3
+Item21 bfsDist: 3
+Item2 bfsDist: 3
+Item9 bfsDist: 3
+Item14 bfsDist: 3
+Item22 bfsDist: 3
+Item18 bfsDist: 3
+nearItm: Item3 dist: 2 Pos: (1.5, -2.5, 0.0)
+no: 0 layNo: 0 pr: -1 pos: (1.5, -0.5, 0.0) ch: 1 2 3 
+no: 1 layNo: 1 pr: 0 pos: (2.5, -0.5, 0.0) ch: 4 5 
+no: 2 layNo: 1 pr: 0 pos: (1.5, -0.5, 0.0) ch: 6 7 
+no: 3 layNo: 1 pr: 0 pos: (1.5, -1.5, 0.0) ch: 8 9 
+no: 4 layNo: 2 pr: 1 pos: (3.5, -0.5, 0.0) ch: 
+no: 5 layNo: 2 pr: 1 pos: (2.5, -0.5, 0.0) ch: 
+no: 6 layNo: 2 pr: 2 pos: (1.5, -0.5, 0.0) ch: 
+no: 7 layNo: 2 pr: 2 pos: (1.5, -1.5, 0.0) ch: 
+no: 8 layNo: 2 pr: 3 pos: (1.5, -1.5, 0.0) ch: 
+no: 9 layNo: 2 pr: 3 pos: (1.5, -2.5, 0.0) ch: 
+=====
+BestWay len: 3
+(1.5, -2.5, 0.0)
+(1.5, -1.5, 0.0)
+(1.5, -0.5, 0.0)
+
+dist: 1 no: 3
+dist: 0 no: 3
+4 dist: 3 pos: (4.5, -2.5, 0.0)
+10 dist: 7 pos: (5.5, -5.5, 0.0)
+5 dist: 9 pos: (10.5, -2.5, 0.0)
+15 dist: 9 pos: (1.5, -11.5, 0.0)
+19 dist: 12 pos: (1.5, -14.5, 0.0)
+7 dist: 13 pos: (12.5, -4.5, 0.0)
+16 dist: 15 pos: (6.5, -12.5, 0.0)
+12 dist: 17 pos: (14.5, -6.5, 0.0)
+0 dist: 23 pos: (22.5, -0.5, 0.0)
+13 dist: 27 pos: (24.5, -6.5, 0.0)
+8 dist: 29 pos: (28.5, -4.5, 0.0)
+17 dist: 31 pos: (22.5, -12.5, 0.0)
+6 dist: 32 pos: (33.5, -2.5, 0.0)
+20 dist: 33 pos: (22.5, -14.5, 0.0)
+11 dist: 34 pos: (32.5, -5.5, 0.0)
+21 dist: 44 pos: (33.5, -14.5, 0.0)
+1 dist: 46 pos: (45.5, -0.5, 0.0)
+9 dist: 52 pos: (51.5, -4.5, 0.0)
+14 dist: 53 pos: (47.5, -9.5, 0.0)
+2 dist: 56 pos: (55.5, -0.5, 0.0)
+22 dist: 58 pos: (47.5, -14.5, 0.0)
+18 dist: 61 pos: (52.5, -12.5, 0.0)
+Item4 bfsDist: 9
+Item10 bfsDist: 10
+Item5 bfsDist: 10
+Item15 bfsDist: 10
+Item19 bfsDist: 10
+Item7 bfsDist: 10
+Item16 bfsDist: 10
+Item12 bfsDist: 10
+Item0 bfsDist: 10
+Item13 bfsDist: 10
+Item8 bfsDist: 10
+Item17 bfsDist: 10
+Item6 bfsDist: 10
+Item20 bfsDist: 10
+Item11 bfsDist: 10
+Item21 bfsDist: 10
+Item1 bfsDist: 10
+Item9 bfsDist: 10
+Item14 bfsDist: 10
+Item2 bfsDist: 10
+Item22 bfsDist: 10
+Item18 bfsDist: 10
+nearItm: Item4 dist: 9 Pos: (4.5, -2.5, 0.0)
+no: 0 layNo: 0 pr: -1 pos: (1.5, -2.5, 0.0) ch: 1 2 
+no: 1 layNo: 1 pr: 0 pos: (1.5, -2.5, 0.0) ch: 3 4 
+no: 2 layNo: 1 pr: 0 pos: (1.5, -1.5, 0.0) ch: 5 6 
+no: 3 layNo: 2 pr: 1 pos: (1.5, -2.5, 0.0) ch: 7 
+no: 4 layNo: 2 pr: 1 pos: (1.5, -1.5, 0.0) ch: 8 9 
+no: 5 layNo: 2 pr: 2 pos: (1.5, -1.5, 0.0) ch: 10 11 
+no: 6 layNo: 2 pr: 2 pos: (1.5, -0.5, 0.0) ch: 12 13 
+no: 7 layNo: 3 pr: 3 pos: (1.5, -2.5, 0.0) ch: 14 
+no: 8 layNo: 3 pr: 4 pos: (1.5, -1.5, 0.0) ch: 15 
+no: 9 layNo: 3 pr: 4 pos: (1.5, -0.5, 0.0) ch: 16 17 
+no: 10 layNo: 3 pr: 5 pos: (1.5, -1.5, 0.0) ch: 18 
+no: 11 layNo: 3 pr: 5 pos: (1.5, -0.5, 0.0) ch: 19 20 
+no: 12 layNo: 3 pr: 6 pos: (2.5, -0.5, 0.0) ch: 21 22 
+no: 13 layNo: 3 pr: 6 pos: (1.5, -0.5, 0.0) ch: 23 
+no: 14 layNo: 4 pr: 7 pos: (1.5, -2.5, 0.0) ch: 24 
+no: 15 layNo: 4 pr: 8 pos: (1.5, -1.5, 0.0) ch: 25 
+no: 16 layNo: 4 pr: 9 pos: (2.5, -0.5, 0.0) ch: 26 27 
+no: 17 layNo: 4 pr: 9 pos: (1.5, -0.5, 0.0) ch: 28 
+no: 18 layNo: 4 pr: 10 pos: (1.5, -1.5, 0.0) ch: 29 
+no: 19 layNo: 4 pr: 11 pos: (2.5, -0.5, 0.0) ch: 30 31 
+no: 20 layNo: 4 pr: 11 pos: (1.5, -0.5, 0.0) ch: 32 
+no: 21 layNo: 4 pr: 12 pos: (3.5, -0.5, 0.0) ch: 33 34 
+no: 22 layNo: 4 pr: 12 pos: (2.5, -0.5, 0.0) ch: 35 
+no: 23 layNo: 4 pr: 13 pos: (1.5, -0.5, 0.0) ch: 36 
+no: 24 layNo: 5 pr: 14 pos: (1.5, -2.5, 0.0) ch: 37 
+no: 25 layNo: 5 pr: 15 pos: (1.5, -1.5, 0.0) ch: 38 
+no: 26 layNo: 5 pr: 16 pos: (3.5, -0.5, 0.0) ch: 39 40 
+no: 27 layNo: 5 pr: 16 pos: (2.5, -0.5, 0.0) ch: 41 
+no: 28 layNo: 5 pr: 17 pos: (1.5, -0.5, 0.0) ch: 42 
+no: 29 layNo: 5 pr: 18 pos: (1.5, -1.5, 0.0) ch: 43 
+no: 30 layNo: 5 pr: 19 pos: (3.5, -0.5, 0.0) ch: 44 45 
+no: 31 layNo: 5 pr: 19 pos: (2.5, -0.5, 0.0) ch: 46 
+no: 32 layNo: 5 pr: 20 pos: (1.5, -0.5, 0.0) ch: 47 
+no: 33 layNo: 5 pr: 21 pos: (4.5, -0.5, 0.0) ch: 48 49 
+no: 34 layNo: 5 pr: 21 pos: (3.5, -0.5, 0.0) ch: 50 
+no: 35 layNo: 5 pr: 22 pos: (2.5, -0.5, 0.0) ch: 51 
+no: 36 layNo: 5 pr: 23 pos: (1.5, -0.5, 0.0) ch: 52 
+no: 37 layNo: 6 pr: 24 pos: (1.5, -2.5, 0.0) ch: 53 
+no: 38 layNo: 6 pr: 25 pos: (1.5, -1.5, 0.0) ch: 54 
+no: 39 layNo: 6 pr: 26 pos: (4.5, -0.5, 0.0) ch: 55 56 
+no: 40 layNo: 6 pr: 26 pos: (3.5, -0.5, 0.0) ch: 57 
+no: 41 layNo: 6 pr: 27 pos: (2.5, -0.5, 0.0) ch: 58 
+no: 42 layNo: 6 pr: 28 pos: (1.5, -0.5, 0.0) ch: 59 
+no: 43 layNo: 6 pr: 29 pos: (1.5, -1.5, 0.0) ch: 60 
+no: 44 layNo: 6 pr: 30 pos: (4.5, -0.5, 0.0) ch: 61 62 
+no: 45 layNo: 6 pr: 30 pos: (3.5, -0.5, 0.0) ch: 63 
+no: 46 layNo: 6 pr: 31 pos: (2.5, -0.5, 0.0) ch: 64 
+no: 47 layNo: 6 pr: 32 pos: (1.5, -0.5, 0.0) ch: 65 
+no: 48 layNo: 6 pr: 33 pos: (5.5, -0.5, 0.0) ch: 66 67 
+no: 49 layNo: 6 pr: 33 pos: (4.5, -0.5, 0.0) ch: 68 
+no: 50 layNo: 6 pr: 34 pos: (3.5, -0.5, 0.0) ch: 69 
+no: 51 layNo: 6 pr: 35 pos: (2.5, -0.5, 0.0) ch: 70 
+no: 52 layNo: 6 pr: 36 pos: (1.5, -0.5, 0.0) ch: 71 
+no: 53 layNo: 7 pr: 37 pos: (1.5, -2.5, 0.0) ch: 72 
+no: 54 layNo: 7 pr: 38 pos: (1.5, -1.5, 0.0) ch: 73 
+no: 55 layNo: 7 pr: 39 pos: (5.5, -0.5, 0.0) ch: 74 75 
+no: 56 layNo: 7 pr: 39 pos: (4.5, -0.5, 0.0) ch: 76 
+no: 57 layNo: 7 pr: 40 pos: (3.5, -0.5, 0.0) ch: 77 
+no: 58 layNo: 7 pr: 41 pos: (2.5, -0.5, 0.0) ch: 78 
+no: 59 layNo: 7 pr: 42 pos: (1.5, -0.5, 0.0) ch: 79 
+no: 60 layNo: 7 pr: 43 pos: (1.5, -1.5, 0.0) ch: 80 
+no: 61 layNo: 7 pr: 44 pos: (5.5, -0.5, 0.0) ch: 81 82 
+no: 62 layNo: 7 pr: 44 pos: (4.5, -0.5, 0.0) ch: 83 
+no: 63 layNo: 7 pr: 45 pos: (3.5, -0.5, 0.0) ch: 84 
+no: 64 layNo: 7 pr: 46 pos: (2.5, -0.5, 0.0) ch: 85 
+no: 65 layNo: 7 pr: 47 pos: (1.5, -0.5, 0.0) ch: 86 
+no: 66 layNo: 7 pr: 48 pos: (5.5, -0.5, 0.0) ch: 87 88 
+no: 67 layNo: 7 pr: 48 pos: (5.5, -1.5, 0.0) ch: 89 90 
+no: 68 layNo: 7 pr: 49 pos: (4.5, -0.5, 0.0) ch: 91 
+no: 69 layNo: 7 pr: 50 pos: (3.5, -0.5, 0.0) ch: 92 
+no: 70 layNo: 7 pr: 51 pos: (2.5, -0.5, 0.0) ch: 93 
+no: 71 layNo: 7 pr: 52 pos: (1.5, -0.5, 0.0) ch: 94 
+no: 72 layNo: 8 pr: 53 pos: (1.5, -2.5, 0.0) ch: 95 
+no: 73 layNo: 8 pr: 54 pos: (1.5, -1.5, 0.0) ch: 96 
+no: 74 layNo: 8 pr: 55 pos: (5.5, -0.5, 0.0) ch: 97 
+no: 75 layNo: 8 pr: 55 pos: (5.5, -1.5, 0.0) ch: 98 99 
+no: 76 layNo: 8 pr: 56 pos: (4.5, -0.5, 0.0) ch: 100 
+no: 77 layNo: 8 pr: 57 pos: (3.5, -0.5, 0.0) ch: 101 
+no: 78 layNo: 8 pr: 58 pos: (2.5, -0.5, 0.0) ch: 102 
+no: 79 layNo: 8 pr: 59 pos: (1.5, -0.5, 0.0) ch: 103 
+no: 80 layNo: 8 pr: 60 pos: (1.5, -1.5, 0.0) ch: 104 
+no: 81 layNo: 8 pr: 61 pos: (5.5, -0.5, 0.0) ch: 105 
+no: 82 layNo: 8 pr: 61 pos: (5.5, -1.5, 0.0) ch: 106 107 
+no: 83 layNo: 8 pr: 62 pos: (4.5, -0.5, 0.0) ch: 108 
+no: 84 layNo: 8 pr: 63 pos: (3.5, -0.5, 0.0) ch: 109 
+no: 85 layNo: 8 pr: 64 pos: (2.5, -0.5, 0.0) ch: 110 
+no: 86 layNo: 8 pr: 65 pos: (1.5, -0.5, 0.0) ch: 111 
+no: 87 layNo: 8 pr: 66 pos: (5.5, -0.5, 0.0) ch: 112 
+no: 88 layNo: 8 pr: 66 pos: (5.5, -1.5, 0.0) ch: 113 114 
+no: 89 layNo: 8 pr: 67 pos: (5.5, -1.5, 0.0) ch: 115 116 
+no: 90 layNo: 8 pr: 67 pos: (5.5, -2.5, 0.0) ch: 117 118 
+no: 91 layNo: 8 pr: 68 pos: (4.5, -0.5, 0.0) ch: 
+no: 92 layNo: 8 pr: 69 pos: (3.5, -0.5, 0.0) ch: 
+no: 93 layNo: 8 pr: 70 pos: (2.5, -0.5, 0.0) ch: 
+no: 94 layNo: 8 pr: 71 pos: (1.5, -0.5, 0.0) ch: 
+no: 95 layNo: 9 pr: 72 pos: (1.5, -2.5, 0.0) ch: 
+no: 96 layNo: 9 pr: 73 pos: (1.5, -1.5, 0.0) ch: 
+no: 97 layNo: 9 pr: 74 pos: (5.5, -0.5, 0.0) ch: 
+no: 98 layNo: 9 pr: 75 pos: (5.5, -1.5, 0.0) ch: 
+no: 99 layNo: 9 pr: 75 pos: (5.5, -2.5, 0.0) ch: 
+no: 100 layNo: 9 pr: 76 pos: (4.5, -0.5, 0.0) ch: 
+no: 101 layNo: 9 pr: 77 pos: (3.5, -0.5, 0.0) ch: 
+no: 102 layNo: 9 pr: 78 pos: (2.5, -0.5, 0.0) ch: 
+no: 103 layNo: 9 pr: 79 pos: (1.5, -0.5, 0.0) ch: 
+no: 104 layNo: 9 pr: 80 pos: (1.5, -1.5, 0.0) ch: 
+no: 105 layNo: 9 pr: 81 pos: (5.5, -0.5, 0.0) ch: 
+no: 106 layNo: 9 pr: 82 pos: (5.5, -1.5, 0.0) ch: 
+no: 107 layNo: 9 pr: 82 pos: (5.5, -2.5, 0.0) ch: 
+no: 108 layNo: 9 pr: 83 pos: (4.5, -0.5, 0.0) ch: 
+no: 109 layNo: 9 pr: 84 pos: (3.5, -0.5, 0.0) ch: 
+no: 110 layNo: 9 pr: 85 pos: (2.5, -0.5, 0.0) ch: 
+no: 111 layNo: 9 pr: 86 pos: (1.5, -0.5, 0.0) ch: 
+no: 112 layNo: 9 pr: 87 pos: (5.5, -0.5, 0.0) ch: 
+no: 113 layNo: 9 pr: 88 pos: (5.5, -1.5, 0.0) ch: 
+no: 114 layNo: 9 pr: 88 pos: (5.5, -2.5, 0.0) ch: 
+no: 115 layNo: 9 pr: 89 pos: (5.5, -1.5, 0.0) ch: 
+no: 116 layNo: 9 pr: 89 pos: (5.5, -2.5, 0.0) ch: 
+no: 117 layNo: 9 pr: 90 pos: (6.5, -2.5, 0.0) ch: 
+no: 118 layNo: 9 pr: 90 pos: (4.5, -2.5, 0.0) ch: 
+=====
+BestWay len: 10
+(4.5, -2.5, 0.0)
+(5.5, -2.5, 0.0)
+(5.5, -1.5, 0.0)
+(5.5, -0.5, 0.0)
+(4.5, -0.5, 0.0)
+(3.5, -0.5, 0.0)
+(2.5, -0.5, 0.0)
+(1.5, -0.5, 0.0)
+(1.5, -1.5, 0.0)
+(1.5, -2.5, 0.0)
+
+dist: 8 no: 4
+dist: 7 no: 4
+dist: 6 no: 4
+dist: 5 no: 4
+dist: 4 no: 4
+dist: 3 no: 4
+dist: 2 no: 4
+dist: 1 no: 4
+dist: 0 no: 4
+10 dist: 4 pos: (5.5, -5.5, 0.0)
+5 dist: 6 pos: (10.5, -2.5, 0.0)
+7 dist: 10 pos: (12.5, -4.5, 0.0)
+15 dist: 12 pos: (1.5, -11.5, 0.0)
+16 dist: 12 pos: (6.5, -12.5, 0.0)
+12 dist: 14 pos: (14.5, -6.5, 0.0)
+19 dist: 15 pos: (1.5, -14.5, 0.0)
+0 dist: 20 pos: (22.5, -0.5, 0.0)
+13 dist: 24 pos: (24.5, -6.5, 0.0)
+8 dist: 26 pos: (28.5, -4.5, 0.0)
+17 dist: 28 pos: (22.5, -12.5, 0.0)
+6 dist: 29 pos: (33.5, -2.5, 0.0)
+20 dist: 30 pos: (22.5, -14.5, 0.0)
+11 dist: 31 pos: (32.5, -5.5, 0.0)
+21 dist: 41 pos: (33.5, -14.5, 0.0)
+1 dist: 43 pos: (45.5, -0.5, 0.0)
+9 dist: 49 pos: (51.5, -4.5, 0.0)
+14 dist: 50 pos: (47.5, -9.5, 0.0)
+2 dist: 53 pos: (55.5, -0.5, 0.0)
+22 dist: 55 pos: (47.5, -14.5, 0.0)
+18 dist: 58 pos: (52.5, -12.5, 0.0)
+Item10 bfsDist: 4
+Item5 bfsDist: 5
+Item7 bfsDist: 5
+Item15 bfsDist: 5
+Item16 bfsDist: 5
+Item12 bfsDist: 5
+Item19 bfsDist: 5
+Item0 bfsDist: 5
+Item13 bfsDist: 5
+Item8 bfsDist: 5
+Item17 bfsDist: 5
+Item6 bfsDist: 5
+Item20 bfsDist: 5
+Item11 bfsDist: 5
+Item21 bfsDist: 5
+Item1 bfsDist: 5
+Item9 bfsDist: 5
+Item14 bfsDist: 5
+Item2 bfsDist: 5
+Item22 bfsDist: 5
+Item18 bfsDist: 5
+nearItm: Item10 dist: 4 Pos: (5.5, -5.5, 0.0)
+no: 0 layNo: 0 pr: -1 pos: (4.5, -2.5, 0.0) ch: 1 2 
+no: 1 layNo: 1 pr: 0 pos: (5.5, -2.5, 0.0) ch: 3 4 5 6 
+no: 2 layNo: 1 pr: 0 pos: (4.5, -2.5, 0.0) ch: 7 
+no: 3 layNo: 2 pr: 1 pos: (6.5, -2.5, 0.0) ch: 8 9 
+no: 4 layNo: 2 pr: 1 pos: (5.5, -2.5, 0.0) ch: 10 11 12 
+no: 5 layNo: 2 pr: 1 pos: (5.5, -1.5, 0.0) ch: 13 14 
+no: 6 layNo: 2 pr: 1 pos: (5.5, -3.5, 0.0) ch: 15 16 
+no: 7 layNo: 2 pr: 2 pos: (4.5, -2.5, 0.0) ch: 17 
+no: 8 layNo: 3 pr: 3 pos: (7.5, -2.5, 0.0) ch: 18 19 
+no: 9 layNo: 3 pr: 3 pos: (6.5, -2.5, 0.0) ch: 20 
+no: 10 layNo: 3 pr: 4 pos: (5.5, -2.5, 0.0) ch: 21 
+no: 11 layNo: 3 pr: 4 pos: (5.5, -1.5, 0.0) ch: 22 23 
+no: 12 layNo: 3 pr: 4 pos: (5.5, -3.5, 0.0) ch: 24 25 
+no: 13 layNo: 3 pr: 5 pos: (5.5, -1.5, 0.0) ch: 26 27 
+no: 14 layNo: 3 pr: 5 pos: (5.5, -0.5, 0.0) ch: 28 29 
+no: 15 layNo: 3 pr: 6 pos: (5.5, -3.5, 0.0) ch: 30 31 
+no: 16 layNo: 3 pr: 6 pos: (5.5, -4.5, 0.0) ch: 32 33 
+no: 17 layNo: 3 pr: 7 pos: (4.5, -2.5, 0.0) ch: 
+no: 18 layNo: 4 pr: 8 pos: (8.5, -2.5, 0.0) ch: 
+no: 19 layNo: 4 pr: 8 pos: (7.5, -2.5, 0.0) ch: 
+no: 20 layNo: 4 pr: 9 pos: (6.5, -2.5, 0.0) ch: 
+no: 21 layNo: 4 pr: 10 pos: (5.5, -2.5, 0.0) ch: 
+no: 22 layNo: 4 pr: 11 pos: (5.5, -1.5, 0.0) ch: 
+no: 23 layNo: 4 pr: 11 pos: (5.5, -0.5, 0.0) ch: 
+no: 24 layNo: 4 pr: 12 pos: (5.5, -3.5, 0.0) ch: 
+no: 25 layNo: 4 pr: 12 pos: (5.5, -4.5, 0.0) ch: 
+no: 26 layNo: 4 pr: 13 pos: (5.5, -1.5, 0.0) ch: 
+no: 27 layNo: 4 pr: 13 pos: (5.5, -0.5, 0.0) ch: 
+no: 28 layNo: 4 pr: 14 pos: (4.5, -0.5, 0.0) ch: 
+no: 29 layNo: 4 pr: 14 pos: (5.5, -0.5, 0.0) ch: 
+no: 30 layNo: 4 pr: 15 pos: (5.5, -3.5, 0.0) ch: 
+no: 31 layNo: 4 pr: 15 pos: (5.5, -4.5, 0.0) ch: 
+no: 32 layNo: 4 pr: 16 pos: (5.5, -4.5, 0.0) ch: 
+no: 33 layNo: 4 pr: 16 pos: (5.5, -5.5, 0.0) ch: 
+=====
+BestWay len: 5
+(5.5, -5.5, 0.0)
+(5.5, -4.5, 0.0)
+(5.5, -3.5, 0.0)
+(5.5, -2.5, 0.0)
+(4.5, -2.5, 0.0)
+
+dist: 3 no: 10
+dist: 2 no: 10
+dist: 1 no: 10
+dist: 0 no: 10
+5 dist: 8 pos: (10.5, -2.5, 0.0)
+7 dist: 8 pos: (12.5, -4.5, 0.0)
+16 dist: 8 pos: (6.5, -12.5, 0.0)
+12 dist: 10 pos: (14.5, -6.5, 0.0)
+15 dist: 10 pos: (1.5, -11.5, 0.0)
+19 dist: 13 pos: (1.5, -14.5, 0.0)
+13 dist: 20 pos: (24.5, -6.5, 0.0)
+0 dist: 22 pos: (22.5, -0.5, 0.0)
+8 dist: 24 pos: (28.5, -4.5, 0.0)
+17 dist: 24 pos: (22.5, -12.5, 0.0)
+20 dist: 26 pos: (22.5, -14.5, 0.0)
+11 dist: 27 pos: (32.5, -5.5, 0.0)
+6 dist: 31 pos: (33.5, -2.5, 0.0)
+21 dist: 37 pos: (33.5, -14.5, 0.0)
+1 dist: 45 pos: (45.5, -0.5, 0.0)
+14 dist: 46 pos: (47.5, -9.5, 0.0)
+9 dist: 47 pos: (51.5, -4.5, 0.0)
+22 dist: 51 pos: (47.5, -14.5, 0.0)
+18 dist: 54 pos: (52.5, -12.5, 0.0)
+2 dist: 55 pos: (55.5, -0.5, 0.0)
+Item5 bfsDist: 8
+Item7 bfsDist: 8
+Item16 bfsDist: 9
+Item12 bfsDist: 9
+Item15 bfsDist: 9
+Item19 bfsDist: 9
+Item13 bfsDist: 9
 Item0 bfsDist: 9
-Item5 bfsDist: 9
+Item8 bfsDist: 9
+Item17 bfsDist: 9
+Item20 bfsDist: 9
+Item11 bfsDist: 9
 Item6 bfsDist: 9
+Item21 bfsDist: 9
 Item1 bfsDist: 9
-nearItm: Item4 dist: 8 Pos: (6.5, -9.5, 0.0)
-(6.5, -9.5, 0.0)
-(5.5, -9.5, 0.0)
-(4.5, -9.5, 0.0)
-(4.5, -10.5, 0.0)
-(4.5, -11.5, 0.0)
-(4.5, -12.5, 0.0)
-(3.5, -12.5, 0.0)
-(2.5, -12.5, 0.0)
-(1.5, -12.5, 0.0)
-4 dist: 6 pos: (12.5, -9.5, 0.0)
-3 dist: 8 pos: (1.5, -6.5, 0.0)
-2 dist: 11 pos: (1.5, -3.5, 0.0)
-0 dist: 12 pos: (3.5, -0.5, 0.0)
-5 dist: 16 pos: (16.5, -15.5, 0.0)
-1 dist: 19 pos: (18.5, -2.5, 0.0)
-Item4 bfsDist: 6
-Item3 bfsDist: 7
-Item2 bfsDist: 7
-Item0 bfsDist: 7
-Item5 bfsDist: 7
-Item1 bfsDist: 7
-nearItm: Item4 dist: 6 Pos: (12.5, -9.5, 0.0)
-(12.5, -9.5, 0.0)
-(11.5, -9.5, 0.0)
-(10.5, -9.5, 0.0)
-(9.5, -9.5, 0.0)
-(8.5, -9.5, 0.0)
-(7.5, -9.5, 0.0)
-(6.5, -9.5, 0.0)
-4 dist: 0 pos: (12.5, -9.5, 0.0)
-5 dist: 10 pos: (16.5, -15.5, 0.0)
-1 dist: 13 pos: (18.5, -2.5, 0.0)
-3 dist: 14 pos: (1.5, -6.5, 0.0)
-2 dist: 17 pos: (1.5, -3.5, 0.0)
-0 dist: 18 pos: (3.5, -0.5, 0.0)
-Item4 bfsDist: 1
-Item5 bfsDist: 2
-Item1 bfsDist: 2
-Item3 bfsDist: 2
-Item2 bfsDist: 2
-Item0 bfsDist: 2
-nearItm: Item4 dist: 1 Pos: (12.5, -9.5, 0.0)
-(12.5, -9.5, 0.0)
-(12.5, -9.5, 0.0)
-4 dist: 0 pos: (12.5, -9.5, 0.0)
-5 dist: 10 pos: (16.5, -15.5, 0.0)
-1 dist: 13 pos: (18.5, -2.5, 0.0)
-3 dist: 14 pos: (1.5, -6.5, 0.0)
-2 dist: 17 pos: (1.5, -3.5, 0.0)
-0 dist: 18 pos: (3.5, -0.5, 0.0)
-Item4 bfsDist: 1
-Item5 bfsDist: 2
-Item1 bfsDist: 2
-Item3 bfsDist: 2
-Item2 bfsDist: 2
-Item0 bfsDist: 2
-nearItm: Item4 dist: 1 Pos: (12.5, -9.5, 0.0)
-(12.5, -9.5, 0.0)
-(12.5, -9.5, 0.0)
-4 dist: 0 pos: (12.5, -9.5, 0.0)
-5 dist: 10 pos: (16.5, -15.5, 0.0)
-1 dist: 13 pos: (18.5, -2.5, 0.0)
-3 dist: 14 pos: (1.5, -6.5, 0.0)
-2 dist: 17 pos: (1.5, -3.5, 0.0)
-0 dist: 18 pos: (3.5, -0.5, 0.0)
-Item4 bfsDist: 1
-Item5 bfsDist: 2
-Item1 bfsDist: 2
-Item3 bfsDist: 2
-Item2 bfsDist: 2
-Item0 bfsDist: 2
-nearItm: Item4 dist: 1 Pos: (12.5, -9.5, 0.0)
-(12.5, -9.5, 0.0)
-(12.5, -9.5, 0.0)
-4 dist: 0 pos: (12.5, -9.5, 0.0)
-5 dist: 10 pos: (16.5, -15.5, 0.0)
-1 dist: 13 pos: (18.5, -2.5, 0.0)
-3 dist: 14 pos: (1.5, -6.5, 0.0)
-2 dist: 17 pos: (1.5, -3.5, 0.0)
-0 dist: 18 pos: (3.5, -0.5, 0.0)
-Item4 bfsDist: 1
-Item5 bfsDist: 2
-Item1 bfsDist: 2
-Item3 bfsDist: 2
-Item2 bfsDist: 2
-Item0 bfsDist: 2
-nearItm: Item4 dist: 1 Pos: (12.5, -9.5, 0.0)
-(12.5, -9.5, 0.0)
-(12.5, -9.5, 0.0)
+Item14 bfsDist: 9
+Item9 bfsDist: 9
+Item22 bfsDist: 9
+Item18 bfsDist: 9
+Item2 bfsDist: 9
+nearItm: Item5 dist: 8 Pos: (10.5, -2.5, 0.0)
+no: 0 layNo: 0 pr: -1 pos: (5.5, -5.5, 0.0) ch: 1 2 3 
+no: 1 layNo: 1 pr: 0 pos: (6.5, -5.5, 0.0) ch: 4 5 
+no: 2 layNo: 1 pr: 0 pos: (5.5, -5.5, 0.0) ch: 6 7 
+no: 3 layNo: 1 pr: 0 pos: (5.5, -4.5, 0.0) ch: 8 9 
+no: 4 layNo: 2 pr: 1 pos: (7.5, -5.5, 0.0) ch: 10 11 12 
+no: 5 layNo: 2 pr: 1 pos: (6.5, -5.5, 0.0) ch: 13 
+no: 6 layNo: 2 pr: 2 pos: (5.5, -5.5, 0.0) ch: 14 
+no: 7 layNo: 2 pr: 2 pos: (5.5, -4.5, 0.0) ch: 15 16 
+no: 8 layNo: 2 pr: 3 pos: (5.5, -4.5, 0.0) ch: 17 18 
+no: 9 layNo: 2 pr: 3 pos: (5.5, -3.5, 0.0) ch: 19 20 
+no: 10 layNo: 3 pr: 4 pos: (8.5, -5.5, 0.0) ch: 21 22 23 
+no: 11 layNo: 3 pr: 4 pos: (7.5, -5.5, 0.0) ch: 24 25 
+no: 12 layNo: 3 pr: 4 pos: (7.5, -6.5, 0.0) ch: 26 27 28 
+no: 13 layNo: 3 pr: 5 pos: (6.5, -5.5, 0.0) ch: 29 
+no: 14 layNo: 3 pr: 6 pos: (5.5, -5.5, 0.0) ch: 30 
+no: 15 layNo: 3 pr: 7 pos: (5.5, -4.5, 0.0) ch: 31 
+no: 16 layNo: 3 pr: 7 pos: (5.5, -3.5, 0.0) ch: 32 33 
+no: 17 layNo: 3 pr: 8 pos: (5.5, -4.5, 0.0) ch: 34 
+no: 18 layNo: 3 pr: 8 pos: (5.5, -3.5, 0.0) ch: 35 36 
+no: 19 layNo: 3 pr: 9 pos: (5.5, -3.5, 0.0) ch: 37 38 
+no: 20 layNo: 3 pr: 9 pos: (5.5, -2.5, 0.0) ch: 39 40 41 42 
+no: 21 layNo: 4 pr: 10 pos: (9.5, -5.5, 0.0) ch: 43 44 
+no: 22 layNo: 4 pr: 10 pos: (8.5, -5.5, 0.0) ch: 45 46 
+no: 23 layNo: 4 pr: 10 pos: (8.5, -6.5, 0.0) ch: 47 
+no: 24 layNo: 4 pr: 11 pos: (7.5, -5.5, 0.0) ch: 48 
+no: 25 layNo: 4 pr: 11 pos: (7.5, -6.5, 0.0) ch: 49 50 
+no: 26 layNo: 4 pr: 12 pos: (8.5, -6.5, 0.0) ch: 51 
+no: 27 layNo: 4 pr: 12 pos: (7.5, -6.5, 0.0) ch: 52 53 
+no: 28 layNo: 4 pr: 12 pos: (7.5, -7.5, 0.0) ch: 54 55 
+no: 29 layNo: 4 pr: 13 pos: (6.5, -5.5, 0.0) ch: 56 
+no: 30 layNo: 4 pr: 14 pos: (5.5, -5.5, 0.0) ch: 57 
+no: 31 layNo: 4 pr: 15 pos: (5.5, -4.5, 0.0) ch: 58 
+no: 32 layNo: 4 pr: 16 pos: (5.5, -3.5, 0.0) ch: 59 
+no: 33 layNo: 4 pr: 16 pos: (5.5, -2.5, 0.0) ch: 60 61 62 63 
+no: 34 layNo: 4 pr: 17 pos: (5.5, -4.5, 0.0) ch: 64 
+no: 35 layNo: 4 pr: 18 pos: (5.5, -3.5, 0.0) ch: 65 
+no: 36 layNo: 4 pr: 18 pos: (5.5, -2.5, 0.0) ch: 66 67 68 69 
+no: 37 layNo: 4 pr: 19 pos: (5.5, -3.5, 0.0) ch: 70 
+no: 38 layNo: 4 pr: 19 pos: (5.5, -2.5, 0.0) ch: 71 72 73 74 
+no: 39 layNo: 4 pr: 20 pos: (6.5, -2.5, 0.0) ch: 75 76 
+no: 40 layNo: 4 pr: 20 pos: (4.5, -2.5, 0.0) ch: 77 
+no: 41 layNo: 4 pr: 20 pos: (5.5, -2.5, 0.0) ch: 78 79 
+no: 42 layNo: 4 pr: 20 pos: (5.5, -1.5, 0.0) ch: 80 81 
+no: 43 layNo: 5 pr: 21 pos: (9.5, -5.5, 0.0) ch: 82 83 
+no: 44 layNo: 5 pr: 21 pos: (9.5, -4.5, 0.0) ch: 84 85 
+no: 45 layNo: 5 pr: 22 pos: (8.5, -5.5, 0.0) ch: 86 
+no: 46 layNo: 5 pr: 22 pos: (8.5, -6.5, 0.0) ch: 87 
+no: 47 layNo: 5 pr: 23 pos: (8.5, -6.5, 0.0) ch: 88 
+no: 48 layNo: 5 pr: 24 pos: (7.5, -5.5, 0.0) ch: 89 
+no: 49 layNo: 5 pr: 25 pos: (7.5, -6.5, 0.0) ch: 90 
+no: 50 layNo: 5 pr: 25 pos: (7.5, -7.5, 0.0) ch: 91 92 
+no: 51 layNo: 5 pr: 26 pos: (8.5, -6.5, 0.0) ch: 93 
+no: 52 layNo: 5 pr: 27 pos: (7.5, -6.5, 0.0) ch: 94 
+no: 53 layNo: 5 pr: 27 pos: (7.5, -7.5, 0.0) ch: 95 96 
+no: 54 layNo: 5 pr: 28 pos: (7.5, -7.5, 0.0) ch: 97 98 
+no: 55 layNo: 5 pr: 28 pos: (7.5, -8.5, 0.0) ch: 99 100 
+no: 56 layNo: 5 pr: 29 pos: (6.5, -5.5, 0.0) ch: 101 
+no: 57 layNo: 5 pr: 30 pos: (5.5, -5.5, 0.0) ch: 102 
+no: 58 layNo: 5 pr: 31 pos: (5.5, -4.5, 0.0) ch: 103 
+no: 59 layNo: 5 pr: 32 pos: (5.5, -3.5, 0.0) ch: 104 
+no: 60 layNo: 5 pr: 33 pos: (6.5, -2.5, 0.0) ch: 105 106 
+no: 61 layNo: 5 pr: 33 pos: (4.5, -2.5, 0.0) ch: 107 
+no: 62 layNo: 5 pr: 33 pos: (5.5, -2.5, 0.0) ch: 108 
+no: 63 layNo: 5 pr: 33 pos: (5.5, -1.5, 0.0) ch: 109 110 
+no: 64 layNo: 5 pr: 34 pos: (5.5, -4.5, 0.0) ch: 111 
+no: 65 layNo: 5 pr: 35 pos: (5.5, -3.5, 0.0) ch: 112 
+no: 66 layNo: 5 pr: 36 pos: (6.5, -2.5, 0.0) ch: 113 114 
+no: 67 layNo: 5 pr: 36 pos: (4.5, -2.5, 0.0) ch: 115 
+no: 68 layNo: 5 pr: 36 pos: (5.5, -2.5, 0.0) ch: 116 
+no: 69 layNo: 5 pr: 36 pos: (5.5, -1.5, 0.0) ch: 117 118 
+no: 70 layNo: 5 pr: 37 pos: (5.5, -3.5, 0.0) ch: 119 
+no: 71 layNo: 5 pr: 38 pos: (6.5, -2.5, 0.0) ch: 120 121 
+no: 72 layNo: 5 pr: 38 pos: (4.5, -2.5, 0.0) ch: 122 
+no: 73 layNo: 5 pr: 38 pos: (5.5, -2.5, 0.0) ch: 123 
+no: 74 layNo: 5 pr: 38 pos: (5.5, -1.5, 0.0) ch: 124 125 
+no: 75 layNo: 5 pr: 39 pos: (7.5, -2.5, 0.0) ch: 126 127 
+no: 76 layNo: 5 pr: 39 pos: (6.5, -2.5, 0.0) ch: 128 
+no: 77 layNo: 5 pr: 40 pos: (4.5, -2.5, 0.0) ch: 129 
+no: 78 layNo: 5 pr: 41 pos: (5.5, -2.5, 0.0) ch: 130 
+no: 79 layNo: 5 pr: 41 pos: (5.5, -1.5, 0.0) ch: 131 132 
+no: 80 layNo: 5 pr: 42 pos: (5.5, -1.5, 0.0) ch: 133 134 
+no: 81 layNo: 5 pr: 42 pos: (5.5, -0.5, 0.0) ch: 135 136 
+no: 82 layNo: 6 pr: 43 pos: (9.5, -5.5, 0.0) ch: 137 
+no: 83 layNo: 6 pr: 43 pos: (9.5, -4.5, 0.0) ch: 138 139 
+no: 84 layNo: 6 pr: 44 pos: (10.5, -4.5, 0.0) ch: 140 141 
+no: 85 layNo: 6 pr: 44 pos: (9.5, -4.5, 0.0) ch: 142 
+no: 86 layNo: 6 pr: 45 pos: (8.5, -5.5, 0.0) ch: 143 
+no: 87 layNo: 6 pr: 46 pos: (8.5, -6.5, 0.0) ch: 144 
+no: 88 layNo: 6 pr: 47 pos: (8.5, -6.5, 0.0) ch: 145 
+no: 89 layNo: 6 pr: 48 pos: (7.5, -5.5, 0.0) ch: 146 
+no: 90 layNo: 6 pr: 49 pos: (7.5, -6.5, 0.0) ch: 147 
+no: 91 layNo: 6 pr: 50 pos: (7.5, -7.5, 0.0) ch: 148 
+no: 92 layNo: 6 pr: 50 pos: (7.5, -8.5, 0.0) ch: 149 150 
+no: 93 layNo: 6 pr: 51 pos: (8.5, -6.5, 0.0) ch: 151 
+no: 94 layNo: 6 pr: 52 pos: (7.5, -6.5, 0.0) ch: 152 
+no: 95 layNo: 6 pr: 53 pos: (7.5, -7.5, 0.0) ch: 153 
+no: 96 layNo: 6 pr: 53 pos: (7.5, -8.5, 0.0) ch: 154 155 
+no: 97 layNo: 6 pr: 54 pos: (7.5, -7.5, 0.0) ch: 156 
+no: 98 layNo: 6 pr: 54 pos: (7.5, -8.5, 0.0) ch: 157 158 
+no: 99 layNo: 6 pr: 55 pos: (7.5, -8.5, 0.0) ch: 159 160 
+no: 100 layNo: 6 pr: 55 pos: (7.5, -9.5, 0.0) ch: 161 162 
+no: 101 layNo: 6 pr: 56 pos: (6.5, -5.5, 0.0) ch: 163 
+no: 102 layNo: 6 pr: 57 pos: (5.5, -5.5, 0.0) ch: 164 
+no: 103 layNo: 6 pr: 58 pos: (5.5, -4.5, 0.0) ch: 165 
+no: 104 layNo: 6 pr: 59 pos: (5.5, -3.5, 0.0) ch: 166 
+no: 105 layNo: 6 pr: 60 pos: (7.5, -2.5, 0.0) ch: 167 168 
+no: 106 layNo: 6 pr: 60 pos: (6.5, -2.5, 0.0) ch: 169 
+no: 107 layNo: 6 pr: 61 pos: (4.5, -2.5, 0.0) ch: 170 
+no: 108 layNo: 6 pr: 62 pos: (5.5, -2.5, 0.0) ch: 171 
+no: 109 layNo: 6 pr: 63 pos: (5.5, -1.5, 0.0) ch: 172 
+no: 110 layNo: 6 pr: 63 pos: (5.5, -0.5, 0.0) ch: 173 174 
+no: 111 layNo: 6 pr: 64 pos: (5.5, -4.5, 0.0) ch: 175 
+no: 112 layNo: 6 pr: 65 pos: (5.5, -3.5, 0.0) ch: 176 
+no: 113 layNo: 6 pr: 66 pos: (7.5, -2.5, 0.0) ch: 177 178 
+no: 114 layNo: 6 pr: 66 pos: (6.5, -2.5, 0.0) ch: 179 
+no: 115 layNo: 6 pr: 67 pos: (4.5, -2.5, 0.0) ch: 180 
+no: 116 layNo: 6 pr: 68 pos: (5.5, -2.5, 0.0) ch: 181 
+no: 117 layNo: 6 pr: 69 pos: (5.5, -1.5, 0.0) ch: 182 
+no: 118 layNo: 6 pr: 69 pos: (5.5, -0.5, 0.0) ch: 183 184 
+no: 119 layNo: 6 pr: 70 pos: (5.5, -3.5, 0.0) ch: 185 
+no: 120 layNo: 6 pr: 71 pos: (7.5, -2.5, 0.0) ch: 186 187 
+no: 121 layNo: 6 pr: 71 pos: (6.5, -2.5, 0.0) ch: 188 
+no: 122 layNo: 6 pr: 72 pos: (4.5, -2.5, 0.0) ch: 189 
+no: 123 layNo: 6 pr: 73 pos: (5.5, -2.5, 0.0) ch: 190 
+no: 124 layNo: 6 pr: 74 pos: (5.5, -1.5, 0.0) ch: 191 
+no: 125 layNo: 6 pr: 74 pos: (5.5, -0.5, 0.0) ch: 192 193 
+no: 126 layNo: 6 pr: 75 pos: (8.5, -2.5, 0.0) ch: 194 195 
+no: 127 layNo: 6 pr: 75 pos: (7.5, -2.5, 0.0) ch: 196 
+no: 128 layNo: 6 pr: 76 pos: (6.5, -2.5, 0.0) ch: 197 
+no: 129 layNo: 6 pr: 77 pos: (4.5, -2.5, 0.0) ch: 198 
+no: 130 layNo: 6 pr: 78 pos: (5.5, -2.5, 0.0) ch: 199 
+no: 131 layNo: 6 pr: 79 pos: (5.5, -1.5, 0.0) ch: 200 
+no: 132 layNo: 6 pr: 79 pos: (5.5, -0.5, 0.0) ch: 201 202 
+no: 133 layNo: 6 pr: 80 pos: (5.5, -1.5, 0.0) ch: 203 
+no: 134 layNo: 6 pr: 80 pos: (5.5, -0.5, 0.0) ch: 204 205 
+no: 135 layNo: 6 pr: 81 pos: (4.5, -0.5, 0.0) ch: 206 207 
+no: 136 layNo: 6 pr: 81 pos: (5.5, -0.5, 0.0) ch: 208 
+no: 137 layNo: 7 pr: 82 pos: (9.5, -5.5, 0.0) ch: 209 
+no: 138 layNo: 7 pr: 83 pos: (10.5, -4.5, 0.0) ch: 210 211 
+no: 139 layNo: 7 pr: 83 pos: (9.5, -4.5, 0.0) ch: 212 
+no: 140 layNo: 7 pr: 84 pos: (11.5, -4.5, 0.0) ch: 213 214 
+no: 141 layNo: 7 pr: 84 pos: (10.5, -4.5, 0.0) ch: 215 
+no: 142 layNo: 7 pr: 85 pos: (9.5, -4.5, 0.0) ch: 216 
+no: 143 layNo: 7 pr: 86 pos: (8.5, -5.5, 0.0) ch: 217 
+no: 144 layNo: 7 pr: 87 pos: (8.5, -6.5, 0.0) ch: 218 
+no: 145 layNo: 7 pr: 88 pos: (8.5, -6.5, 0.0) ch: 219 
+no: 146 layNo: 7 pr: 89 pos: (7.5, -5.5, 0.0) ch: 220 
+no: 147 layNo: 7 pr: 90 pos: (7.5, -6.5, 0.0) ch: 221 
+no: 148 layNo: 7 pr: 91 pos: (7.5, -7.5, 0.0) ch: 222 
+no: 149 layNo: 7 pr: 92 pos: (7.5, -8.5, 0.0) ch: 223 
+no: 150 layNo: 7 pr: 92 pos: (7.5, -9.5, 0.0) ch: 224 225 
+no: 151 layNo: 7 pr: 93 pos: (8.5, -6.5, 0.0) ch: 226 
+no: 152 layNo: 7 pr: 94 pos: (7.5, -6.5, 0.0) ch: 227 
+no: 153 layNo: 7 pr: 95 pos: (7.5, -7.5, 0.0) ch: 228 
+no: 154 layNo: 7 pr: 96 pos: (7.5, -8.5, 0.0) ch: 229 
+no: 155 layNo: 7 pr: 96 pos: (7.5, -9.5, 0.0) ch: 230 231 
+no: 156 layNo: 7 pr: 97 pos: (7.5, -7.5, 0.0) ch: 232 
+no: 157 layNo: 7 pr: 98 pos: (7.5, -8.5, 0.0) ch: 233 
+no: 158 layNo: 7 pr: 98 pos: (7.5, -9.5, 0.0) ch: 234 235 
+no: 159 layNo: 7 pr: 99 pos: (7.5, -8.5, 0.0) ch: 236 
+no: 160 layNo: 7 pr: 99 pos: (7.5, -9.5, 0.0) ch: 237 238 
+no: 161 layNo: 7 pr: 100 pos: (7.5, -9.5, 0.0) ch: 239 240 
+no: 162 layNo: 7 pr: 100 pos: (7.5, -10.5, 0.0) ch: 241 242 243 
+no: 163 layNo: 7 pr: 101 pos: (6.5, -5.5, 0.0) ch: 244 
+no: 164 layNo: 7 pr: 102 pos: (5.5, -5.5, 0.0) ch: 245 
+no: 165 layNo: 7 pr: 103 pos: (5.5, -4.5, 0.0) ch: 246 
+no: 166 layNo: 7 pr: 104 pos: (5.5, -3.5, 0.0) ch: 247 
+no: 167 layNo: 7 pr: 105 pos: (8.5, -2.5, 0.0) ch: 248 249 
+no: 168 layNo: 7 pr: 105 pos: (7.5, -2.5, 0.0) ch: 250 
+no: 169 layNo: 7 pr: 106 pos: (6.5, -2.5, 0.0) ch: 251 
+no: 170 layNo: 7 pr: 107 pos: (4.5, -2.5, 0.0) ch: 252 
+no: 171 layNo: 7 pr: 108 pos: (5.5, -2.5, 0.0) ch: 253 
+no: 172 layNo: 7 pr: 109 pos: (5.5, -1.5, 0.0) ch: 254 
+no: 173 layNo: 7 pr: 110 pos: (4.5, -0.5, 0.0) ch: 255 256 
+no: 174 layNo: 7 pr: 110 pos: (5.5, -0.5, 0.0) ch: 257 
+no: 175 layNo: 7 pr: 111 pos: (5.5, -4.5, 0.0) ch: 258 
+no: 176 layNo: 7 pr: 112 pos: (5.5, -3.5, 0.0) ch: 259 
+no: 177 layNo: 7 pr: 113 pos: (8.5, -2.5, 0.0) ch: 260 261 
+no: 178 layNo: 7 pr: 113 pos: (7.5, -2.5, 0.0) ch: 262 
+no: 179 layNo: 7 pr: 114 pos: (6.5, -2.5, 0.0) ch: 263 
+no: 180 layNo: 7 pr: 115 pos: (4.5, -2.5, 0.0) ch: 264 
+no: 181 layNo: 7 pr: 116 pos: (5.5, -2.5, 0.0) ch: 265 
+no: 182 layNo: 7 pr: 117 pos: (5.5, -1.5, 0.0) ch: 266 
+no: 183 layNo: 7 pr: 118 pos: (4.5, -0.5, 0.0) ch: 267 268 
+no: 184 layNo: 7 pr: 118 pos: (5.5, -0.5, 0.0) ch: 269 
+no: 185 layNo: 7 pr: 119 pos: (5.5, -3.5, 0.0) ch: 270 
+no: 186 layNo: 7 pr: 120 pos: (8.5, -2.5, 0.0) ch: 271 272 
+no: 187 layNo: 7 pr: 120 pos: (7.5, -2.5, 0.0) ch: 273 
+no: 188 layNo: 7 pr: 121 pos: (6.5, -2.5, 0.0) ch: 274 
+no: 189 layNo: 7 pr: 122 pos: (4.5, -2.5, 0.0) ch: 275 
+no: 190 layNo: 7 pr: 123 pos: (5.5, -2.5, 0.0) ch: 276 
+no: 191 layNo: 7 pr: 124 pos: (5.5, -1.5, 0.0) ch: 277 
+no: 192 layNo: 7 pr: 125 pos: (4.5, -0.5, 0.0) ch: 278 279 
+no: 193 layNo: 7 pr: 125 pos: (5.5, -0.5, 0.0) ch: 280 
+no: 194 layNo: 7 pr: 126 pos: (9.5, -2.5, 0.0) ch: 281 
+no: 195 layNo: 7 pr: 126 pos: (8.5, -2.5, 0.0) ch: 
+no: 196 layNo: 7 pr: 127 pos: (7.5, -2.5, 0.0) ch: 
+no: 197 layNo: 7 pr: 128 pos: (6.5, -2.5, 0.0) ch: 
+no: 198 layNo: 7 pr: 129 pos: (4.5, -2.5, 0.0) ch: 
+no: 199 layNo: 7 pr: 130 pos: (5.5, -2.5, 0.0) ch: 
+no: 200 layNo: 7 pr: 131 pos: (5.5, -1.5, 0.0) ch: 
+no: 201 layNo: 7 pr: 132 pos: (4.5, -0.5, 0.0) ch: 
+no: 202 layNo: 7 pr: 132 pos: (5.5, -0.5, 0.0) ch: 
+no: 203 layNo: 7 pr: 133 pos: (5.5, -1.5, 0.0) ch: 
+no: 204 layNo: 7 pr: 134 pos: (4.5, -0.5, 0.0) ch: 
+no: 205 layNo: 7 pr: 134 pos: (5.5, -0.5, 0.0) ch: 
+no: 206 layNo: 7 pr: 135 pos: (3.5, -0.5, 0.0) ch: 
+no: 207 layNo: 7 pr: 135 pos: (4.5, -0.5, 0.0) ch: 
+no: 208 layNo: 7 pr: 136 pos: (5.5, -0.5, 0.0) ch: 
+no: 209 layNo: 8 pr: 137 pos: (9.5, -5.5, 0.0) ch: 
+no: 210 layNo: 8 pr: 138 pos: (11.5, -4.5, 0.0) ch: 
+no: 211 layNo: 8 pr: 138 pos: (10.5, -4.5, 0.0) ch: 
+no: 212 layNo: 8 pr: 139 pos: (9.5, -4.5, 0.0) ch: 
+no: 213 layNo: 8 pr: 140 pos: (12.5, -4.5, 0.0) ch: 
+no: 214 layNo: 8 pr: 140 pos: (11.5, -4.5, 0.0) ch: 
+no: 215 layNo: 8 pr: 141 pos: (10.5, -4.5, 0.0) ch: 
+no: 216 layNo: 8 pr: 142 pos: (9.5, -4.5, 0.0) ch: 
+no: 217 layNo: 8 pr: 143 pos: (8.5, -5.5, 0.0) ch: 
+no: 218 layNo: 8 pr: 144 pos: (8.5, -6.5, 0.0) ch: 
+no: 219 layNo: 8 pr: 145 pos: (8.5, -6.5, 0.0) ch: 
+no: 220 layNo: 8 pr: 146 pos: (7.5, -5.5, 0.0) ch: 
+no: 221 layNo: 8 pr: 147 pos: (7.5, -6.5, 0.0) ch: 
+no: 222 layNo: 8 pr: 148 pos: (7.5, -7.5, 0.0) ch: 
+no: 223 layNo: 8 pr: 149 pos: (7.5, -8.5, 0.0) ch: 
+no: 224 layNo: 8 pr: 150 pos: (7.5, -9.5, 0.0) ch: 
+no: 225 layNo: 8 pr: 150 pos: (7.5, -10.5, 0.0) ch: 
+no: 226 layNo: 8 pr: 151 pos: (8.5, -6.5, 0.0) ch: 
+no: 227 layNo: 8 pr: 152 pos: (7.5, -6.5, 0.0) ch: 
+no: 228 layNo: 8 pr: 153 pos: (7.5, -7.5, 0.0) ch: 
+no: 229 layNo: 8 pr: 154 pos: (7.5, -8.5, 0.0) ch: 
+no: 230 layNo: 8 pr: 155 pos: (7.5, -9.5, 0.0) ch: 
+no: 231 layNo: 8 pr: 155 pos: (7.5, -10.5, 0.0) ch: 
+no: 232 layNo: 8 pr: 156 pos: (7.5, -7.5, 0.0) ch: 
+no: 233 layNo: 8 pr: 157 pos: (7.5, -8.5, 0.0) ch: 
+no: 234 layNo: 8 pr: 158 pos: (7.5, -9.5, 0.0) ch: 
+no: 235 layNo: 8 pr: 158 pos: (7.5, -10.5, 0.0) ch: 
+no: 236 layNo: 8 pr: 159 pos: (7.5, -8.5, 0.0) ch: 
+no: 237 layNo: 8 pr: 160 pos: (7.5, -9.5, 0.0) ch: 
+no: 238 layNo: 8 pr: 160 pos: (7.5, -10.5, 0.0) ch: 
+no: 239 layNo: 8 pr: 161 pos: (7.5, -9.5, 0.0) ch: 
+no: 240 layNo: 8 pr: 161 pos: (7.5, -10.5, 0.0) ch: 
+no: 241 layNo: 8 pr: 162 pos: (8.5, -10.5, 0.0) ch: 
+no: 242 layNo: 8 pr: 162 pos: (6.5, -10.5, 0.0) ch: 
+no: 243 layNo: 8 pr: 162 pos: (7.5, -10.5, 0.0) ch: 
+no: 244 layNo: 8 pr: 163 pos: (6.5, -5.5, 0.0) ch: 
+no: 245 layNo: 8 pr: 164 pos: (5.5, -5.5, 0.0) ch: 
+no: 246 layNo: 8 pr: 165 pos: (5.5, -4.5, 0.0) ch: 
+no: 247 layNo: 8 pr: 166 pos: (5.5, -3.5, 0.0) ch: 
+no: 248 layNo: 8 pr: 167 pos: (9.5, -2.5, 0.0) ch: 
+no: 249 layNo: 8 pr: 167 pos: (8.5, -2.5, 0.0) ch: 
+no: 250 layNo: 8 pr: 168 pos: (7.5, -2.5, 0.0) ch: 
+no: 251 layNo: 8 pr: 169 pos: (6.5, -2.5, 0.0) ch: 
+no: 252 layNo: 8 pr: 170 pos: (4.5, -2.5, 0.0) ch: 
+no: 253 layNo: 8 pr: 171 pos: (5.5, -2.5, 0.0) ch: 
+no: 254 layNo: 8 pr: 172 pos: (5.5, -1.5, 0.0) ch: 
+no: 255 layNo: 8 pr: 173 pos: (3.5, -0.5, 0.0) ch: 
+no: 256 layNo: 8 pr: 173 pos: (4.5, -0.5, 0.0) ch: 
+no: 257 layNo: 8 pr: 174 pos: (5.5, -0.5, 0.0) ch: 
+no: 258 layNo: 8 pr: 175 pos: (5.5, -4.5, 0.0) ch: 
+no: 259 layNo: 8 pr: 176 pos: (5.5, -3.5, 0.0) ch: 
+no: 260 layNo: 8 pr: 177 pos: (9.5, -2.5, 0.0) ch: 
+no: 261 layNo: 8 pr: 177 pos: (8.5, -2.5, 0.0) ch: 
+no: 262 layNo: 8 pr: 178 pos: (7.5, -2.5, 0.0) ch: 
+no: 263 layNo: 8 pr: 179 pos: (6.5, -2.5, 0.0) ch: 
+no: 264 layNo: 8 pr: 180 pos: (4.5, -2.5, 0.0) ch: 
+no: 265 layNo: 8 pr: 181 pos: (5.5, -2.5, 0.0) ch: 
+no: 266 layNo: 8 pr: 182 pos: (5.5, -1.5, 0.0) ch: 
+no: 267 layNo: 8 pr: 183 pos: (3.5, -0.5, 0.0) ch: 
+no: 268 layNo: 8 pr: 183 pos: (4.5, -0.5, 0.0) ch: 
+no: 269 layNo: 8 pr: 184 pos: (5.5, -0.5, 0.0) ch: 
+no: 270 layNo: 8 pr: 185 pos: (5.5, -3.5, 0.0) ch: 
+no: 271 layNo: 8 pr: 186 pos: (9.5, -2.5, 0.0) ch: 
+no: 272 layNo: 8 pr: 186 pos: (8.5, -2.5, 0.0) ch: 
+no: 273 layNo: 8 pr: 187 pos: (7.5, -2.5, 0.0) ch: 
+no: 274 layNo: 8 pr: 188 pos: (6.5, -2.5, 0.0) ch: 
+no: 275 layNo: 8 pr: 189 pos: (4.5, -2.5, 0.0) ch: 
+no: 276 layNo: 8 pr: 190 pos: (5.5, -2.5, 0.0) ch: 
+no: 277 layNo: 8 pr: 191 pos: (5.5, -1.5, 0.0) ch: 
+no: 278 layNo: 8 pr: 192 pos: (3.5, -0.5, 0.0) ch: 
+no: 279 layNo: 8 pr: 192 pos: (4.5, -0.5, 0.0) ch: 
+no: 280 layNo: 8 pr: 193 pos: (5.5, -0.5, 0.0) ch: 
+no: 281 layNo: 8 pr: 194 pos: (10.5, -2.5, 0.0) ch: 
+=====
+BestWay len: 9
+(10.5, -2.5, 0.0)
+(9.5, -2.5, 0.0)
+(8.5, -2.5, 0.0)
+(7.5, -2.5, 0.0)
+(6.5, -2.5, 0.0)
+(5.5, -2.5, 0.0)
+(5.5, -3.5, 0.0)
+(5.5, -4.5, 0.0)
+(5.5, -5.5, 0.0)
+
+dist: 7 no: 5
+dist: 6 no: 5
+dist: 5 no: 5
+dist: 4 no: 5
+dist: 3 no: 5
+dist: 2 no: 5
+dist: 1 no: 5
+dist: 0 no: 5
+7 dist: 4 pos: (12.5, -4.5, 0.0)
+12 dist: 8 pos: (14.5, -6.5, 0.0)
+0 dist: 14 pos: (22.5, -0.5, 0.0)
+16 dist: 14 pos: (6.5, -12.5, 0.0)
+13 dist: 18 pos: (24.5, -6.5, 0.0)
+15 dist: 18 pos: (1.5, -11.5, 0.0)
+8 dist: 20 pos: (28.5, -4.5, 0.0)
+19 dist: 21 pos: (1.5, -14.5, 0.0)
+17 dist: 22 pos: (22.5, -12.5, 0.0)
+6 dist: 23 pos: (33.5, -2.5, 0.0)
+20 dist: 24 pos: (22.5, -14.5, 0.0)
+11 dist: 25 pos: (32.5, -5.5, 0.0)
+21 dist: 35 pos: (33.5, -14.5, 0.0)
+1 dist: 37 pos: (45.5, -0.5, 0.0)
+9 dist: 43 pos: (51.5, -4.5, 0.0)
+14 dist: 44 pos: (47.5, -9.5, 0.0)
+2 dist: 47 pos: (55.5, -0.5, 0.0)
+22 dist: 49 pos: (47.5, -14.5, 0.0)
+18 dist: 52 pos: (52.5, -12.5, 0.0)
+Item7 bfsDist: 16
+Item12 bfsDist: 12
+Item0 bfsDist: 13
+Item16 bfsDist: 13
+Item13 bfsDist: 13
+Item15 bfsDist: 13
+Item8 bfsDist: 13
+Item19 bfsDist: 13
+Item17 bfsDist: 13
+Item6 bfsDist: 13
+Item20 bfsDist: 13
+Item11 bfsDist: 13
+Item21 bfsDist: 13
+Item1 bfsDist: 13
+Item9 bfsDist: 13
+Item14 bfsDist: 13
+Item2 bfsDist: 13
+Item22 bfsDist: 13
+Item18 bfsDist: 13
+nearItm: Item12 dist: 12 Pos: (14.5, -6.5, 0.0)
+no: 0 layNo: 0 pr: -1 pos: (10.5, -2.5, 0.0) ch: 1 2 3 
+no: 1 layNo: 1 pr: 0 pos: (11.5, -2.5, 0.0) ch: 4 5 
+no: 2 layNo: 1 pr: 0 pos: (9.5, -2.5, 0.0) ch: 6 7 
+no: 3 layNo: 1 pr: 0 pos: (10.5, -2.5, 0.0) ch: 8 
+no: 4 layNo: 2 pr: 1 pos: (12.5, -2.5, 0.0) ch: 9 10 
+no: 5 layNo: 2 pr: 1 pos: (11.5, -2.5, 0.0) ch: 11 
+no: 6 layNo: 2 pr: 2 pos: (8.5, -2.5, 0.0) ch: 12 13 
+no: 7 layNo: 2 pr: 2 pos: (9.5, -2.5, 0.0) ch: 14 
+no: 8 layNo: 2 pr: 3 pos: (10.5, -2.5, 0.0) ch: 15 
+no: 9 layNo: 3 pr: 4 pos: (13.5, -2.5, 0.0) ch: 16 17 
+no: 10 layNo: 3 pr: 4 pos: (12.5, -2.5, 0.0) ch: 18 
+no: 11 layNo: 3 pr: 5 pos: (11.5, -2.5, 0.0) ch: 19 
+no: 12 layNo: 3 pr: 6 pos: (7.5, -2.5, 0.0) ch: 20 21 
+no: 13 layNo: 3 pr: 6 pos: (8.5, -2.5, 0.0) ch: 22 
+no: 14 layNo: 3 pr: 7 pos: (9.5, -2.5, 0.0) ch: 23 
+no: 15 layNo: 3 pr: 8 pos: (10.5, -2.5, 0.0) ch: 24 
+no: 16 layNo: 4 pr: 9 pos: (14.5, -2.5, 0.0) ch: 25 26 
+no: 17 layNo: 4 pr: 9 pos: (13.5, -2.5, 0.0) ch: 27 
+no: 18 layNo: 4 pr: 10 pos: (12.5, -2.5, 0.0) ch: 28 
+no: 19 layNo: 4 pr: 11 pos: (11.5, -2.5, 0.0) ch: 29 
+no: 20 layNo: 4 pr: 12 pos: (6.5, -2.5, 0.0) ch: 30 31 
+no: 21 layNo: 4 pr: 12 pos: (7.5, -2.5, 0.0) ch: 32 
+no: 22 layNo: 4 pr: 13 pos: (8.5, -2.5, 0.0) ch: 33 
+no: 23 layNo: 4 pr: 14 pos: (9.5, -2.5, 0.0) ch: 34 
+no: 24 layNo: 4 pr: 15 pos: (10.5, -2.5, 0.0) ch: 35 
+no: 25 layNo: 5 pr: 16 pos: (15.5, -2.5, 0.0) ch: 36 37 
+no: 26 layNo: 5 pr: 16 pos: (14.5, -2.5, 0.0) ch: 38 
+no: 27 layNo: 5 pr: 17 pos: (13.5, -2.5, 0.0) ch: 39 
+no: 28 layNo: 5 pr: 18 pos: (12.5, -2.5, 0.0) ch: 40 
+no: 29 layNo: 5 pr: 19 pos: (11.5, -2.5, 0.0) ch: 41 
+no: 30 layNo: 5 pr: 20 pos: (5.5, -2.5, 0.0) ch: 42 43 44 45 
+no: 31 layNo: 5 pr: 20 pos: (6.5, -2.5, 0.0) ch: 46 
+no: 32 layNo: 5 pr: 21 pos: (7.5, -2.5, 0.0) ch: 47 
+no: 33 layNo: 5 pr: 22 pos: (8.5, -2.5, 0.0) ch: 48 
+no: 34 layNo: 5 pr: 23 pos: (9.5, -2.5, 0.0) ch: 49 
+no: 35 layNo: 5 pr: 24 pos: (10.5, -2.5, 0.0) ch: 50 
+no: 36 layNo: 6 pr: 25 pos: (16.5, -2.5, 0.0) ch: 51 52 53 
+no: 37 layNo: 6 pr: 25 pos: (15.5, -2.5, 0.0) ch: 54 
+no: 38 layNo: 6 pr: 26 pos: (14.5, -2.5, 0.0) ch: 55 
+no: 39 layNo: 6 pr: 27 pos: (13.5, -2.5, 0.0) ch: 56 
+no: 40 layNo: 6 pr: 28 pos: (12.5, -2.5, 0.0) ch: 57 
+no: 41 layNo: 6 pr: 29 pos: (11.5, -2.5, 0.0) ch: 58 
+no: 42 layNo: 6 pr: 30 pos: (4.5, -2.5, 0.0) ch: 59 
+no: 43 layNo: 6 pr: 30 pos: (5.5, -2.5, 0.0) ch: 60 61 62 
+no: 44 layNo: 6 pr: 30 pos: (5.5, -1.5, 0.0) ch: 63 64 
+no: 45 layNo: 6 pr: 30 pos: (5.5, -3.5, 0.0) ch: 65 66 
+no: 46 layNo: 6 pr: 31 pos: (6.5, -2.5, 0.0) ch: 67 
+no: 47 layNo: 6 pr: 32 pos: (7.5, -2.5, 0.0) ch: 68 
+no: 48 layNo: 6 pr: 33 pos: (8.5, -2.5, 0.0) ch: 69 
+no: 49 layNo: 6 pr: 34 pos: (9.5, -2.5, 0.0) ch: 70 
+no: 50 layNo: 6 pr: 35 pos: (10.5, -2.5, 0.0) ch: 71 
+no: 51 layNo: 7 pr: 36 pos: (16.5, -2.5, 0.0) ch: 72 73 74 
+no: 52 layNo: 7 pr: 36 pos: (16.5, -1.5, 0.0) ch: 75 76 
+no: 53 layNo: 7 pr: 36 pos: (16.5, -3.5, 0.0) ch: 77 78 
+no: 54 layNo: 7 pr: 37 pos: (15.5, -2.5, 0.0) ch: 79 
+no: 55 layNo: 7 pr: 38 pos: (14.5, -2.5, 0.0) ch: 80 
+no: 56 layNo: 7 pr: 39 pos: (13.5, -2.5, 0.0) ch: 81 
+no: 57 layNo: 7 pr: 40 pos: (12.5, -2.5, 0.0) ch: 82 
+no: 58 layNo: 7 pr: 41 pos: (11.5, -2.5, 0.0) ch: 83 
+no: 59 layNo: 7 pr: 42 pos: (4.5, -2.5, 0.0) ch: 84 
+no: 60 layNo: 7 pr: 43 pos: (5.5, -2.5, 0.0) ch: 85 
+no: 61 layNo: 7 pr: 43 pos: (5.5, -1.5, 0.0) ch: 86 87 
+no: 62 layNo: 7 pr: 43 pos: (5.5, -3.5, 0.0) ch: 88 89 
+no: 63 layNo: 7 pr: 44 pos: (5.5, -1.5, 0.0) ch: 90 91 
+no: 64 layNo: 7 pr: 44 pos: (5.5, -0.5, 0.0) ch: 92 93 
+no: 65 layNo: 7 pr: 45 pos: (5.5, -3.5, 0.0) ch: 94 95 
+no: 66 layNo: 7 pr: 45 pos: (5.5, -4.5, 0.0) ch: 96 97 
+no: 67 layNo: 7 pr: 46 pos: (6.5, -2.5, 0.0) ch: 98 
+no: 68 layNo: 7 pr: 47 pos: (7.5, -2.5, 0.0) ch: 99 
+no: 69 layNo: 7 pr: 48 pos: (8.5, -2.5, 0.0) ch: 100 
+no: 70 layNo: 7 pr: 49 pos: (9.5, -2.5, 0.0) ch: 101 
+no: 71 layNo: 7 pr: 50 pos: (10.5, -2.5, 0.0) ch: 102 
+no: 72 layNo: 8 pr: 51 pos: (16.5, -2.5, 0.0) ch: 103 
+no: 73 layNo: 8 pr: 51 pos: (16.5, -1.5, 0.0) ch: 104 105 
+no: 74 layNo: 8 pr: 51 pos: (16.5, -3.5, 0.0) ch: 106 107 
+no: 75 layNo: 8 pr: 52 pos: (16.5, -1.5, 0.0) ch: 108 109 
+no: 76 layNo: 8 pr: 52 pos: (16.5, -0.5, 0.0) ch: 110 111 
+no: 77 layNo: 8 pr: 53 pos: (16.5, -3.5, 0.0) ch: 112 113 
+no: 78 layNo: 8 pr: 53 pos: (16.5, -4.5, 0.0) ch: 114 115 116 
+no: 79 layNo: 8 pr: 54 pos: (15.5, -2.5, 0.0) ch: 117 
+no: 80 layNo: 8 pr: 55 pos: (14.5, -2.5, 0.0) ch: 118 
+no: 81 layNo: 8 pr: 56 pos: (13.5, -2.5, 0.0) ch: 119 
+no: 82 layNo: 8 pr: 57 pos: (12.5, -2.5, 0.0) ch: 120 
+no: 83 layNo: 8 pr: 58 pos: (11.5, -2.5, 0.0) ch: 121 
+no: 84 layNo: 8 pr: 59 pos: (4.5, -2.5, 0.0) ch: 122 
+no: 85 layNo: 8 pr: 60 pos: (5.5, -2.5, 0.0) ch: 123 
+no: 86 layNo: 8 pr: 61 pos: (5.5, -1.5, 0.0) ch: 124 
+no: 87 layNo: 8 pr: 61 pos: (5.5, -0.5, 0.0) ch: 125 126 
+no: 88 layNo: 8 pr: 62 pos: (5.5, -3.5, 0.0) ch: 127 
+no: 89 layNo: 8 pr: 62 pos: (5.5, -4.5, 0.0) ch: 128 129 
+no: 90 layNo: 8 pr: 63 pos: (5.5, -1.5, 0.0) ch: 130 
+no: 91 layNo: 8 pr: 63 pos: (5.5, -0.5, 0.0) ch: 131 132 
+no: 92 layNo: 8 pr: 64 pos: (4.5, -0.5, 0.0) ch: 133 134 
+no: 93 layNo: 8 pr: 64 pos: (5.5, -0.5, 0.0) ch: 135 
+no: 94 layNo: 8 pr: 65 pos: (5.5, -3.5, 0.0) ch: 136 
+no: 95 layNo: 8 pr: 65 pos: (5.5, -4.5, 0.0) ch: 137 138 
+no: 96 layNo: 8 pr: 66 pos: (5.5, -4.5, 0.0) ch: 139 140 
+no: 97 layNo: 8 pr: 66 pos: (5.5, -5.5, 0.0) ch: 141 142 
+no: 98 layNo: 8 pr: 67 pos: (6.5, -2.5, 0.0) ch: 143 
+no: 99 layNo: 8 pr: 68 pos: (7.5, -2.5, 0.0) ch: 144 
+no: 100 layNo: 8 pr: 69 pos: (8.5, -2.5, 0.0) ch: 145 
+no: 101 layNo: 8 pr: 70 pos: (9.5, -2.5, 0.0) ch: 146 
+no: 102 layNo: 8 pr: 71 pos: (10.5, -2.5, 0.0) ch: 147 
+no: 103 layNo: 9 pr: 72 pos: (16.5, -2.5, 0.0) ch: 148 
+no: 104 layNo: 9 pr: 73 pos: (16.5, -1.5, 0.0) ch: 149 
+no: 105 layNo: 9 pr: 73 pos: (16.5, -0.5, 0.0) ch: 150 151 
+no: 106 layNo: 9 pr: 74 pos: (16.5, -3.5, 0.0) ch: 152 
+no: 107 layNo: 9 pr: 74 pos: (16.5, -4.5, 0.0) ch: 153 154 155 
+no: 108 layNo: 9 pr: 75 pos: (16.5, -1.5, 0.0) ch: 156 
+no: 109 layNo: 9 pr: 75 pos: (16.5, -0.5, 0.0) ch: 157 158 
+no: 110 layNo: 9 pr: 76 pos: (17.5, -0.5, 0.0) ch: 159 160 
+no: 111 layNo: 9 pr: 76 pos: (16.5, -0.5, 0.0) ch: 161 
+no: 112 layNo: 9 pr: 77 pos: (16.5, -3.5, 0.0) ch: 162 
+no: 113 layNo: 9 pr: 77 pos: (16.5, -4.5, 0.0) ch: 163 164 165 
+no: 114 layNo: 9 pr: 78 pos: (17.5, -4.5, 0.0) ch: 166 167 168 
+no: 115 layNo: 9 pr: 78 pos: (16.5, -4.5, 0.0) ch: 169 170 
+no: 116 layNo: 9 pr: 78 pos: (16.5, -5.5, 0.0) ch: 171 172 173 174 
+no: 117 layNo: 9 pr: 79 pos: (15.5, -2.5, 0.0) ch: 175 
+no: 118 layNo: 9 pr: 80 pos: (14.5, -2.5, 0.0) ch: 176 
+no: 119 layNo: 9 pr: 81 pos: (13.5, -2.5, 0.0) ch: 177 
+no: 120 layNo: 9 pr: 82 pos: (12.5, -2.5, 0.0) ch: 178 
+no: 121 layNo: 9 pr: 83 pos: (11.5, -2.5, 0.0) ch: 179 
+no: 122 layNo: 9 pr: 84 pos: (4.5, -2.5, 0.0) ch: 180 
+no: 123 layNo: 9 pr: 85 pos: (5.5, -2.5, 0.0) ch: 181 
+no: 124 layNo: 9 pr: 86 pos: (5.5, -1.5, 0.0) ch: 182 
+no: 125 layNo: 9 pr: 87 pos: (4.5, -0.5, 0.0) ch: 183 184 
+no: 126 layNo: 9 pr: 87 pos: (5.5, -0.5, 0.0) ch: 185 
+no: 127 layNo: 9 pr: 88 pos: (5.5, -3.5, 0.0) ch: 186 
+no: 128 layNo: 9 pr: 89 pos: (5.5, -4.5, 0.0) ch: 187 
+no: 129 layNo: 9 pr: 89 pos: (5.5, -5.5, 0.0) ch: 188 189 
+no: 130 layNo: 9 pr: 90 pos: (5.5, -1.5, 0.0) ch: 190 
+no: 131 layNo: 9 pr: 91 pos: (4.5, -0.5, 0.0) ch: 191 192 
+no: 132 layNo: 9 pr: 91 pos: (5.5, -0.5, 0.0) ch: 193 
+no: 133 layNo: 9 pr: 92 pos: (3.5, -0.5, 0.0) ch: 194 195 
+no: 134 layNo: 9 pr: 92 pos: (4.5, -0.5, 0.0) ch: 196 
+no: 135 layNo: 9 pr: 93 pos: (5.5, -0.5, 0.0) ch: 197 
+no: 136 layNo: 9 pr: 94 pos: (5.5, -3.5, 0.0) ch: 198 
+no: 137 layNo: 9 pr: 95 pos: (5.5, -4.5, 0.0) ch: 199 
+no: 138 layNo: 9 pr: 95 pos: (5.5, -5.5, 0.0) ch: 200 201 
+no: 139 layNo: 9 pr: 96 pos: (5.5, -4.5, 0.0) ch: 202 
+no: 140 layNo: 9 pr: 96 pos: (5.5, -5.5, 0.0) ch: 203 204 
+no: 141 layNo: 9 pr: 97 pos: (6.5, -5.5, 0.0) ch: 205 206 
+no: 142 layNo: 9 pr: 97 pos: (5.5, -5.5, 0.0) ch: 207 
+no: 143 layNo: 9 pr: 98 pos: (6.5, -2.5, 0.0) ch: 208 
+no: 144 layNo: 9 pr: 99 pos: (7.5, -2.5, 0.0) ch: 209 
+no: 145 layNo: 9 pr: 100 pos: (8.5, -2.5, 0.0) ch: 210 
+no: 146 layNo: 9 pr: 101 pos: (9.5, -2.5, 0.0) ch: 211 
+no: 147 layNo: 9 pr: 102 pos: (10.5, -2.5, 0.0) ch: 212 
+no: 148 layNo: 10 pr: 103 pos: (16.5, -2.5, 0.0) ch: 213 
+no: 149 layNo: 10 pr: 104 pos: (16.5, -1.5, 0.0) ch: 214 
+no: 150 layNo: 10 pr: 105 pos: (17.5, -0.5, 0.0) ch: 215 216 
+no: 151 layNo: 10 pr: 105 pos: (16.5, -0.5, 0.0) ch: 217 
+no: 152 layNo: 10 pr: 106 pos: (16.5, -3.5, 0.0) ch: 218 
+no: 153 layNo: 10 pr: 107 pos: (17.5, -4.5, 0.0) ch: 219 220 221 
+no: 154 layNo: 10 pr: 107 pos: (16.5, -4.5, 0.0) ch: 222 
+no: 155 layNo: 10 pr: 107 pos: (16.5, -5.5, 0.0) ch: 223 224 225 226 
+no: 156 layNo: 10 pr: 108 pos: (16.5, -1.5, 0.0) ch: 227 
+no: 157 layNo: 10 pr: 109 pos: (17.5, -0.5, 0.0) ch: 228 229 
+no: 158 layNo: 10 pr: 109 pos: (16.5, -0.5, 0.0) ch: 230 
+no: 159 layNo: 10 pr: 110 pos: (18.5, -0.5, 0.0) ch: 231 232 
+no: 160 layNo: 10 pr: 110 pos: (17.5, -0.5, 0.0) ch: 233 
+no: 161 layNo: 10 pr: 111 pos: (16.5, -0.5, 0.0) ch: 234 
+no: 162 layNo: 10 pr: 112 pos: (16.5, -3.5, 0.0) ch: 235 
+no: 163 layNo: 10 pr: 113 pos: (17.5, -4.5, 0.0) ch: 236 237 238 
+no: 164 layNo: 10 pr: 113 pos: (16.5, -4.5, 0.0) ch: 239 
+no: 165 layNo: 10 pr: 113 pos: (16.5, -5.5, 0.0) ch: 240 241 242 243 
+no: 166 layNo: 10 pr: 114 pos: (18.5, -4.5, 0.0) ch: 244 245 
+no: 167 layNo: 10 pr: 114 pos: (17.5, -4.5, 0.0) ch: 246 247 
+no: 168 layNo: 10 pr: 114 pos: (17.5, -5.5, 0.0) ch: 248 
+no: 169 layNo: 10 pr: 115 pos: (16.5, -4.5, 0.0) ch: 249 
+no: 170 layNo: 10 pr: 115 pos: (16.5, -5.5, 0.0) ch: 250 251 252 
+no: 171 layNo: 10 pr: 116 pos: (17.5, -5.5, 0.0) ch: 253 
+no: 172 layNo: 10 pr: 116 pos: (15.5, -5.5, 0.0) ch: 254 255 
+no: 173 layNo: 10 pr: 116 pos: (16.5, -5.5, 0.0) ch: 256 257 
+no: 174 layNo: 10 pr: 116 pos: (16.5, -6.5, 0.0) ch: 258 259 
+no: 175 layNo: 10 pr: 117 pos: (15.5, -2.5, 0.0) ch: 260 
+no: 176 layNo: 10 pr: 118 pos: (14.5, -2.5, 0.0) ch: 261 
+no: 177 layNo: 10 pr: 119 pos: (13.5, -2.5, 0.0) ch: 262 
+no: 178 layNo: 10 pr: 120 pos: (12.5, -2.5, 0.0) ch: 263 
+no: 179 layNo: 10 pr: 121 pos: (11.5, -2.5, 0.0) ch: 264 
+no: 180 layNo: 10 pr: 122 pos: (4.5, -2.5, 0.0) ch: 265 
+no: 181 layNo: 10 pr: 123 pos: (5.5, -2.5, 0.0) ch: 266 
+no: 182 layNo: 10 pr: 124 pos: (5.5, -1.5, 0.0) ch: 267 
+no: 183 layNo: 10 pr: 125 pos: (3.5, -0.5, 0.0) ch: 268 269 
+no: 184 layNo: 10 pr: 125 pos: (4.5, -0.5, 0.0) ch: 270 
+no: 185 layNo: 10 pr: 126 pos: (5.5, -0.5, 0.0) ch: 271 
+no: 186 layNo: 10 pr: 127 pos: (5.5, -3.5, 0.0) ch: 272 
+no: 187 layNo: 10 pr: 128 pos: (5.5, -4.5, 0.0) ch: 273 
+no: 188 layNo: 10 pr: 129 pos: (6.5, -5.5, 0.0) ch: 274 275 
+no: 189 layNo: 10 pr: 129 pos: (5.5, -5.5, 0.0) ch: 276 
+no: 190 layNo: 10 pr: 130 pos: (5.5, -1.5, 0.0) ch: 277 
+no: 191 layNo: 10 pr: 131 pos: (3.5, -0.5, 0.0) ch: 278 279 
+no: 192 layNo: 10 pr: 131 pos: (4.5, -0.5, 0.0) ch: 280 
+no: 193 layNo: 10 pr: 132 pos: (5.5, -0.5, 0.0) ch: 281 
+no: 194 layNo: 10 pr: 133 pos: (2.5, -0.5, 0.0) ch: 282 283 
+no: 195 layNo: 10 pr: 133 pos: (3.5, -0.5, 0.0) ch: 284 
+no: 196 layNo: 10 pr: 134 pos: (4.5, -0.5, 0.0) ch: 285 
+no: 197 layNo: 10 pr: 135 pos: (5.5, -0.5, 0.0) ch: 286 
+no: 198 layNo: 10 pr: 136 pos: (5.5, -3.5, 0.0) ch: 287 
+no: 199 layNo: 10 pr: 137 pos: (5.5, -4.5, 0.0) ch: 288 
+no: 200 layNo: 10 pr: 138 pos: (6.5, -5.5, 0.0) ch: 289 290 
+no: 201 layNo: 10 pr: 138 pos: (5.5, -5.5, 0.0) ch: 291 
+no: 202 layNo: 10 pr: 139 pos: (5.5, -4.5, 0.0) ch: 292 
+no: 203 layNo: 10 pr: 140 pos: (6.5, -5.5, 0.0) ch: 293 294 
+no: 204 layNo: 10 pr: 140 pos: (5.5, -5.5, 0.0) ch: 295 
+no: 205 layNo: 10 pr: 141 pos: (7.5, -5.5, 0.0) ch: 296 297 298 
+no: 206 layNo: 10 pr: 141 pos: (6.5, -5.5, 0.0) ch: 299 
+no: 207 layNo: 10 pr: 142 pos: (5.5, -5.5, 0.0) ch: 300 
+no: 208 layNo: 10 pr: 143 pos: (6.5, -2.5, 0.0) ch: 301 
+no: 209 layNo: 10 pr: 144 pos: (7.5, -2.5, 0.0) ch: 302 
+no: 210 layNo: 10 pr: 145 pos: (8.5, -2.5, 0.0) ch: 303 
+no: 211 layNo: 10 pr: 146 pos: (9.5, -2.5, 0.0) ch: 304 
+no: 212 layNo: 10 pr: 147 pos: (10.5, -2.5, 0.0) ch: 305 
+no: 213 layNo: 11 pr: 148 pos: (16.5, -2.5, 0.0) ch: 306 
+no: 214 layNo: 11 pr: 149 pos: (16.5, -1.5, 0.0) ch: 307 
+no: 215 layNo: 11 pr: 150 pos: (18.5, -0.5, 0.0) ch: 308 309 
+no: 216 layNo: 11 pr: 150 pos: (17.5, -0.5, 0.0) ch: 310 
+no: 217 layNo: 11 pr: 151 pos: (16.5, -0.5, 0.0) ch: 311 
+no: 218 layNo: 11 pr: 152 pos: (16.5, -3.5, 0.0) ch: 312 
+no: 219 layNo: 11 pr: 153 pos: (18.5, -4.5, 0.0) ch: 313 314 
+no: 220 layNo: 11 pr: 153 pos: (17.5, -4.5, 0.0) ch: 315 
+no: 221 layNo: 11 pr: 153 pos: (17.5, -5.5, 0.0) ch: 316 
+no: 222 layNo: 11 pr: 154 pos: (16.5, -4.5, 0.0) ch: 317 
+no: 223 layNo: 11 pr: 155 pos: (17.5, -5.5, 0.0) ch: 318 
+no: 224 layNo: 11 pr: 155 pos: (15.5, -5.5, 0.0) ch: 319 320 
+no: 225 layNo: 11 pr: 155 pos: (16.5, -5.5, 0.0) ch: 321 
+no: 226 layNo: 11 pr: 155 pos: (16.5, -6.5, 0.0) ch: 322 323 
+no: 227 layNo: 11 pr: 156 pos: (16.5, -1.5, 0.0) ch: 324 
+no: 228 layNo: 11 pr: 157 pos: (18.5, -0.5, 0.0) ch: 325 326 
+no: 229 layNo: 11 pr: 157 pos: (17.5, -0.5, 0.0) ch: 327 
+no: 230 layNo: 11 pr: 158 pos: (16.5, -0.5, 0.0) ch: 328 
+no: 231 layNo: 11 pr: 159 pos: (19.5, -0.5, 0.0) ch: 329 330 
+no: 232 layNo: 11 pr: 159 pos: (18.5, -0.5, 0.0) ch: 331 
+no: 233 layNo: 11 pr: 160 pos: (17.5, -0.5, 0.0) ch: 332 
+no: 234 layNo: 11 pr: 161 pos: (16.5, -0.5, 0.0) ch: 333 
+no: 235 layNo: 11 pr: 162 pos: (16.5, -3.5, 0.0) ch: 334 
+no: 236 layNo: 11 pr: 163 pos: (18.5, -4.5, 0.0) ch: 335 336 
+no: 237 layNo: 11 pr: 163 pos: (17.5, -4.5, 0.0) ch: 337 
+no: 238 layNo: 11 pr: 163 pos: (17.5, -5.5, 0.0) ch: 338 
+no: 239 layNo: 11 pr: 164 pos: (16.5, -4.5, 0.0) ch: 339 
+no: 240 layNo: 11 pr: 165 pos: (17.5, -5.5, 0.0) ch: 340 
+no: 241 layNo: 11 pr: 165 pos: (15.5, -5.5, 0.0) ch: 341 342 
+no: 242 layNo: 11 pr: 165 pos: (16.5, -5.5, 0.0) ch: 343 
+no: 243 layNo: 11 pr: 165 pos: (16.5, -6.5, 0.0) ch: 344 345 
+no: 244 layNo: 11 pr: 166 pos: (19.5, -4.5, 0.0) ch: 346 347 
+no: 245 layNo: 11 pr: 166 pos: (18.5, -4.5, 0.0) ch: 348 
+no: 246 layNo: 11 pr: 167 pos: (17.5, -4.5, 0.0) ch: 349 
+no: 247 layNo: 11 pr: 167 pos: (17.5, -5.5, 0.0) ch: 350 
+no: 248 layNo: 11 pr: 168 pos: (17.5, -5.5, 0.0) ch: 351 
+no: 249 layNo: 11 pr: 169 pos: (16.5, -4.5, 0.0) ch: 352 
+no: 250 layNo: 11 pr: 170 pos: (15.5, -5.5, 0.0) ch: 353 354 
+no: 251 layNo: 11 pr: 170 pos: (16.5, -5.5, 0.0) ch: 355 
+no: 252 layNo: 11 pr: 170 pos: (16.5, -6.5, 0.0) ch: 356 357 
+no: 253 layNo: 11 pr: 171 pos: (17.5, -5.5, 0.0) ch: 358 
+no: 254 layNo: 11 pr: 172 pos: (14.5, -5.5, 0.0) ch: 359 360 
+no: 255 layNo: 11 pr: 172 pos: (15.5, -5.5, 0.0) ch: 
+no: 256 layNo: 11 pr: 173 pos: (16.5, -5.5, 0.0) ch: 
+no: 257 layNo: 11 pr: 173 pos: (16.5, -6.5, 0.0) ch: 
+no: 258 layNo: 11 pr: 174 pos: (16.5, -6.5, 0.0) ch: 
+no: 259 layNo: 11 pr: 174 pos: (16.5, -7.5, 0.0) ch: 
+no: 260 layNo: 11 pr: 175 pos: (15.5, -2.5, 0.0) ch: 
+no: 261 layNo: 11 pr: 176 pos: (14.5, -2.5, 0.0) ch: 
+no: 262 layNo: 11 pr: 177 pos: (13.5, -2.5, 0.0) ch: 
+no: 263 layNo: 11 pr: 178 pos: (12.5, -2.5, 0.0) ch: 
+no: 264 layNo: 11 pr: 179 pos: (11.5, -2.5, 0.0) ch: 
+no: 265 layNo: 11 pr: 180 pos: (4.5, -2.5, 0.0) ch: 
+no: 266 layNo: 11 pr: 181 pos: (5.5, -2.5, 0.0) ch: 
+no: 267 layNo: 11 pr: 182 pos: (5.5, -1.5, 0.0) ch: 
+no: 268 layNo: 11 pr: 183 pos: (2.5, -0.5, 0.0) ch: 
+no: 269 layNo: 11 pr: 183 pos: (3.5, -0.5, 0.0) ch: 
+no: 270 layNo: 11 pr: 184 pos: (4.5, -0.5, 0.0) ch: 
+no: 271 layNo: 11 pr: 185 pos: (5.5, -0.5, 0.0) ch: 
+no: 272 layNo: 11 pr: 186 pos: (5.5, -3.5, 0.0) ch: 
+no: 273 layNo: 11 pr: 187 pos: (5.5, -4.5, 0.0) ch: 
+no: 274 layNo: 11 pr: 188 pos: (7.5, -5.5, 0.0) ch: 
+no: 275 layNo: 11 pr: 188 pos: (6.5, -5.5, 0.0) ch: 
+no: 276 layNo: 11 pr: 189 pos: (5.5, -5.5, 0.0) ch: 
+no: 277 layNo: 11 pr: 190 pos: (5.5, -1.5, 0.0) ch: 
+no: 278 layNo: 11 pr: 191 pos: (2.5, -0.5, 0.0) ch: 
+no: 279 layNo: 11 pr: 191 pos: (3.5, -0.5, 0.0) ch: 
+no: 280 layNo: 11 pr: 192 pos: (4.5, -0.5, 0.0) ch: 
+no: 281 layNo: 11 pr: 193 pos: (5.5, -0.5, 0.0) ch: 
+no: 282 layNo: 11 pr: 194 pos: (1.5, -0.5, 0.0) ch: 
+no: 283 layNo: 11 pr: 194 pos: (2.5, -0.5, 0.0) ch: 
+no: 284 layNo: 11 pr: 195 pos: (3.5, -0.5, 0.0) ch: 
+no: 285 layNo: 11 pr: 196 pos: (4.5, -0.5, 0.0) ch: 
+no: 286 layNo: 11 pr: 197 pos: (5.5, -0.5, 0.0) ch: 
+no: 287 layNo: 11 pr: 198 pos: (5.5, -3.5, 0.0) ch: 
+no: 288 layNo: 11 pr: 199 pos: (5.5, -4.5, 0.0) ch: 
+no: 289 layNo: 11 pr: 200 pos: (7.5, -5.5, 0.0) ch: 
+no: 290 layNo: 11 pr: 200 pos: (6.5, -5.5, 0.0) ch: 
+no: 291 layNo: 11 pr: 201 pos: (5.5, -5.5, 0.0) ch: 
+no: 292 layNo: 11 pr: 202 pos: (5.5, -4.5, 0.0) ch: 
+no: 293 layNo: 11 pr: 203 pos: (7.5, -5.5, 0.0) ch: 
+no: 294 layNo: 11 pr: 203 pos: (6.5, -5.5, 0.0) ch: 
+no: 295 layNo: 11 pr: 204 pos: (5.5, -5.5, 0.0) ch: 
+no: 296 layNo: 11 pr: 205 pos: (8.5, -5.5, 0.0) ch: 
+no: 297 layNo: 11 pr: 205 pos: (7.5, -5.5, 0.0) ch: 
+no: 298 layNo: 11 pr: 205 pos: (7.5, -6.5, 0.0) ch: 
+no: 299 layNo: 11 pr: 206 pos: (6.5, -5.5, 0.0) ch: 
+no: 300 layNo: 11 pr: 207 pos: (5.5, -5.5, 0.0) ch: 
+no: 301 layNo: 11 pr: 208 pos: (6.5, -2.5, 0.0) ch: 
+no: 302 layNo: 11 pr: 209 pos: (7.5, -2.5, 0.0) ch: 
+no: 303 layNo: 11 pr: 210 pos: (8.5, -2.5, 0.0) ch: 
+no: 304 layNo: 11 pr: 211 pos: (9.5, -2.5, 0.0) ch: 
+no: 305 layNo: 11 pr: 212 pos: (10.5, -2.5, 0.0) ch: 
+no: 306 layNo: 12 pr: 213 pos: (16.5, -2.5, 0.0) ch: 
+no: 307 layNo: 12 pr: 214 pos: (16.5, -1.5, 0.0) ch: 
+no: 308 layNo: 12 pr: 215 pos: (19.5, -0.5, 0.0) ch: 
+no: 309 layNo: 12 pr: 215 pos: (18.5, -0.5, 0.0) ch: 
+no: 310 layNo: 12 pr: 216 pos: (17.5, -0.5, 0.0) ch: 
+no: 311 layNo: 12 pr: 217 pos: (16.5, -0.5, 0.0) ch: 
+no: 312 layNo: 12 pr: 218 pos: (16.5, -3.5, 0.0) ch: 
+no: 313 layNo: 12 pr: 219 pos: (19.5, -4.5, 0.0) ch: 
+no: 314 layNo: 12 pr: 219 pos: (18.5, -4.5, 0.0) ch: 
+no: 315 layNo: 12 pr: 220 pos: (17.5, -4.5, 0.0) ch: 
+no: 316 layNo: 12 pr: 221 pos: (17.5, -5.5, 0.0) ch: 
+no: 317 layNo: 12 pr: 222 pos: (16.5, -4.5, 0.0) ch: 
+no: 318 layNo: 12 pr: 223 pos: (17.5, -5.5, 0.0) ch: 
+no: 319 layNo: 12 pr: 224 pos: (14.5, -5.5, 0.0) ch: 
+no: 320 layNo: 12 pr: 224 pos: (15.5, -5.5, 0.0) ch: 
+no: 321 layNo: 12 pr: 225 pos: (16.5, -5.5, 0.0) ch: 
+no: 322 layNo: 12 pr: 226 pos: (16.5, -6.5, 0.0) ch: 
+no: 323 layNo: 12 pr: 226 pos: (16.5, -7.5, 0.0) ch: 
+no: 324 layNo: 12 pr: 227 pos: (16.5, -1.5, 0.0) ch: 
+no: 325 layNo: 12 pr: 228 pos: (19.5, -0.5, 0.0) ch: 
+no: 326 layNo: 12 pr: 228 pos: (18.5, -0.5, 0.0) ch: 
+no: 327 layNo: 12 pr: 229 pos: (17.5, -0.5, 0.0) ch: 
+no: 328 layNo: 12 pr: 230 pos: (16.5, -0.5, 0.0) ch: 
+no: 329 layNo: 12 pr: 231 pos: (20.5, -0.5, 0.0) ch: 
+no: 330 layNo: 12 pr: 231 pos: (19.5, -0.5, 0.0) ch: 
+no: 331 layNo: 12 pr: 232 pos: (18.5, -0.5, 0.0) ch: 
+no: 332 layNo: 12 pr: 233 pos: (17.5, -0.5, 0.0) ch: 
+no: 333 layNo: 12 pr: 234 pos: (16.5, -0.5, 0.0) ch: 
+no: 334 layNo: 12 pr: 235 pos: (16.5, -3.5, 0.0) ch: 
+no: 335 layNo: 12 pr: 236 pos: (19.5, -4.5, 0.0) ch: 
+no: 336 layNo: 12 pr: 236 pos: (18.5, -4.5, 0.0) ch: 
+no: 337 layNo: 12 pr: 237 pos: (17.5, -4.5, 0.0) ch: 
+no: 338 layNo: 12 pr: 238 pos: (17.5, -5.5, 0.0) ch: 
+no: 339 layNo: 12 pr: 239 pos: (16.5, -4.5, 0.0) ch: 
+no: 340 layNo: 12 pr: 240 pos: (17.5, -5.5, 0.0) ch: 
+no: 341 layNo: 12 pr: 241 pos: (14.5, -5.5, 0.0) ch: 
+no: 342 layNo: 12 pr: 241 pos: (15.5, -5.5, 0.0) ch: 
+no: 343 layNo: 12 pr: 242 pos: (16.5, -5.5, 0.0) ch: 
+no: 344 layNo: 12 pr: 243 pos: (16.5, -6.5, 0.0) ch: 
+no: 345 layNo: 12 pr: 243 pos: (16.5, -7.5, 0.0) ch: 
+no: 346 layNo: 12 pr: 244 pos: (20.5, -4.5, 0.0) ch: 
+no: 347 layNo: 12 pr: 244 pos: (19.5, -4.5, 0.0) ch: 
+no: 348 layNo: 12 pr: 245 pos: (18.5, -4.5, 0.0) ch: 
+no: 349 layNo: 12 pr: 246 pos: (17.5, -4.5, 0.0) ch: 
+no: 350 layNo: 12 pr: 247 pos: (17.5, -5.5, 0.0) ch: 
+no: 351 layNo: 12 pr: 248 pos: (17.5, -5.5, 0.0) ch: 
+no: 352 layNo: 12 pr: 249 pos: (16.5, -4.5, 0.0) ch: 
+no: 353 layNo: 12 pr: 250 pos: (14.5, -5.5, 0.0) ch: 
+no: 354 layNo: 12 pr: 250 pos: (15.5, -5.5, 0.0) ch: 
+no: 355 layNo: 12 pr: 251 pos: (16.5, -5.5, 0.0) ch: 
+no: 356 layNo: 12 pr: 252 pos: (16.5, -6.5, 0.0) ch: 
+no: 357 layNo: 12 pr: 252 pos: (16.5, -7.5, 0.0) ch: 
+no: 358 layNo: 12 pr: 253 pos: (17.5, -5.5, 0.0) ch: 
+no: 359 layNo: 12 pr: 254 pos: (14.5, -5.5, 0.0) ch: 
+no: 360 layNo: 12 pr: 254 pos: (14.5, -6.5, 0.0) ch: 
+=====
+BestWay len: 13
+(14.5, -6.5, 0.0)
+(14.5, -5.5, 0.0)
+(15.5, -5.5, 0.0)
+(16.5, -5.5, 0.0)
+(16.5, -4.5, 0.0)
+(16.5, -3.5, 0.0)
+(16.5, -2.5, 0.0)
+(15.5, -2.5, 0.0)
+(14.5, -2.5, 0.0)
+(13.5, -2.5, 0.0)
+(12.5, -2.5, 0.0)
+(11.5, -2.5, 0.0)
+(10.5, -2.5, 0.0)
+
+dist: 11 no: 12
+dist: 10 no: 12
+dist: 9 no: 12
+dist: 8 no: 12
+dist: 7 no: 12
+dist: 6 no: 12
+dist: 5 no: 12
+dist: 4 no: 12
+dist: 3 no: 12
+dist: 2 no: 12
+dist: 1 no: 12
+dist: 0 no: 12
+7 dist: 4 pos: (12.5, -4.5, 0.0)
+13 dist: 10 pos: (24.5, -6.5, 0.0)
+0 dist: 14 pos: (22.5, -0.5, 0.0)
+16 dist: 14 pos: (6.5, -12.5, 0.0)
+17 dist: 14 pos: (22.5, -12.5, 0.0)
+8 dist: 16 pos: (28.5, -4.5, 0.0)
+20 dist: 16 pos: (22.5, -14.5, 0.0)
+15 dist: 18 pos: (1.5, -11.5, 0.0)
+11 dist: 19 pos: (32.5, -5.5, 0.0)
+19 dist: 21 pos: (1.5, -14.5, 0.0)
+6 dist: 23 pos: (33.5, -2.5, 0.0)
+21 dist: 27 pos: (33.5, -14.5, 0.0)
+14 dist: 36 pos: (47.5, -9.5, 0.0)
+1 dist: 37 pos: (45.5, -0.5, 0.0)
+9 dist: 39 pos: (51.5, -4.5, 0.0)
+22 dist: 41 pos: (47.5, -14.5, 0.0)
+18 dist: 44 pos: (52.5, -12.5, 0.0)
+2 dist: 47 pos: (55.5, -0.5, 0.0)
+Item7 bfsDist: 28
+Item13 bfsDist: 29
+Item0 bfsDist: 14
+Item16 bfsDist: 15
+Item17 bfsDist: 15
+Item8 bfsDist: 15
+Item20 bfsDist: 15
+Item15 bfsDist: 15
+Item11 bfsDist: 15
+Item19 bfsDist: 15
+Item6 bfsDist: 15
+Item21 bfsDist: 15
+Item14 bfsDist: 15
+Item1 bfsDist: 15
+Item9 bfsDist: 15
+Item22 bfsDist: 15
+Item18 bfsDist: 15
+Item2 bfsDist: 15
+nearItm: Item0 dist: 14 Pos: (22.5, -0.5, 0.0)
+no: 0 layNo: 0 pr: -1 pos: (14.5, -6.5, 0.0) ch: 1 2 3 
+no: 1 layNo: 1 pr: 0 pos: (13.5, -6.5, 0.0) ch: 4 5 
+no: 2 layNo: 1 pr: 0 pos: (14.5, -6.5, 0.0) ch: 6 7 
+no: 3 layNo: 1 pr: 0 pos: (14.5, -5.5, 0.0) ch: 8 9 
+no: 4 layNo: 2 pr: 1 pos: (13.5, -6.5, 0.0) ch: 10 11 
+no: 5 layNo: 2 pr: 1 pos: (13.5, -7.5, 0.0) ch: 12 13 
+no: 6 layNo: 2 pr: 2 pos: (14.5, -6.5, 0.0) ch: 14 
+no: 7 layNo: 2 pr: 2 pos: (14.5, -5.5, 0.0) ch: 15 16 
+no: 8 layNo: 2 pr: 3 pos: (15.5, -5.5, 0.0) ch: 17 18 
+no: 9 layNo: 2 pr: 3 pos: (14.5, -5.5, 0.0) ch: 19 
+no: 10 layNo: 3 pr: 4 pos: (13.5, -6.5, 0.0) ch: 20 
+no: 11 layNo: 3 pr: 4 pos: (13.5, -7.5, 0.0) ch: 21 
+no: 12 layNo: 3 pr: 5 pos: (12.5, -7.5, 0.0) ch: 
+no: 13 layNo: 3 pr: 5 pos: (13.5, -7.5, 0.0) ch: 22 
+no: 14 layNo: 3 pr: 6 pos: (14.5, -6.5, 0.0) ch: 23 
+no: 15 layNo: 3 pr: 7 pos: (15.5, -5.5, 0.0) ch: 24 
+no: 16 layNo: 3 pr: 7 pos: (14.5, -5.5, 0.0) ch: 25 
+no: 17 layNo: 3 pr: 8 pos: (16.5, -5.5, 0.0) ch: 26 27 
+no: 18 layNo: 3 pr: 8 pos: (15.5, -5.5, 0.0) ch: 28 
+no: 19 layNo: 3 pr: 9 pos: (14.5, -5.5, 0.0) ch: 29 
+no: 20 layNo: 4 pr: 10 pos: (13.5, -6.5, 0.0) ch: 30 
+no: 21 layNo: 4 pr: 11 pos: (13.5, -7.5, 0.0) ch: 
+no: 22 layNo: 4 pr: 13 pos: (13.5, -7.5, 0.0) ch: 
+no: 23 layNo: 4 pr: 14 pos: (14.5, -6.5, 0.0) ch: 31 
+no: 24 layNo: 4 pr: 15 pos: (15.5, -5.5, 0.0) ch: 
+no: 25 layNo: 4 pr: 16 pos: (14.5, -5.5, 0.0) ch: 32 
+no: 26 layNo: 4 pr: 17 pos: (17.5, -5.5, 0.0) ch: 33 34 
+no: 27 layNo: 4 pr: 17 pos: (16.5, -4.5, 0.0) ch: 35 36 37 
+no: 28 layNo: 4 pr: 18 pos: (15.5, -5.5, 0.0) ch: 
+no: 29 layNo: 4 pr: 19 pos: (14.5, -5.5, 0.0) ch: 38 
+no: 30 layNo: 5 pr: 20 pos: (13.5, -6.5, 0.0) ch: 
+no: 31 layNo: 5 pr: 23 pos: (14.5, -6.5, 0.0) ch: 39 
+no: 32 layNo: 5 pr: 25 pos: (14.5, -5.5, 0.0) ch: 
+no: 33 layNo: 5 pr: 26 pos: (17.5, -5.5, 0.0) ch: 40 41 
+no: 34 layNo: 5 pr: 26 pos: (17.5, -4.5, 0.0) ch: 42 43 
+no: 35 layNo: 5 pr: 27 pos: (17.5, -4.5, 0.0) ch: 44 45 
+no: 36 layNo: 5 pr: 27 pos: (16.5, -4.5, 0.0) ch: 46 47 
+no: 37 layNo: 5 pr: 27 pos: (16.5, -3.5, 0.0) ch: 48 49 
+no: 38 layNo: 5 pr: 29 pos: (14.5, -5.5, 0.0) ch: 
+no: 39 layNo: 6 pr: 31 pos: (14.5, -6.5, 0.0) ch: 
+no: 40 layNo: 6 pr: 33 pos: (17.5, -5.5, 0.0) ch: 50 
+no: 41 layNo: 6 pr: 33 pos: (17.5, -4.5, 0.0) ch: 51 52 
+no: 42 layNo: 6 pr: 34 pos: (18.5, -4.5, 0.0) ch: 53 54 
+no: 43 layNo: 6 pr: 34 pos: (17.5, -4.5, 0.0) ch: 55 
+no: 44 layNo: 6 pr: 35 pos: (18.5, -4.5, 0.0) ch: 56 57 
+no: 45 layNo: 6 pr: 35 pos: (17.5, -4.5, 0.0) ch: 58 
+no: 46 layNo: 6 pr: 36 pos: (16.5, -4.5, 0.0) ch: 59 
+no: 47 layNo: 6 pr: 36 pos: (16.5, -3.5, 0.0) ch: 60 61 
+no: 48 layNo: 6 pr: 37 pos: (16.5, -3.5, 0.0) ch: 62 63 
+no: 49 layNo: 6 pr: 37 pos: (16.5, -2.5, 0.0) ch: 64 65 66 
+no: 50 layNo: 7 pr: 40 pos: (17.5, -5.5, 0.0) ch: 67 
+no: 51 layNo: 7 pr: 41 pos: (18.5, -4.5, 0.0) ch: 68 69 
+no: 52 layNo: 7 pr: 41 pos: (17.5, -4.5, 0.0) ch: 70 
+no: 53 layNo: 7 pr: 42 pos: (19.5, -4.5, 0.0) ch: 71 72 
+no: 54 layNo: 7 pr: 42 pos: (18.5, -4.5, 0.0) ch: 73 
+no: 55 layNo: 7 pr: 43 pos: (17.5, -4.5, 0.0) ch: 74 
+no: 56 layNo: 7 pr: 44 pos: (19.5, -4.5, 0.0) ch: 75 76 
+no: 57 layNo: 7 pr: 44 pos: (18.5, -4.5, 0.0) ch: 77 
+no: 58 layNo: 7 pr: 45 pos: (17.5, -4.5, 0.0) ch: 78 
+no: 59 layNo: 7 pr: 46 pos: (16.5, -4.5, 0.0) ch: 79 
+no: 60 layNo: 7 pr: 47 pos: (16.5, -3.5, 0.0) ch: 80 
+no: 61 layNo: 7 pr: 47 pos: (16.5, -2.5, 0.0) ch: 81 82 83 
+no: 62 layNo: 7 pr: 48 pos: (16.5, -3.5, 0.0) ch: 84 
+no: 63 layNo: 7 pr: 48 pos: (16.5, -2.5, 0.0) ch: 85 86 87 
+no: 64 layNo: 7 pr: 49 pos: (15.5, -2.5, 0.0) ch: 88 89 
+no: 65 layNo: 7 pr: 49 pos: (16.5, -2.5, 0.0) ch: 90 91 
+no: 66 layNo: 7 pr: 49 pos: (16.5, -1.5, 0.0) ch: 92 93 
+no: 67 layNo: 8 pr: 50 pos: (17.5, -5.5, 0.0) ch: 94 
+no: 68 layNo: 8 pr: 51 pos: (19.5, -4.5, 0.0) ch: 95 96 
+no: 69 layNo: 8 pr: 51 pos: (18.5, -4.5, 0.0) ch: 97 
+no: 70 layNo: 8 pr: 52 pos: (17.5, -4.5, 0.0) ch: 98 
+no: 71 layNo: 8 pr: 53 pos: (20.5, -4.5, 0.0) ch: 99 100 
+no: 72 layNo: 8 pr: 53 pos: (19.5, -4.5, 0.0) ch: 101 
+no: 73 layNo: 8 pr: 54 pos: (18.5, -4.5, 0.0) ch: 102 
+no: 74 layNo: 8 pr: 55 pos: (17.5, -4.5, 0.0) ch: 103 
+no: 75 layNo: 8 pr: 56 pos: (20.5, -4.5, 0.0) ch: 104 105 
+no: 76 layNo: 8 pr: 56 pos: (19.5, -4.5, 0.0) ch: 106 
+no: 77 layNo: 8 pr: 57 pos: (18.5, -4.5, 0.0) ch: 107 
+no: 78 layNo: 8 pr: 58 pos: (17.5, -4.5, 0.0) ch: 108 
+no: 79 layNo: 8 pr: 59 pos: (16.5, -4.5, 0.0) ch: 
+no: 80 layNo: 8 pr: 60 pos: (16.5, -3.5, 0.0) ch: 109 
+no: 81 layNo: 8 pr: 61 pos: (15.5, -2.5, 0.0) ch: 110 111 
+no: 82 layNo: 8 pr: 61 pos: (16.5, -2.5, 0.0) ch: 112 
+no: 83 layNo: 8 pr: 61 pos: (16.5, -1.5, 0.0) ch: 113 114 
+no: 84 layNo: 8 pr: 62 pos: (16.5, -3.5, 0.0) ch: 115 
+no: 85 layNo: 8 pr: 63 pos: (15.5, -2.5, 0.0) ch: 116 117 
+no: 86 layNo: 8 pr: 63 pos: (16.5, -2.5, 0.0) ch: 118 
+no: 87 layNo: 8 pr: 63 pos: (16.5, -1.5, 0.0) ch: 119 120 
+no: 88 layNo: 8 pr: 64 pos: (14.5, -2.5, 0.0) ch: 121 122 
+no: 89 layNo: 8 pr: 64 pos: (15.5, -2.5, 0.0) ch: 123 
+no: 90 layNo: 8 pr: 65 pos: (16.5, -2.5, 0.0) ch: 124 
+no: 91 layNo: 8 pr: 65 pos: (16.5, -1.5, 0.0) ch: 125 126 
+no: 92 layNo: 8 pr: 66 pos: (16.5, -1.5, 0.0) ch: 127 128 
+no: 93 layNo: 8 pr: 66 pos: (16.5, -0.5, 0.0) ch: 129 130 
+no: 94 layNo: 9 pr: 67 pos: (17.5, -5.5, 0.0) ch: 131 
+no: 95 layNo: 9 pr: 68 pos: (20.5, -4.5, 0.0) ch: 132 133 
+no: 96 layNo: 9 pr: 68 pos: (19.5, -4.5, 0.0) ch: 134 
+no: 97 layNo: 9 pr: 69 pos: (18.5, -4.5, 0.0) ch: 135 
+no: 98 layNo: 9 pr: 70 pos: (17.5, -4.5, 0.0) ch: 136 
+no: 99 layNo: 9 pr: 71 pos: (21.5, -4.5, 0.0) ch: 137 138 
+no: 100 layNo: 9 pr: 71 pos: (20.5, -4.5, 0.0) ch: 139 
+no: 101 layNo: 9 pr: 72 pos: (19.5, -4.5, 0.0) ch: 140 
+no: 102 layNo: 9 pr: 73 pos: (18.5, -4.5, 0.0) ch: 141 
+no: 103 layNo: 9 pr: 74 pos: (17.5, -4.5, 0.0) ch: 142 
+no: 104 layNo: 9 pr: 75 pos: (21.5, -4.5, 0.0) ch: 143 144 
+no: 105 layNo: 9 pr: 75 pos: (20.5, -4.5, 0.0) ch: 145 
+no: 106 layNo: 9 pr: 76 pos: (19.5, -4.5, 0.0) ch: 146 
+no: 107 layNo: 9 pr: 77 pos: (18.5, -4.5, 0.0) ch: 147 
+no: 108 layNo: 9 pr: 78 pos: (17.5, -4.5, 0.0) ch: 148 
+no: 109 layNo: 9 pr: 80 pos: (16.5, -3.5, 0.0) ch: 
+no: 110 layNo: 9 pr: 81 pos: (14.5, -2.5, 0.0) ch: 149 150 
+no: 111 layNo: 9 pr: 81 pos: (15.5, -2.5, 0.0) ch: 151 
+no: 112 layNo: 9 pr: 82 pos: (16.5, -2.5, 0.0) ch: 152 
+no: 113 layNo: 9 pr: 83 pos: (16.5, -1.5, 0.0) ch: 153 
+no: 114 layNo: 9 pr: 83 pos: (16.5, -0.5, 0.0) ch: 154 155 
+no: 115 layNo: 9 pr: 84 pos: (16.5, -3.5, 0.0) ch: 
+no: 116 layNo: 9 pr: 85 pos: (14.5, -2.5, 0.0) ch: 156 157 
+no: 117 layNo: 9 pr: 85 pos: (15.5, -2.5, 0.0) ch: 158 
+no: 118 layNo: 9 pr: 86 pos: (16.5, -2.5, 0.0) ch: 159 
+no: 119 layNo: 9 pr: 87 pos: (16.5, -1.5, 0.0) ch: 160 
+no: 120 layNo: 9 pr: 87 pos: (16.5, -0.5, 0.0) ch: 161 162 
+no: 121 layNo: 9 pr: 88 pos: (13.5, -2.5, 0.0) ch: 163 164 
+no: 122 layNo: 9 pr: 88 pos: (14.5, -2.5, 0.0) ch: 165 
+no: 123 layNo: 9 pr: 89 pos: (15.5, -2.5, 0.0) ch: 166 
+no: 124 layNo: 9 pr: 90 pos: (16.5, -2.5, 0.0) ch: 167 
+no: 125 layNo: 9 pr: 91 pos: (16.5, -1.5, 0.0) ch: 168 
+no: 126 layNo: 9 pr: 91 pos: (16.5, -0.5, 0.0) ch: 169 170 
+no: 127 layNo: 9 pr: 92 pos: (16.5, -1.5, 0.0) ch: 171 
+no: 128 layNo: 9 pr: 92 pos: (16.5, -0.5, 0.0) ch: 172 173 
+no: 129 layNo: 9 pr: 93 pos: (17.5, -0.5, 0.0) ch: 174 175 
+no: 130 layNo: 9 pr: 93 pos: (16.5, -0.5, 0.0) ch: 176 
+no: 131 layNo: 10 pr: 94 pos: (17.5, -5.5, 0.0) ch: 177 
+no: 132 layNo: 10 pr: 95 pos: (21.5, -4.5, 0.0) ch: 178 179 
+no: 133 layNo: 10 pr: 95 pos: (20.5, -4.5, 0.0) ch: 180 
+no: 134 layNo: 10 pr: 96 pos: (19.5, -4.5, 0.0) ch: 181 
+no: 135 layNo: 10 pr: 97 pos: (18.5, -4.5, 0.0) ch: 182 
+no: 136 layNo: 10 pr: 98 pos: (17.5, -4.5, 0.0) ch: 183 
+no: 137 layNo: 10 pr: 99 pos: (22.5, -4.5, 0.0) ch: 184 185 
+no: 138 layNo: 10 pr: 99 pos: (21.5, -4.5, 0.0) ch: 186 
+no: 139 layNo: 10 pr: 100 pos: (20.5, -4.5, 0.0) ch: 187 
+no: 140 layNo: 10 pr: 101 pos: (19.5, -4.5, 0.0) ch: 188 
+no: 141 layNo: 10 pr: 102 pos: (18.5, -4.5, 0.0) ch: 189 
+no: 142 layNo: 10 pr: 103 pos: (17.5, -4.5, 0.0) ch: 190 
+no: 143 layNo: 10 pr: 104 pos: (22.5, -4.5, 0.0) ch: 191 192 
+no: 144 layNo: 10 pr: 104 pos: (21.5, -4.5, 0.0) ch: 193 
+no: 145 layNo: 10 pr: 105 pos: (20.5, -4.5, 0.0) ch: 194 
+no: 146 layNo: 10 pr: 106 pos: (19.5, -4.5, 0.0) ch: 195 
+no: 147 layNo: 10 pr: 107 pos: (18.5, -4.5, 0.0) ch: 196 
+no: 148 layNo: 10 pr: 108 pos: (17.5, -4.5, 0.0) ch: 197 
+no: 149 layNo: 10 pr: 110 pos: (13.5, -2.5, 0.0) ch: 198 199 
+no: 150 layNo: 10 pr: 110 pos: (14.5, -2.5, 0.0) ch: 200 
+no: 151 layNo: 10 pr: 111 pos: (15.5, -2.5, 0.0) ch: 201 
+no: 152 layNo: 10 pr: 112 pos: (16.5, -2.5, 0.0) ch: 
+no: 153 layNo: 10 pr: 113 pos: (16.5, -1.5, 0.0) ch: 202 
+no: 154 layNo: 10 pr: 114 pos: (17.5, -0.5, 0.0) ch: 203 204 
+no: 155 layNo: 10 pr: 114 pos: (16.5, -0.5, 0.0) ch: 205 
+no: 156 layNo: 10 pr: 116 pos: (13.5, -2.5, 0.0) ch: 206 207 
+no: 157 layNo: 10 pr: 116 pos: (14.5, -2.5, 0.0) ch: 208 
+no: 158 layNo: 10 pr: 117 pos: (15.5, -2.5, 0.0) ch: 209 
+no: 159 layNo: 10 pr: 118 pos: (16.5, -2.5, 0.0) ch: 
+no: 160 layNo: 10 pr: 119 pos: (16.5, -1.5, 0.0) ch: 210 
+no: 161 layNo: 10 pr: 120 pos: (17.5, -0.5, 0.0) ch: 211 212 
+no: 162 layNo: 10 pr: 120 pos: (16.5, -0.5, 0.0) ch: 213 
+no: 163 layNo: 10 pr: 121 pos: (12.5, -2.5, 0.0) ch: 214 215 
+no: 164 layNo: 10 pr: 121 pos: (13.5, -2.5, 0.0) ch: 216 
+no: 165 layNo: 10 pr: 122 pos: (14.5, -2.5, 0.0) ch: 217 
+no: 166 layNo: 10 pr: 123 pos: (15.5, -2.5, 0.0) ch: 218 
+no: 167 layNo: 10 pr: 124 pos: (16.5, -2.5, 0.0) ch: 
+no: 168 layNo: 10 pr: 125 pos: (16.5, -1.5, 0.0) ch: 219 
+no: 169 layNo: 10 pr: 126 pos: (17.5, -0.5, 0.0) ch: 220 221 
+no: 170 layNo: 10 pr: 126 pos: (16.5, -0.5, 0.0) ch: 222 
+no: 171 layNo: 10 pr: 127 pos: (16.5, -1.5, 0.0) ch: 223 
+no: 172 layNo: 10 pr: 128 pos: (17.5, -0.5, 0.0) ch: 224 225 
+no: 173 layNo: 10 pr: 128 pos: (16.5, -0.5, 0.0) ch: 226 
+no: 174 layNo: 10 pr: 129 pos: (18.5, -0.5, 0.0) ch: 227 228 
+no: 175 layNo: 10 pr: 129 pos: (17.5, -0.5, 0.0) ch: 229 
+no: 176 layNo: 10 pr: 130 pos: (16.5, -0.5, 0.0) ch: 230 
+no: 177 layNo: 11 pr: 131 pos: (17.5, -5.5, 0.0) ch: 231 
+no: 178 layNo: 11 pr: 132 pos: (22.5, -4.5, 0.0) ch: 232 233 
+no: 179 layNo: 11 pr: 132 pos: (21.5, -4.5, 0.0) ch: 234 
+no: 180 layNo: 11 pr: 133 pos: (20.5, -4.5, 0.0) ch: 235 
+no: 181 layNo: 11 pr: 134 pos: (19.5, -4.5, 0.0) ch: 236 
+no: 182 layNo: 11 pr: 135 pos: (18.5, -4.5, 0.0) ch: 237 
+no: 183 layNo: 11 pr: 136 pos: (17.5, -4.5, 0.0) ch: 238 
+no: 184 layNo: 11 pr: 137 pos: (23.5, -4.5, 0.0) ch: 239 240 
+no: 185 layNo: 11 pr: 137 pos: (22.5, -4.5, 0.0) ch: 241 
+no: 186 layNo: 11 pr: 138 pos: (21.5, -4.5, 0.0) ch: 242 
+no: 187 layNo: 11 pr: 139 pos: (20.5, -4.5, 0.0) ch: 243 
+no: 188 layNo: 11 pr: 140 pos: (19.5, -4.5, 0.0) ch: 244 
+no: 189 layNo: 11 pr: 141 pos: (18.5, -4.5, 0.0) ch: 245 
+no: 190 layNo: 11 pr: 142 pos: (17.5, -4.5, 0.0) ch: 246 
+no: 191 layNo: 11 pr: 143 pos: (23.5, -4.5, 0.0) ch: 247 248 
+no: 192 layNo: 11 pr: 143 pos: (22.5, -4.5, 0.0) ch: 249 
+no: 193 layNo: 11 pr: 144 pos: (21.5, -4.5, 0.0) ch: 250 
+no: 194 layNo: 11 pr: 145 pos: (20.5, -4.5, 0.0) ch: 251 
+no: 195 layNo: 11 pr: 146 pos: (19.5, -4.5, 0.0) ch: 252 
+no: 196 layNo: 11 pr: 147 pos: (18.5, -4.5, 0.0) ch: 253 
+no: 197 layNo: 11 pr: 148 pos: (17.5, -4.5, 0.0) ch: 254 
+no: 198 layNo: 11 pr: 149 pos: (12.5, -2.5, 0.0) ch: 255 256 
+no: 199 layNo: 11 pr: 149 pos: (13.5, -2.5, 0.0) ch: 257 
+no: 200 layNo: 11 pr: 150 pos: (14.5, -2.5, 0.0) ch: 258 
+no: 201 layNo: 11 pr: 151 pos: (15.5, -2.5, 0.0) ch: 
+no: 202 layNo: 11 pr: 153 pos: (16.5, -1.5, 0.0) ch: 259 
+no: 203 layNo: 11 pr: 154 pos: (18.5, -0.5, 0.0) ch: 260 261 
+no: 204 layNo: 11 pr: 154 pos: (17.5, -0.5, 0.0) ch: 262 
+no: 205 layNo: 11 pr: 155 pos: (16.5, -0.5, 0.0) ch: 263 
+no: 206 layNo: 11 pr: 156 pos: (12.5, -2.5, 0.0) ch: 264 265 
+no: 207 layNo: 11 pr: 156 pos: (13.5, -2.5, 0.0) ch: 266 
+no: 208 layNo: 11 pr: 157 pos: (14.5, -2.5, 0.0) ch: 267 
+no: 209 layNo: 11 pr: 158 pos: (15.5, -2.5, 0.0) ch: 
+no: 210 layNo: 11 pr: 160 pos: (16.5, -1.5, 0.0) ch: 268 
+no: 211 layNo: 11 pr: 161 pos: (18.5, -0.5, 0.0) ch: 269 270 
+no: 212 layNo: 11 pr: 161 pos: (17.5, -0.5, 0.0) ch: 271 
+no: 213 layNo: 11 pr: 162 pos: (16.5, -0.5, 0.0) ch: 272 
+no: 214 layNo: 11 pr: 163 pos: (11.5, -2.5, 0.0) ch: 273 274 
+no: 215 layNo: 11 pr: 163 pos: (12.5, -2.5, 0.0) ch: 275 
+no: 216 layNo: 11 pr: 164 pos: (13.5, -2.5, 0.0) ch: 276 
+no: 217 layNo: 11 pr: 165 pos: (14.5, -2.5, 0.0) ch: 277 
+no: 218 layNo: 11 pr: 166 pos: (15.5, -2.5, 0.0) ch: 
+no: 219 layNo: 11 pr: 168 pos: (16.5, -1.5, 0.0) ch: 278 
+no: 220 layNo: 11 pr: 169 pos: (18.5, -0.5, 0.0) ch: 279 280 
+no: 221 layNo: 11 pr: 169 pos: (17.5, -0.5, 0.0) ch: 281 
+no: 222 layNo: 11 pr: 170 pos: (16.5, -0.5, 0.0) ch: 282 
+no: 223 layNo: 11 pr: 171 pos: (16.5, -1.5, 0.0) ch: 283 
+no: 224 layNo: 11 pr: 172 pos: (18.5, -0.5, 0.0) ch: 284 285 
+no: 225 layNo: 11 pr: 172 pos: (17.5, -0.5, 0.0) ch: 286 
+no: 226 layNo: 11 pr: 173 pos: (16.5, -0.5, 0.0) ch: 287 
+no: 227 layNo: 11 pr: 174 pos: (19.5, -0.5, 0.0) ch: 288 289 
+no: 228 layNo: 11 pr: 174 pos: (18.5, -0.5, 0.0) ch: 290 
+no: 229 layNo: 11 pr: 175 pos: (17.5, -0.5, 0.0) ch: 291 
+no: 230 layNo: 11 pr: 176 pos: (16.5, -0.5, 0.0) ch: 292 
+no: 231 layNo: 12 pr: 177 pos: (17.5, -5.5, 0.0) ch: 293 
+no: 232 layNo: 12 pr: 178 pos: (23.5, -4.5, 0.0) ch: 294 295 
+no: 233 layNo: 12 pr: 178 pos: (22.5, -4.5, 0.0) ch: 296 
+no: 234 layNo: 12 pr: 179 pos: (21.5, -4.5, 0.0) ch: 297 
+no: 235 layNo: 12 pr: 180 pos: (20.5, -4.5, 0.0) ch: 298 
+no: 236 layNo: 12 pr: 181 pos: (19.5, -4.5, 0.0) ch: 299 
+no: 237 layNo: 12 pr: 182 pos: (18.5, -4.5, 0.0) ch: 300 
+no: 238 layNo: 12 pr: 183 pos: (17.5, -4.5, 0.0) ch: 301 
+no: 239 layNo: 12 pr: 184 pos: (24.5, -4.5, 0.0) ch: 302 303 
+no: 240 layNo: 12 pr: 184 pos: (23.5, -4.5, 0.0) ch: 304 
+no: 241 layNo: 12 pr: 185 pos: (22.5, -4.5, 0.0) ch: 305 
+no: 242 layNo: 12 pr: 186 pos: (21.5, -4.5, 0.0) ch: 306 
+no: 243 layNo: 12 pr: 187 pos: (20.5, -4.5, 0.0) ch: 307 
+no: 244 layNo: 12 pr: 188 pos: (19.5, -4.5, 0.0) ch: 308 
+no: 245 layNo: 12 pr: 189 pos: (18.5, -4.5, 0.0) ch: 309 
+no: 246 layNo: 12 pr: 190 pos: (17.5, -4.5, 0.0) ch: 310 
+no: 247 layNo: 12 pr: 191 pos: (24.5, -4.5, 0.0) ch: 311 312 
+no: 248 layNo: 12 pr: 191 pos: (23.5, -4.5, 0.0) ch: 313 
+no: 249 layNo: 12 pr: 192 pos: (22.5, -4.5, 0.0) ch: 314 
+no: 250 layNo: 12 pr: 193 pos: (21.5, -4.5, 0.0) ch: 315 
+no: 251 layNo: 12 pr: 194 pos: (20.5, -4.5, 0.0) ch: 316 
+no: 252 layNo: 12 pr: 195 pos: (19.5, -4.5, 0.0) ch: 317 
+no: 253 layNo: 12 pr: 196 pos: (18.5, -4.5, 0.0) ch: 318 
+no: 254 layNo: 12 pr: 197 pos: (17.5, -4.5, 0.0) ch: 319 
+no: 255 layNo: 12 pr: 198 pos: (11.5, -2.5, 0.0) ch: 320 321 
+no: 256 layNo: 12 pr: 198 pos: (12.5, -2.5, 0.0) ch: 322 
+no: 257 layNo: 12 pr: 199 pos: (13.5, -2.5, 0.0) ch: 323 
+no: 258 layNo: 12 pr: 200 pos: (14.5, -2.5, 0.0) ch: 
+no: 259 layNo: 12 pr: 202 pos: (16.5, -1.5, 0.0) ch: 324 
+no: 260 layNo: 12 pr: 203 pos: (19.5, -0.5, 0.0) ch: 325 326 
+no: 261 layNo: 12 pr: 203 pos: (18.5, -0.5, 0.0) ch: 327 
+no: 262 layNo: 12 pr: 204 pos: (17.5, -0.5, 0.0) ch: 328 
+no: 263 layNo: 12 pr: 205 pos: (16.5, -0.5, 0.0) ch: 329 
+no: 264 layNo: 12 pr: 206 pos: (11.5, -2.5, 0.0) ch: 330 331 
+no: 265 layNo: 12 pr: 206 pos: (12.5, -2.5, 0.0) ch: 332 
+no: 266 layNo: 12 pr: 207 pos: (13.5, -2.5, 0.0) ch: 333 
+no: 267 layNo: 12 pr: 208 pos: (14.5, -2.5, 0.0) ch: 
+no: 268 layNo: 12 pr: 210 pos: (16.5, -1.5, 0.0) ch: 334 
+no: 269 layNo: 12 pr: 211 pos: (19.5, -0.5, 0.0) ch: 335 336 
+no: 270 layNo: 12 pr: 211 pos: (18.5, -0.5, 0.0) ch: 337 
+no: 271 layNo: 12 pr: 212 pos: (17.5, -0.5, 0.0) ch: 338 
+no: 272 layNo: 12 pr: 213 pos: (16.5, -0.5, 0.0) ch: 339 
+no: 273 layNo: 12 pr: 214 pos: (10.5, -2.5, 0.0) ch: 340 341 
+no: 274 layNo: 12 pr: 214 pos: (11.5, -2.5, 0.0) ch: 342 
+no: 275 layNo: 12 pr: 215 pos: (12.5, -2.5, 0.0) ch: 343 
+no: 276 layNo: 12 pr: 216 pos: (13.5, -2.5, 0.0) ch: 344 
+no: 277 layNo: 12 pr: 217 pos: (14.5, -2.5, 0.0) ch: 
+no: 278 layNo: 12 pr: 219 pos: (16.5, -1.5, 0.0) ch: 345 
+no: 279 layNo: 12 pr: 220 pos: (19.5, -0.5, 0.0) ch: 346 347 
+no: 280 layNo: 12 pr: 220 pos: (18.5, -0.5, 0.0) ch: 348 
+no: 281 layNo: 12 pr: 221 pos: (17.5, -0.5, 0.0) ch: 349 
+no: 282 layNo: 12 pr: 222 pos: (16.5, -0.5, 0.0) ch: 350 
+no: 283 layNo: 12 pr: 223 pos: (16.5, -1.5, 0.0) ch: 351 
+no: 284 layNo: 12 pr: 224 pos: (19.5, -0.5, 0.0) ch: 352 353 
+no: 285 layNo: 12 pr: 224 pos: (18.5, -0.5, 0.0) ch: 354 
+no: 286 layNo: 12 pr: 225 pos: (17.5, -0.5, 0.0) ch: 355 
+no: 287 layNo: 12 pr: 226 pos: (16.5, -0.5, 0.0) ch: 356 
+no: 288 layNo: 12 pr: 227 pos: (20.5, -0.5, 0.0) ch: 357 358 
+no: 289 layNo: 12 pr: 227 pos: (19.5, -0.5, 0.0) ch: 359 
+no: 290 layNo: 12 pr: 228 pos: (18.5, -0.5, 0.0) ch: 360 
+no: 291 layNo: 12 pr: 229 pos: (17.5, -0.5, 0.0) ch: 361 
+no: 292 layNo: 12 pr: 230 pos: (16.5, -0.5, 0.0) ch: 362 
+no: 293 layNo: 13 pr: 231 pos: (17.5, -5.5, 0.0) ch: 363 
+no: 294 layNo: 13 pr: 232 pos: (24.5, -4.5, 0.0) ch: 364 365 
+no: 295 layNo: 13 pr: 232 pos: (23.5, -4.5, 0.0) ch: 366 
+no: 296 layNo: 13 pr: 233 pos: (22.5, -4.5, 0.0) ch: 367 
+no: 297 layNo: 13 pr: 234 pos: (21.5, -4.5, 0.0) ch: 368 
+no: 298 layNo: 13 pr: 235 pos: (20.5, -4.5, 0.0) ch: 369 
+no: 299 layNo: 13 pr: 236 pos: (19.5, -4.5, 0.0) ch: 370 
+no: 300 layNo: 13 pr: 237 pos: (18.5, -4.5, 0.0) ch: 371 
+no: 301 layNo: 13 pr: 238 pos: (17.5, -4.5, 0.0) ch: 372 
+no: 302 layNo: 13 pr: 239 pos: (25.5, -4.5, 0.0) ch: 373 374 
+no: 303 layNo: 13 pr: 239 pos: (24.5, -4.5, 0.0) ch: 375 
+no: 304 layNo: 13 pr: 240 pos: (23.5, -4.5, 0.0) ch: 376 
+no: 305 layNo: 13 pr: 241 pos: (22.5, -4.5, 0.0) ch: 377 
+no: 306 layNo: 13 pr: 242 pos: (21.5, -4.5, 0.0) ch: 378 
+no: 307 layNo: 13 pr: 243 pos: (20.5, -4.5, 0.0) ch: 379 
+no: 308 layNo: 13 pr: 244 pos: (19.5, -4.5, 0.0) ch: 380 
+no: 309 layNo: 13 pr: 245 pos: (18.5, -4.5, 0.0) ch: 381 
+no: 310 layNo: 13 pr: 246 pos: (17.5, -4.5, 0.0) ch: 382 
+no: 311 layNo: 13 pr: 247 pos: (25.5, -4.5, 0.0) ch: 383 384 
+no: 312 layNo: 13 pr: 247 pos: (24.5, -4.5, 0.0) ch: 385 
+no: 313 layNo: 13 pr: 248 pos: (23.5, -4.5, 0.0) ch: 386 
+no: 314 layNo: 13 pr: 249 pos: (22.5, -4.5, 0.0) ch: 387 
+no: 315 layNo: 13 pr: 250 pos: (21.5, -4.5, 0.0) ch: 388 
+no: 316 layNo: 13 pr: 251 pos: (20.5, -4.5, 0.0) ch: 389 
+no: 317 layNo: 13 pr: 252 pos: (19.5, -4.5, 0.0) ch: 390 
+no: 318 layNo: 13 pr: 253 pos: (18.5, -4.5, 0.0) ch: 391 
+no: 319 layNo: 13 pr: 254 pos: (17.5, -4.5, 0.0) ch: 392 
+no: 320 layNo: 13 pr: 255 pos: (10.5, -2.5, 0.0) ch: 393 394 
+no: 321 layNo: 13 pr: 255 pos: (11.5, -2.5, 0.0) ch: 395 
+no: 322 layNo: 13 pr: 256 pos: (12.5, -2.5, 0.0) ch: 396 
+no: 323 layNo: 13 pr: 257 pos: (13.5, -2.5, 0.0) ch: 
+no: 324 layNo: 13 pr: 259 pos: (16.5, -1.5, 0.0) ch: 397 
+no: 325 layNo: 13 pr: 260 pos: (20.5, -0.5, 0.0) ch: 398 399 
+no: 326 layNo: 13 pr: 260 pos: (19.5, -0.5, 0.0) ch: 400 
+no: 327 layNo: 13 pr: 261 pos: (18.5, -0.5, 0.0) ch: 401 
+no: 328 layNo: 13 pr: 262 pos: (17.5, -0.5, 0.0) ch: 402 
+no: 329 layNo: 13 pr: 263 pos: (16.5, -0.5, 0.0) ch: 403 
+no: 330 layNo: 13 pr: 264 pos: (10.5, -2.5, 0.0) ch: 404 405 
+no: 331 layNo: 13 pr: 264 pos: (11.5, -2.5, 0.0) ch: 406 
+no: 332 layNo: 13 pr: 265 pos: (12.5, -2.5, 0.0) ch: 407 
+no: 333 layNo: 13 pr: 266 pos: (13.5, -2.5, 0.0) ch: 
+no: 334 layNo: 13 pr: 268 pos: (16.5, -1.5, 0.0) ch: 408 
+no: 335 layNo: 13 pr: 269 pos: (20.5, -0.5, 0.0) ch: 409 410 
+no: 336 layNo: 13 pr: 269 pos: (19.5, -0.5, 0.0) ch: 411 
+no: 337 layNo: 13 pr: 270 pos: (18.5, -0.5, 0.0) ch: 412 
+no: 338 layNo: 13 pr: 271 pos: (17.5, -0.5, 0.0) ch: 413 
+no: 339 layNo: 13 pr: 272 pos: (16.5, -0.5, 0.0) ch: 414 
+no: 340 layNo: 13 pr: 273 pos: (9.5, -2.5, 0.0) ch: 415 416 
+no: 341 layNo: 13 pr: 273 pos: (10.5, -2.5, 0.0) ch: 417 
+no: 342 layNo: 13 pr: 274 pos: (11.5, -2.5, 0.0) ch: 418 
+no: 343 layNo: 13 pr: 275 pos: (12.5, -2.5, 0.0) ch: 419 
+no: 344 layNo: 13 pr: 276 pos: (13.5, -2.5, 0.0) ch: 
+no: 345 layNo: 13 pr: 278 pos: (16.5, -1.5, 0.0) ch: 420 
+no: 346 layNo: 13 pr: 279 pos: (20.5, -0.5, 0.0) ch: 421 422 
+no: 347 layNo: 13 pr: 279 pos: (19.5, -0.5, 0.0) ch: 423 
+no: 348 layNo: 13 pr: 280 pos: (18.5, -0.5, 0.0) ch: 424 
+no: 349 layNo: 13 pr: 281 pos: (17.5, -0.5, 0.0) ch: 425 
+no: 350 layNo: 13 pr: 282 pos: (16.5, -0.5, 0.0) ch: 426 
+no: 351 layNo: 13 pr: 283 pos: (16.5, -1.5, 0.0) ch: 427 
+no: 352 layNo: 13 pr: 284 pos: (20.5, -0.5, 0.0) ch: 428 429 
+no: 353 layNo: 13 pr: 284 pos: (19.5, -0.5, 0.0) ch: 430 
+no: 354 layNo: 13 pr: 285 pos: (18.5, -0.5, 0.0) ch: 431 
+no: 355 layNo: 13 pr: 286 pos: (17.5, -0.5, 0.0) ch: 432 
+no: 356 layNo: 13 pr: 287 pos: (16.5, -0.5, 0.0) ch: 433 
+no: 357 layNo: 13 pr: 288 pos: (21.5, -0.5, 0.0) ch: 434 
+no: 358 layNo: 13 pr: 288 pos: (20.5, -0.5, 0.0) ch: 
+no: 359 layNo: 13 pr: 289 pos: (19.5, -0.5, 0.0) ch: 
+no: 360 layNo: 13 pr: 290 pos: (18.5, -0.5, 0.0) ch: 
+no: 361 layNo: 13 pr: 291 pos: (17.5, -0.5, 0.0) ch: 
+no: 362 layNo: 13 pr: 292 pos: (16.5, -0.5, 0.0) ch: 
+no: 363 layNo: 14 pr: 293 pos: (17.5, -5.5, 0.0) ch: 
+no: 364 layNo: 14 pr: 294 pos: (25.5, -4.5, 0.0) ch: 
+no: 365 layNo: 14 pr: 294 pos: (24.5, -4.5, 0.0) ch: 
+no: 366 layNo: 14 pr: 295 pos: (23.5, -4.5, 0.0) ch: 
+no: 367 layNo: 14 pr: 296 pos: (22.5, -4.5, 0.0) ch: 
+no: 368 layNo: 14 pr: 297 pos: (21.5, -4.5, 0.0) ch: 
+no: 369 layNo: 14 pr: 298 pos: (20.5, -4.5, 0.0) ch: 
+no: 370 layNo: 14 pr: 299 pos: (19.5, -4.5, 0.0) ch: 
+no: 371 layNo: 14 pr: 300 pos: (18.5, -4.5, 0.0) ch: 
+no: 372 layNo: 14 pr: 301 pos: (17.5, -4.5, 0.0) ch: 
+no: 373 layNo: 14 pr: 302 pos: (26.5, -4.5, 0.0) ch: 
+no: 374 layNo: 14 pr: 302 pos: (25.5, -4.5, 0.0) ch: 
+no: 375 layNo: 14 pr: 303 pos: (24.5, -4.5, 0.0) ch: 
+no: 376 layNo: 14 pr: 304 pos: (23.5, -4.5, 0.0) ch: 
+no: 377 layNo: 14 pr: 305 pos: (22.5, -4.5, 0.0) ch: 
+no: 378 layNo: 14 pr: 306 pos: (21.5, -4.5, 0.0) ch: 
+no: 379 layNo: 14 pr: 307 pos: (20.5, -4.5, 0.0) ch: 
+no: 380 layNo: 14 pr: 308 pos: (19.5, -4.5, 0.0) ch: 
+no: 381 layNo: 14 pr: 309 pos: (18.5, -4.5, 0.0) ch: 
+no: 382 layNo: 14 pr: 310 pos: (17.5, -4.5, 0.0) ch: 
+no: 383 layNo: 14 pr: 311 pos: (26.5, -4.5, 0.0) ch: 
+no: 384 layNo: 14 pr: 311 pos: (25.5, -4.5, 0.0) ch: 
+no: 385 layNo: 14 pr: 312 pos: (24.5, -4.5, 0.0) ch: 
+no: 386 layNo: 14 pr: 313 pos: (23.5, -4.5, 0.0) ch: 
+no: 387 layNo: 14 pr: 314 pos: (22.5, -4.5, 0.0) ch: 
+no: 388 layNo: 14 pr: 315 pos: (21.5, -4.5, 0.0) ch: 
+no: 389 layNo: 14 pr: 316 pos: (20.5, -4.5, 0.0) ch: 
+no: 390 layNo: 14 pr: 317 pos: (19.5, -4.5, 0.0) ch: 
+no: 391 layNo: 14 pr: 318 pos: (18.5, -4.5, 0.0) ch: 
+no: 392 layNo: 14 pr: 319 pos: (17.5, -4.5, 0.0) ch: 
+no: 393 layNo: 14 pr: 320 pos: (9.5, -2.5, 0.0) ch: 
+no: 394 layNo: 14 pr: 320 pos: (10.5, -2.5, 0.0) ch: 
+no: 395 layNo: 14 pr: 321 pos: (11.5, -2.5, 0.0) ch: 
+no: 396 layNo: 14 pr: 322 pos: (12.5, -2.5, 0.0) ch: 
+no: 397 layNo: 14 pr: 324 pos: (16.5, -1.5, 0.0) ch: 
+no: 398 layNo: 14 pr: 325 pos: (21.5, -0.5, 0.0) ch: 
+no: 399 layNo: 14 pr: 325 pos: (20.5, -0.5, 0.0) ch: 
+no: 400 layNo: 14 pr: 326 pos: (19.5, -0.5, 0.0) ch: 
+no: 401 layNo: 14 pr: 327 pos: (18.5, -0.5, 0.0) ch: 
+no: 402 layNo: 14 pr: 328 pos: (17.5, -0.5, 0.0) ch: 
+no: 403 layNo: 14 pr: 329 pos: (16.5, -0.5, 0.0) ch: 
+no: 404 layNo: 14 pr: 330 pos: (9.5, -2.5, 0.0) ch: 
+no: 405 layNo: 14 pr: 330 pos: (10.5, -2.5, 0.0) ch: 
+no: 406 layNo: 14 pr: 331 pos: (11.5, -2.5, 0.0) ch: 
+no: 407 layNo: 14 pr: 332 pos: (12.5, -2.5, 0.0) ch: 
+no: 408 layNo: 14 pr: 334 pos: (16.5, -1.5, 0.0) ch: 
+no: 409 layNo: 14 pr: 335 pos: (21.5, -0.5, 0.0) ch: 
+no: 410 layNo: 14 pr: 335 pos: (20.5, -0.5, 0.0) ch: 
+no: 411 layNo: 14 pr: 336 pos: (19.5, -0.5, 0.0) ch: 
+no: 412 layNo: 14 pr: 337 pos: (18.5, -0.5, 0.0) ch: 
+no: 413 layNo: 14 pr: 338 pos: (17.5, -0.5, 0.0) ch: 
+no: 414 layNo: 14 pr: 339 pos: (16.5, -0.5, 0.0) ch: 
+no: 415 layNo: 14 pr: 340 pos: (8.5, -2.5, 0.0) ch: 
+no: 416 layNo: 14 pr: 340 pos: (9.5, -2.5, 0.0) ch: 
+no: 417 layNo: 14 pr: 341 pos: (10.5, -2.5, 0.0) ch: 
+no: 418 layNo: 14 pr: 342 pos: (11.5, -2.5, 0.0) ch: 
+no: 419 layNo: 14 pr: 343 pos: (12.5, -2.5, 0.0) ch: 
+no: 420 layNo: 14 pr: 345 pos: (16.5, -1.5, 0.0) ch: 
+no: 421 layNo: 14 pr: 346 pos: (21.5, -0.5, 0.0) ch: 
+no: 422 layNo: 14 pr: 346 pos: (20.5, -0.5, 0.0) ch: 
+no: 423 layNo: 14 pr: 347 pos: (19.5, -0.5, 0.0) ch: 
+no: 424 layNo: 14 pr: 348 pos: (18.5, -0.5, 0.0) ch: 
+no: 425 layNo: 14 pr: 349 pos: (17.5, -0.5, 0.0) ch: 
+no: 426 layNo: 14 pr: 350 pos: (16.5, -0.5, 0.0) ch: 
+no: 427 layNo: 14 pr: 351 pos: (16.5, -1.5, 0.0) ch: 
+no: 428 layNo: 14 pr: 352 pos: (21.5, -0.5, 0.0) ch: 
+no: 429 layNo: 14 pr: 352 pos: (20.5, -0.5, 0.0) ch: 
+no: 430 layNo: 14 pr: 353 pos: (19.5, -0.5, 0.0) ch: 
+no: 431 layNo: 14 pr: 354 pos: (18.5, -0.5, 0.0) ch: 
+no: 432 layNo: 14 pr: 355 pos: (17.5, -0.5, 0.0) ch: 
+no: 433 layNo: 14 pr: 356 pos: (16.5, -0.5, 0.0) ch: 
+no: 434 layNo: 14 pr: 357 pos: (22.5, -0.5, 0.0) ch: 
+=====
+BestWay len: 15
+(22.5, -0.5, 0.0)
+(21.5, -0.5, 0.0)
+(20.5, -0.5, 0.0)
+(19.5, -0.5, 0.0)
+(18.5, -0.5, 0.0)
+(17.5, -0.5, 0.0)
+(16.5, -0.5, 0.0)
+(16.5, -1.5, 0.0)
+(16.5, -2.5, 0.0)
+(16.5, -3.5, 0.0)
+(16.5, -4.5, 0.0)
+(16.5, -5.5, 0.0)
+(15.5, -5.5, 0.0)
+(14.5, -5.5, 0.0)
+(14.5, -6.5, 0.0)
+
+dist: 13 no: 0
+dist: 12 no: 0
+dist: 11 no: 0
+dist: 10 no: 0
+dist: 9 no: 0
+dist: 8 no: 0
+dist: 7 no: 0
+dist: 6 no: 0
+dist: 5 no: 0
+dist: 4 no: 0
+dist: 3 no: 0
+dist: 2 no: 0
+dist: 1 no: 0
+dist: 0 no: 0

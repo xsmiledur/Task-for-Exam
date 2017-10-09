@@ -167,9 +167,7 @@ public class Methods : MonoBehaviour {
 		Vector3[] BestWay = new Vector3[0];
 		int[] BestNo = new int[1] { bfsPos.Length - 1 };
 		BestWay = _createBestWay (BestWay, bfsPos, layNo, BestNo);
-		for (int i = 0; i < BestWay.Length; i++) {
-			eb.sw.WriteLine (BestWay [i]);
-		}
+
 		return BestWay;
 	}
 
@@ -209,7 +207,7 @@ public class Methods : MonoBehaviour {
 		// nearItemの初期化
 
 		// アイテムを相対距離が短い順で入れ替えておく
-		iInfo[] iInfos = bubbleSortForItem (init.iInfos, false);
+		iInfo[] iInfos = bubbleSortForItem (false);
 
 		for (int l = 0; l < iInfos.Length; l++) {
 
@@ -570,7 +568,7 @@ public class Methods : MonoBehaviour {
 		if (cue.Length == 0) { // cueの長さが0の場合
 			 // bfsPosのindex=0のところに格納しておく
 
-//			eb.sw.Write ("cue0 ");
+			eb.sw.Write ("cue0 ");
 
 			bfsPos [0].set_bfsDist (1000);
 //			eb.sw.WriteLine ("prNo" + prNo.ToString() + " bfsDist: " +  bfsDist.ToString());
@@ -638,38 +636,30 @@ public class Methods : MonoBehaviour {
 	/// <param name="crt">Crt.</param>
 	/// <param name="index">Index.</param>
 	/// アイテムを距離順でソートするときに使う
-	iInfo[] bubbleSortForItem(iInfo[] iInfos, bool upFlg) {
-		
-		iInfo[] iInfos_ = new iInfo[0];
+	iInfo[] bubbleSortForItem(bool upFlg) {
 
-		for (int i = 0; i < iInfos.Length; i++) {
-			
-			if (!checkVecEqual (iInfos [i].pos, new Vector3 ())) {
+		iInfo[] iInfos = new iInfo[0];
+		float[] crt = new float[0];
+		for (int i = 0; i < init.iInfos.Length; i++) {
+			if (!checkVecEqual (init.iInfos [i].pos, new Vector3 ())) {
 				
-				Vector3 rltPos = iInfos [i].pos - init.playerPos;
+				float[] _crt = new float[crt.Length + 1];
+				System.Array.Copy (crt, _crt, crt.Length);
+				Vector3 rltPos = init.iInfos [i].pos - init.playerPos;
 				float dist = Mathf.Abs (rltPos.x) + Mathf.Abs (rltPos.y);
+				_crt [crt.Length] = dist;
+				crt = _crt;
 
-				iInfo[] tmpiInfos_ = new iInfo[iInfos_.Length + 1];
-				System.Array.Copy (iInfos_, tmpiInfos_, iInfos_.Length);
-				tmpiInfos_ [iInfos_.Length] = new iInfo (iInfos [i].pos);
-				tmpiInfos_ [iInfos_.Length].setItemSortInfo (dist, i);
-
-				iInfos_ = tmpiInfos_;
-
+				iInfo[] _iInfos = new iInfo[iInfos.Length + 1];
+				System.Array.Copy (iInfos, _iInfos, iInfos.Length);
+				_iInfos [iInfos.Length] = init.iInfos [i];
+				_iInfos [iInfos.Length].setItemSortInfo(dist, i);
+				iInfos = _iInfos;
 			}
 		}
 
-		float[] crt = new float[iInfos_.Length];
-		int[] index = new int[iInfos_.Length];
-		int len = iInfos_.Length;
 
-		for (int i = 0; i < len; i++) {
-			crt [i] = iInfos_ [i].dist;
-			index [i] = i;
-		}
-			
-
-		float tmpcrt; int tmpIndex;
+		float tmpcrt; iInfo tmpInfo; int len = crt.Length;
 		for (int i = 0; i < len; i++) {
 			for (int j = len - 1; j > i; j--) {
 				if(upFlg && (crt[j] > crt[j-1]) || !upFlg && (crt[j] < crt[j-1])){
@@ -677,20 +667,19 @@ public class Methods : MonoBehaviour {
 					crt [j] = crt [j - 1];
 					crt [j - 1] = tmpcrt;
 
-					tmpIndex = index [j];
-					index [j] = index [j - 1];
-					index [j - 1] = tmpIndex;
+					tmpInfo = iInfos [j];
+					iInfos [j] = iInfos [j - 1];
+					iInfos [j - 1] = tmpInfo;
 				}
 			}
 		}
-
-		iInfos = new iInfo[iInfos_.Length];
-		for (int i = 0; i < iInfos_.Length; i++) {
+			
+		for (int i = 0; i < len; i++) {
 			// index[i]は、i番目に小さいものの番号
-			iInfos [i].dist = crt [i];
-			iInfos [i].pos = iInfos_ [index[i]].pos;
-			iInfos [i].no = index [i];
-			eb.sw.WriteLine (index [i].ToString () + " dist: " + crt[i] + " pos: " + iInfos[i].pos);
+//			iInfos [i].dist = crt [i];
+//			iInfos [i].pos = iInfos_ [index[i]].pos;
+//			iInfos [i].no = index [i];
+			eb.sw.WriteLine (iInfos[i].no.ToString() + " dist: " + crt[i] + " pos: " + iInfos[i].pos);
 
 		}
 
@@ -774,7 +763,7 @@ public class Methods : MonoBehaviour {
 
 	/* itemとの距離が1の場合、該当するアイテムを消す */
 	public void destroyItem(nearItemInfo itm) {
-
+		print (itm.no.ToString ());
 		GameObject itemObj = GameObject.Find ("item" + itm.no.ToString ());
 		Destroy (itemObj);
 		init.iInfos [itm.no].pos = new Vector3 ();
