@@ -168,17 +168,14 @@ public class Methods : MonoBehaviour {
 				eb.sw.WriteLine ("firstPos: " + bfsPos [0].pos);
 
 				// 根ノードを空のキューに加える
-				Vector3[] cue = bfs_cuePrepare();
+				int[] cue = bfs_cuePrepare();
 
-				// dynamicaEnemyのキューを作る
-
+				// enemyのキューを作る
 				eInfo[,] dnmeCue = bfs_allDnmeCuePrepare (init.eInfos);
 
-				// countのキューを作る
-				int[] cntcue = bfs_cntcuePrepare (true);
-
 				// 幅優先探索を行う
-				bfsPos = bfs(bfsPos, cue, iInfos[l].pos, posHist, dnmeCue, cntcue, init.nearItm.dist);
+				bfsPos = bfs(bfsPos, cue, iInfos[l].pos, posHist, dnmeCue, init.nearItm.dist);
+
 				eb.sw.WriteLine ("Item" + l.ToString ());
 				// 道のりの長さを求める
 				float bfsDist = bfsPos [0].bfsDist;
@@ -234,13 +231,13 @@ public class Methods : MonoBehaviour {
 		// 距離を初期化
 		float bfsDist = 1000;
 		// 根ノードを空のキューに加える。
-		Vector3[] cue = new int[1]{ 0 }; 
+		int[] cue = new int[1]{ 0 }; 
 		// bfsPosに根ノードを入れる
 		bfsPos[] bfsPos = new bfsPos[1]{ new global::bfsPos (init.playerPos, 0, 0, new int[0]) };
-		// 幅優先探索を始める
-		//bfsPos = bfs (bfsPos,  cue, init.goalPos, posHist, bfsDist , false, new eInfo[0], new int[0]);
-
+		// enemyのcueも作る
 		eInfo[,] dnmeCue = bfs_allDnmeCuePrepare (init.eInfos);
+
+		// 幅優先探索を始める
 		bfsPos = bfs(bfsPos, cue, init.goalPos, posHist, dnmeCue, 1000);
 
 		// 道のりの長さも出す
@@ -257,8 +254,8 @@ public class Methods : MonoBehaviour {
 	}
 
 	// 根ノードを空のキューに加える
-	public Vector3[] bfs_cuePrepare() {
-		return new Vector3[1]{ init.playerPos };
+	public int[] bfs_cuePrepare() {
+		return new int[1]{ 0 };
 	}
 
 	// dynamicaEnemyのキューを作る
@@ -294,9 +291,9 @@ public class Methods : MonoBehaviour {
 
 
 	// キューを詰める
-	public Vector3[] packCue(Vector3[] cue) {
+	public int[] packCue(int[] cue) {
 		// キューを詰める
-		Vector3[] _cue = new Vector3[cue.Length - 1];
+		int[] _cue = new int[cue.Length - 1];
 		for (int i = 0; i < _cue.Length; i++) {
 			_cue [i] = cue [i + 1];
 
@@ -349,10 +346,10 @@ public class Methods : MonoBehaviour {
 	}
 
 	// キューに新しいものを入れる
-	public Vector3[] insertToCue(Vector3[] cue, Vector3 newVec) {
-		Vector3[] _cue = new Vector3[cue.Length + 1];
+	public int[] insertToCue(int[] cue, int newNo) {
+		int[] _cue = new int[cue.Length + 1];
 		System.Array.Copy (cue, _cue, cue.Length);
-		_cue [cue.Length] = newVec;
+		_cue [cue.Length] = newNo;
 		return _cue;
 	}
 	public eInfo[] insertToDnmeCue(eInfo[] dnmeCue, eInfo dnmeNew) {
@@ -482,16 +479,16 @@ public class Methods : MonoBehaviour {
 			eb.sw.WriteLine ("prVec: " + prVec + " newChVec: " + newVec + " res: " + res);
 
 			if (res && !checkVisited(prVec, newVec, posHist)) { // 壁や敵にぶつからず、かつ訪れたことがない場合
-
-				// このnewVecは子ノードであるので、キューに追加
-				cue = insertToCue (cue, newVec);
-
-				// 動く敵がいる場合、その敵のキューも追加
+				
+				// 敵をキューに追加
 				dnmeAllCue = insertToAllDnmeCue (dnmeAllCue, dnmeNext);
 
 				// bfsPosにこの子ノードの情報を追加
 				bfsPos = insertTo_bfsPos(bfsPos, newVec, prNo, layNo);
 				int chNo = bfsPos.Length - 1; // たった今bfsPosに代入したので、子ノードの番号は最後の番号
+
+				// このnewVecは子ノードであるので、キューに追加
+				cue = insertToCue (cue, chNo);
 
 				// bfsPosの親ノード情報に対し、この子ノード情報を付け加える
 				bfsPos = insertChildTo_bfsPos(bfsPos, prNo, chNo);
