@@ -79,7 +79,7 @@ public class Methods : MonoBehaviour {
 	}
 
 	/* 敵C,D,Eの動きを決定 */
-	public Vector3 enemyMoveCDE(int eIndex, eInfo eInfo, bool playerFlg, Vector3 pNowPos, Vector3 target) {
+	public Vector3 enemyMoveCDE(int eIndex, eInfo eInfo, Vector3 pNowPos) {
 		string type = eInfo.type;
 		Vector3 nowPos = eInfo.pos;
 		Vector3 move = eInfo.move;
@@ -120,23 +120,23 @@ public class Methods : MonoBehaviour {
 
 
 	/* 最適経路を作成する */
-	public Vector3[] createBestWay(Vector3 targetPos, bfsPos[] bfsPos, int no) {
+	public Vector3[] createBestWay(Vector3 targetPos, bfsPos[] bfsPos, int layNo) {
 		Vector3[] BestWay = new Vector3[1] { targetPos };
 //		print (no);
 
 		int start = bfsPos.Length - 1;
 		int cnt = 0;
 
-		while (no > 0) {
+		while (layNo > 0) {
 			for (int i = start; i >= 0; i--) {
 
-				if (bfsPos [i].no == no && checkVecEqual (bfsPos [i].pos, BestWay [BestWay.Length - 1])) {
+				if (bfsPos [i].layNo == layNo && checkVecEqual (bfsPos [i].pos, BestWay [BestWay.Length - 1])) {
 					Vector3[] _BestWay = new Vector3[BestWay.Length + 1];
 					System.Array.Copy (BestWay, _BestWay, BestWay.Length);
-					_BestWay [BestWay.Length] = bfsPos [i].pr;
+					_BestWay [BestWay.Length] = bfsPos [bfsPos [i].prNo].pos;
 					BestWay = _BestWay;
 
-					no = no - 1;
+					layNo--;
 					start = i - 1;
 					break;
 				}
@@ -165,6 +165,7 @@ public class Methods : MonoBehaviour {
 				bool[,] posHist = createVisitedArray (init.wallEdgePos [3], init.wallEdgePos [0]);
 				// bfsPosに根ノードを入れる
 				bfsPos[] bfsPos = bfsPosPrepare();
+				eb.sw.WriteLine ("firstPos: " + bfsPos [0].pos);
 
 				// 根ノードを空のキューに加える
 				Vector3[] cue = bfs_cuePrepare();
@@ -235,7 +236,7 @@ public class Methods : MonoBehaviour {
 		// 根ノードを空のキューに加える。
 		Vector3[] cue = new Vector3[1]{ init.playerPos }; 
 		// bfsPosに根ノードを入れる
-		bfsPos[] bfsPos = new bfsPos[1]{ new global::bfsPos (init.playerPos, new Vector3 (), new Vector3[0], 0) };
+		bfsPos[] bfsPos = new bfsPos[1]{ new global::bfsPos (init.playerPos, 0, 0, new int[0]) };
 		// 幅優先探索を始める
 		//bfsPos = bfs (bfsPos,  cue, init.goalPos, posHist, bfsDist , false, new eInfo[0], new int[0]);
 
@@ -253,7 +254,7 @@ public class Methods : MonoBehaviour {
 
 	// bfsPosに根ノードを入れる
 	public bfsPos[] bfsPosPrepare() {
-		return new bfsPos[1]{ new global::bfsPos (init.playerPos, new Vector3 (), new Vector3[0], 0) };
+		return new bfsPos[1]{ new global::bfsPos (init.playerPos, 0, 0, new int[0]) };
 	}
 
 	// 根ノードを空のキューに加える
@@ -377,26 +378,26 @@ public class Methods : MonoBehaviour {
 	}
 
 	// bfsPosにノードの情報を追加
-	public bfsPos[] insertTo_bfsPos(bfsPos[] bfsPos, Vector3 vec, Vector3 prVec, int prNo) {
+	public bfsPos[] insertTo_bfsPos(bfsPos[] bfsPos, Vector3 vec, int prNo, int layNo) {
 		bfsPos[] _bfsPos = new bfsPos[bfsPos.Length + 1];
 		System.Array.Copy (bfsPos, _bfsPos, bfsPos.Length);
 
-		_bfsPos [bfsPos.Length] = new bfsPos (vec, prVec, new Vector3[0], bfsPos[prNo].no + 1);
+		_bfsPos [bfsPos.Length] = new bfsPos (vec, layNo, prNo, new int[0]);
 		return _bfsPos;
 	}
 
 	// bfsPosの親ノード情報に対し、この子ノード情報を付け加える
-	public bfsPos[] insertChildTo_bfsPos(bfsPos[] bfsPos, int prNo, Vector3 chVec) {
-		Vector3[] _ch = new Vector3[bfsPos[prNo].ch.Length + 1];
-		System.Array.Copy (bfsPos [prNo].ch, _ch, bfsPos [prNo].ch.Length);
-		_ch [bfsPos [prNo].ch.Length] = chVec;
-		bfsPos [prNo].ch = _ch;
+	public bfsPos[] insertChildTo_bfsPos(bfsPos[] bfsPos, int prNo, int chNo) {
+		int[] _chNo = new int[bfsPos[prNo].chNo.Length + 1];
+		System.Array.Copy (bfsPos [prNo].chNo, _chNo, bfsPos [prNo].chNo.Length);
+		_chNo [bfsPos [prNo].chNo.Length] = chNo;
+		bfsPos [prNo].chNo = _chNo;
 		return bfsPos;
 	}
 
 	/* bfsにより得られた目的地までの道のりの長さをえる */
 	public int getBfsDist(bfsPos[] bfsPos, int prNo) {
-		return bfsPos [prNo].no;
+		return bfsPos [prNo].layNo;
 	}
 
 	/* 訪問済みの印をつける */
@@ -407,8 +408,12 @@ public class Methods : MonoBehaviour {
 
 
 	/* 訪れたことのある点かどうか確認  true: 訪れたことがある false: 訪れたことがない */
-	public bool checkVisited(Vector3 _pos, bool[,] posHist) {
-		Vector3 rltWPos = new Vector3(_pos.x - init.wallEdgePos[0].x, init.wallEdgePos[0].y - _pos.y);
+	public bool checkVisited(Vector3 nowPos, Vector3 newPos, bool[,] posHist) {
+		// 現在位置と次の位置が同じである場合は、便宜的に訪れたことがなかったものとして扱う
+		if (checkVecEqual (nowPos, newPos))
+			return false;
+		
+		Vector3 rltWPos = new Vector3(newPos.x - init.wallEdgePos[0].x, init.wallEdgePos[0].y - newPos.y);
 		return posHist [(int)rltWPos.x, (int)rltWPos.y];
 	}
 
@@ -425,18 +430,18 @@ public class Methods : MonoBehaviour {
 
 	public bfsPos[] bfs(bfsPos[] bfsPos, Vector3[] cue, Vector3 target, bool[,] posHist, eInfo[,] dnmeAllCue, int[] cntCue, float nowLeastDist) {
 
-		Vector3[] move = getMoveDirect (false);
+		Vector3[] move = getMoveDirect (true);
 
 		// キューの先頭のvecを出す(player)
-		Vector3 prVec = cue [0]; 
+		int prNo = cue [0];  // 親のノード番号を取得
+		Vector3 prVec = bfsPos[prNo].pos;
+
 		// 訪問済みの印をつける
 		setVisited (prVec, posHist);
 		// キューを詰める
 		cue = packCue (cue);
 
 		eInfo[] dnme = new eInfo[dnmeAllCue.GetLength(1)];
-		int Cnt = 0, _Cnt = 0; //_Cntは子ノードのキューに入れる方のcount
-
 
 		// キューの先頭のenemyを出す
 		for (int i = 0; i < dnme.Length; i++) {
@@ -444,41 +449,44 @@ public class Methods : MonoBehaviour {
 		}
 		dnmeAllCue = packAllDnmeCue (dnmeAllCue);
 
-		// キューの先頭のcountを出す
-		Cnt = cntCue [0];
-		cntCue = packCntCue (cntCue);
-		_Cnt = Cnt + 1;
 
 		// 現在の親ノードの番号を記録。bfsPosの最後尾にいることを利用
-		int prNo = getParentNo(prVec, bfsPos);
+		//int prNo = getParentNo(prVec, bfsPos);
+
+		// 現在のlayer番号を取得
+		int layNo = 
 
 		Vector3 newVec;
 		//eInfo dnmeNext = new eInfo("", new Vector3());
 		eb.sw.WriteLine ("\n no: " + prNo.ToString());
 		eInfo[] dnmeNext = new eInfo[dnme.Length];
 		for (int i=0; i<dnmeNext.Length; i++) {
-			Vector3 newEpos = eb.enemyMove (dnme [i], i, prVec, true, target);
+			
+			Vector3 rPos = prVec - dnme [i].pos;
+			Vector3 newEpos = eb.bfs_enemyMove (dnme, i, prVec);
+
 			Vector3 e_rPos = newEpos - dnme [i].pos;
 			dnmeNext[i] = new eInfo(dnme[i].type, newEpos, e_rPos);
 			eb.sw.WriteLine ("Enemy" + i.ToString()  + " " + dnme[i].pos + " EnemyNext " + dnmeNext [i].pos);
 		}
 		eb.sw.WriteLine ();
 
-		for (int i = 0; i < 4; i++) {
+		for (int i = 0; i < move.Length; i++) {
 			newVec = prVec + move [i]; // 子を定義
 
 			bool res = true;
 
 			// 動く敵に対して
-			res = eb.checkPlayerCollider(prVec, newVec);
-			for (int j = 0; j < dnme.Length; j++) {
-				res = eb.checkPlayerCollider (prVec, newVec, dnme, dnmeNext, target);
-				if (!res)
-					break;
-			}
+			//res = eb.checkPlayerCollider(prVec, newVec);
+			res = eb.checkPlayerCollider (prVec, newVec, dnme, dnmeNext, target);
+//			for (int j = 0; j < dnme.Length; j++) {
+//				res = eb.checkPlayerCollider (prVec, newVec, dnme, dnmeNext, target);
+//				if (!res)
+//					break;
+//			}
 			eb.sw.WriteLine ("prVec: " + prVec + " newChVec: " + newVec + " res: " + res);
 
-			if (res && !checkVisited(newVec, posHist)) { // 壁や敵にぶつからず、かつ訪れたことがない場合
+			if (res && !checkVisited(prVec, newVec, posHist)) { // 壁や敵にぶつからず、かつ訪れたことがない場合
 
 				// このnewVecは子ノードであるので、キューに追加
 				cue = insertToCue (cue, newVec);
@@ -489,10 +497,13 @@ public class Methods : MonoBehaviour {
 
 
 				// bfsPosにこの子ノードの情報を追加
-				bfsPos = insertTo_bfsPos(bfsPos, newVec, prVec, prNo);
+				insertTo_bfsPos(bfsPos, vec:, prNo, layNo);
+				bfsPos = insertTo_bfsPos(bfsPos, newVec, prNo, layNo);
+				int chNo = bfsPos.Length - 1; // たった今bfsPosに代入したので、子ノードの番号は最後の番号
 
 				// bfsPosの親ノード情報に対し、この子ノード情報を付け加える
 				bfsPos = insertChildTo_bfsPos(bfsPos, prNo, newVec);
+				eb.sw.Write ("bfsPosLen増加: " + bfsPos.Length.ToString () + " bfsCh増加: " + bfsPos [prNo].chNo.Length);
 
 
 			}
@@ -501,10 +512,17 @@ public class Methods : MonoBehaviour {
 
 
 		float bfsDist = getBfsDist(bfsPos, prNo);
-
 		if (checkVecEqual (prVec, target) || cue.Length == 0) { // 目的地である場合 or cueの長さが0の場合
-			bfsPos [0].set_bfsDist (bfsDist); // bfsPosのindex=0のところに格納しておく
-			eb.sw.Write ("prNo" + prNo.ToString() + " bfsDist: " +  bfsDist.ToString());
+			 // bfsPosのindex=0のところに格納しておく
+			if (checkVecEqual (prVec, target)) {
+				eb.sw.Write ("target到着 ");
+			} else {
+				eb.sw.Write ("cue0 ");
+				bfsDist = 1000;
+			}
+
+			bfsPos [0].set_bfsDist (bfsDist);
+			eb.sw.WriteLine ("prNo" + prNo.ToString() + " bfsDist: " +  bfsDist.ToString());
 			return bfsPos; // 終了
 
 		} else if (bfsDist > nowLeastDist) { // 現在の最短距離よりも大きな距離となってしまっても、終了
@@ -597,7 +615,7 @@ public class Methods : MonoBehaviour {
 				// 敵や壁とぶつかるか判定
 				bool res;
 
-				res = checkColliderWallAndEnemyWall (_nextPos, true);
+				res = eb.checkPlayerCollider (pPos, _nextPos, new eInfo[0], new eInfo[0], nearItm.info.pos);
 
 				if (res) { // 敵や壁とぶつからなければ
 					// 距離が最小なら適用

@@ -24,20 +24,40 @@ public class nearItemInfo {
 	}
 }
 
+//public class bfsPos {
+//	public Vector3 pos;
+//	public Vector3[] ch;
+//	public Vector3 pr;
+//	public int no;
+//	public float bfsDist = 0;
+//	public bfsPos(Vector3 pos_, Vector3 pr_, Vector3[] ch_, int no_) {
+//		pos = pos_;
+//		pr = pr_;
+//		ch = ch_;
+//		no = no_;
+//	}
+//	public Vector3 getParent() {
+//		return pr;
+//	}
+//	public void set_bfsDist(float _bfsDist) {
+//		bfsDist = _bfsDist;
+//	}
+//}
+
 public class bfsPos {
 	public Vector3 pos;
-	public Vector3[] ch;
-	public Vector3 pr;
-	public int no;
+	public int prNo;
+	public int[] chNo;
+	public int layNo;
 	public float bfsDist = 0;
-	public bfsPos(Vector3 pos_, Vector3 pr_, Vector3[] ch_, int no_) {
-		pos = pos_;
-		pr = pr_;
-		ch = ch_;
-		no = no_;
+	public bfsPos(Vector3 _pos, int _layNo, int _prNo, int[] _chNo) {
+		pos = _pos;
+		layNo = _layNo;
+		prNo = _prNo;
+		chNo = _chNo;
 	}
-	public Vector3 getParent() {
-		return pr;
+	public int getParent() {
+		return prNo;
 	}
 	public void set_bfsDist(float _bfsDist) {
 		bfsDist = _bfsDist;
@@ -94,6 +114,17 @@ public class EnemyBehaviour : MonoBehaviour {
 			if (!mt.checkNearItemExist (init.nearItm)) {
 				mt.getNearItemInfo (); // 一番近いitem情報を出す
 
+				sw.WriteLine ("\nbfsPos");
+				bfsPos[] bfsPos =  init.nearItm.bfsPos;
+				for (int i = 0; i < bfsPos.Length; i++) {
+					sw.Write ("layNo: " + bfsPos [i].layNo.ToString() + " pr: " + bfsPos [i].prNo.ToString() + " pos: " + bfsPos [i].pos + " ch: ");
+					for (int j = 0; j < bfsPos [i].chNo.Length; j++) {
+						sw.Write (bfsPos [i].chNo [j].ToString() + " ");
+					}
+					sw.WriteLine ();
+				}
+				sw.WriteLine ("=====");
+
 				// 最適経路を作成
 				Vector3[] BestWay = mt.createBestWay (init.nearItm.info.pos, init.nearItm.bfsPos, (int)init.nearItm.dist);
 				// 作成した最適経路はnearItmに格納する
@@ -110,6 +141,7 @@ public class EnemyBehaviour : MonoBehaviour {
 			if (mt.checkBestWayExist (init.nearItm.bestWay)) {
 				pNewPos = init.nearItm.bestWay [(int)init.nearItm.dist - 1];
 			} else {// BestWayがなかった場合は、アイテムとの距離が2以上ならその方向に進んでみる、1なら停止
+				print("noBestWay");
 				pNewPos = mt.get_pPos_whenNoBestWay (init.nearItm, init.playerPos, init.eInfos, init.count);
 			}
 
@@ -148,7 +180,7 @@ public class EnemyBehaviour : MonoBehaviour {
 
 	/* 敵の動きを定義 */
 	int iA, iB, iC, iD, iE;
-	public Vector3 enemyMove(eInfo eInfo, int index, Vector3 pPos, bool playerFlg, Vector3 target) {
+	public Vector3 enemyMove(eInfo eInfo, int index, Vector3 pPos) {
 		Vector3 rPos = pPos - eInfo.pos;
 
 		if (eInfo.type == "A") {
@@ -191,7 +223,7 @@ public class EnemyBehaviour : MonoBehaviour {
 				}
 			}
 		} else if (eInfo.type == "C" || eInfo.type == "D" || eInfo.type == "E") {
-			return mt.enemyMoveCDE (index, eInfo, playerFlg, pPos, target);
+			return mt.enemyMoveCDE (index, eInfo, pPos);
 		}
 		return new Vector3 ();
 	}
@@ -202,26 +234,32 @@ public class EnemyBehaviour : MonoBehaviour {
 	public bool checkEnemyCollider(Vector3 NextPos, int eIndex) {
 		int m;
 		for (m = 0; m < init.wallPos.Length; m++) {
+//			if (init.wallPos [m].x == NextPos.x) {
+//				//print (" nextPos: " + NextPos + " " + mt.checkVecEqual (init.wallPos [m], NextPos));
+//			}
 			if (mt.checkVecEqual(init.wallPos [m], NextPos)) {
-
 				return false;
 			}
 		}
-//		if (!playerFlg) {
-//			for (m = 0; m < init.iInfos.Length; m++) {
-//				Vector3 iPos = init.iInfos [m].pos;
-//				if (iPos.x != 0 || iPos.y != 0) {
-//					if (mt.checkVecEqual (iPos, NextPos)) {
-//						return false;
-//					}
-//				}
-//			}
-//		}
+
+		for (m = 0; m < init.iInfos.Length; m++) {
+			Vector3 iPos = init.iInfos [m].pos;
+			if (iPos.x != 0 || iPos.y != 0) {
+				if (mt.checkVecEqual (iPos, NextPos)) {
+					return false;
+				}
+			}
+		}
+
 		if (eIndex >= 0) {
 			for (int i = 0; i < init.eInfos.Length; i++) {
 				if (i != eIndex) {
 					Vector3 ePos_ = init.eInfos [i].pos;
 					float dist = Mathf.Abs (NextPos.x - ePos_.x) + Mathf.Abs (NextPos.y - ePos_.y);
+
+//					if (this.name == "Player") {
+//						sw.WriteLine ("dist: " + dist.ToString());
+//					}
 					// 距離が0になってしまうの場合
 					if (dist == 0) {
 						return false;
@@ -234,7 +272,111 @@ public class EnemyBehaviour : MonoBehaviour {
 							// 何もしない(番号iの方が遠慮して進むことにする)
 						} else {
 							// enemy_ の次の動きと被った場合false
-							Vector3 e_NextPos = enemyMove (init.eInfos[i], i, init.playerPos, playerFlg, target);
+							Vector3 e_NextPos = enemyMove (init.eInfos[i], i, init.playerPos);
+							if (e_NextPos == NextPos) {
+								return false;
+							}
+
+						}
+					}
+				}
+			}
+		}
+		return true;
+	}
+
+	public Vector3 bfs_enemyMove(eInfo[] eInfos, int index, Vector3 pPos) {
+		Vector3 rPos = pPos - eInfos[index].pos;
+
+		if (eInfos[index].type == "A") {
+			if (rPos.y != 0) {
+				Vector3 eNextPos = eInfos[index].pos + new Vector3 (0, rPos.y / Mathf.Abs (rPos.y));
+				if (check_bfsEnemyCollider (eNextPos, index, eInfos)) {
+					return eNextPos;
+				}
+			}
+			if (rPos.x != 0) {
+				Vector3 eNextPos = eInfos[index].pos + new Vector3 (rPos.x / Mathf.Abs(rPos.x), 0);
+				if (check_bfsEnemyCollider (eNextPos, index, eInfos)) {
+					return eNextPos;
+				}
+			}
+			Vector3[] moveA= new Vector3[4] { new Vector3(0,-1), new Vector3(-1,0), new Vector3(0,+1), new Vector3(+1,0) };
+			for (iA = 0; iA < moveA.Length; iA++) {
+				Vector3 eNextPos = eInfos[index].pos + moveA[iA];
+				if (check_bfsEnemyCollider (eNextPos, index, eInfos)) {
+					return eNextPos;
+				}
+			}
+		} else if (eInfos[index].type == "B") {
+			if (rPos.x != 0) {
+				Vector3 eNextPos = eInfos[index].pos + new Vector3 (rPos.x / Mathf.Abs (rPos.x), 0);
+				if (check_bfsEnemyCollider (eNextPos, index, eInfos)) {
+					return eNextPos;
+				}
+			} if (rPos.y != 0) {
+				Vector3 eNextPos = eInfos[index].pos + new Vector3 (0, rPos.y / Mathf.Abs (rPos.y));
+				if (check_bfsEnemyCollider (eNextPos, index, eInfos)) {
+					return eNextPos;
+				}
+			}
+			Vector3[] moveB = new Vector3[4] { new Vector3(0,+1), new Vector3(-1,0), new Vector3(0,-1), new Vector3(+1,0) };
+			for (iB = 0; iB < moveB.Length; iB++) {
+				Vector3 eNextPos = eInfos[index].pos + moveB [iB];
+				if (check_bfsEnemyCollider (eNextPos, index, eInfos)) {
+					return eNextPos;
+				}
+			}
+		} else if (eInfos[index].type == "C" || eInfos[index].type == "D" || eInfos[index].type == "E") {
+			return mt.enemyMoveCDE (index, eInfos[index], pPos);
+		}
+		return new Vector3 ();
+	}
+
+
+	public bool check_bfsEnemyCollider(Vector3 NextPos, int eIndex, eInfo[] eInfos) {
+		int m;
+		for (m = 0; m < init.wallPos.Length; m++) {
+			//			if (init.wallPos [m].x == NextPos.x) {
+			//				//print (" nextPos: " + NextPos + " " + mt.checkVecEqual (init.wallPos [m], NextPos));
+			//			}
+			if (mt.checkVecEqual(init.wallPos [m], NextPos)) {
+				return false;
+			}
+		}
+
+		for (m = 0; m < init.iInfos.Length; m++) {
+			Vector3 iPos = init.iInfos [m].pos;
+			if (iPos.x != 0 || iPos.y != 0) {
+				if (mt.checkVecEqual (iPos, NextPos)) {
+					return false;
+				}
+			}
+		}
+
+		if (eIndex >= 0) {
+			for (int i = 0; i < eInfos.Length; i++) {
+				if (i != eIndex) {
+					Vector3 ePos_ = eInfos [i].pos;
+					float dist = Mathf.Abs (NextPos.x - ePos_.x) + Mathf.Abs (NextPos.y - ePos_.y);
+
+					if (this.name == "Player") {
+						sw.WriteLine ("dist: " + dist.ToString());
+					}
+					// 距離が0になってしまうの場合
+					if (dist == 0) {
+						return false;
+
+					} 
+					// 距離が1の場合
+					else if (dist == 1) {
+						// eIndex番号の小さい方が優先的に進めるという設定で。
+						if (mt.checkRankOfEnemy(eIndex, i)) {
+							// 何もしない(番号iの方が遠慮して進むことにする)
+						} else {
+							// enemy_ の次の動きと被った場合false
+							Vector3 e_NextPos = bfs_enemyMove (eInfos, i, NextPos);
+							sw.WriteLine ("相手のenemyのpos" + ePos_ +  " nextPos: " + e_NextPos);
 							if (e_NextPos == NextPos) {
 								return false;
 							}
@@ -261,26 +403,28 @@ public class EnemyBehaviour : MonoBehaviour {
 //			return false;
 //		}
 
-		int len = dnmeNext.Length;
-		// 次移動した時の位置が現在のenemyの位置と一致していた場合、そこも避けなければならない
-		for (int i=0; i<len; i++) {
-			if (dnmeNext[i].pos == nextPos) {
-				//sw.WriteLine ("次の移動位置が現在のenemyと一致");
-				return false;
+		int len = dnme.Length;
+		if (dnme.Length > 0) {
+			// 次移動した時の位置が現在のenemyの位置と一致していた場合、そこも避けなければならない
+			for (int i = 0; i < len; i++) {
+				if (dnmeNext [i].pos == nextPos) {
+					//sw.WriteLine ("次の移動位置が現在のenemyと一致");
+					return false;
+				}
 			}
-		}
-		for (int i=0; i<len; i++) {
-			if (dnmeNext[i].pos == nowPos && dnme[i].pos == nextPos) {
-				//sw.WriteLine ("入れ替わり交差");
-				return false;
+			for (int i = 0; i < len; i++) {
+				if (dnmeNext [i].pos == nowPos && dnme [i].pos == nextPos) {
+					//sw.WriteLine ("入れ替わり交差");
+					return false;
+				}
 			}
-		}
 
-		// 次の位置がターゲットとも、敵の次の位置とも同じである場合
-		for (int i=0; i<len; i++) {
-			if (nextPos == target && nextPos == dnmeNext[i].pos) {
-				//sw.WriteLine ("次の位置がターゲットとも、敵の次の位置とも同じ");
-				return false;
+			// 次の位置がターゲットとも、敵の次の位置とも同じである場合
+			for (int i = 0; i < len; i++) {
+				if (nextPos == target && nextPos == dnmeNext [i].pos) {
+					//sw.WriteLine ("次の位置がターゲットとも、敵の次の位置とも同じ");
+					return false;
+				}
 			}
 		}
 			
@@ -318,7 +462,7 @@ public class EnemyBehaviour : MonoBehaviour {
 					/* 敵の動きを決定 */
 					int index = Int32.Parse (this.name.Substring (5));
 
-					Vector3 ePos = enemyMove (init.eInfos [index], index, init.playerPos, false, new Vector3());
+					Vector3 ePos = enemyMove (init.eInfos [index], index, init.playerPos);
 					Vector3 e_rPos = ePos - init.eInfos [index].pos;
 					eInfo eInfo = new eInfo (init.eInfos [index].type, ePos, e_rPos);
 
@@ -358,7 +502,7 @@ public class EnemyBehaviour : MonoBehaviour {
 					} else if (this.name.Substring (0, 5) == "Enemy") {
 						int index = Int32.Parse (this.name.Substring (5));
 			
-						Vector3 ePos = enemyMove (init.eInfos [index], index, init.playerPos, false, new Vector3());
+						Vector3 ePos = enemyMove (init.eInfos [index], index, init.playerPos);
 						Vector3 e_rPos = ePos - init.eInfos [index].pos;
 						eInfo eInfo = new eInfo (init.eInfos [index].type, ePos, e_rPos);
 
