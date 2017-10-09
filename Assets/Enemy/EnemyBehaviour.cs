@@ -86,76 +86,13 @@ public class EnemyBehaviour : MonoBehaviour {
 	bool trackGoalFlg = false;
 	int goalCnt;
 
-	/* fileName "quiz01.txt", "quiz02.txt" を解く */
-	void solveQuiz0102() {
-		
-//		/* 一番近いアイテムとその距離を取得 */
-//		nearItemInfo nearItm = mt.getNearItemInfo ();
-//
-//		if (mt.checkNearItemExist (nearItm)) { // itemがある場合は、itemを追う
-//
-//			// 最適経路を作成
-//			Vector3[] BestWay = mt.createBestWay (nearItm.info.pos, nearItm.bfsPos, (int)nearItm.dist);
-//
-//			// itemとの距離が1の場合、該当するアイテムを消す
-//			mt.destroyItem (nearItm);
-//
-//			Vector3 pNewPos;
-//			if (mt.checkBestWayExist (BestWay)) {
-//				pNewPos = mt.get_pPos_byBestWay (BestWay);
-//			} else { // BestWayがなかった場合は、アイテムとの距離が2以上ならその方向に進んでみる、1なら停止
-//				print ("noBestWay");
-//				pNewPos = mt.get_pPos_whenNoBestWay (nearItm, init.playerPos, init.eInfos, init.count);
-//
-//			}
-//			init.updtMem.setUpdtPlayer (pNewPos, true);
-//
-//		} else { // goalを追う
-//			if (!trackGoalFlg) {
-//
-//				// 最短経路を作成
-//				BestWayToGoal = mt.trackGoal ();
-//
-//				// Flgを立てる
-//				trackGoalFlg = true;
-//				goalCnt = 1;
-//
-//			}
-//				
-//			if (BestWayToGoal.Length > goalCnt) {
-//				init.updtMem.setUpdtPlayer (BestWayToGoal [BestWayToGoal.Length - 1 - goalCnt], true);
-//			}
-//
-//			goalCnt = mt.checkGoal (goalCnt, BestWayToGoal);
-
-//		}
-	}
+	private void playerMove() {
 
 
-	//public bool enemyCopeEnd = false;
-
-
-	// 敵が動く範囲でできる壁も適当なタイミングで乗り越えて、itemを集めていく必要がある
-	void solveQuiz03() {
-
-
-		// もし敵A,Bがくっついたら、距離2くらいで迎えに行って金魚の糞のように連れていく
-		// 敵A,Bの位置が一致していてかつ、距離が3以上なら
-//		if (mt.checkEnemyEqual () && !enemyCopeEnd) {
-//			print ("くっつき");
-//			// playerの全動きに対し、enemyとの距離が小さくなる方向へ動く
-//			init.updtMem.setUpdtPlayer (mt.get_pPos_NextNearest (), true);
-//
-//		} 
-//		// それ以外の場合は、貪欲にitemを追う
-//		else {
-//			
 		// nearItmがリセットされていて、かつ残りのItemがある場合
 		if (mt.checkRestItemExist ()) {
 			if (!mt.checkNearItemExist (init.nearItm)) {
-				mt.getNearItemInfo ();
-
-				//			if (mt.checkNearItemExist (init.nearItm)) { // itemがある場合は、itemを追う
+				mt.getNearItemInfo (); // 一番近いitem情報を出す
 
 				// 最適経路を作成
 				Vector3[] BestWay = mt.createBestWay (init.nearItm.info.pos, init.nearItm.bfsPos, (int)init.nearItm.dist);
@@ -167,15 +104,6 @@ public class EnemyBehaviour : MonoBehaviour {
 				for (int i = 0; i < BestWay.Length; i++) {
 					sw.WriteLine (BestWay [i]);
 				}
-//				Vector3 pNewPos;
-//				if (mt.checkBestWayExist (BestWay)) {
-//					pNewPos = mt.get_pPos_byBestWay (BestWay);
-//				} else { // BestWayがなかった場合は、アイテムとの距離が2以上ならその方向に進んでみる、1なら停止
-//					//					print ("noBestWay");
-//					pNewPos = mt.get_pPos_whenNoBestWay (init.nearItm, init.playerPos, init.eInfos, init.count);
-//
-//				}
-//				init.updtMem.setUpdtPlayer (pNewPos, true);
 			}
 
 			// 格納されているBestWayに沿って動く
@@ -198,15 +126,6 @@ public class EnemyBehaviour : MonoBehaviour {
 				init.iInfos [init.nearItm.no].pos = new Vector3 ();
 				init.nearItm = mt.initNearItm ();
 			}
-//			sw.WriteLine(" no: " + init.nearItm.no);
-//
-//		} else {
-//			/* 一番近いアイテムとその距離を取得 */
-//			//nearItemInfo nearItm = mt.getNearItemInfo (2, enemyCopeEnd);
-//		if (mt.checkNearItemExist(init.nearItm)) { // 一番近いアイテムが存在する場合、
-//			
-//		} else 
-//			}
 		} else { // goalを追う
 			if (!trackGoalFlg) {
 
@@ -218,25 +137,12 @@ public class EnemyBehaviour : MonoBehaviour {
 				goalCnt = 1;
 
 			}
-			
+
 			if (BestWayToGoal.Length > goalCnt) {
 				init.updtMem.setUpdtPlayer (BestWayToGoal [BestWayToGoal.Length - 1 - goalCnt], true);
 			}
 			goalCnt = mt.checkGoal (goalCnt, BestWayToGoal);
 
-		}
-//		}
-	}
-
-
-
-	private void playerMove() {
-
-		if (init.fileName == "quiz01.txt" || init.fileName == "quiz02.txt") {
-//			solveQuiz0102 ();
-			solveQuiz03 ();
-		} else if (init.fileName == "quiz03.txt") {
-			solveQuiz03 ();
 		}
 
 	}
