@@ -1096,9 +1096,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8948ff1364f594b42b1172568d7855d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fileName: quiz02.txt
+  fileName: quiz03.txt
   timeOut: 0.5
-  KeyPlay: 1
+  KeyPlay: 0
   outputFlg: 0
   setSubWall: 0
   count: -1

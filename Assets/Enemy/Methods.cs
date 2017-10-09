@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System;
 using UnityEngine;
 using UnityEditor;
@@ -188,6 +189,14 @@ public class Methods : MonoBehaviour {
 		// アイテムを相対距離が短い順で入れ替えておく
 		iInfo[] iInfos = bubbleSortForItem (false);
 
+			for (int i = 0; i < iInfos.Length; i++) {
+				eb.sw.WriteLine ("no: " + iInfos [i].no.ToString () + " " + iInfos [i].pos + " dist: " + iInfos [i].dist);
+			}
+			eb.sw.WriteLine ();
+			eb.sw.Flush ();
+			eb.sw.Close ();
+			eb.sw = new StreamWriter ("Assets/Log/LogData.txt", true); //true=追記 false=上書き
+		
 		for (int l = 0; l < iInfos.Length; l++) {
 
 			if (iInfos [l].pos.x != 0 || iInfos [l].pos.y != 0) { // 消されて値がリセットされていなければ
@@ -210,7 +219,10 @@ public class Methods : MonoBehaviour {
 				// 道のりの長さを求める
 				float bfsDist = bfsPos [0].bfsDist;
 				eb.sw.WriteLine ("Item" + iInfos[l].no.ToString () + " bfsDist: " + bfsDist.ToString()) ;
-			
+				eb.sw.Flush ();
+				eb.sw.Close ();
+				eb.sw = new StreamWriter ("Assets/Log/LogData.txt", true); //true=追記 false=上書き
+
 
 				// 距離最小の場合、最小itemとして記録
 				if (bfsDist < init.nearItm.dist) {
@@ -219,7 +231,7 @@ public class Methods : MonoBehaviour {
 
 			}	
 		}
-		eb.sw.WriteLine ("nearItm: Item" + init.nearItm.no + " dist: " + init.nearItm.dist + " Pos: " + init.nearItm.info.pos);
+//		eb.sw.WriteLine ("nearItm: Item" + init.nearItm.no + " dist: " + init.nearItm.dist + " Pos: " + init.nearItm.info.pos);
 
 	}
 
@@ -544,10 +556,10 @@ public class Methods : MonoBehaviour {
 		}
 
 		//if (checkVecEqual (prVec, target) || cue.Length == 0) { // 目的地である場合 or cueの長さが0の場合
-		if (cue.Length == 0) { // cueの長さが0の場合
+		if (cue.Length == 0 || cue.Length > 700) { // cueの長さが0の場合
 			 // bfsPosのindex=0のところに格納しておく
 
-			eb.sw.Write ("cue0 ");
+//			eb.sw.Write ("cue0 ");
 
 			bfsPos [0].set_bfsDist (1000);
 //			eb.sw.WriteLine ("prNo" + prNo.ToString() + " bfsDist: " +  bfsDist.ToString());
@@ -634,8 +646,10 @@ public class Methods : MonoBehaviour {
 				_iInfos [iInfos.Length] = init.iInfos [i];
 				_iInfos [iInfos.Length].setItemSortInfo(dist, i);
 				iInfos = _iInfos;
+
 			}
 		}
+
 
 
 		float tmpcrt; iInfo tmpInfo; int len = crt.Length;
@@ -652,18 +666,26 @@ public class Methods : MonoBehaviour {
 				}
 			}
 		}
-			
-		for (int i = 0; i < len; i++) {
-			// index[i]は、i番目に小さいものの番号
-//			iInfos [i].dist = crt [i];
-//			iInfos [i].pos = iInfos_ [index[i]].pos;
-//			iInfos [i].no = index [i];
-			eb.sw.WriteLine (iInfos[i].no.ToString() + " dist: " + crt[i] + " pos: " + iInfos[i].pos);
 
+		int N = 6;
+		if (iInfos.Length < 6) {
+				N = iInfos.Length;
 		}
+			iInfo[] res_iInfos = new iInfo[N];
+			System.Array.Copy (iInfos, res_iInfos, N);
+
+			
+//		for (int i = 0; i < len; i++) {
+//			// index[i]は、i番目に小さいものの番号
+////			iInfos [i].dist = crt [i];
+////			iInfos [i].pos = iInfos_ [index[i]].pos;
+////			iInfos [i].no = index [i];
+////			eb.sw.WriteLine (iInfos[i].no.ToString() + " dist: " + crt[i] + " pos: " + iInfos[i].pos);
+//
+//		}
 
 		//Pause ();
-		return iInfos;
+		return res_iInfos;
 	}
 
 	/* BestWayがあるか否かの判定 */
@@ -742,7 +764,7 @@ public class Methods : MonoBehaviour {
 
 	/* itemとの距離が1の場合、該当するアイテムを消す */
 	public void destroyItem(nearItemInfo itm) {
-		print (itm.no.ToString ());
+//		print (itm.no.ToString ());
 		GameObject itemObj = GameObject.Find ("item" + itm.no.ToString ());
 		Destroy (itemObj);
 		init.iInfos [itm.no].pos = new Vector3 ();
@@ -778,7 +800,12 @@ public class Methods : MonoBehaviour {
 	public bool checkRankOfEnemy(int i, int j) {
 		string type1 = init.eInfos [i].type;
 		string type2 = init.eInfos [j].type;
-		string[] rank = new string[5] { "B", "A", "E", "D", "C" };
+		string[] rank;
+		if (init.fileName == "quiz01.txt" || init.fileName == "quiz02.txt") {
+			rank = new string[5] { "B", "A", "E", "D", "C" };
+		} else {
+			rank = new string[5] { "B", "A", "D", "C", "E" };
+		}
 		int rank1 = -1, rank2 = -1;
 		for (int n = 0; n < rank.Length; n++) {
 			if (rank [n] == type1)
