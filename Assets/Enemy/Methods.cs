@@ -436,6 +436,9 @@ public class Methods : MonoBehaviour {
 		int prNo = cue [0];  // 親のノード番号を取得
 		Vector3 prVec = bfsPos[prNo].pos;
 
+		// 現在のlayer番号を取得
+		int layNo = bfsPos[prNo].layNo;
+
 		// 訪問済みの印をつける
 		setVisited (prVec, posHist);
 		// キューを詰める
@@ -448,13 +451,6 @@ public class Methods : MonoBehaviour {
 			dnme[i] = dnmeAllCue [0,i];
 		}
 		dnmeAllCue = packAllDnmeCue (dnmeAllCue);
-
-
-		// 現在の親ノードの番号を記録。bfsPosの最後尾にいることを利用
-		//int prNo = getParentNo(prVec, bfsPos);
-
-		// 現在のlayer番号を取得
-		int layNo = 
 
 		Vector3 newVec;
 		//eInfo dnmeNext = new eInfo("", new Vector3());
