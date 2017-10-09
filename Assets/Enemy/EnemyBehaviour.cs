@@ -331,7 +331,7 @@ public class EnemyBehaviour : MonoBehaviour {
 				}
 			}
 		} else if (eInfos[index].type == "C" || eInfos[index].type == "D" || eInfos[index].type == "E") {
-			return mt.enemyMoveCDE (index, eInfos, pPos);
+			return mt.bfs_enemyMoveCDE (index, eInfos, pPos);
 		}
 		return new Vector3 ();
 	}

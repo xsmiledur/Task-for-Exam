@@ -298,9 +298,12 @@ public class InitBehaviour : MonoBehaviour {
 		/* 時間情報を設定 */
 		setTimeInfo ();
 
+		/* 敵C,D,Eの動きを決定するのに必要な定数を作っておく */
+		setEnemyCDEdrct ();
+
 		/* update用に格納された変数を入れておく */
 		updtMem = new updtMem (playerPos, false, eInfos, createUpdtInitBool(eInfos.Length));
-
+	
 		// 全てのtimeFlgもfalseにする
 		createInitTimeFlg (eInfos.Length);
 
@@ -314,6 +317,56 @@ public class InitBehaviour : MonoBehaviour {
 			output.Flush ();
 			output.Close ();
 		}
+	}
+
+	public Vector3[] drct = new Vector3[4] { new Vector3 (0, 1), new Vector3 (-1, 0), new Vector3 (0, -1), new Vector3 (1, 0) };
+	public Vector3[,] mvC, mvD, mvE;
+	// 敵C,D,Eの動きを決定するのに必要な定数を作っておく
+	void setEnemyCDEdrct() {
+		mvC = new Vector3[4, 4] {
+			{ new Vector3 (-1, 0), new Vector3 (0, 1), new Vector3 (1, 0), new Vector3 (0, -1) },
+			{ new Vector3(), new Vector3(), new Vector3(), new Vector3() },
+			{ new Vector3(), new Vector3(), new Vector3(), new Vector3() },
+			{ new Vector3(), new Vector3(), new Vector3(), new Vector3() }
+		};
+		mvD = new Vector3[4, 4] {
+			{ new Vector3 (1, 0), new Vector3 (0, 1), new Vector3 (-1, 0), new Vector3 (0, -1) },
+			{ new Vector3(), new Vector3(), new Vector3(), new Vector3() },
+			{ new Vector3(), new Vector3(), new Vector3(), new Vector3() },
+			{ new Vector3(), new Vector3(), new Vector3(), new Vector3() }
+		};
+		mvE = new Vector3[4,8];
+
+		for (int i = 1; i < 4; i++) {
+			//mvCを90*i回転させる
+			for (int j = 0; j < 4; j++) {
+				mvC [i, j] = rotate (mvC [0, j], 90 * i);
+				mvD [i, j] = rotate (mvD [0, j], 90 * i);
+			}
+		}
+
+		for (int i = 0; i < 4; i++) {
+			for (int j = 0; j < 4; j++) {
+				mvE [i, 2 * j] = mvC [i, j];
+				mvE [i, 2 * j + 1] = mvC [i, j];
+			}
+		}
+
+
+	}
+
+	// th度回転
+	private Vector3 rotate(Vector3 vec, int th) {
+		if (th == 90) {
+			return new Vector3 (-vec.y, vec.x);
+		} else if (th == 180) {
+			return -vec;
+		} else if (th == 270) {
+			return new Vector3 (vec.y, -vec.x);
+		} else {
+			return new Vector3 ();
+		}
+
 	}
 
 	// updateする際のboolean初期化

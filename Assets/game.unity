@@ -1111,6 +1111,11 @@ MonoBehaviour:
   time: 0
   key_pFlg: 
   key_eFlg: 
+  drct:
+  - {x: 0, y: 1, z: 0}
+  - {x: -1, y: 0, z: 0}
+  - {x: 0, y: -1, z: 0}
+  - {x: 1, y: 0, z: 0}
   time_pFlg: 0
   time_eFlg: 
 --- !u!114 &1726850161

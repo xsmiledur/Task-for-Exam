@@ -83,35 +83,24 @@ public class Methods : MonoBehaviour {
 		string type = eInfo.type;
 		Vector3 nowPos = eInfo.pos;
 		Vector3 move = eInfo.move;
-		//if (eIndex == 1) {
-//			print ("Enemy" + eIndex.ToString () + " " + move);
-		//}
-
-		Vector3[] mvC = new Vector3[4] { new Vector3 (-1, 0), new Vector3 (0, 1), new Vector3 (1, 0), new Vector3 (0, -1) };
-		Vector3[] mvD = new Vector3[4] { new Vector3 (1, 0), new Vector3 (0, 1), new Vector3 (-1, 0), new Vector3 (0, -1) };
-		Vector3[] mvE = new Vector3[8];
-		for (int i = 0; i < 4; i++) {
-			mvE [2 * i] = mvC [i];
-			mvE [2 * i + 1] = mvD [i];
+		if (eIndex == 1) {
+			print (move);
 		}
 
-		Vector3[] eMove = new Vector3[0];
-		int N = 4;
+		Vector3[,] eMove = new Vector3[0,0];
 		if (type == "C") {
-			eMove = mvC;
+			eMove = init.mvC;
 		} else if (type == "D") {
-			eMove = mvD;
+			eMove = init.mvD;
 		} else if (type == "E") {
-			eMove = mvE;
-			N = 8;
+			eMove = init.mvE;
 		}
 
-		Vector3[] drct = new Vector3[4] { new Vector3 (0, 1), new Vector3 (1, 0), new Vector3 (0, -1), new Vector3 (-1, 0) };
 		Vector3 newVec;
-		for (int i = 0; i < drct.Length; i++) {
-			if (checkVecEqual (move, drct [i])) {
+		for (int i = 0; i < init.drct.Length; i++) {
+			if (checkVecEqual (move, init.drct [i])) {
 				for (int j = 0; j < eMove.Length; j++) {
-					newVec = nowPos + eMove [(i + j) % N];
+					newVec = nowPos + eMove [i, j];
 					if (eb.checkEnemyCollider (newVec, eIndex)) {
 						return newVec;
 					}
@@ -121,43 +110,34 @@ public class Methods : MonoBehaviour {
 		return new Vector3 ();
 	}
 
+
 	/* bfsの場合の敵C,D,Eの動きを決定 */
-	public Vector3 enemyMoveCDE(int eIndex, eInfo[] eInfos, Vector3 pNowPos) {
+	public Vector3 bfs_enemyMoveCDE(int eIndex, eInfo[] eInfos, Vector3 pNowPos) {
 		string type = eInfos[eIndex].type;
 		Vector3 nowPos = eInfos[eIndex].pos;
 		Vector3 move = eInfos[eIndex].move;
 
-		Vector3[] mvC = new Vector3[4] { new Vector3 (-1, 0), new Vector3 (0, 1), new Vector3 (1, 0), new Vector3 (0, -1) };
-		Vector3[] mvD = new Vector3[4] { new Vector3 (1, 0), new Vector3 (0, 1), new Vector3 (-1, 0), new Vector3 (0, -1) };
-		Vector3[] mvE = new Vector3[8];
-		for (int i = 0; i < 4; i++) {
-			mvE [2 * i] = mvC [i];
-			mvE [2 * i + 1] = mvD [i];
-		}
-
-		Vector3[] eMove = new Vector3[0];
-		int N = 4;
+		Vector3[,] eMove = new Vector3[0,0];
 		if (type == "C") {
-			eMove = mvC;
+			eMove = init.mvC;
 		} else if (type == "D") {
-			eMove = mvD;
+			eMove = init.mvD;
 		} else if (type == "E") {
-			eMove = mvE;
-			N = 8;
+			eMove = init.mvE;
 		}
 
-		Vector3[] drct = new Vector3[4] { new Vector3 (0, 1), new Vector3 (1, 0), new Vector3 (0, -1), new Vector3 (-1, 0) };
 		Vector3 newVec;
-		for (int i = 0; i < drct.Length; i++) {
-			if (checkVecEqual (move, drct [i])) {
+		for (int i = 0; i < init.drct.Length; i++) {
+			if (checkVecEqual (move, init.drct [i])) {
 				for (int j = 0; j < eMove.Length; j++) {
-					newVec = nowPos + eMove [(i + j) % N];
+					newVec = nowPos + eMove [i, j];
 					if (eb.check_bfsEnemyCollider (newVec, eIndex, eInfos)) {
 						return newVec;
 					}
 				}
 			}
 		}
+	
 		return new Vector3 ();
 	}
 
