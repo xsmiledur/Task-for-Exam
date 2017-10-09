@@ -120,32 +120,10 @@ public class Methods : MonoBehaviour {
 
 
 	/* 最適経路を作成する */
-	public Vector3[] createBestWay(Vector3 targetPos, bfsPos[] bfsPos, int _layNo) {
-		Vector3[] BestWay = new Vector3[1] { targetPos };
+	public Vector3[] createBestWay(Vector3 targetPos, bfsPos[] bfsPos, int layNo) {
+		Vector3[] BestWay = new Vector3[0];
 		int[] BestNo = new int[1] { bfsPos.Length - 1 };
-		int layNo = _layNo - 1;
 		BestWay = _createBestWay (BestWay, bfsPos, layNo, BestNo);
-//
-//		if (layNo >= 0) {
-//			return _createBestWay(BestWay, )
-//		}
-//		while (layNo >= 0) {
-//			for (int i = start; i >= 0; i--) {
-//
-//				if (bfsPos [i].layNo == layNo && BestNo[BestNo.Length -1] == bfsPos[i].prNo) {
-//					
-//					Vector3[] _BestWay = new Vector3[BestWay.Length + 1];
-//					System.Array.Copy (BestWay, _BestWay, BestWay.Length);
-//					_BestWay [BestWay.Length] = bfsPos [bfsPos [i].prNo].pos;
-//					BestWay = _BestWay;
-//
-//					layNo--;
-//					start = i - 1;
-//					break;
-//				}
-//			}
-//		}
-
 		return BestWay;
 	}
 
@@ -155,14 +133,14 @@ public class Methods : MonoBehaviour {
 
 		for (int i = start; i >= 0; i--) {
 
-			if (bfsPos [i].layNo == layNo && BestNo[BestNo.Length -1] == bfsPos[i].prNo) {
+			if (bfsPos [i].layNo == layNo && BestNo[BestNo.Length -1] == i) {
 
 				Vector3[] _BestWay = new Vector3[BestWay.Length + 1];
 				System.Array.Copy (BestWay, _BestWay, BestWay.Length);
-				_BestWay [BestWay.Length] = bfsPos [bfsPos [i].prNo].pos;
+				_BestWay [BestWay.Length] = bfsPos [i].pos;
 				BestWay = _BestWay;
 
-				int[] _BestNo = new int[BestNo.Length - 1];
+				int[] _BestNo = new int[BestNo.Length + 1];
 				System.Array.Copy (BestNo, _BestNo, BestNo.Length);
 				_BestNo [BestNo.Length] = bfsPos [i].prNo;
 				BestNo = _BestNo;
@@ -194,7 +172,7 @@ public class Methods : MonoBehaviour {
 				bool[,] posHist = createVisitedArray (init.wallEdgePos [3], init.wallEdgePos [0]);
 				// bfsPosに根ノードを入れる
 				bfsPos[] bfsPos = bfsPosPrepare();
-				eb.sw.WriteLine ("firstPos: " + bfsPos [0].pos);
+//				eb.sw.WriteLine ("firstPos: " + bfsPos [0].pos);
 
 				// 根ノードを空のキューに加える
 				int[] cue = bfs_cuePrepare();
@@ -205,7 +183,7 @@ public class Methods : MonoBehaviour {
 				// 幅優先探索を行う
 				bfsPos = bfs(bfsPos, cue, iInfos[l].pos, posHist, dnmeCue, init.nearItm.dist);
 
-				eb.sw.WriteLine ("Item" + l.ToString ());
+//				eb.sw.WriteLine ("Item" + l.ToString ());
 				// 道のりの長さを求める
 				float bfsDist = bfsPos [0].bfsDist;
 
@@ -216,7 +194,7 @@ public class Methods : MonoBehaviour {
 
 			}	
 		}
-		eb.sw.WriteLine ("nearItm: Item" + init.nearItm.no + " dist: " + init.nearItm.dist + " Pos: " + init.nearItm.info.pos);
+//		eb.sw.WriteLine ("nearItm: Item" + init.nearItm.no + " dist: " + init.nearItm.dist + " Pos: " + init.nearItm.info.pos);
 
 	}
 
@@ -480,7 +458,7 @@ public class Methods : MonoBehaviour {
 
 		Vector3 newVec;
 		//eInfo dnmeNext = new eInfo("", new Vector3());
-		eb.sw.WriteLine ("\n no: " + prNo.ToString());
+//		eb.sw.WriteLine ("\n no: " + prNo.ToString());
 		eInfo[] dnmeNext = new eInfo[dnme.Length];
 		for (int i=0; i<dnmeNext.Length; i++) {
 			
@@ -489,9 +467,9 @@ public class Methods : MonoBehaviour {
 
 			Vector3 e_rPos = newEpos - dnme [i].pos;
 			dnmeNext[i] = new eInfo(dnme[i].type, newEpos, e_rPos);
-			eb.sw.WriteLine ("Enemy" + i.ToString()  + " " + dnme[i].pos + " EnemyNext " + dnmeNext [i].pos);
+//			eb.sw.WriteLine ("Enemy" + i.ToString()  + " " + dnme[i].pos + " EnemyNext " + dnmeNext [i].pos);
 		}
-		eb.sw.WriteLine ();
+//		eb.sw.WriteLine ();
 
 		for (int i = 0; i < move.Length; i++) {
 			newVec = prVec + move [i]; // 子を定義
@@ -501,11 +479,11 @@ public class Methods : MonoBehaviour {
 			// 動く敵に対して
 			//res = eb.checkPlayerCollider(prVec, newVec);
 			res = eb.checkPlayerCollider (prVec, newVec, dnme, dnmeNext, target);
-//			for (int j = 0; j < dnme.Length; j++) {
-//				res = eb.checkPlayerCollider (prVec, newVec, dnme, dnmeNext, target);
-//				if (!res)
-//					break;
-//			}
+			for (int j = 0; j < dnme.Length; j++) {
+				res = eb.checkPlayerCollider (prVec, newVec, dnme, dnmeNext, target);
+				if (!res)
+					break;
+			}
 			eb.sw.WriteLine ("prVec: " + prVec + " newChVec: " + newVec + " res: " + res);
 
 			if (res && !checkVisited(prVec, newVec, posHist)) { // 壁や敵にぶつからず、かつ訪れたことがない場合
@@ -532,7 +510,7 @@ public class Methods : MonoBehaviour {
 					float bfsDist = getBfsDist(bfsPos, chNo);
 					bfsPos [0].set_bfsDist (bfsDist);
 
-					eb.sw.WriteLine ("prNo" + prNo.ToString() + " bfsDist: " +  bfsDist.ToString());
+					eb.sw.WriteLine ("終了 prNo" + prNo.ToString() + " bfsDist: " +  bfsDist.ToString());
 					return bfsPos; // 終了
 				}
 
@@ -547,7 +525,7 @@ public class Methods : MonoBehaviour {
 			eb.sw.Write ("cue0 ");
 
 			bfsPos [0].set_bfsDist (1000);
-			//eb.sw.WriteLine ("prNo" + prNo.ToString() + " bfsDist: " +  bfsDist.ToString());
+//			eb.sw.WriteLine ("prNo" + prNo.ToString() + " bfsDist: " +  bfsDist.ToString());
 			return bfsPos; // 終了
 
 		} else {

@@ -126,7 +126,7 @@ public class EnemyBehaviour : MonoBehaviour {
 				sw.WriteLine ("=====");
 
 				// 最適経路を作成
-				print(init.nearItm.dist);
+				//print(init.nearItm.dist);
 				Vector3[] BestWay = mt.createBestWay (init.nearItm.info.pos, init.nearItm.bfsPos, (int)init.nearItm.dist);
 				// 作成した最適経路はnearItmに格納する
 				init.nearItm.setBestWay (BestWay);
@@ -258,9 +258,9 @@ public class EnemyBehaviour : MonoBehaviour {
 					Vector3 ePos_ = init.eInfos [i].pos;
 					float dist = Mathf.Abs (NextPos.x - ePos_.x) + Mathf.Abs (NextPos.y - ePos_.y);
 
-//					if (this.name == "Player") {
-//						sw.WriteLine ("dist: " + dist.ToString());
-//					}
+					if (this.name == "Player") {
+						sw.WriteLine ("dist: " + dist.ToString());
+					}
 					// 距離が0になってしまうの場合
 					if (dist == 0) {
 						return false;
