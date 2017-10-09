@@ -117,7 +117,7 @@ public class EnemyBehaviour : MonoBehaviour {
 				sw.WriteLine ("\nbfsPos");
 				bfsPos[] bfsPos =  init.nearItm.bfsPos;
 				for (int i = 0; i < bfsPos.Length; i++) {
-					sw.Write ("layNo: " + bfsPos [i].layNo.ToString() + " pr: " + bfsPos [i].prNo.ToString() + " pos: " + bfsPos [i].pos + " ch: ");
+					sw.Write ("no: " + i.ToString() + " layNo: " + bfsPos [i].layNo.ToString() + " pr: " + bfsPos [i].prNo.ToString() + " pos: " + bfsPos [i].pos + " ch: ");
 					for (int j = 0; j < bfsPos [i].chNo.Length; j++) {
 						sw.Write (bfsPos [i].chNo [j].ToString() + " ");
 					}
@@ -126,6 +126,7 @@ public class EnemyBehaviour : MonoBehaviour {
 				sw.WriteLine ("=====");
 
 				// 最適経路を作成
+				print(init.nearItm.dist);
 				Vector3[] BestWay = mt.createBestWay (init.nearItm.info.pos, init.nearItm.bfsPos, (int)init.nearItm.dist);
 				// 作成した最適経路はnearItmに格納する
 				init.nearItm.setBestWay (BestWay);

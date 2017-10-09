@@ -120,34 +120,63 @@ public class Methods : MonoBehaviour {
 
 
 	/* 最適経路を作成する */
-	public Vector3[] createBestWay(Vector3 targetPos, bfsPos[] bfsPos, int layNo) {
+	public Vector3[] createBestWay(Vector3 targetPos, bfsPos[] bfsPos, int _layNo) {
 		Vector3[] BestWay = new Vector3[1] { targetPos };
-//		print (no);
+		int[] BestNo = new int[1] { bfsPos.Length - 1 };
+		int layNo = _layNo - 1;
+		BestWay = _createBestWay (BestWay, bfsPos, layNo, BestNo);
+//
+//		if (layNo >= 0) {
+//			return _createBestWay(BestWay, )
+//		}
+//		while (layNo >= 0) {
+//			for (int i = start; i >= 0; i--) {
+//
+//				if (bfsPos [i].layNo == layNo && BestNo[BestNo.Length -1] == bfsPos[i].prNo) {
+//					
+//					Vector3[] _BestWay = new Vector3[BestWay.Length + 1];
+//					System.Array.Copy (BestWay, _BestWay, BestWay.Length);
+//					_BestWay [BestWay.Length] = bfsPos [bfsPos [i].prNo].pos;
+//					BestWay = _BestWay;
+//
+//					layNo--;
+//					start = i - 1;
+//					break;
+//				}
+//			}
+//		}
 
-		int start = bfsPos.Length - 1;
-		int cnt = 0;
+		return BestWay;
+	}
 
-		while (layNo > 0) {
-			for (int i = start; i >= 0; i--) {
+	/* 最適経路作成 再帰 */
+	public Vector3[] _createBestWay(Vector3[] BestWay, bfsPos[] bfsPos, int layNo, int[] BestNo) {
+		int start = BestNo [BestNo.Length - 1];
 
-				if (bfsPos [i].layNo == layNo && checkVecEqual (bfsPos [i].pos, BestWay [BestWay.Length - 1])) {
-					Vector3[] _BestWay = new Vector3[BestWay.Length + 1];
-					System.Array.Copy (BestWay, _BestWay, BestWay.Length);
-					_BestWay [BestWay.Length] = bfsPos [bfsPos [i].prNo].pos;
-					BestWay = _BestWay;
+		for (int i = start; i >= 0; i--) {
 
-					layNo--;
-					start = i - 1;
-					break;
-				}
-			}
-			cnt++;
-			if (cnt > 1000) {
+			if (bfsPos [i].layNo == layNo && BestNo[BestNo.Length -1] == bfsPos[i].prNo) {
+
+				Vector3[] _BestWay = new Vector3[BestWay.Length + 1];
+				System.Array.Copy (BestWay, _BestWay, BestWay.Length);
+				_BestWay [BestWay.Length] = bfsPos [bfsPos [i].prNo].pos;
+				BestWay = _BestWay;
+
+				int[] _BestNo = new int[BestNo.Length - 1];
+				System.Array.Copy (BestNo, _BestNo, BestNo.Length);
+				_BestNo [BestNo.Length] = bfsPos [i].prNo;
+				BestNo = _BestNo;
+					
 				break;
 			}
 		}
 
-		return BestWay;
+		if (layNo >= 0) {
+			layNo--;
+			return _createBestWay(BestWay, bfsPos, layNo, BestNo);
+		} else {
+			return BestWay;
+		}
 	}
 
 	/* 一番近いitemとその距離を取得する 幅優先探索を用いて */
@@ -250,7 +279,7 @@ public class Methods : MonoBehaviour {
 
 	// bfsPosに根ノードを入れる
 	public bfsPos[] bfsPosPrepare() {
-		return new bfsPos[1]{ new global::bfsPos (init.playerPos, 0, 0, new int[0]) };
+		return new bfsPos[1]{ new global::bfsPos (init.playerPos, 0, -1, new int[0]) };
 	}
 
 	// 根ノードを空のキューに加える
@@ -434,6 +463,7 @@ public class Methods : MonoBehaviour {
 
 		// 現在のlayer番号を取得
 		int layNo = bfsPos[prNo].layNo;
+		int nextLayNo = layNo + 1;
 
 		// 訪問済みの印をつける
 		setVisited (prVec, posHist);
@@ -484,7 +514,7 @@ public class Methods : MonoBehaviour {
 				dnmeAllCue = insertToAllDnmeCue (dnmeAllCue, dnmeNext);
 
 				// bfsPosにこの子ノードの情報を追加
-				bfsPos = insertTo_bfsPos(bfsPos, newVec, prNo, layNo);
+				bfsPos = insertTo_bfsPos(bfsPos, newVec, prNo, nextLayNo);
 				int chNo = bfsPos.Length - 1; // たった今bfsPosに代入したので、子ノードの番号は最後の番号
 
 				// このnewVecは子ノードであるので、キューに追加
@@ -495,29 +525,40 @@ public class Methods : MonoBehaviour {
 //				eb.sw.Write ("bfsPosLen増加: " + bfsPos.Length.ToString () + " bfsCh増加: " + bfsPos [prNo].chNo.Length);
 
 
+				if (checkVecEqual (newVec, target)) { // targetに到着していたら
+
+					// 距離を取得してbfsPosに登録
+
+					float bfsDist = getBfsDist(bfsPos, chNo);
+					bfsPos [0].set_bfsDist (bfsDist);
+
+					eb.sw.WriteLine ("prNo" + prNo.ToString() + " bfsDist: " +  bfsDist.ToString());
+					return bfsPos; // 終了
+				}
+
+
 			}
 		}
 
-		float bfsDist = getBfsDist(bfsPos, prNo);
-		if (checkVecEqual (prVec, target) || cue.Length == 0) { // 目的地である場合 or cueの長さが0の場合
+		//if (checkVecEqual (prVec, target) || cue.Length == 0) { // 目的地である場合 or cueの長さが0の場合
+		if (cue.Length == 0) { // cueの長さが0の場合
 			 // bfsPosのindex=0のところに格納しておく
-			if (checkVecEqual (prVec, target)) {
-				eb.sw.Write ("target到着 ");
-			} else {
-				eb.sw.Write ("cue0 ");
-				bfsDist = 1000;
-			}
 
-			bfsPos [0].set_bfsDist (bfsDist);
-			eb.sw.WriteLine ("prNo" + prNo.ToString() + " bfsDist: " +  bfsDist.ToString());
+			eb.sw.Write ("cue0 ");
+
+			bfsPos [0].set_bfsDist (1000);
+			//eb.sw.WriteLine ("prNo" + prNo.ToString() + " bfsDist: " +  bfsDist.ToString());
 			return bfsPos; // 終了
 
-		} else if (bfsDist > nowLeastDist) { // 現在の最短距離よりも大きな距離となってしまっても、終了
-			bfsPos [0].set_bfsDist (bfsDist);
-			return bfsPos; // 終了
 		} else {
-			return bfs (bfsPos, cue, target, posHist, dnmeAllCue, nowLeastDist);
+			float bfsDist = getBfsDist(bfsPos, bfsPos.Length - 1);
+			if (bfsDist > nowLeastDist) { // 現在の最短距離よりも大きな距離となってしまっても、終了
+				bfsPos [0].set_bfsDist (bfsDist);
+				return bfsPos; // 終了
+			} else {
+				return bfs (bfsPos, cue, target, posHist, dnmeAllCue, nowLeastDist);
 
+			}
 		}
 
 	}
