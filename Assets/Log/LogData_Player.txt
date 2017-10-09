@@ -1,0 +1,3457 @@
+成功 Item0 bfs終了 bfsDist: 21 bfsPos.Length = 250
+no: 21 / bfsPos.Length = 249
+cccount: 21
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (4.5, -13.5)
+BestWay pos: (4.5, -14.5)
+BestWay pos: (4.5, -15.5)
+BestWay pos: (3.5, -15.5)
+BestWay pos: (2.5, -15.5)
+BestWay pos: (1.5, -15.5)
+=======
+成功 Item1 bfs終了 bfsDist: 30 bfsPos.Length = 466
+キュー0 Item2 bfs終了 bfsDist: 32 bfsPos.Length = 1699
+成功 Item3 bfs終了 bfsDist: 15 bfsPos.Length = 98
+no: 15 / bfsPos.Length = 97
+cccount: 15
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (4.5, -13.5)
+BestWay pos: (4.5, -14.5)
+BestWay pos: (4.5, -15.5)
+BestWay pos: (3.5, -15.5)
+BestWay pos: (2.5, -15.5)
+BestWay pos: (1.5, -15.5)
+=======
+成功 Item4 bfs終了 bfsDist: 11 bfsPos.Length = 47
+no: 11 / bfsPos.Length = 46
+cccount: 11
+BestWay pos: (6.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (4.5, -13.5)
+BestWay pos: (4.5, -14.5)
+BestWay pos: (4.5, -15.5)
+BestWay pos: (3.5, -15.5)
+BestWay pos: (2.5, -15.5)
+BestWay pos: (1.5, -15.5)
+=======
+成功 Item5 bfs終了 bfsDist: 17 bfsPos.Length = 139
+成功 Item6 bfs終了 bfsDist: 3 bfsPos.Length = 9
+no: 3 / bfsPos.Length = 8
+cccount: 3
+BestWay pos: (1.5, -12.5)
+BestWay pos: (1.5, -13.5)
+BestWay pos: (1.5, -14.5)
+BestWay pos: (1.5, -15.5)
+=======
+成功 Item7 bfs終了 bfsDist: 21 bfsPos.Length = 257
+Bestway.Length = 4
+
+一番近いitem: Item6 距離: 3
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 20 bfsPos.Length = 137
+no: 20 / bfsPos.Length = 136
+cccount: 20
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (3.5, -12.5)
+BestWay pos: (2.5, -12.5)
+BestWay pos: (1.5, -12.5)
+BestWay pos: (1.5, -13.5)
+BestWay pos: (1.5, -14.5)
+=======
+成功 Item1 bfs終了 bfsDist: 29 bfsPos.Length = 242
+キュー0 Item2 bfs終了 bfsDist: 31 bfsPos.Length = 894
+成功 Item3 bfs終了 bfsDist: 14 bfsPos.Length = 59
+no: 14 / bfsPos.Length = 58
+cccount: 14
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (3.5, -12.5)
+BestWay pos: (2.5, -12.5)
+BestWay pos: (1.5, -12.5)
+BestWay pos: (1.5, -13.5)
+BestWay pos: (1.5, -14.5)
+=======
+成功 Item4 bfs終了 bfsDist: 10 bfsPos.Length = 32
+no: 10 / bfsPos.Length = 31
+cccount: 10
+BestWay pos: (6.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (3.5, -12.5)
+BestWay pos: (2.5, -12.5)
+BestWay pos: (1.5, -12.5)
+BestWay pos: (1.5, -13.5)
+BestWay pos: (1.5, -14.5)
+=======
+成功 Item5 bfs終了 bfsDist: 16 bfsPos.Length = 79
+成功 Item6 bfs終了 bfsDist: 2 bfsPos.Length = 7
+no: 2 / bfsPos.Length = 6
+cccount: 2
+BestWay pos: (1.5, -12.5)
+BestWay pos: (1.5, -13.5)
+BestWay pos: (1.5, -14.5)
+=======
+成功 Item7 bfs終了 bfsDist: 20 bfsPos.Length = 144
+Bestway.Length = 3
+
+一番近いitem: Item6 距離: 2
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 19 bfsPos.Length = 137
+no: 19 / bfsPos.Length = 136
+cccount: 19
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (3.5, -12.5)
+BestWay pos: (2.5, -12.5)
+BestWay pos: (1.5, -12.5)
+BestWay pos: (1.5, -13.5)
+=======
+成功 Item1 bfs終了 bfsDist: 28 bfsPos.Length = 242
+成功 Item2 bfs終了 bfsDist: 14 bfsPos.Length = 115
+no: 14 / bfsPos.Length = 114
+cccount: 14
+BestWay pos: (1.5, -3.5)
+BestWay pos: (1.5, -4.5)
+BestWay pos: (1.5, -5.5)
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (2.5, -9.5)
+BestWay pos: (1.5, -9.5)
+BestWay pos: (1.5, -10.5)
+BestWay pos: (1.5, -11.5)
+BestWay pos: (1.5, -12.5)
+BestWay pos: (1.5, -13.5)
+=======
+成功 Item3 bfs終了 bfsDist: 13 bfsPos.Length = 59
+no: 13 / bfsPos.Length = 58
+cccount: 13
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (3.5, -12.5)
+BestWay pos: (2.5, -12.5)
+BestWay pos: (1.5, -12.5)
+BestWay pos: (1.5, -13.5)
+=======
+成功 Item4 bfs終了 bfsDist: 9 bfsPos.Length = 32
+no: 9 / bfsPos.Length = 31
+cccount: 9
+BestWay pos: (6.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (3.5, -12.5)
+BestWay pos: (2.5, -12.5)
+BestWay pos: (1.5, -12.5)
+BestWay pos: (1.5, -13.5)
+=======
+成功 Item5 bfs終了 bfsDist: 15 bfsPos.Length = 79
+成功 Item6 bfs終了 bfsDist: 1 bfsPos.Length = 5
+no: 1 / bfsPos.Length = 4
+cccount: 1
+BestWay pos: (1.5, -12.5)
+BestWay pos: (1.5, -13.5)
+=======
+成功 Item7 bfs終了 bfsDist: 19 bfsPos.Length = 144
+Bestway.Length = 2
+
+一番近いitem: Item6 距離: 1
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 18 bfsPos.Length = 138
+no: 18 / bfsPos.Length = 137
+cccount: 18
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (3.5, -12.5)
+BestWay pos: (2.5, -12.5)
+BestWay pos: (1.5, -12.5)
+=======
+成功 Item1 bfs終了 bfsDist: 27 bfsPos.Length = 243
+成功 Item2 bfs終了 bfsDist: 15 bfsPos.Length = 173
+no: 15 / bfsPos.Length = 172
+cccount: 15
+BestWay pos: (1.5, -3.5)
+BestWay pos: (2.5, -3.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (2.5, -9.5)
+BestWay pos: (1.5, -9.5)
+BestWay pos: (1.5, -10.5)
+BestWay pos: (1.5, -11.5)
+BestWay pos: (1.5, -12.5)
+=======
+成功 Item3 bfs終了 bfsDist: 12 bfsPos.Length = 60
+no: 12 / bfsPos.Length = 59
+cccount: 12
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (3.5, -12.5)
+BestWay pos: (2.5, -12.5)
+BestWay pos: (1.5, -12.5)
+=======
+成功 Item4 bfs終了 bfsDist: 8 bfsPos.Length = 33
+no: 8 / bfsPos.Length = 32
+cccount: 8
+BestWay pos: (6.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (3.5, -12.5)
+BestWay pos: (2.5, -12.5)
+BestWay pos: (1.5, -12.5)
+=======
+成功 Item5 bfs終了 bfsDist: 14 bfsPos.Length = 80
+成功 Item7 bfs終了 bfsDist: 18 bfsPos.Length = 145
+Bestway.Length = 9
+
+一番近いitem: Item4 距離: 8
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 17 bfsPos.Length = 137
+no: 17 / bfsPos.Length = 136
+cccount: 17
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (3.5, -12.5)
+BestWay pos: (2.5, -12.5)
+=======
+成功 Item1 bfs終了 bfsDist: 26 bfsPos.Length = 242
+キュー0 Item2 bfs終了 bfsDist: 28 bfsPos.Length = 571
+成功 Item3 bfs終了 bfsDist: 11 bfsPos.Length = 59
+no: 11 / bfsPos.Length = 58
+cccount: 11
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (3.5, -12.5)
+BestWay pos: (2.5, -12.5)
+=======
+成功 Item4 bfs終了 bfsDist: 7 bfsPos.Length = 32
+no: 7 / bfsPos.Length = 31
+cccount: 7
+BestWay pos: (6.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (3.5, -12.5)
+BestWay pos: (2.5, -12.5)
+=======
+成功 Item5 bfs終了 bfsDist: 13 bfsPos.Length = 79
+成功 Item7 bfs終了 bfsDist: 17 bfsPos.Length = 144
+Bestway.Length = 8
+
+一番近いitem: Item4 距離: 7
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 16 bfsPos.Length = 137
+no: 16 / bfsPos.Length = 136
+cccount: 16
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (3.5, -12.5)
+=======
+成功 Item1 bfs終了 bfsDist: 25 bfsPos.Length = 242
+キュー0 Item2 bfs終了 bfsDist: 27 bfsPos.Length = 544
+成功 Item3 bfs終了 bfsDist: 10 bfsPos.Length = 59
+no: 10 / bfsPos.Length = 58
+cccount: 10
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (3.5, -12.5)
+=======
+成功 Item4 bfs終了 bfsDist: 6 bfsPos.Length = 32
+no: 6 / bfsPos.Length = 31
+cccount: 6
+BestWay pos: (6.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (3.5, -12.5)
+=======
+成功 Item5 bfs終了 bfsDist: 12 bfsPos.Length = 79
+成功 Item7 bfs終了 bfsDist: 16 bfsPos.Length = 144
+Bestway.Length = 7
+
+一番近いitem: Item4 距離: 6
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 15 bfsPos.Length = 137
+no: 15 / bfsPos.Length = 136
+cccount: 15
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+=======
+成功 Item1 bfs終了 bfsDist: 24 bfsPos.Length = 242
+成功 Item2 bfs終了 bfsDist: 12 bfsPos.Length = 135
+no: 12 / bfsPos.Length = 134
+cccount: 12
+BestWay pos: (1.5, -3.5)
+BestWay pos: (1.5, -4.5)
+BestWay pos: (1.5, -5.5)
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+=======
+成功 Item3 bfs終了 bfsDist: 9 bfsPos.Length = 59
+no: 9 / bfsPos.Length = 58
+cccount: 9
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+=======
+成功 Item4 bfs終了 bfsDist: 5 bfsPos.Length = 30
+no: 5 / bfsPos.Length = 29
+cccount: 5
+BestWay pos: (6.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+=======
+成功 Item5 bfs終了 bfsDist: 11 bfsPos.Length = 79
+成功 Item7 bfs終了 bfsDist: 15 bfsPos.Length = 144
+Bestway.Length = 6
+
+一番近いitem: Item4 距離: 5
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 14 bfsPos.Length = 107
+no: 14 / bfsPos.Length = 106
+cccount: 14
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+=======
+成功 Item1 bfs終了 bfsDist: 23 bfsPos.Length = 161
+成功 Item2 bfs終了 bfsDist: 13 bfsPos.Length = 142
+no: 13 / bfsPos.Length = 141
+cccount: 13
+BestWay pos: (1.5, -3.5)
+BestWay pos: (2.5, -3.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+=======
+成功 Item3 bfs終了 bfsDist: 8 bfsPos.Length = 51
+no: 8 / bfsPos.Length = 50
+cccount: 8
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+=======
+成功 Item4 bfs終了 bfsDist: 4 bfsPos.Length = 18
+no: 4 / bfsPos.Length = 17
+cccount: 4
+BestWay pos: (6.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+=======
+成功 Item5 bfs終了 bfsDist: 10 bfsPos.Length = 62
+成功 Item7 bfs終了 bfsDist: 16 bfsPos.Length = 128
+Bestway.Length = 5
+
+一番近いitem: Item4 距離: 4
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 13 bfsPos.Length = 100
+no: 13 / bfsPos.Length = 99
+cccount: 13
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+=======
+成功 Item1 bfs終了 bfsDist: 22 bfsPos.Length = 161
+キュー0 Item2 bfs終了 bfsDist: 24 bfsPos.Length = 350
+成功 Item3 bfs終了 bfsDist: 7 bfsPos.Length = 46
+no: 7 / bfsPos.Length = 45
+cccount: 7
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+=======
+成功 Item4 bfs終了 bfsDist: 3 bfsPos.Length = 12
+no: 3 / bfsPos.Length = 11
+cccount: 3
+BestWay pos: (6.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+=======
+成功 Item5 bfs終了 bfsDist: 9 bfsPos.Length = 58
+成功 Item7 bfs終了 bfsDist: 17 bfsPos.Length = 140
+Bestway.Length = 4
+
+一番近いitem: Item4 距離: 3
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 12 bfsPos.Length = 113
+no: 12 / bfsPos.Length = 112
+cccount: 12
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+=======
+成功 Item1 bfs終了 bfsDist: 21 bfsPos.Length = 205
+キュー0 Item2 bfs終了 bfsDist: 23 bfsPos.Length = 439
+成功 Item3 bfs終了 bfsDist: 6 bfsPos.Length = 44
+no: 6 / bfsPos.Length = 43
+cccount: 6
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+=======
+成功 Item4 bfs終了 bfsDist: 2 bfsPos.Length = 8
+no: 2 / bfsPos.Length = 7
+cccount: 2
+BestWay pos: (6.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (4.5, -9.5)
+=======
+成功 Item5 bfs終了 bfsDist: 8 bfsPos.Length = 56
+成功 Item7 bfs終了 bfsDist: 18 bfsPos.Length = 195
+Bestway.Length = 3
+
+一番近いitem: Item4 距離: 2
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 13 bfsPos.Length = 121
+no: 13 / bfsPos.Length = 120
+cccount: 13
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+=======
+成功 Item1 bfs終了 bfsDist: 20 bfsPos.Length = 171
+成功 Item2 bfs終了 bfsDist: 10 bfsPos.Length = 135
+no: 10 / bfsPos.Length = 134
+cccount: 10
+BestWay pos: (1.5, -3.5)
+BestWay pos: (1.5, -4.5)
+BestWay pos: (1.5, -5.5)
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+=======
+成功 Item3 bfs終了 bfsDist: 7 bfsPos.Length = 49
+no: 7 / bfsPos.Length = 48
+cccount: 7
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+=======
+成功 Item4 bfs終了 bfsDist: 1 bfsPos.Length = 4
+no: 1 / bfsPos.Length = 3
+cccount: 1
+BestWay pos: (6.5, -9.5)
+BestWay pos: (5.5, -9.5)
+=======
+成功 Item5 bfs終了 bfsDist: 7 bfsPos.Length = 42
+成功 Item7 bfs終了 bfsDist: 17 bfsPos.Length = 161
+Bestway.Length = 2
+
+一番近いitem: Item4 距離: 1
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 14 bfsPos.Length = 145
+no: 14 / bfsPos.Length = 144
+cccount: 14
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (6.5, -9.5)
+=======
+成功 Item1 bfs終了 bfsDist: 19 bfsPos.Length = 173
+成功 Item2 bfs終了 bfsDist: 11 bfsPos.Length = 164
+no: 11 / bfsPos.Length = 163
+cccount: 11
+BestWay pos: (1.5, -3.5)
+BestWay pos: (2.5, -3.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (5.5, -6.5)
+BestWay pos: (6.5, -6.5)
+BestWay pos: (6.5, -7.5)
+BestWay pos: (6.5, -8.5)
+BestWay pos: (6.5, -9.5)
+=======
+成功 Item3 bfs終了 bfsDist: 8 bfsPos.Length = 60
+no: 8 / bfsPos.Length = 59
+cccount: 8
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (6.5, -9.5)
+=======
+成功 Item5 bfs終了 bfsDist: 6 bfsPos.Length = 33
+no: 6 / bfsPos.Length = 32
+cccount: 6
+BestWay pos: (12.5, -9.5)
+BestWay pos: (11.5, -9.5)
+BestWay pos: (10.5, -9.5)
+BestWay pos: (9.5, -9.5)
+BestWay pos: (8.5, -9.5)
+BestWay pos: (7.5, -9.5)
+BestWay pos: (6.5, -9.5)
+=======
+成功 Item7 bfs終了 bfsDist: 16 bfsPos.Length = 163
+Bestway.Length = 7
+
+一番近いitem: Item5 距離: 6
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 15 bfsPos.Length = 177
+no: 15 / bfsPos.Length = 176
+cccount: 15
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (6.5, -9.5)
+BestWay pos: (7.5, -9.5)
+=======
+成功 Item1 bfs終了 bfsDist: 18 bfsPos.Length = 190
+キュー0 Item2 bfs終了 bfsDist: 20 bfsPos.Length = 321
+成功 Item3 bfs終了 bfsDist: 9 bfsPos.Length = 87
+no: 9 / bfsPos.Length = 86
+cccount: 9
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (6.5, -9.5)
+BestWay pos: (7.5, -9.5)
+=======
+成功 Item5 bfs終了 bfsDist: 5 bfsPos.Length = 27
+no: 5 / bfsPos.Length = 26
+cccount: 5
+BestWay pos: (12.5, -9.5)
+BestWay pos: (11.5, -9.5)
+BestWay pos: (10.5, -9.5)
+BestWay pos: (9.5, -9.5)
+BestWay pos: (8.5, -9.5)
+BestWay pos: (7.5, -9.5)
+=======
+成功 Item7 bfs終了 bfsDist: 15 bfsPos.Length = 175
+Bestway.Length = 6
+
+一番近いitem: Item5 距離: 5
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 16 bfsPos.Length = 169
+no: 16 / bfsPos.Length = 168
+cccount: 16
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (6.5, -9.5)
+BestWay pos: (7.5, -9.5)
+BestWay pos: (8.5, -9.5)
+=======
+成功 Item1 bfs終了 bfsDist: 17 bfsPos.Length = 171
+キュー0 Item2 bfs終了 bfsDist: 19 bfsPos.Length = 295
+成功 Item3 bfs終了 bfsDist: 10 bfsPos.Length = 103
+no: 10 / bfsPos.Length = 102
+cccount: 10
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (6.5, -9.5)
+BestWay pos: (7.5, -9.5)
+BestWay pos: (8.5, -9.5)
+=======
+成功 Item5 bfs終了 bfsDist: 4 bfsPos.Length = 18
+no: 4 / bfsPos.Length = 17
+cccount: 4
+BestWay pos: (12.5, -9.5)
+BestWay pos: (11.5, -9.5)
+BestWay pos: (10.5, -9.5)
+BestWay pos: (9.5, -9.5)
+BestWay pos: (8.5, -9.5)
+=======
+成功 Item7 bfs終了 bfsDist: 14 bfsPos.Length = 156
+Bestway.Length = 5
+
+一番近いitem: Item5 距離: 4
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 17 bfsPos.Length = 177
+no: 17 / bfsPos.Length = 176
+cccount: 17
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (6.5, -9.5)
+BestWay pos: (7.5, -9.5)
+BestWay pos: (8.5, -9.5)
+BestWay pos: (9.5, -9.5)
+=======
+成功 Item1 bfs終了 bfsDist: 16 bfsPos.Length = 172
+no: 16 / bfsPos.Length = 171
+cccount: 16
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+BestWay pos: (15.5, -8.5)
+BestWay pos: (15.5, -9.5)
+BestWay pos: (14.5, -9.5)
+BestWay pos: (13.5, -9.5)
+BestWay pos: (12.5, -9.5)
+BestWay pos: (11.5, -9.5)
+BestWay pos: (10.5, -9.5)
+BestWay pos: (9.5, -9.5)
+=======
+成功 Item2 bfs終了 bfsDist: 14 bfsPos.Length = 280
+no: 14 / bfsPos.Length = 279
+cccount: 14
+BestWay pos: (1.5, -3.5)
+BestWay pos: (1.5, -4.5)
+BestWay pos: (1.5, -5.5)
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (6.5, -9.5)
+BestWay pos: (7.5, -9.5)
+BestWay pos: (8.5, -9.5)
+BestWay pos: (9.5, -9.5)
+=======
+成功 Item3 bfs終了 bfsDist: 11 bfsPos.Length = 126
+no: 11 / bfsPos.Length = 125
+cccount: 11
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (6.5, -9.5)
+BestWay pos: (7.5, -9.5)
+BestWay pos: (8.5, -9.5)
+BestWay pos: (9.5, -9.5)
+=======
+成功 Item5 bfs終了 bfsDist: 3 bfsPos.Length = 14
+no: 3 / bfsPos.Length = 13
+cccount: 3
+BestWay pos: (12.5, -9.5)
+BestWay pos: (11.5, -9.5)
+BestWay pos: (10.5, -9.5)
+BestWay pos: (9.5, -9.5)
+=======
+成功 Item7 bfs終了 bfsDist: 13 bfsPos.Length = 151
+Bestway.Length = 4
+
+一番近いitem: Item5 距離: 3
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 18 bfsPos.Length = 185
+no: 18 / bfsPos.Length = 184
+cccount: 18
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (6.5, -9.5)
+BestWay pos: (7.5, -9.5)
+BestWay pos: (8.5, -9.5)
+BestWay pos: (9.5, -9.5)
+BestWay pos: (10.5, -9.5)
+=======
+成功 Item1 bfs終了 bfsDist: 15 bfsPos.Length = 164
+no: 15 / bfsPos.Length = 163
+cccount: 15
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+BestWay pos: (15.5, -8.5)
+BestWay pos: (15.5, -9.5)
+BestWay pos: (14.5, -9.5)
+BestWay pos: (13.5, -9.5)
+BestWay pos: (12.5, -9.5)
+BestWay pos: (11.5, -9.5)
+BestWay pos: (10.5, -9.5)
+=======
+成功 Item2 bfs終了 bfsDist: 15 bfsPos.Length = 294
+成功 Item3 bfs終了 bfsDist: 12 bfsPos.Length = 137
+no: 12 / bfsPos.Length = 136
+cccount: 12
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (6.5, -9.5)
+BestWay pos: (7.5, -9.5)
+BestWay pos: (8.5, -9.5)
+BestWay pos: (9.5, -9.5)
+BestWay pos: (10.5, -9.5)
+=======
+成功 Item5 bfs終了 bfsDist: 2 bfsPos.Length = 7
+no: 2 / bfsPos.Length = 6
+cccount: 2
+BestWay pos: (12.5, -9.5)
+BestWay pos: (11.5, -9.5)
+BestWay pos: (10.5, -9.5)
+=======
+成功 Item7 bfs終了 bfsDist: 12 bfsPos.Length = 117
+Bestway.Length = 3
+
+一番近いitem: Item5 距離: 2
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 19 bfsPos.Length = 172
+no: 19 / bfsPos.Length = 171
+cccount: 19
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (6.5, -9.5)
+BestWay pos: (7.5, -9.5)
+BestWay pos: (8.5, -9.5)
+BestWay pos: (9.5, -9.5)
+BestWay pos: (10.5, -9.5)
+BestWay pos: (11.5, -9.5)
+=======
+成功 Item1 bfs終了 bfsDist: 14 bfsPos.Length = 137
+no: 14 / bfsPos.Length = 136
+cccount: 14
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+BestWay pos: (15.5, -8.5)
+BestWay pos: (15.5, -9.5)
+BestWay pos: (14.5, -9.5)
+BestWay pos: (13.5, -9.5)
+BestWay pos: (12.5, -9.5)
+BestWay pos: (11.5, -9.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 17 bfsPos.Length = 286
+成功 Item3 bfs終了 bfsDist: 13 bfsPos.Length = 137
+no: 13 / bfsPos.Length = 136
+cccount: 13
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (6.5, -9.5)
+BestWay pos: (7.5, -9.5)
+BestWay pos: (8.5, -9.5)
+BestWay pos: (9.5, -9.5)
+BestWay pos: (10.5, -9.5)
+BestWay pos: (11.5, -9.5)
+=======
+成功 Item5 bfs終了 bfsDist: 1 bfsPos.Length = 4
+no: 1 / bfsPos.Length = 3
+cccount: 1
+BestWay pos: (12.5, -9.5)
+BestWay pos: (11.5, -9.5)
+=======
+成功 Item7 bfs終了 bfsDist: 11 bfsPos.Length = 91
+Bestway.Length = 2
+
+一番近いitem: Item5 距離: 1
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 20 bfsPos.Length = 174
+no: 20 / bfsPos.Length = 173
+cccount: 20
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (6.5, -9.5)
+BestWay pos: (7.5, -9.5)
+BestWay pos: (8.5, -9.5)
+BestWay pos: (9.5, -9.5)
+BestWay pos: (10.5, -9.5)
+BestWay pos: (11.5, -9.5)
+BestWay pos: (12.5, -9.5)
+=======
+成功 Item1 bfs終了 bfsDist: 13 bfsPos.Length = 109
+no: 13 / bfsPos.Length = 108
+cccount: 13
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+BestWay pos: (15.5, -8.5)
+BestWay pos: (15.5, -9.5)
+BestWay pos: (14.5, -9.5)
+BestWay pos: (13.5, -9.5)
+BestWay pos: (12.5, -9.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 18 bfsPos.Length = 326
+成功 Item3 bfs終了 bfsDist: 14 bfsPos.Length = 142
+成功 Item7 bfs終了 bfsDist: 10 bfsPos.Length = 78
+no: 10 / bfsPos.Length = 77
+cccount: 10
+BestWay pos: (16.5, -15.5)
+BestWay pos: (15.5, -15.5)
+BestWay pos: (14.5, -15.5)
+BestWay pos: (13.5, -15.5)
+BestWay pos: (13.5, -14.5)
+BestWay pos: (13.5, -13.5)
+BestWay pos: (13.5, -12.5)
+BestWay pos: (13.5, -11.5)
+BestWay pos: (13.5, -10.5)
+BestWay pos: (13.5, -9.5)
+BestWay pos: (12.5, -9.5)
+=======
+Bestway.Length = 11
+
+一番近いitem: Item7 距離: 10
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 21 bfsPos.Length = 196
+no: 21 / bfsPos.Length = 195
+cccount: 21
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (6.5, -9.5)
+BestWay pos: (7.5, -9.5)
+BestWay pos: (8.5, -9.5)
+BestWay pos: (9.5, -9.5)
+BestWay pos: (10.5, -9.5)
+BestWay pos: (11.5, -9.5)
+BestWay pos: (12.5, -9.5)
+BestWay pos: (13.5, -9.5)
+=======
+成功 Item1 bfs終了 bfsDist: 12 bfsPos.Length = 95
+no: 12 / bfsPos.Length = 94
+cccount: 12
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+BestWay pos: (15.5, -8.5)
+BestWay pos: (15.5, -9.5)
+BestWay pos: (14.5, -9.5)
+BestWay pos: (13.5, -9.5)
+=======
+成功 Item2 bfs終了 bfsDist: 18 bfsPos.Length = 363
+成功 Item3 bfs終了 bfsDist: 15 bfsPos.Length = 161
+成功 Item7 bfs終了 bfsDist: 9 bfsPos.Length = 69
+no: 9 / bfsPos.Length = 68
+cccount: 9
+BestWay pos: (16.5, -15.5)
+BestWay pos: (15.5, -15.5)
+BestWay pos: (14.5, -15.5)
+BestWay pos: (13.5, -15.5)
+BestWay pos: (13.5, -14.5)
+BestWay pos: (13.5, -13.5)
+BestWay pos: (13.5, -12.5)
+BestWay pos: (13.5, -11.5)
+BestWay pos: (13.5, -10.5)
+BestWay pos: (13.5, -9.5)
+=======
+Bestway.Length = 10
+
+一番近いitem: Item7 距離: 9
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 22 bfsPos.Length = 159
+no: 22 / bfsPos.Length = 158
+cccount: 22
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (6.5, -9.5)
+BestWay pos: (7.5, -9.5)
+BestWay pos: (8.5, -9.5)
+BestWay pos: (9.5, -9.5)
+BestWay pos: (10.5, -9.5)
+BestWay pos: (11.5, -9.5)
+BestWay pos: (12.5, -9.5)
+BestWay pos: (13.5, -9.5)
+BestWay pos: (13.5, -10.5)
+=======
+成功 Item1 bfs終了 bfsDist: 13 bfsPos.Length = 92
+no: 13 / bfsPos.Length = 91
+cccount: 13
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+BestWay pos: (15.5, -8.5)
+BestWay pos: (15.5, -9.5)
+BestWay pos: (14.5, -9.5)
+BestWay pos: (13.5, -9.5)
+BestWay pos: (13.5, -10.5)
+=======
+成功 Item2 bfs終了 bfsDist: 19 bfsPos.Length = 281
+成功 Item3 bfs終了 bfsDist: 16 bfsPos.Length = 137
+成功 Item7 bfs終了 bfsDist: 8 bfsPos.Length = 59
+no: 8 / bfsPos.Length = 58
+cccount: 8
+BestWay pos: (16.5, -15.5)
+BestWay pos: (15.5, -15.5)
+BestWay pos: (14.5, -15.5)
+BestWay pos: (13.5, -15.5)
+BestWay pos: (13.5, -14.5)
+BestWay pos: (13.5, -13.5)
+BestWay pos: (13.5, -12.5)
+BestWay pos: (13.5, -11.5)
+BestWay pos: (13.5, -10.5)
+=======
+Bestway.Length = 9
+
+一番近いitem: Item7 距離: 8
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 23 bfsPos.Length = 159
+no: 23 / bfsPos.Length = 158
+cccount: 23
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (6.5, -9.5)
+BestWay pos: (7.5, -9.5)
+BestWay pos: (8.5, -9.5)
+BestWay pos: (9.5, -9.5)
+BestWay pos: (10.5, -9.5)
+BestWay pos: (11.5, -9.5)
+BestWay pos: (12.5, -9.5)
+BestWay pos: (13.5, -9.5)
+BestWay pos: (13.5, -10.5)
+BestWay pos: (13.5, -11.5)
+=======
+成功 Item1 bfs終了 bfsDist: 14 bfsPos.Length = 98
+no: 14 / bfsPos.Length = 97
+cccount: 14
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+BestWay pos: (15.5, -8.5)
+BestWay pos: (15.5, -9.5)
+BestWay pos: (14.5, -9.5)
+BestWay pos: (13.5, -9.5)
+BestWay pos: (13.5, -10.5)
+BestWay pos: (13.5, -11.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 21 bfsPos.Length = 286
+成功 Item3 bfs終了 bfsDist: 17 bfsPos.Length = 139
+成功 Item7 bfs終了 bfsDist: 7 bfsPos.Length = 50
+no: 7 / bfsPos.Length = 49
+cccount: 7
+BestWay pos: (16.5, -15.5)
+BestWay pos: (15.5, -15.5)
+BestWay pos: (14.5, -15.5)
+BestWay pos: (13.5, -15.5)
+BestWay pos: (13.5, -14.5)
+BestWay pos: (13.5, -13.5)
+BestWay pos: (13.5, -12.5)
+BestWay pos: (13.5, -11.5)
+=======
+Bestway.Length = 8
+
+一番近いitem: Item7 距離: 7
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 24 bfsPos.Length = 199
+no: 24 / bfsPos.Length = 198
+cccount: 24
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (5.5, -12.5)
+BestWay pos: (6.5, -12.5)
+BestWay pos: (7.5, -12.5)
+BestWay pos: (8.5, -12.5)
+BestWay pos: (9.5, -12.5)
+BestWay pos: (10.5, -12.5)
+BestWay pos: (11.5, -12.5)
+BestWay pos: (12.5, -12.5)
+BestWay pos: (13.5, -12.5)
+=======
+成功 Item1 bfs終了 bfsDist: 15 bfsPos.Length = 115
+no: 15 / bfsPos.Length = 114
+cccount: 15
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+BestWay pos: (15.5, -8.5)
+BestWay pos: (15.5, -9.5)
+BestWay pos: (14.5, -9.5)
+BestWay pos: (13.5, -9.5)
+BestWay pos: (13.5, -10.5)
+BestWay pos: (13.5, -11.5)
+BestWay pos: (13.5, -12.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 22 bfsPos.Length = 404
+成功 Item3 bfs終了 bfsDist: 18 bfsPos.Length = 163
+成功 Item7 bfs終了 bfsDist: 6 bfsPos.Length = 42
+no: 6 / bfsPos.Length = 41
+cccount: 6
+BestWay pos: (16.5, -15.5)
+BestWay pos: (15.5, -15.5)
+BestWay pos: (14.5, -15.5)
+BestWay pos: (13.5, -15.5)
+BestWay pos: (13.5, -14.5)
+BestWay pos: (13.5, -13.5)
+BestWay pos: (13.5, -12.5)
+=======
+Bestway.Length = 7
+
+一番近いitem: Item7 距離: 6
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 25 bfsPos.Length = 198
+no: 25 / bfsPos.Length = 197
+cccount: 25
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (5.5, -12.5)
+BestWay pos: (6.5, -12.5)
+BestWay pos: (7.5, -12.5)
+BestWay pos: (8.5, -12.5)
+BestWay pos: (9.5, -12.5)
+BestWay pos: (10.5, -12.5)
+BestWay pos: (11.5, -12.5)
+BestWay pos: (12.5, -12.5)
+BestWay pos: (13.5, -12.5)
+BestWay pos: (13.5, -13.5)
+=======
+成功 Item1 bfs終了 bfsDist: 16 bfsPos.Length = 114
+no: 16 / bfsPos.Length = 113
+cccount: 16
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+BestWay pos: (15.5, -8.5)
+BestWay pos: (15.5, -9.5)
+BestWay pos: (14.5, -9.5)
+BestWay pos: (13.5, -9.5)
+BestWay pos: (13.5, -10.5)
+BestWay pos: (13.5, -11.5)
+BestWay pos: (13.5, -12.5)
+BestWay pos: (13.5, -13.5)
+=======
+成功 Item2 bfs終了 bfsDist: 22 bfsPos.Length = 377
+成功 Item3 bfs終了 bfsDist: 19 bfsPos.Length = 162
+成功 Item7 bfs終了 bfsDist: 5 bfsPos.Length = 32
+no: 5 / bfsPos.Length = 31
+cccount: 5
+BestWay pos: (16.5, -15.5)
+BestWay pos: (15.5, -15.5)
+BestWay pos: (14.5, -15.5)
+BestWay pos: (13.5, -15.5)
+BestWay pos: (13.5, -14.5)
+BestWay pos: (13.5, -13.5)
+=======
+Bestway.Length = 6
+
+一番近いitem: Item7 距離: 5
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 26 bfsPos.Length = 198
+no: 26 / bfsPos.Length = 197
+cccount: 26
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (5.5, -12.5)
+BestWay pos: (6.5, -12.5)
+BestWay pos: (7.5, -12.5)
+BestWay pos: (8.5, -12.5)
+BestWay pos: (9.5, -12.5)
+BestWay pos: (10.5, -12.5)
+BestWay pos: (11.5, -12.5)
+BestWay pos: (12.5, -12.5)
+BestWay pos: (13.5, -12.5)
+BestWay pos: (13.5, -13.5)
+BestWay pos: (13.5, -14.5)
+=======
+成功 Item1 bfs終了 bfsDist: 17 bfsPos.Length = 114
+no: 17 / bfsPos.Length = 113
+cccount: 17
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+BestWay pos: (15.5, -8.5)
+BestWay pos: (15.5, -9.5)
+BestWay pos: (14.5, -9.5)
+BestWay pos: (13.5, -9.5)
+BestWay pos: (13.5, -10.5)
+BestWay pos: (13.5, -11.5)
+BestWay pos: (13.5, -12.5)
+BestWay pos: (13.5, -13.5)
+BestWay pos: (13.5, -14.5)
+=======
+成功 Item2 bfs終了 bfsDist: 23 bfsPos.Length = 374
+成功 Item3 bfs終了 bfsDist: 20 bfsPos.Length = 162
+成功 Item7 bfs終了 bfsDist: 4 bfsPos.Length = 20
+no: 4 / bfsPos.Length = 19
+cccount: 4
+BestWay pos: (16.5, -15.5)
+BestWay pos: (15.5, -15.5)
+BestWay pos: (14.5, -15.5)
+BestWay pos: (13.5, -15.5)
+BestWay pos: (13.5, -14.5)
+=======
+Bestway.Length = 5
+
+一番近いitem: Item7 距離: 4
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 27 bfsPos.Length = 269
+no: 27 / bfsPos.Length = 268
+cccount: 27
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (5.5, -12.5)
+BestWay pos: (6.5, -12.5)
+BestWay pos: (7.5, -12.5)
+BestWay pos: (8.5, -12.5)
+BestWay pos: (9.5, -12.5)
+BestWay pos: (10.5, -12.5)
+BestWay pos: (10.5, -13.5)
+BestWay pos: (10.5, -14.5)
+BestWay pos: (10.5, -15.5)
+BestWay pos: (11.5, -15.5)
+BestWay pos: (12.5, -15.5)
+BestWay pos: (13.5, -15.5)
+=======
+成功 Item1 bfs終了 bfsDist: 18 bfsPos.Length = 157
+no: 18 / bfsPos.Length = 156
+cccount: 18
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+BestWay pos: (15.5, -8.5)
+BestWay pos: (15.5, -9.5)
+BestWay pos: (14.5, -9.5)
+BestWay pos: (13.5, -9.5)
+BestWay pos: (13.5, -10.5)
+BestWay pos: (13.5, -11.5)
+BestWay pos: (13.5, -12.5)
+BestWay pos: (13.5, -13.5)
+BestWay pos: (13.5, -14.5)
+BestWay pos: (13.5, -15.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 25 bfsPos.Length = 608
+成功 Item3 bfs終了 bfsDist: 21 bfsPos.Length = 217
+成功 Item7 bfs終了 bfsDist: 3 bfsPos.Length = 14
+no: 3 / bfsPos.Length = 13
+cccount: 3
+BestWay pos: (16.5, -15.5)
+BestWay pos: (15.5, -15.5)
+BestWay pos: (14.5, -15.5)
+BestWay pos: (13.5, -15.5)
+=======
+Bestway.Length = 4
+
+一番近いitem: Item7 距離: 3
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 28 bfsPos.Length = 291
+no: 28 / bfsPos.Length = 290
+cccount: 28
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (5.5, -12.5)
+BestWay pos: (6.5, -12.5)
+BestWay pos: (7.5, -12.5)
+BestWay pos: (8.5, -12.5)
+BestWay pos: (9.5, -12.5)
+BestWay pos: (10.5, -12.5)
+BestWay pos: (10.5, -13.5)
+BestWay pos: (10.5, -14.5)
+BestWay pos: (10.5, -15.5)
+BestWay pos: (11.5, -15.5)
+BestWay pos: (12.5, -15.5)
+BestWay pos: (13.5, -15.5)
+BestWay pos: (14.5, -15.5)
+=======
+成功 Item1 bfs終了 bfsDist: 19 bfsPos.Length = 164
+no: 19 / bfsPos.Length = 163
+cccount: 19
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+BestWay pos: (15.5, -8.5)
+BestWay pos: (15.5, -9.5)
+BestWay pos: (14.5, -9.5)
+BestWay pos: (13.5, -9.5)
+BestWay pos: (13.5, -10.5)
+BestWay pos: (13.5, -11.5)
+BestWay pos: (13.5, -12.5)
+BestWay pos: (13.5, -13.5)
+BestWay pos: (13.5, -14.5)
+BestWay pos: (13.5, -15.5)
+BestWay pos: (14.5, -15.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 26 bfsPos.Length = 613
+成功 Item3 bfs終了 bfsDist: 22 bfsPos.Length = 237
+成功 Item7 bfs終了 bfsDist: 2 bfsPos.Length = 7
+no: 2 / bfsPos.Length = 6
+cccount: 2
+BestWay pos: (16.5, -15.5)
+BestWay pos: (15.5, -15.5)
+BestWay pos: (14.5, -15.5)
+=======
+Bestway.Length = 3
+
+一番近いitem: Item7 距離: 2
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 29 bfsPos.Length = 257
+no: 29 / bfsPos.Length = 256
+cccount: 29
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (5.5, -12.5)
+BestWay pos: (6.5, -12.5)
+BestWay pos: (7.5, -12.5)
+BestWay pos: (8.5, -12.5)
+BestWay pos: (9.5, -12.5)
+BestWay pos: (10.5, -12.5)
+BestWay pos: (10.5, -13.5)
+BestWay pos: (10.5, -14.5)
+BestWay pos: (10.5, -15.5)
+BestWay pos: (11.5, -15.5)
+BestWay pos: (12.5, -15.5)
+BestWay pos: (13.5, -15.5)
+BestWay pos: (14.5, -15.5)
+BestWay pos: (15.5, -15.5)
+=======
+成功 Item1 bfs終了 bfsDist: 18 bfsPos.Length = 125
+no: 18 / bfsPos.Length = 124
+cccount: 18
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+BestWay pos: (15.5, -8.5)
+BestWay pos: (15.5, -9.5)
+BestWay pos: (16.5, -9.5)
+BestWay pos: (16.5, -10.5)
+BestWay pos: (16.5, -11.5)
+BestWay pos: (16.5, -12.5)
+BestWay pos: (16.5, -13.5)
+BestWay pos: (16.5, -14.5)
+BestWay pos: (16.5, -15.5)
+BestWay pos: (15.5, -15.5)
+=======
+成功 Item2 bfs終了 bfsDist: 26 bfsPos.Length = 588
+成功 Item3 bfs終了 bfsDist: 23 bfsPos.Length = 209
+成功 Item7 bfs終了 bfsDist: 1 bfsPos.Length = 4
+no: 1 / bfsPos.Length = 3
+cccount: 1
+BestWay pos: (16.5, -15.5)
+BestWay pos: (15.5, -15.5)
+=======
+Bestway.Length = 2
+
+一番近いitem: Item7 距離: 1
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 30 bfsPos.Length = 462
+no: 30 / bfsPos.Length = 461
+cccount: 30
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (5.5, -12.5)
+BestWay pos: (6.5, -12.5)
+BestWay pos: (7.5, -12.5)
+BestWay pos: (8.5, -12.5)
+BestWay pos: (9.5, -12.5)
+BestWay pos: (10.5, -12.5)
+BestWay pos: (10.5, -13.5)
+BestWay pos: (10.5, -14.5)
+BestWay pos: (10.5, -15.5)
+BestWay pos: (11.5, -15.5)
+BestWay pos: (12.5, -15.5)
+BestWay pos: (13.5, -15.5)
+BestWay pos: (14.5, -15.5)
+BestWay pos: (15.5, -15.5)
+BestWay pos: (16.5, -15.5)
+=======
+成功 Item1 bfs終了 bfsDist: 17 bfsPos.Length = 150
+no: 17 / bfsPos.Length = 149
+cccount: 17
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+BestWay pos: (15.5, -8.5)
+BestWay pos: (15.5, -9.5)
+BestWay pos: (16.5, -9.5)
+BestWay pos: (16.5, -10.5)
+BestWay pos: (16.5, -11.5)
+BestWay pos: (16.5, -12.5)
+BestWay pos: (16.5, -13.5)
+BestWay pos: (16.5, -14.5)
+BestWay pos: (16.5, -15.5)
+=======
+成功 Item2 bfs終了 bfsDist: 27 bfsPos.Length = 1063
+成功 Item3 bfs終了 bfsDist: 24 bfsPos.Length = 346
+Bestway.Length = 18
+
+一番近いitem: Item1 距離: 17
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 29 bfsPos.Length = 270
+no: 29 / bfsPos.Length = 269
+cccount: 29
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (5.5, -12.5)
+BestWay pos: (6.5, -12.5)
+BestWay pos: (7.5, -12.5)
+BestWay pos: (8.5, -12.5)
+BestWay pos: (9.5, -12.5)
+BestWay pos: (10.5, -12.5)
+BestWay pos: (11.5, -12.5)
+BestWay pos: (12.5, -12.5)
+BestWay pos: (13.5, -12.5)
+BestWay pos: (14.5, -12.5)
+BestWay pos: (15.5, -12.5)
+BestWay pos: (16.5, -12.5)
+BestWay pos: (16.5, -13.5)
+BestWay pos: (16.5, -14.5)
+=======
+成功 Item1 bfs終了 bfsDist: 16 bfsPos.Length = 95
+no: 16 / bfsPos.Length = 94
+cccount: 16
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+BestWay pos: (15.5, -8.5)
+BestWay pos: (15.5, -9.5)
+BestWay pos: (16.5, -9.5)
+BestWay pos: (16.5, -10.5)
+BestWay pos: (16.5, -11.5)
+BestWay pos: (16.5, -12.5)
+BestWay pos: (16.5, -13.5)
+BestWay pos: (16.5, -14.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 27 bfsPos.Length = 618
+成功 Item3 bfs終了 bfsDist: 23 bfsPos.Length = 207
+Bestway.Length = 17
+
+一番近いitem: Item1 距離: 16
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 28 bfsPos.Length = 270
+no: 28 / bfsPos.Length = 269
+cccount: 28
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (5.5, -12.5)
+BestWay pos: (6.5, -12.5)
+BestWay pos: (7.5, -12.5)
+BestWay pos: (8.5, -12.5)
+BestWay pos: (9.5, -12.5)
+BestWay pos: (10.5, -12.5)
+BestWay pos: (11.5, -12.5)
+BestWay pos: (12.5, -12.5)
+BestWay pos: (13.5, -12.5)
+BestWay pos: (14.5, -12.5)
+BestWay pos: (15.5, -12.5)
+BestWay pos: (16.5, -12.5)
+BestWay pos: (16.5, -13.5)
+=======
+成功 Item1 bfs終了 bfsDist: 15 bfsPos.Length = 95
+no: 15 / bfsPos.Length = 94
+cccount: 15
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+BestWay pos: (15.5, -8.5)
+BestWay pos: (15.5, -9.5)
+BestWay pos: (16.5, -9.5)
+BestWay pos: (16.5, -10.5)
+BestWay pos: (16.5, -11.5)
+BestWay pos: (16.5, -12.5)
+BestWay pos: (16.5, -13.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 26 bfsPos.Length = 618
+成功 Item3 bfs終了 bfsDist: 22 bfsPos.Length = 207
+Bestway.Length = 16
+
+一番近いitem: Item1 距離: 15
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 27 bfsPos.Length = 275
+no: 27 / bfsPos.Length = 274
+cccount: 27
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (4.5, -10.5)
+BestWay pos: (4.5, -11.5)
+BestWay pos: (4.5, -12.5)
+BestWay pos: (5.5, -12.5)
+BestWay pos: (6.5, -12.5)
+BestWay pos: (7.5, -12.5)
+BestWay pos: (8.5, -12.5)
+BestWay pos: (9.5, -12.5)
+BestWay pos: (10.5, -12.5)
+BestWay pos: (11.5, -12.5)
+BestWay pos: (12.5, -12.5)
+BestWay pos: (13.5, -12.5)
+BestWay pos: (14.5, -12.5)
+BestWay pos: (15.5, -12.5)
+BestWay pos: (16.5, -12.5)
+=======
+成功 Item1 bfs終了 bfsDist: 14 bfsPos.Length = 100
+no: 14 / bfsPos.Length = 99
+cccount: 14
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+BestWay pos: (15.5, -8.5)
+BestWay pos: (15.5, -9.5)
+BestWay pos: (16.5, -9.5)
+BestWay pos: (16.5, -10.5)
+BestWay pos: (16.5, -11.5)
+BestWay pos: (16.5, -12.5)
+=======
+成功 Item2 bfs終了 bfsDist: 24 bfsPos.Length = 618
+成功 Item3 bfs終了 bfsDist: 21 bfsPos.Length = 212
+Bestway.Length = 15
+
+一番近いitem: Item1 距離: 14
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 26 bfsPos.Length = 182
+no: 26 / bfsPos.Length = 181
+cccount: 26
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (6.5, -9.5)
+BestWay pos: (7.5, -9.5)
+BestWay pos: (8.5, -9.5)
+BestWay pos: (9.5, -9.5)
+BestWay pos: (10.5, -9.5)
+BestWay pos: (11.5, -9.5)
+BestWay pos: (12.5, -9.5)
+BestWay pos: (13.5, -9.5)
+BestWay pos: (14.5, -9.5)
+BestWay pos: (15.5, -9.5)
+BestWay pos: (16.5, -9.5)
+BestWay pos: (16.5, -10.5)
+BestWay pos: (16.5, -11.5)
+=======
+成功 Item1 bfs終了 bfsDist: 13 bfsPos.Length = 79
+no: 13 / bfsPos.Length = 78
+cccount: 13
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+BestWay pos: (15.5, -8.5)
+BestWay pos: (15.5, -9.5)
+BestWay pos: (16.5, -9.5)
+BestWay pos: (16.5, -10.5)
+BestWay pos: (16.5, -11.5)
+=======
+成功 Item2 bfs終了 bfsDist: 23 bfsPos.Length = 379
+成功 Item3 bfs終了 bfsDist: 20 bfsPos.Length = 156
+Bestway.Length = 14
+
+一番近いitem: Item1 距離: 13
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 25 bfsPos.Length = 182
+no: 25 / bfsPos.Length = 181
+cccount: 25
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (6.5, -9.5)
+BestWay pos: (7.5, -9.5)
+BestWay pos: (8.5, -9.5)
+BestWay pos: (9.5, -9.5)
+BestWay pos: (10.5, -9.5)
+BestWay pos: (11.5, -9.5)
+BestWay pos: (12.5, -9.5)
+BestWay pos: (13.5, -9.5)
+BestWay pos: (14.5, -9.5)
+BestWay pos: (15.5, -9.5)
+BestWay pos: (16.5, -9.5)
+BestWay pos: (16.5, -10.5)
+=======
+成功 Item1 bfs終了 bfsDist: 12 bfsPos.Length = 77
+no: 12 / bfsPos.Length = 76
+cccount: 12
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+BestWay pos: (15.5, -8.5)
+BestWay pos: (15.5, -9.5)
+BestWay pos: (16.5, -9.5)
+BestWay pos: (16.5, -10.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 23 bfsPos.Length = 390
+成功 Item3 bfs終了 bfsDist: 19 bfsPos.Length = 154
+Bestway.Length = 13
+
+一番近いitem: Item1 距離: 12
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 24 bfsPos.Length = 252
+no: 24 / bfsPos.Length = 251
+cccount: 24
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (6.5, -9.5)
+BestWay pos: (7.5, -9.5)
+BestWay pos: (8.5, -9.5)
+BestWay pos: (9.5, -9.5)
+BestWay pos: (10.5, -9.5)
+BestWay pos: (11.5, -9.5)
+BestWay pos: (12.5, -9.5)
+BestWay pos: (13.5, -9.5)
+BestWay pos: (14.5, -9.5)
+BestWay pos: (15.5, -9.5)
+BestWay pos: (16.5, -9.5)
+=======
+成功 Item1 bfs終了 bfsDist: 11 bfsPos.Length = 83
+no: 11 / bfsPos.Length = 82
+cccount: 11
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+BestWay pos: (15.5, -8.5)
+BestWay pos: (15.5, -9.5)
+BestWay pos: (16.5, -9.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 22 bfsPos.Length = 525
+成功 Item3 bfs終了 bfsDist: 18 bfsPos.Length = 206
+Bestway.Length = 12
+
+一番近いitem: Item1 距離: 11
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 23 bfsPos.Length = 212
+no: 23 / bfsPos.Length = 211
+cccount: 23
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (3.5, -7.5)
+BestWay pos: (3.5, -8.5)
+BestWay pos: (3.5, -9.5)
+BestWay pos: (4.5, -9.5)
+BestWay pos: (5.5, -9.5)
+BestWay pos: (6.5, -9.5)
+BestWay pos: (7.5, -9.5)
+BestWay pos: (8.5, -9.5)
+BestWay pos: (9.5, -9.5)
+BestWay pos: (10.5, -9.5)
+BestWay pos: (11.5, -9.5)
+BestWay pos: (12.5, -9.5)
+BestWay pos: (13.5, -9.5)
+BestWay pos: (14.5, -9.5)
+BestWay pos: (15.5, -9.5)
+=======
+成功 Item1 bfs終了 bfsDist: 10 bfsPos.Length = 65
+no: 10 / bfsPos.Length = 64
+cccount: 10
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+BestWay pos: (15.5, -8.5)
+BestWay pos: (15.5, -9.5)
+=======
+成功 Item2 bfs終了 bfsDist: 20 bfsPos.Length = 441
+成功 Item3 bfs終了 bfsDist: 17 bfsPos.Length = 171
+Bestway.Length = 11
+
+一番近いitem: Item1 距離: 10
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 22 bfsPos.Length = 187
+no: 22 / bfsPos.Length = 186
+cccount: 22
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+BestWay pos: (9.5, -3.5)
+BestWay pos: (10.5, -3.5)
+BestWay pos: (11.5, -3.5)
+BestWay pos: (12.5, -3.5)
+BestWay pos: (13.5, -3.5)
+BestWay pos: (14.5, -3.5)
+BestWay pos: (15.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+BestWay pos: (15.5, -8.5)
+=======
+成功 Item1 bfs終了 bfsDist: 9 bfsPos.Length = 50
+no: 9 / bfsPos.Length = 49
+cccount: 9
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+BestWay pos: (15.5, -8.5)
+=======
+成功 Item2 bfs終了 bfsDist: 19 bfsPos.Length = 302
+成功 Item3 bfs終了 bfsDist: 18 bfsPos.Length = 165
+Bestway.Length = 10
+
+一番近いitem: Item1 距離: 9
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 21 bfsPos.Length = 181
+no: 21 / bfsPos.Length = 180
+cccount: 21
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+BestWay pos: (9.5, -3.5)
+BestWay pos: (10.5, -3.5)
+BestWay pos: (11.5, -3.5)
+BestWay pos: (12.5, -3.5)
+BestWay pos: (13.5, -3.5)
+BestWay pos: (14.5, -3.5)
+BestWay pos: (15.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+=======
+成功 Item1 bfs終了 bfsDist: 8 bfsPos.Length = 40
+no: 8 / bfsPos.Length = 39
+cccount: 8
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+BestWay pos: (15.5, -7.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 22 bfsPos.Length = 335
+成功 Item3 bfs終了 bfsDist: 19 bfsPos.Length = 169
+Bestway.Length = 9
+
+一番近いitem: Item1 距離: 8
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 20 bfsPos.Length = 160
+no: 20 / bfsPos.Length = 159
+cccount: 20
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+BestWay pos: (9.5, -3.5)
+BestWay pos: (10.5, -3.5)
+BestWay pos: (11.5, -3.5)
+BestWay pos: (12.5, -3.5)
+BestWay pos: (13.5, -3.5)
+BestWay pos: (14.5, -3.5)
+BestWay pos: (15.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+=======
+成功 Item1 bfs終了 bfsDist: 7 bfsPos.Length = 30
+no: 7 / bfsPos.Length = 29
+cccount: 7
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+BestWay pos: (15.5, -6.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 23 bfsPos.Length = 526
+成功 Item3 bfs終了 bfsDist: 20 bfsPos.Length = 173
+Bestway.Length = 8
+
+一番近いitem: Item1 距離: 7
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 19 bfsPos.Length = 145
+no: 19 / bfsPos.Length = 144
+cccount: 19
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+BestWay pos: (9.5, -3.5)
+BestWay pos: (10.5, -3.5)
+BestWay pos: (11.5, -3.5)
+BestWay pos: (12.5, -3.5)
+BestWay pos: (13.5, -3.5)
+BestWay pos: (14.5, -3.5)
+BestWay pos: (15.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+=======
+成功 Item1 bfs終了 bfsDist: 6 bfsPos.Length = 22
+no: 6 / bfsPos.Length = 21
+cccount: 6
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+BestWay pos: (16.5, -6.5)
+=======
+成功 Item2 bfs終了 bfsDist: 18 bfsPos.Length = 397
+成功 Item3 bfs終了 bfsDist: 21 bfsPos.Length = 162
+Bestway.Length = 7
+
+一番近いitem: Item1 距離: 6
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 18 bfsPos.Length = 133
+no: 18 / bfsPos.Length = 132
+cccount: 18
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+BestWay pos: (9.5, -3.5)
+BestWay pos: (10.5, -3.5)
+BestWay pos: (11.5, -3.5)
+BestWay pos: (12.5, -3.5)
+BestWay pos: (13.5, -3.5)
+BestWay pos: (14.5, -3.5)
+BestWay pos: (15.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+=======
+成功 Item1 bfs終了 bfsDist: 5 bfsPos.Length = 17
+no: 5 / bfsPos.Length = 16
+cccount: 5
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+BestWay pos: (16.5, -5.5)
+=======
+成功 Item2 bfs終了 bfsDist: 17 bfsPos.Length = 230
+成功 Item3 bfs終了 bfsDist: 20 bfsPos.Length = 147
+Bestway.Length = 6
+
+一番近いitem: Item1 距離: 5
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 17 bfsPos.Length = 121
+no: 17 / bfsPos.Length = 120
+cccount: 17
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+BestWay pos: (9.5, -3.5)
+BestWay pos: (10.5, -3.5)
+BestWay pos: (11.5, -3.5)
+BestWay pos: (12.5, -3.5)
+BestWay pos: (13.5, -3.5)
+BestWay pos: (14.5, -3.5)
+BestWay pos: (15.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+=======
+成功 Item1 bfs終了 bfsDist: 4 bfsPos.Length = 15
+no: 4 / bfsPos.Length = 14
+cccount: 4
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (16.5, -4.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 26 bfsPos.Length = 490
+成功 Item3 bfs終了 bfsDist: 19 bfsPos.Length = 138
+Bestway.Length = 5
+
+一番近いitem: Item1 距離: 4
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 16 bfsPos.Length = 122
+no: 16 / bfsPos.Length = 121
+cccount: 16
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+BestWay pos: (9.5, -3.5)
+BestWay pos: (10.5, -3.5)
+BestWay pos: (11.5, -3.5)
+BestWay pos: (12.5, -3.5)
+BestWay pos: (13.5, -3.5)
+BestWay pos: (14.5, -3.5)
+BestWay pos: (15.5, -3.5)
+BestWay pos: (16.5, -3.5)
+=======
+成功 Item1 bfs終了 bfsDist: 3 bfsPos.Length = 12
+no: 3 / bfsPos.Length = 11
+cccount: 3
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (16.5, -3.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 27 bfsPos.Length = 881
+成功 Item3 bfs終了 bfsDist: 18 bfsPos.Length = 147
+Bestway.Length = 4
+
+一番近いitem: Item1 距離: 3
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 17 bfsPos.Length = 122
+no: 17 / bfsPos.Length = 121
+cccount: 17
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+BestWay pos: (9.5, -3.5)
+BestWay pos: (10.5, -3.5)
+BestWay pos: (11.5, -3.5)
+BestWay pos: (12.5, -3.5)
+BestWay pos: (13.5, -3.5)
+BestWay pos: (14.5, -3.5)
+BestWay pos: (15.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (17.5, -3.5)
+=======
+成功 Item1 bfs終了 bfsDist: 2 bfsPos.Length = 6
+no: 2 / bfsPos.Length = 5
+cccount: 2
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (17.5, -3.5)
+=======
+成功 Item2 bfs終了 bfsDist: 22 bfsPos.Length = 500
+成功 Item3 bfs終了 bfsDist: 19 bfsPos.Length = 147
+Bestway.Length = 3
+
+一番近いitem: Item1 距離: 2
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 18 bfsPos.Length = 122
+no: 18 / bfsPos.Length = 121
+cccount: 18
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+BestWay pos: (9.5, -3.5)
+BestWay pos: (10.5, -3.5)
+BestWay pos: (11.5, -3.5)
+BestWay pos: (12.5, -3.5)
+BestWay pos: (13.5, -3.5)
+BestWay pos: (14.5, -3.5)
+BestWay pos: (15.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (18.5, -3.5)
+=======
+成功 Item1 bfs終了 bfsDist: 1 bfsPos.Length = 3
+no: 1 / bfsPos.Length = 2
+cccount: 1
+BestWay pos: (18.5, -2.5)
+BestWay pos: (18.5, -3.5)
+=======
+成功 Item2 bfs終了 bfsDist: 17 bfsPos.Length = 232
+成功 Item3 bfs終了 bfsDist: 20 bfsPos.Length = 147
+Bestway.Length = 2
+
+一番近いitem: Item1 距離: 1
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 19 bfsPos.Length = 122
+no: 19 / bfsPos.Length = 121
+cccount: 19
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+BestWay pos: (9.5, -3.5)
+BestWay pos: (10.5, -3.5)
+BestWay pos: (11.5, -3.5)
+BestWay pos: (12.5, -3.5)
+BestWay pos: (13.5, -3.5)
+BestWay pos: (14.5, -3.5)
+BestWay pos: (15.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (18.5, -3.5)
+BestWay pos: (18.5, -2.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 30 bfsPos.Length = 881
+成功 Item3 bfs終了 bfsDist: 21 bfsPos.Length = 147
+Bestway.Length = 20
+
+一番近いitem: Item0 距離: 19
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 18 bfsPos.Length = 122
+no: 18 / bfsPos.Length = 121
+cccount: 18
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+BestWay pos: (9.5, -3.5)
+BestWay pos: (10.5, -3.5)
+BestWay pos: (11.5, -3.5)
+BestWay pos: (12.5, -3.5)
+BestWay pos: (13.5, -3.5)
+BestWay pos: (14.5, -3.5)
+BestWay pos: (15.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (17.5, -3.5)
+BestWay pos: (18.5, -3.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 29 bfsPos.Length = 881
+成功 Item3 bfs終了 bfsDist: 20 bfsPos.Length = 147
+Bestway.Length = 19
+
+一番近いitem: Item0 距離: 18
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 17 bfsPos.Length = 122
+no: 17 / bfsPos.Length = 121
+cccount: 17
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+BestWay pos: (9.5, -3.5)
+BestWay pos: (10.5, -3.5)
+BestWay pos: (11.5, -3.5)
+BestWay pos: (12.5, -3.5)
+BestWay pos: (13.5, -3.5)
+BestWay pos: (14.5, -3.5)
+BestWay pos: (15.5, -3.5)
+BestWay pos: (16.5, -3.5)
+BestWay pos: (17.5, -3.5)
+=======
+成功 Item2 bfs終了 bfsDist: 22 bfsPos.Length = 500
+成功 Item3 bfs終了 bfsDist: 19 bfsPos.Length = 147
+Bestway.Length = 18
+
+一番近いitem: Item0 距離: 17
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 16 bfsPos.Length = 122
+no: 16 / bfsPos.Length = 121
+cccount: 16
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+BestWay pos: (9.5, -3.5)
+BestWay pos: (10.5, -3.5)
+BestWay pos: (11.5, -3.5)
+BestWay pos: (12.5, -3.5)
+BestWay pos: (13.5, -3.5)
+BestWay pos: (14.5, -3.5)
+BestWay pos: (15.5, -3.5)
+BestWay pos: (16.5, -3.5)
+=======
+成功 Item2 bfs終了 bfsDist: 15 bfsPos.Length = 232
+no: 15 / bfsPos.Length = 231
+cccount: 15
+BestWay pos: (1.5, -3.5)
+BestWay pos: (2.5, -3.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+BestWay pos: (9.5, -3.5)
+BestWay pos: (10.5, -3.5)
+BestWay pos: (11.5, -3.5)
+BestWay pos: (12.5, -3.5)
+BestWay pos: (13.5, -3.5)
+BestWay pos: (14.5, -3.5)
+BestWay pos: (15.5, -3.5)
+BestWay pos: (16.5, -3.5)
+=======
+成功 Item3 bfs終了 bfsDist: 18 bfsPos.Length = 147
+Bestway.Length = 16
+
+一番近いitem: Item2 距離: 15
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 15 bfsPos.Length = 108
+no: 15 / bfsPos.Length = 107
+cccount: 15
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+BestWay pos: (9.5, -3.5)
+BestWay pos: (10.5, -3.5)
+BestWay pos: (11.5, -3.5)
+BestWay pos: (12.5, -3.5)
+BestWay pos: (13.5, -3.5)
+BestWay pos: (14.5, -3.5)
+BestWay pos: (15.5, -3.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 26 bfsPos.Length = 527
+成功 Item3 bfs終了 bfsDist: 17 bfsPos.Length = 129
+Bestway.Length = 16
+
+一番近いitem: Item0 距離: 15
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 14 bfsPos.Length = 99
+no: 14 / bfsPos.Length = 98
+cccount: 14
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+BestWay pos: (9.5, -3.5)
+BestWay pos: (10.5, -3.5)
+BestWay pos: (11.5, -3.5)
+BestWay pos: (12.5, -3.5)
+BestWay pos: (13.5, -3.5)
+BestWay pos: (14.5, -3.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 25 bfsPos.Length = 522
+成功 Item3 bfs終了 bfsDist: 16 bfsPos.Length = 118
+Bestway.Length = 15
+
+一番近いitem: Item0 距離: 14
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 13 bfsPos.Length = 91
+no: 13 / bfsPos.Length = 90
+cccount: 13
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+BestWay pos: (9.5, -3.5)
+BestWay pos: (10.5, -3.5)
+BestWay pos: (11.5, -3.5)
+BestWay pos: (12.5, -3.5)
+BestWay pos: (13.5, -3.5)
+=======
+成功 Item2 bfs終了 bfsDist: 18 bfsPos.Length = 324
+成功 Item3 bfs終了 bfsDist: 15 bfsPos.Length = 112
+Bestway.Length = 14
+
+一番近いitem: Item0 距離: 13
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 12 bfsPos.Length = 88
+no: 12 / bfsPos.Length = 87
+cccount: 12
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+BestWay pos: (9.5, -3.5)
+BestWay pos: (10.5, -3.5)
+BestWay pos: (11.5, -3.5)
+BestWay pos: (12.5, -3.5)
+=======
+成功 Item2 bfs終了 bfsDist: 11 bfsPos.Length = 141
+no: 11 / bfsPos.Length = 140
+cccount: 11
+BestWay pos: (1.5, -3.5)
+BestWay pos: (2.5, -3.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+BestWay pos: (9.5, -3.5)
+BestWay pos: (10.5, -3.5)
+BestWay pos: (11.5, -3.5)
+BestWay pos: (12.5, -3.5)
+=======
+成功 Item3 bfs終了 bfsDist: 14 bfsPos.Length = 109
+Bestway.Length = 12
+
+一番近いitem: Item2 距離: 11
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 11 bfsPos.Length = 83
+no: 11 / bfsPos.Length = 82
+cccount: 11
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+BestWay pos: (9.5, -3.5)
+BestWay pos: (10.5, -3.5)
+BestWay pos: (11.5, -3.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 22 bfsPos.Length = 330
+成功 Item3 bfs終了 bfsDist: 13 bfsPos.Length = 103
+Bestway.Length = 12
+
+一番近いitem: Item0 距離: 11
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 10 bfsPos.Length = 81
+no: 10 / bfsPos.Length = 80
+cccount: 10
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+BestWay pos: (9.5, -3.5)
+BestWay pos: (10.5, -3.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 21 bfsPos.Length = 350
+成功 Item3 bfs終了 bfsDist: 12 bfsPos.Length = 100
+Bestway.Length = 11
+
+一番近いitem: Item0 距離: 10
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 9 bfsPos.Length = 72
+no: 9 / bfsPos.Length = 71
+cccount: 9
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+BestWay pos: (9.5, -3.5)
+=======
+成功 Item2 bfs終了 bfsDist: 14 bfsPos.Length = 212
+成功 Item3 bfs終了 bfsDist: 11 bfsPos.Length = 93
+Bestway.Length = 10
+
+一番近いitem: Item0 距離: 9
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 8 bfsPos.Length = 58
+no: 8 / bfsPos.Length = 57
+cccount: 8
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+=======
+成功 Item2 bfs終了 bfsDist: 7 bfsPos.Length = 71
+no: 7 / bfsPos.Length = 70
+cccount: 7
+BestWay pos: (1.5, -3.5)
+BestWay pos: (2.5, -3.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+BestWay pos: (8.5, -3.5)
+=======
+成功 Item3 bfs終了 bfsDist: 10 bfsPos.Length = 78
+Bestway.Length = 8
+
+一番近いitem: Item2 距離: 7
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 7 bfsPos.Length = 47
+no: 7 / bfsPos.Length = 46
+cccount: 7
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+BestWay pos: (7.5, -3.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 21 bfsPos.Length = 371
+成功 Item3 bfs終了 bfsDist: 9 bfsPos.Length = 64
+Bestway.Length = 8
+
+一番近いitem: Item0 距離: 7
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 6 bfsPos.Length = 31
+no: 6 / bfsPos.Length = 30
+cccount: 6
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+BestWay pos: (6.5, -3.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 22 bfsPos.Length = 365
+成功 Item3 bfs終了 bfsDist: 8 bfsPos.Length = 53
+Bestway.Length = 7
+
+一番近いitem: Item0 距離: 6
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 5 bfsPos.Length = 30
+no: 5 / bfsPos.Length = 29
+cccount: 5
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (5.5, -3.5)
+=======
+成功 Item2 bfs終了 bfsDist: 10 bfsPos.Length = 103
+成功 Item3 bfs終了 bfsDist: 7 bfsPos.Length = 41
+Bestway.Length = 6
+
+一番近いitem: Item0 距離: 5
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 4 bfsPos.Length = 23
+no: 4 / bfsPos.Length = 22
+cccount: 4
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+=======
+成功 Item2 bfs終了 bfsDist: 3 bfsPos.Length = 19
+no: 3 / bfsPos.Length = 18
+cccount: 3
+BestWay pos: (1.5, -3.5)
+BestWay pos: (2.5, -3.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+=======
+成功 Item3 bfs終了 bfsDist: 6 bfsPos.Length = 34
+Bestway.Length = 4
+
+一番近いitem: Item2 距離: 3
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 3 bfsPos.Length = 10
+no: 3 / bfsPos.Length = 9
+cccount: 3
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -3.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 25 bfsPos.Length = 588
+成功 Item3 bfs終了 bfsDist: 7 bfsPos.Length = 34
+Bestway.Length = 4
+
+一番近いitem: Item0 距離: 3
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 2 bfsPos.Length = 6
+no: 2 / bfsPos.Length = 5
+cccount: 2
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -2.5)
+=======
+キュー0 Item2 bfs終了 bfsDist: 26 bfsPos.Length = 558
+成功 Item3 bfs終了 bfsDist: 8 bfsPos.Length = 34
+Bestway.Length = 3
+
+一番近いitem: Item0 距離: 2
+===
+
+item-tracking
+成功 Item0 bfs終了 bfsDist: 1 bfsPos.Length = 4
+no: 1 / bfsPos.Length = 3
+cccount: 1
+BestWay pos: (3.5, -0.5)
+BestWay pos: (3.5, -1.5)
+=======
+成功 Item2 bfs終了 bfsDist: 12 bfsPos.Length = 85
+成功 Item3 bfs終了 bfsDist: 9 bfsPos.Length = 34
+Bestway.Length = 2
+
+一番近いitem: Item0 距離: 1
+===
+
+item-tracking
+成功 Item2 bfs終了 bfsDist: 5 bfsPos.Length = 20
+no: 5 / bfsPos.Length = 19
+cccount: 5
+BestWay pos: (1.5, -3.5)
+BestWay pos: (2.5, -3.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -1.5)
+BestWay pos: (3.5, -0.5)
+=======
+成功 Item3 bfs終了 bfsDist: 10 bfsPos.Length = 44
+Bestway.Length = 6
+
+一番近いitem: Item2 距離: 5
+===
+
+item-tracking
+キュー0 Item2 bfs終了 bfsDist: 27 bfsPos.Length = 558
+no: 27 / bfsPos.Length = 557
+cccount: 1001
+BestWay pos: (1.5, -3.5)
+=======
+成功 Item3 bfs終了 bfsDist: 9 bfsPos.Length = 34
+no: 9 / bfsPos.Length = 33
+cccount: 9
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (3.5, -2.5)
+BestWay pos: (3.5, -1.5)
+=======
+Bestway.Length = 10
+
+一番近いitem: Item3 距離: 9
+===
+
+item-tracking
+キュー0 Item2 bfs終了 bfsDist: 26 bfsPos.Length = 558
+no: 26 / bfsPos.Length = 557
+cccount: 1001
+BestWay pos: (1.5, -3.5)
+=======
+成功 Item3 bfs終了 bfsDist: 8 bfsPos.Length = 34
+no: 8 / bfsPos.Length = 33
+cccount: 8
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (3.5, -2.5)
+=======
+Bestway.Length = 9
+
+一番近いitem: Item3 距離: 8
+===
+
+item-tracking
+成功 Item2 bfs終了 bfsDist: 10 bfsPos.Length = 87
+no: 10 / bfsPos.Length = 86
+cccount: 10
+BestWay pos: (1.5, -3.5)
+BestWay pos: (1.5, -4.5)
+BestWay pos: (1.5, -5.5)
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (3.5, -3.5)
+=======
+成功 Item3 bfs終了 bfsDist: 7 bfsPos.Length = 34
+no: 7 / bfsPos.Length = 33
+cccount: 7
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (3.5, -3.5)
+=======
+Bestway.Length = 8
+
+一番近いitem: Item3 距離: 7
+===
+
+item-tracking
+成功 Item2 bfs終了 bfsDist: 3 bfsPos.Length = 19
+no: 3 / bfsPos.Length = 18
+cccount: 3
+BestWay pos: (1.5, -3.5)
+BestWay pos: (2.5, -3.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+=======
+成功 Item3 bfs終了 bfsDist: 6 bfsPos.Length = 34
+Bestway.Length = 4
+
+一番近いitem: Item2 距離: 3
+===
+
+item-tracking
+キュー0 Item2 bfs終了 bfsDist: 25 bfsPos.Length = 588
+no: 25 / bfsPos.Length = 587
+cccount: 1001
+BestWay pos: (1.5, -3.5)
+=======
+成功 Item3 bfs終了 bfsDist: 7 bfsPos.Length = 34
+no: 7 / bfsPos.Length = 33
+cccount: 7
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (3.5, -3.5)
+=======
+Bestway.Length = 8
+
+一番近いitem: Item3 距離: 7
+===
+
+item-tracking
+キュー0 Item2 bfs終了 bfsDist: 24 bfsPos.Length = 576
+no: 24 / bfsPos.Length = 575
+cccount: 1001
+BestWay pos: (1.5, -3.5)
+=======
+成功 Item3 bfs終了 bfsDist: 6 bfsPos.Length = 34
+no: 6 / bfsPos.Length = 33
+cccount: 6
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -3.5)
+=======
+Bestway.Length = 7
+
+一番近いitem: Item3 距離: 6
+===
+
+item-tracking
+成功 Item2 bfs終了 bfsDist: 8 bfsPos.Length = 66
+no: 8 / bfsPos.Length = 65
+cccount: 8
+BestWay pos: (1.5, -3.5)
+BestWay pos: (1.5, -4.5)
+BestWay pos: (1.5, -5.5)
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -4.5)
+=======
+成功 Item3 bfs終了 bfsDist: 5 bfsPos.Length = 27
+no: 5 / bfsPos.Length = 26
+cccount: 5
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -4.5)
+=======
+Bestway.Length = 6
+
+一番近いitem: Item3 距離: 5
+===
+
+item-tracking
+成功 Item2 bfs終了 bfsDist: 5 bfsPos.Length = 31
+no: 5 / bfsPos.Length = 30
+cccount: 5
+BestWay pos: (1.5, -3.5)
+BestWay pos: (2.5, -3.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+=======
+成功 Item3 bfs終了 bfsDist: 4 bfsPos.Length = 19
+no: 4 / bfsPos.Length = 18
+cccount: 4
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (4.5, -5.5)
+=======
+Bestway.Length = 5
+
+一番近いitem: Item3 距離: 4
+===
+
+item-tracking
+キュー0 Item2 bfs終了 bfsDist: 21 bfsPos.Length = 440
+no: 21 / bfsPos.Length = 439
+cccount: 1001
+BestWay pos: (1.5, -3.5)
+=======
+成功 Item3 bfs終了 bfsDist: 3 bfsPos.Length = 14
+no: 3 / bfsPos.Length = 13
+cccount: 3
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (4.5, -6.5)
+=======
+Bestway.Length = 4
+
+一番近いitem: Item3 距離: 3
+===
+
+item-tracking
+キュー0 Item2 bfs終了 bfsDist: 22 bfsPos.Length = 600
+no: 22 / bfsPos.Length = 599
+cccount: 1001
+BestWay pos: (1.5, -3.5)
+=======
+成功 Item3 bfs終了 bfsDist: 2 bfsPos.Length = 11
+no: 2 / bfsPos.Length = 10
+cccount: 2
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (3.5, -6.5)
+=======
+Bestway.Length = 3
+
+一番近いitem: Item3 距離: 2
+===
+
+item-tracking
+成功 Item2 bfs終了 bfsDist: 4 bfsPos.Length = 19
+no: 4 / bfsPos.Length = 18
+cccount: 4
+BestWay pos: (1.5, -3.5)
+BestWay pos: (1.5, -4.5)
+BestWay pos: (1.5, -5.5)
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+=======
+成功 Item3 bfs終了 bfsDist: 1 bfsPos.Length = 6
+no: 1 / bfsPos.Length = 5
+cccount: 1
+BestWay pos: (1.5, -6.5)
+BestWay pos: (2.5, -6.5)
+=======
+Bestway.Length = 2
+
+一番近いitem: Item3 距離: 1
+===
+
+item-tracking
+成功 Item2 bfs終了 bfsDist: 9 bfsPos.Length = 48
+no: 9 / bfsPos.Length = 47
+cccount: 9
+BestWay pos: (1.5, -3.5)
+BestWay pos: (2.5, -3.5)
+BestWay pos: (3.5, -3.5)
+BestWay pos: (4.5, -3.5)
+BestWay pos: (4.5, -4.5)
+BestWay pos: (4.5, -5.5)
+BestWay pos: (4.5, -6.5)
+BestWay pos: (3.5, -6.5)
+BestWay pos: (2.5, -6.5)
+BestWay pos: (1.5, -6.5)
+=======
+Bestway.Length = 10
+
+一番近いitem: Item2 距離: 9
+===
+
+item-tracking

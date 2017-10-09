@@ -1,0 +1,1690 @@
+
+ no: 0
+Enemy0 (4.5, -1.5, 0.0) EnemyNext (4.5, -2.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (1.5, -4.5, 0.0) newChVec: (1.5, -3.5, 0.0) res: True
+prVec: (1.5, -4.5, 0.0) newChVec: (2.5, -4.5, 0.0) res: True
+prVec: (1.5, -4.5, 0.0) newChVec: (1.5, -5.5, 0.0) res: False
+prVec: (1.5, -4.5, 0.0) newChVec: (0.5, -4.5, 0.0) res: False
+
+ no: 1
+Enemy0 (4.5, -2.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (1.5, -3.5, 0.0) newChVec: (1.5, -2.5, 0.0) res: True
+prVec: (1.5, -3.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+prVec: (1.5, -3.5, 0.0) newChVec: (1.5, -4.5, 0.0) res: True
+prVec: (1.5, -3.5, 0.0) newChVec: (0.5, -3.5, 0.0) res: False
+
+ no: 2
+Enemy0 (4.5, -2.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (2.5, -4.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+prVec: (2.5, -4.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+prVec: (2.5, -4.5, 0.0) newChVec: (2.5, -5.5, 0.0) res: False
+prVec: (2.5, -4.5, 0.0) newChVec: (1.5, -4.5, 0.0) res: True
+
+ no: 3
+Enemy0 (3.5, -2.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (1.5, -2.5, 0.0) newChVec: (1.5, -1.5, 0.0) res: True
+prVec: (1.5, -2.5, 0.0) newChVec: (2.5, -2.5, 0.0) res: False
+prVec: (1.5, -2.5, 0.0) newChVec: (1.5, -3.5, 0.0) res: True
+prVec: (1.5, -2.5, 0.0) newChVec: (0.5, -2.5, 0.0) res: False
+
+ no: 4
+Enemy0 (3.5, -2.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (3.5, -4.5, 0.0) newChVec: (3.5, -3.5, 0.0) res: True
+prVec: (3.5, -4.5, 0.0) newChVec: (4.5, -4.5, 0.0) res: True
+prVec: (3.5, -4.5, 0.0) newChVec: (3.5, -5.5, 0.0) res: False
+prVec: (3.5, -4.5, 0.0) newChVec: (2.5, -4.5, 0.0) res: True
+
+ no: 5
+Enemy0 (3.5, -3.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (1.5, -1.5, 0.0) newChVec: (1.5, -0.5, 0.0) res: True
+prVec: (1.5, -1.5, 0.0) newChVec: (2.5, -1.5, 0.0) res: False
+prVec: (1.5, -1.5, 0.0) newChVec: (1.5, -2.5, 0.0) res: True
+prVec: (1.5, -1.5, 0.0) newChVec: (0.5, -1.5, 0.0) res: False
+
+ no: 6
+Enemy0 (3.5, -3.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (3.5, -3.5, 0.0) newChVec: (3.5, -2.5, 0.0) res: True
+prVec: (3.5, -3.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (3.5, -3.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+prVec: (3.5, -3.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+
+ no: 7
+Enemy0 (3.5, -3.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (5.5, -4.5, 0.0) res: True
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -5.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+
+ no: 8
+Enemy0 (3.5, -2.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (1.5, -0.5, 0.0) newChVec: (1.5, 0.5, 0.0) res: False
+prVec: (1.5, -0.5, 0.0) newChVec: (2.5, -0.5, 0.0) res: True
+prVec: (1.5, -0.5, 0.0) newChVec: (1.5, -1.5, 0.0) res: True
+prVec: (1.5, -0.5, 0.0) newChVec: (0.5, -0.5, 0.0) res: False
+prNo8 bfsDist: 4Item0
+
+ no: 0
+Enemy0 (4.5, -1.5, 0.0) EnemyNext (4.5, -2.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (1.5, -4.5, 0.0) newChVec: (1.5, -3.5, 0.0) res: True
+prVec: (1.5, -4.5, 0.0) newChVec: (2.5, -4.5, 0.0) res: True
+prVec: (1.5, -4.5, 0.0) newChVec: (1.5, -5.5, 0.0) res: False
+prVec: (1.5, -4.5, 0.0) newChVec: (0.5, -4.5, 0.0) res: False
+
+ no: 1
+Enemy0 (4.5, -2.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (1.5, -3.5, 0.0) newChVec: (1.5, -2.5, 0.0) res: True
+prVec: (1.5, -3.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+prVec: (1.5, -3.5, 0.0) newChVec: (1.5, -4.5, 0.0) res: True
+prVec: (1.5, -3.5, 0.0) newChVec: (0.5, -3.5, 0.0) res: False
+
+ no: 2
+Enemy0 (4.5, -2.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (2.5, -4.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+prVec: (2.5, -4.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+prVec: (2.5, -4.5, 0.0) newChVec: (2.5, -5.5, 0.0) res: False
+prVec: (2.5, -4.5, 0.0) newChVec: (1.5, -4.5, 0.0) res: True
+
+ no: 3
+Enemy0 (3.5, -2.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (1.5, -2.5, 0.0) newChVec: (1.5, -1.5, 0.0) res: True
+prVec: (1.5, -2.5, 0.0) newChVec: (2.5, -2.5, 0.0) res: False
+prVec: (1.5, -2.5, 0.0) newChVec: (1.5, -3.5, 0.0) res: True
+prVec: (1.5, -2.5, 0.0) newChVec: (0.5, -2.5, 0.0) res: False
+
+ no: 4
+Enemy0 (3.5, -2.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (3.5, -4.5, 0.0) newChVec: (3.5, -3.5, 0.0) res: True
+prVec: (3.5, -4.5, 0.0) newChVec: (4.5, -4.5, 0.0) res: True
+prVec: (3.5, -4.5, 0.0) newChVec: (3.5, -5.5, 0.0) res: False
+prVec: (3.5, -4.5, 0.0) newChVec: (2.5, -4.5, 0.0) res: True
+
+ no: 5
+Enemy0 (3.5, -3.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (1.5, -1.5, 0.0) newChVec: (1.5, -0.5, 0.0) res: True
+prVec: (1.5, -1.5, 0.0) newChVec: (2.5, -1.5, 0.0) res: False
+prVec: (1.5, -1.5, 0.0) newChVec: (1.5, -2.5, 0.0) res: True
+prVec: (1.5, -1.5, 0.0) newChVec: (0.5, -1.5, 0.0) res: False
+
+ no: 6
+Enemy0 (3.5, -3.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (3.5, -3.5, 0.0) newChVec: (3.5, -2.5, 0.0) res: True
+prVec: (3.5, -3.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (3.5, -3.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+prVec: (3.5, -3.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+
+ no: 7
+Enemy0 (3.5, -3.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (5.5, -4.5, 0.0) res: True
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -5.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+
+ no: 8
+Enemy0 (3.5, -2.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (1.5, -0.5, 0.0) newChVec: (1.5, 0.5, 0.0) res: False
+prVec: (1.5, -0.5, 0.0) newChVec: (2.5, -0.5, 0.0) res: True
+prVec: (1.5, -0.5, 0.0) newChVec: (1.5, -1.5, 0.0) res: True
+prVec: (1.5, -0.5, 0.0) newChVec: (0.5, -0.5, 0.0) res: False
+
+ no: 9
+Enemy0 (3.5, -4.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (3.5, -2.5, 0.0) newChVec: (3.5, -1.5, 0.0) res: False
+prVec: (3.5, -2.5, 0.0) newChVec: (4.5, -2.5, 0.0) res: False
+prVec: (3.5, -2.5, 0.0) newChVec: (3.5, -3.5, 0.0) res: True
+prVec: (3.5, -2.5, 0.0) newChVec: (2.5, -2.5, 0.0) res: False
+
+ no: 10
+Enemy0 (3.5, -4.5, 0.0) EnemyNext (4.5, -4.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (5.5, -4.5, 0.0) newChVec: (5.5, -3.5, 0.0) res: False
+prVec: (5.5, -4.5, 0.0) newChVec: (6.5, -4.5, 0.0) res: True
+prVec: (5.5, -4.5, 0.0) newChVec: (5.5, -5.5, 0.0) res: False
+prVec: (5.5, -4.5, 0.0) newChVec: (4.5, -4.5, 0.0) res: True
+
+ no: 11
+Enemy0 (3.5, -3.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (2.5, -0.5, 0.0) newChVec: (2.5, 0.5, 0.0) res: False
+prVec: (2.5, -0.5, 0.0) newChVec: (3.5, -0.5, 0.0) res: True
+prVec: (2.5, -0.5, 0.0) newChVec: (2.5, -1.5, 0.0) res: False
+prVec: (2.5, -0.5, 0.0) newChVec: (1.5, -0.5, 0.0) res: True
+Item1
+
+ no: 0
+Enemy0 (4.5, -1.5, 0.0) EnemyNext (4.5, -2.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (1.5, -4.5, 0.0) newChVec: (1.5, -3.5, 0.0) res: True
+prVec: (1.5, -4.5, 0.0) newChVec: (2.5, -4.5, 0.0) res: True
+prVec: (1.5, -4.5, 0.0) newChVec: (1.5, -5.5, 0.0) res: False
+prVec: (1.5, -4.5, 0.0) newChVec: (0.5, -4.5, 0.0) res: False
+
+ no: 1
+Enemy0 (4.5, -2.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (1.5, -3.5, 0.0) newChVec: (1.5, -2.5, 0.0) res: True
+prVec: (1.5, -3.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+prVec: (1.5, -3.5, 0.0) newChVec: (1.5, -4.5, 0.0) res: True
+prVec: (1.5, -3.5, 0.0) newChVec: (0.5, -3.5, 0.0) res: False
+
+ no: 2
+Enemy0 (4.5, -2.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (2.5, -4.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+prVec: (2.5, -4.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+prVec: (2.5, -4.5, 0.0) newChVec: (2.5, -5.5, 0.0) res: False
+prVec: (2.5, -4.5, 0.0) newChVec: (1.5, -4.5, 0.0) res: True
+
+ no: 3
+Enemy0 (3.5, -2.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (1.5, -2.5, 0.0) newChVec: (1.5, -1.5, 0.0) res: True
+prVec: (1.5, -2.5, 0.0) newChVec: (2.5, -2.5, 0.0) res: False
+prVec: (1.5, -2.5, 0.0) newChVec: (1.5, -3.5, 0.0) res: True
+prVec: (1.5, -2.5, 0.0) newChVec: (0.5, -2.5, 0.0) res: False
+
+ no: 4
+Enemy0 (3.5, -2.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (3.5, -4.5, 0.0) newChVec: (3.5, -3.5, 0.0) res: True
+prVec: (3.5, -4.5, 0.0) newChVec: (4.5, -4.5, 0.0) res: True
+prVec: (3.5, -4.5, 0.0) newChVec: (3.5, -5.5, 0.0) res: False
+prVec: (3.5, -4.5, 0.0) newChVec: (2.5, -4.5, 0.0) res: True
+
+ no: 5
+Enemy0 (3.5, -3.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (1.5, -1.5, 0.0) newChVec: (1.5, -0.5, 0.0) res: True
+prVec: (1.5, -1.5, 0.0) newChVec: (2.5, -1.5, 0.0) res: False
+prVec: (1.5, -1.5, 0.0) newChVec: (1.5, -2.5, 0.0) res: True
+prVec: (1.5, -1.5, 0.0) newChVec: (0.5, -1.5, 0.0) res: False
+
+ no: 6
+Enemy0 (3.5, -3.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (3.5, -3.5, 0.0) newChVec: (3.5, -2.5, 0.0) res: True
+prVec: (3.5, -3.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (3.5, -3.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+prVec: (3.5, -3.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+
+ no: 7
+Enemy0 (3.5, -3.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (5.5, -4.5, 0.0) res: True
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -5.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+
+ no: 8
+Enemy0 (3.5, -2.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (1.5, -0.5, 0.0) newChVec: (1.5, 0.5, 0.0) res: False
+prVec: (1.5, -0.5, 0.0) newChVec: (2.5, -0.5, 0.0) res: True
+prVec: (1.5, -0.5, 0.0) newChVec: (1.5, -1.5, 0.0) res: True
+prVec: (1.5, -0.5, 0.0) newChVec: (0.5, -0.5, 0.0) res: False
+
+ no: 9
+Enemy0 (3.5, -4.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (3.5, -2.5, 0.0) newChVec: (3.5, -1.5, 0.0) res: False
+prVec: (3.5, -2.5, 0.0) newChVec: (4.5, -2.5, 0.0) res: False
+prVec: (3.5, -2.5, 0.0) newChVec: (3.5, -3.5, 0.0) res: True
+prVec: (3.5, -2.5, 0.0) newChVec: (2.5, -2.5, 0.0) res: False
+
+ no: 10
+Enemy0 (3.5, -4.5, 0.0) EnemyNext (4.5, -4.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (5.5, -4.5, 0.0) newChVec: (5.5, -3.5, 0.0) res: False
+prVec: (5.5, -4.5, 0.0) newChVec: (6.5, -4.5, 0.0) res: True
+prVec: (5.5, -4.5, 0.0) newChVec: (5.5, -5.5, 0.0) res: False
+prVec: (5.5, -4.5, 0.0) newChVec: (4.5, -4.5, 0.0) res: True
+
+ no: 11
+Enemy0 (3.5, -3.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (2.5, -0.5, 0.0) newChVec: (2.5, 0.5, 0.0) res: False
+prVec: (2.5, -0.5, 0.0) newChVec: (3.5, -0.5, 0.0) res: True
+prVec: (2.5, -0.5, 0.0) newChVec: (2.5, -1.5, 0.0) res: False
+prVec: (2.5, -0.5, 0.0) newChVec: (1.5, -0.5, 0.0) res: True
+Item2
+
+ no: 0
+Enemy0 (4.5, -1.5, 0.0) EnemyNext (4.5, -2.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (1.5, -4.5, 0.0) newChVec: (1.5, -3.5, 0.0) res: True
+prVec: (1.5, -4.5, 0.0) newChVec: (2.5, -4.5, 0.0) res: True
+prVec: (1.5, -4.5, 0.0) newChVec: (1.5, -5.5, 0.0) res: False
+prVec: (1.5, -4.5, 0.0) newChVec: (0.5, -4.5, 0.0) res: False
+
+ no: 1
+Enemy0 (4.5, -2.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (1.5, -3.5, 0.0) newChVec: (1.5, -2.5, 0.0) res: True
+prVec: (1.5, -3.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+prVec: (1.5, -3.5, 0.0) newChVec: (1.5, -4.5, 0.0) res: True
+prVec: (1.5, -3.5, 0.0) newChVec: (0.5, -3.5, 0.0) res: False
+
+ no: 2
+Enemy0 (4.5, -2.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (2.5, -4.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+prVec: (2.5, -4.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+prVec: (2.5, -4.5, 0.0) newChVec: (2.5, -5.5, 0.0) res: False
+prVec: (2.5, -4.5, 0.0) newChVec: (1.5, -4.5, 0.0) res: True
+
+ no: 3
+Enemy0 (3.5, -2.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (1.5, -2.5, 0.0) newChVec: (1.5, -1.5, 0.0) res: True
+prVec: (1.5, -2.5, 0.0) newChVec: (2.5, -2.5, 0.0) res: False
+prVec: (1.5, -2.5, 0.0) newChVec: (1.5, -3.5, 0.0) res: True
+prVec: (1.5, -2.5, 0.0) newChVec: (0.5, -2.5, 0.0) res: False
+
+ no: 4
+Enemy0 (3.5, -2.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (3.5, -4.5, 0.0) newChVec: (3.5, -3.5, 0.0) res: True
+prVec: (3.5, -4.5, 0.0) newChVec: (4.5, -4.5, 0.0) res: True
+prVec: (3.5, -4.5, 0.0) newChVec: (3.5, -5.5, 0.0) res: False
+prVec: (3.5, -4.5, 0.0) newChVec: (2.5, -4.5, 0.0) res: True
+
+ no: 5
+Enemy0 (3.5, -3.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (1.5, -1.5, 0.0) newChVec: (1.5, -0.5, 0.0) res: True
+prVec: (1.5, -1.5, 0.0) newChVec: (2.5, -1.5, 0.0) res: False
+prVec: (1.5, -1.5, 0.0) newChVec: (1.5, -2.5, 0.0) res: True
+prVec: (1.5, -1.5, 0.0) newChVec: (0.5, -1.5, 0.0) res: False
+
+ no: 6
+Enemy0 (3.5, -3.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (3.5, -3.5, 0.0) newChVec: (3.5, -2.5, 0.0) res: True
+prVec: (3.5, -3.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (3.5, -3.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+prVec: (3.5, -3.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+
+ no: 7
+Enemy0 (3.5, -3.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (5.5, -4.5, 0.0) res: True
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -5.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+
+ no: 8
+Enemy0 (3.5, -2.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (1.5, -0.5, 0.0) newChVec: (1.5, 0.5, 0.0) res: False
+prVec: (1.5, -0.5, 0.0) newChVec: (2.5, -0.5, 0.0) res: True
+prVec: (1.5, -0.5, 0.0) newChVec: (1.5, -1.5, 0.0) res: True
+prVec: (1.5, -0.5, 0.0) newChVec: (0.5, -0.5, 0.0) res: False
+
+ no: 9
+Enemy0 (3.5, -4.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (3.5, -2.5, 0.0) newChVec: (3.5, -1.5, 0.0) res: False
+prVec: (3.5, -2.5, 0.0) newChVec: (4.5, -2.5, 0.0) res: False
+prVec: (3.5, -2.5, 0.0) newChVec: (3.5, -3.5, 0.0) res: True
+prVec: (3.5, -2.5, 0.0) newChVec: (2.5, -2.5, 0.0) res: False
+
+ no: 10
+Enemy0 (3.5, -4.5, 0.0) EnemyNext (4.5, -4.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (5.5, -4.5, 0.0) newChVec: (5.5, -3.5, 0.0) res: False
+prVec: (5.5, -4.5, 0.0) newChVec: (6.5, -4.5, 0.0) res: True
+prVec: (5.5, -4.5, 0.0) newChVec: (5.5, -5.5, 0.0) res: False
+prVec: (5.5, -4.5, 0.0) newChVec: (4.5, -4.5, 0.0) res: True
+prNo10 bfsDist: 4Item3
+
+ no: 0
+Enemy0 (4.5, -1.5, 0.0) EnemyNext (4.5, -2.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (1.5, -4.5, 0.0) newChVec: (1.5, -3.5, 0.0) res: True
+prVec: (1.5, -4.5, 0.0) newChVec: (2.5, -4.5, 0.0) res: True
+prVec: (1.5, -4.5, 0.0) newChVec: (1.5, -5.5, 0.0) res: False
+prVec: (1.5, -4.5, 0.0) newChVec: (0.5, -4.5, 0.0) res: False
+
+ no: 1
+Enemy0 (4.5, -2.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (1.5, -3.5, 0.0) newChVec: (1.5, -2.5, 0.0) res: True
+prVec: (1.5, -3.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+prVec: (1.5, -3.5, 0.0) newChVec: (1.5, -4.5, 0.0) res: True
+prVec: (1.5, -3.5, 0.0) newChVec: (0.5, -3.5, 0.0) res: False
+
+ no: 2
+Enemy0 (4.5, -2.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (2.5, -4.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+prVec: (2.5, -4.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+prVec: (2.5, -4.5, 0.0) newChVec: (2.5, -5.5, 0.0) res: False
+prVec: (2.5, -4.5, 0.0) newChVec: (1.5, -4.5, 0.0) res: True
+
+ no: 3
+Enemy0 (3.5, -2.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (1.5, -2.5, 0.0) newChVec: (1.5, -1.5, 0.0) res: True
+prVec: (1.5, -2.5, 0.0) newChVec: (2.5, -2.5, 0.0) res: False
+prVec: (1.5, -2.5, 0.0) newChVec: (1.5, -3.5, 0.0) res: True
+prVec: (1.5, -2.5, 0.0) newChVec: (0.5, -2.5, 0.0) res: False
+
+ no: 4
+Enemy0 (3.5, -2.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (3.5, -4.5, 0.0) newChVec: (3.5, -3.5, 0.0) res: True
+prVec: (3.5, -4.5, 0.0) newChVec: (4.5, -4.5, 0.0) res: True
+prVec: (3.5, -4.5, 0.0) newChVec: (3.5, -5.5, 0.0) res: False
+prVec: (3.5, -4.5, 0.0) newChVec: (2.5, -4.5, 0.0) res: True
+
+ no: 5
+Enemy0 (3.5, -3.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (1.5, -1.5, 0.0) newChVec: (1.5, -0.5, 0.0) res: True
+prVec: (1.5, -1.5, 0.0) newChVec: (2.5, -1.5, 0.0) res: False
+prVec: (1.5, -1.5, 0.0) newChVec: (1.5, -2.5, 0.0) res: True
+prVec: (1.5, -1.5, 0.0) newChVec: (0.5, -1.5, 0.0) res: False
+
+ no: 6
+Enemy0 (3.5, -3.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (3.5, -3.5, 0.0) newChVec: (3.5, -2.5, 0.0) res: True
+prVec: (3.5, -3.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (3.5, -3.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+prVec: (3.5, -3.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+
+ no: 7
+Enemy0 (3.5, -3.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (5.5, -4.5, 0.0) res: True
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -5.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+
+ no: 8
+Enemy0 (3.5, -2.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (1.5, -0.5, 0.0) newChVec: (1.5, 0.5, 0.0) res: False
+prVec: (1.5, -0.5, 0.0) newChVec: (2.5, -0.5, 0.0) res: True
+prVec: (1.5, -0.5, 0.0) newChVec: (1.5, -1.5, 0.0) res: True
+prVec: (1.5, -0.5, 0.0) newChVec: (0.5, -0.5, 0.0) res: False
+
+ no: 9
+Enemy0 (3.5, -4.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (3.5, -2.5, 0.0) newChVec: (3.5, -1.5, 0.0) res: False
+prVec: (3.5, -2.5, 0.0) newChVec: (4.5, -2.5, 0.0) res: False
+prVec: (3.5, -2.5, 0.0) newChVec: (3.5, -3.5, 0.0) res: True
+prVec: (3.5, -2.5, 0.0) newChVec: (2.5, -2.5, 0.0) res: False
+
+ no: 10
+Enemy0 (3.5, -4.5, 0.0) EnemyNext (4.5, -4.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (5.5, -4.5, 0.0) newChVec: (5.5, -3.5, 0.0) res: False
+prVec: (5.5, -4.5, 0.0) newChVec: (6.5, -4.5, 0.0) res: True
+prVec: (5.5, -4.5, 0.0) newChVec: (5.5, -5.5, 0.0) res: False
+prVec: (5.5, -4.5, 0.0) newChVec: (4.5, -4.5, 0.0) res: True
+
+ no: 11
+Enemy0 (3.5, -3.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (2.5, -0.5, 0.0) newChVec: (2.5, 0.5, 0.0) res: False
+prVec: (2.5, -0.5, 0.0) newChVec: (3.5, -0.5, 0.0) res: True
+prVec: (2.5, -0.5, 0.0) newChVec: (2.5, -1.5, 0.0) res: False
+prVec: (2.5, -0.5, 0.0) newChVec: (1.5, -0.5, 0.0) res: True
+Item4
+nearItm: Item0 dist: 4 Pos: (1.5, -0.5, 0.0)
+BestWay len: 5
+(1.5, -0.5, 0.0)
+(1.5, -1.5, 0.0)
+(1.5, -2.5, 0.0)
+(1.5, -3.5, 0.0)
+(1.5, -4.5, 0.0)
+dist: 3 no: 0
+dist: 2 no: 0
+dist: 1 no: 0
+dist: 0 no: 0
+
+
+ no: 0
+Enemy0 (4.5, -0.5, 0.0) EnemyNext (3.5, -0.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (4.5, -1.5, 0.0)
+
+prVec: (1.5, -0.5, 0.0) newChVec: (1.5, 0.5, 0.0) res: False
+prVec: (1.5, -0.5, 0.0) newChVec: (2.5, -0.5, 0.0) res: True
+prVec: (1.5, -0.5, 0.0) newChVec: (1.5, -1.5, 0.0) res: True
+prVec: (1.5, -0.5, 0.0) newChVec: (0.5, -0.5, 0.0) res: False
+
+ no: 1
+Enemy0 (3.5, -0.5, 0.0) EnemyNext (2.5, -0.5, 0.0)
+Enemy1 (4.5, -1.5, 0.0) EnemyNext (4.5, -2.5, 0.0)
+
+prVec: (2.5, -0.5, 0.0) newChVec: (2.5, 0.5, 0.0) res: False
+prVec: (2.5, -0.5, 0.0) newChVec: (3.5, -0.5, 0.0) res: False
+prVec: (2.5, -0.5, 0.0) newChVec: (2.5, -1.5, 0.0) res: False
+prVec: (2.5, -0.5, 0.0) newChVec: (1.5, -0.5, 0.0) res: True
+
+ no: 2
+Enemy0 (3.5, -0.5, 0.0) EnemyNext (2.5, -0.5, 0.0)
+Enemy1 (4.5, -1.5, 0.0) EnemyNext (4.5, -2.5, 0.0)
+
+prVec: (1.5, -1.5, 0.0) newChVec: (1.5, -0.5, 0.0) res: True
+prVec: (1.5, -1.5, 0.0) newChVec: (2.5, -1.5, 0.0) res: False
+prVec: (1.5, -1.5, 0.0) newChVec: (1.5, -2.5, 0.0) res: True
+prVec: (1.5, -1.5, 0.0) newChVec: (0.5, -1.5, 0.0) res: False
+
+ no: 3
+Enemy0 (2.5, -0.5, 0.0) EnemyNext (1.5, -0.5, 0.0)
+Enemy1 (4.5, -2.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+
+prVec: (1.5, -2.5, 0.0) newChVec: (1.5, -1.5, 0.0) res: True
+prVec: (1.5, -2.5, 0.0) newChVec: (2.5, -2.5, 0.0) res: False
+prVec: (1.5, -2.5, 0.0) newChVec: (1.5, -3.5, 0.0) res: True
+prVec: (1.5, -2.5, 0.0) newChVec: (0.5, -2.5, 0.0) res: False
+
+ no: 4
+Enemy0 (1.5, -0.5, 0.0) EnemyNext (1.5, -1.5, 0.0)
+Enemy1 (3.5, -2.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+
+prVec: (1.5, -3.5, 0.0) newChVec: (1.5, -2.5, 0.0) res: True
+prVec: (1.5, -3.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+prVec: (1.5, -3.5, 0.0) newChVec: (1.5, -4.5, 0.0) res: True
+prVec: (1.5, -3.5, 0.0) newChVec: (0.5, -3.5, 0.0) res: False
+
+ no: 5
+Enemy0 (1.5, -1.5, 0.0) EnemyNext (1.5, -2.5, 0.0)
+Enemy1 (3.5, -3.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+
+prVec: (1.5, -4.5, 0.0) newChVec: (1.5, -3.5, 0.0) res: True
+prVec: (1.5, -4.5, 0.0) newChVec: (2.5, -4.5, 0.0) res: True
+prVec: (1.5, -4.5, 0.0) newChVec: (1.5, -5.5, 0.0) res: False
+prVec: (1.5, -4.5, 0.0) newChVec: (0.5, -4.5, 0.0) res: False
+
+ no: 6
+Enemy0 (1.5, -2.5, 0.0) EnemyNext (1.5, -3.5, 0.0)
+Enemy1 (3.5, -4.5, 0.0) EnemyNext (2.5, -4.5, 0.0)
+
+prVec: (2.5, -4.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+prVec: (2.5, -4.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+prVec: (2.5, -4.5, 0.0) newChVec: (2.5, -5.5, 0.0) res: False
+prVec: (2.5, -4.5, 0.0) newChVec: (1.5, -4.5, 0.0) res: True
+
+ no: 7
+Enemy0 (1.5, -3.5, 0.0) EnemyNext (1.5, -4.5, 0.0)
+Enemy1 (2.5, -4.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+
+prVec: (3.5, -4.5, 0.0) newChVec: (3.5, -3.5, 0.0) res: True
+prVec: (3.5, -4.5, 0.0) newChVec: (4.5, -4.5, 0.0) res: True
+prVec: (3.5, -4.5, 0.0) newChVec: (3.5, -5.5, 0.0) res: False
+prVec: (3.5, -4.5, 0.0) newChVec: (2.5, -4.5, 0.0) res: True
+
+ no: 8
+Enemy0 (1.5, -4.5, 0.0) EnemyNext (1.5, -3.5, 0.0)
+Enemy1 (3.5, -4.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+
+prVec: (3.5, -3.5, 0.0) newChVec: (3.5, -2.5, 0.0) res: True
+prVec: (3.5, -3.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (3.5, -3.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+prVec: (3.5, -3.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+
+ no: 9
+Enemy0 (1.5, -4.5, 0.0) EnemyNext (2.5, -4.5, 0.0)
+Enemy1 (3.5, -4.5, 0.0) EnemyNext (4.5, -4.5, 0.0)
+
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (5.5, -4.5, 0.0) res: True
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -5.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+
+ no: 10
+Enemy0 (1.5, -3.5, 0.0) EnemyNext (1.5, -2.5, 0.0)
+Enemy1 (3.5, -3.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+
+prVec: (3.5, -2.5, 0.0) newChVec: (3.5, -1.5, 0.0) res: False
+prVec: (3.5, -2.5, 0.0) newChVec: (4.5, -2.5, 0.0) res: True
+prVec: (3.5, -2.5, 0.0) newChVec: (3.5, -3.5, 0.0) res: True
+prVec: (3.5, -2.5, 0.0) newChVec: (2.5, -2.5, 0.0) res: False
+
+ no: 11
+Enemy0 (2.5, -4.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+Enemy1 (4.5, -4.5, 0.0) EnemyNext (5.5, -4.5, 0.0)
+
+prVec: (5.5, -4.5, 0.0) newChVec: (5.5, -3.5, 0.0) res: False
+prVec: (5.5, -4.5, 0.0) newChVec: (6.5, -4.5, 0.0) res: True
+prVec: (5.5, -4.5, 0.0) newChVec: (5.5, -5.5, 0.0) res: False
+prVec: (5.5, -4.5, 0.0) newChVec: (4.5, -4.5, 0.0) res: True
+
+ no: 12
+Enemy0 (1.5, -2.5, 0.0) EnemyNext (1.5, -3.5, 0.0)
+Enemy1 (3.5, -2.5, 0.0) EnemyNext (4.5, -2.5, 0.0)
+
+prVec: (4.5, -2.5, 0.0) newChVec: (4.5, -1.5, 0.0) res: True
+prVec: (4.5, -2.5, 0.0) newChVec: (5.5, -2.5, 0.0) res: False
+prVec: (4.5, -2.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (4.5, -2.5, 0.0) newChVec: (3.5, -2.5, 0.0) res: True
+prNo12 bfsDist: 9Item1
+
+ no: 0
+Enemy0 (4.5, -0.5, 0.0) EnemyNext (3.5, -0.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (4.5, -1.5, 0.0)
+
+prVec: (1.5, -0.5, 0.0) newChVec: (1.5, 0.5, 0.0) res: False
+prVec: (1.5, -0.5, 0.0) newChVec: (2.5, -0.5, 0.0) res: True
+prVec: (1.5, -0.5, 0.0) newChVec: (1.5, -1.5, 0.0) res: True
+prVec: (1.5, -0.5, 0.0) newChVec: (0.5, -0.5, 0.0) res: False
+
+ no: 1
+Enemy0 (3.5, -0.5, 0.0) EnemyNext (2.5, -0.5, 0.0)
+Enemy1 (4.5, -1.5, 0.0) EnemyNext (4.5, -2.5, 0.0)
+
+prVec: (2.5, -0.5, 0.0) newChVec: (2.5, 0.5, 0.0) res: False
+prVec: (2.5, -0.5, 0.0) newChVec: (3.5, -0.5, 0.0) res: False
+prVec: (2.5, -0.5, 0.0) newChVec: (2.5, -1.5, 0.0) res: False
+prVec: (2.5, -0.5, 0.0) newChVec: (1.5, -0.5, 0.0) res: True
+
+ no: 2
+Enemy0 (3.5, -0.5, 0.0) EnemyNext (2.5, -0.5, 0.0)
+Enemy1 (4.5, -1.5, 0.0) EnemyNext (4.5, -2.5, 0.0)
+
+prVec: (1.5, -1.5, 0.0) newChVec: (1.5, -0.5, 0.0) res: True
+prVec: (1.5, -1.5, 0.0) newChVec: (2.5, -1.5, 0.0) res: False
+prVec: (1.5, -1.5, 0.0) newChVec: (1.5, -2.5, 0.0) res: True
+prVec: (1.5, -1.5, 0.0) newChVec: (0.5, -1.5, 0.0) res: False
+
+ no: 3
+Enemy0 (2.5, -0.5, 0.0) EnemyNext (1.5, -0.5, 0.0)
+Enemy1 (4.5, -2.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+
+prVec: (1.5, -2.5, 0.0) newChVec: (1.5, -1.5, 0.0) res: True
+prVec: (1.5, -2.5, 0.0) newChVec: (2.5, -2.5, 0.0) res: False
+prVec: (1.5, -2.5, 0.0) newChVec: (1.5, -3.5, 0.0) res: True
+prVec: (1.5, -2.5, 0.0) newChVec: (0.5, -2.5, 0.0) res: False
+
+ no: 4
+Enemy0 (1.5, -0.5, 0.0) EnemyNext (1.5, -1.5, 0.0)
+Enemy1 (3.5, -2.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+
+prVec: (1.5, -3.5, 0.0) newChVec: (1.5, -2.5, 0.0) res: True
+prVec: (1.5, -3.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+prVec: (1.5, -3.5, 0.0) newChVec: (1.5, -4.5, 0.0) res: True
+prVec: (1.5, -3.5, 0.0) newChVec: (0.5, -3.5, 0.0) res: False
+
+ no: 5
+Enemy0 (1.5, -1.5, 0.0) EnemyNext (1.5, -2.5, 0.0)
+Enemy1 (3.5, -3.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+
+prVec: (1.5, -4.5, 0.0) newChVec: (1.5, -3.5, 0.0) res: True
+prVec: (1.5, -4.5, 0.0) newChVec: (2.5, -4.5, 0.0) res: True
+prVec: (1.5, -4.5, 0.0) newChVec: (1.5, -5.5, 0.0) res: False
+prVec: (1.5, -4.5, 0.0) newChVec: (0.5, -4.5, 0.0) res: False
+
+ no: 6
+Enemy0 (1.5, -2.5, 0.0) EnemyNext (1.5, -3.5, 0.0)
+Enemy1 (3.5, -4.5, 0.0) EnemyNext (2.5, -4.5, 0.0)
+
+prVec: (2.5, -4.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+prVec: (2.5, -4.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+prVec: (2.5, -4.5, 0.0) newChVec: (2.5, -5.5, 0.0) res: False
+prVec: (2.5, -4.5, 0.0) newChVec: (1.5, -4.5, 0.0) res: True
+
+ no: 7
+Enemy0 (1.5, -3.5, 0.0) EnemyNext (1.5, -4.5, 0.0)
+Enemy1 (2.5, -4.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+
+prVec: (3.5, -4.5, 0.0) newChVec: (3.5, -3.5, 0.0) res: True
+prVec: (3.5, -4.5, 0.0) newChVec: (4.5, -4.5, 0.0) res: True
+prVec: (3.5, -4.5, 0.0) newChVec: (3.5, -5.5, 0.0) res: False
+prVec: (3.5, -4.5, 0.0) newChVec: (2.5, -4.5, 0.0) res: True
+
+ no: 8
+Enemy0 (1.5, -4.5, 0.0) EnemyNext (1.5, -3.5, 0.0)
+Enemy1 (3.5, -4.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+
+prVec: (3.5, -3.5, 0.0) newChVec: (3.5, -2.5, 0.0) res: True
+prVec: (3.5, -3.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (3.5, -3.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+prVec: (3.5, -3.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+
+ no: 9
+Enemy0 (1.5, -4.5, 0.0) EnemyNext (2.5, -4.5, 0.0)
+Enemy1 (3.5, -4.5, 0.0) EnemyNext (4.5, -4.5, 0.0)
+
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (5.5, -4.5, 0.0) res: True
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -5.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+
+ no: 10
+Enemy0 (1.5, -3.5, 0.0) EnemyNext (1.5, -2.5, 0.0)
+Enemy1 (3.5, -3.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+
+prVec: (3.5, -2.5, 0.0) newChVec: (3.5, -1.5, 0.0) res: False
+prVec: (3.5, -2.5, 0.0) newChVec: (4.5, -2.5, 0.0) res: True
+prVec: (3.5, -2.5, 0.0) newChVec: (3.5, -3.5, 0.0) res: True
+prVec: (3.5, -2.5, 0.0) newChVec: (2.5, -2.5, 0.0) res: False
+
+ no: 11
+Enemy0 (2.5, -4.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+Enemy1 (4.5, -4.5, 0.0) EnemyNext (5.5, -4.5, 0.0)
+
+prVec: (5.5, -4.5, 0.0) newChVec: (5.5, -3.5, 0.0) res: False
+prVec: (5.5, -4.5, 0.0) newChVec: (6.5, -4.5, 0.0) res: True
+prVec: (5.5, -4.5, 0.0) newChVec: (5.5, -5.5, 0.0) res: False
+prVec: (5.5, -4.5, 0.0) newChVec: (4.5, -4.5, 0.0) res: True
+
+ no: 12
+Enemy0 (1.5, -2.5, 0.0) EnemyNext (1.5, -3.5, 0.0)
+Enemy1 (3.5, -2.5, 0.0) EnemyNext (4.5, -2.5, 0.0)
+
+prVec: (4.5, -2.5, 0.0) newChVec: (4.5, -1.5, 0.0) res: True
+prVec: (4.5, -2.5, 0.0) newChVec: (5.5, -2.5, 0.0) res: False
+prVec: (4.5, -2.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (4.5, -2.5, 0.0) newChVec: (3.5, -2.5, 0.0) res: True
+
+ no: 13
+Enemy0 (3.5, -4.5, 0.0) EnemyNext (4.5, -4.5, 0.0)
+Enemy1 (5.5, -4.5, 0.0) EnemyNext (6.5, -4.5, 0.0)
+
+prVec: (6.5, -4.5, 0.0) newChVec: (6.5, -3.5, 0.0) res: False
+prVec: (6.5, -4.5, 0.0) newChVec: (7.5, -4.5, 0.0) res: True
+prVec: (6.5, -4.5, 0.0) newChVec: (6.5, -5.5, 0.0) res: False
+prVec: (6.5, -4.5, 0.0) newChVec: (5.5, -4.5, 0.0) res: True
+
+ no: 14
+Enemy0 (1.5, -3.5, 0.0) EnemyNext (1.5, -2.5, 0.0)
+Enemy1 (4.5, -2.5, 0.0) EnemyNext (4.5, -1.5, 0.0)
+
+prVec: (4.5, -1.5, 0.0) newChVec: (4.5, -0.5, 0.0) res: False
+prVec: (4.5, -1.5, 0.0) newChVec: (5.5, -1.5, 0.0) res: False
+prVec: (4.5, -1.5, 0.0) newChVec: (4.5, -2.5, 0.0) res: True
+prVec: (4.5, -1.5, 0.0) newChVec: (3.5, -1.5, 0.0) res: False
+Item2
+
+ no: 0
+Enemy0 (4.5, -0.5, 0.0) EnemyNext (3.5, -0.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (4.5, -1.5, 0.0)
+
+prVec: (1.5, -0.5, 0.0) newChVec: (1.5, 0.5, 0.0) res: False
+prVec: (1.5, -0.5, 0.0) newChVec: (2.5, -0.5, 0.0) res: True
+prVec: (1.5, -0.5, 0.0) newChVec: (1.5, -1.5, 0.0) res: True
+prVec: (1.5, -0.5, 0.0) newChVec: (0.5, -0.5, 0.0) res: False
+
+ no: 1
+Enemy0 (3.5, -0.5, 0.0) EnemyNext (2.5, -0.5, 0.0)
+Enemy1 (4.5, -1.5, 0.0) EnemyNext (4.5, -2.5, 0.0)
+
+prVec: (2.5, -0.5, 0.0) newChVec: (2.5, 0.5, 0.0) res: False
+prVec: (2.5, -0.5, 0.0) newChVec: (3.5, -0.5, 0.0) res: False
+prVec: (2.5, -0.5, 0.0) newChVec: (2.5, -1.5, 0.0) res: False
+prVec: (2.5, -0.5, 0.0) newChVec: (1.5, -0.5, 0.0) res: True
+
+ no: 2
+Enemy0 (3.5, -0.5, 0.0) EnemyNext (2.5, -0.5, 0.0)
+Enemy1 (4.5, -1.5, 0.0) EnemyNext (4.5, -2.5, 0.0)
+
+prVec: (1.5, -1.5, 0.0) newChVec: (1.5, -0.5, 0.0) res: True
+prVec: (1.5, -1.5, 0.0) newChVec: (2.5, -1.5, 0.0) res: False
+prVec: (1.5, -1.5, 0.0) newChVec: (1.5, -2.5, 0.0) res: True
+prVec: (1.5, -1.5, 0.0) newChVec: (0.5, -1.5, 0.0) res: False
+
+ no: 3
+Enemy0 (2.5, -0.5, 0.0) EnemyNext (1.5, -0.5, 0.0)
+Enemy1 (4.5, -2.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+
+prVec: (1.5, -2.5, 0.0) newChVec: (1.5, -1.5, 0.0) res: True
+prVec: (1.5, -2.5, 0.0) newChVec: (2.5, -2.5, 0.0) res: False
+prVec: (1.5, -2.5, 0.0) newChVec: (1.5, -3.5, 0.0) res: True
+prVec: (1.5, -2.5, 0.0) newChVec: (0.5, -2.5, 0.0) res: False
+
+ no: 4
+Enemy0 (1.5, -0.5, 0.0) EnemyNext (1.5, -1.5, 0.0)
+Enemy1 (3.5, -2.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+
+prVec: (1.5, -3.5, 0.0) newChVec: (1.5, -2.5, 0.0) res: True
+prVec: (1.5, -3.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+prVec: (1.5, -3.5, 0.0) newChVec: (1.5, -4.5, 0.0) res: True
+prVec: (1.5, -3.5, 0.0) newChVec: (0.5, -3.5, 0.0) res: False
+
+ no: 5
+Enemy0 (1.5, -1.5, 0.0) EnemyNext (1.5, -2.5, 0.0)
+Enemy1 (3.5, -3.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+
+prVec: (1.5, -4.5, 0.0) newChVec: (1.5, -3.5, 0.0) res: True
+prVec: (1.5, -4.5, 0.0) newChVec: (2.5, -4.5, 0.0) res: True
+prVec: (1.5, -4.5, 0.0) newChVec: (1.5, -5.5, 0.0) res: False
+prVec: (1.5, -4.5, 0.0) newChVec: (0.5, -4.5, 0.0) res: False
+
+ no: 6
+Enemy0 (1.5, -2.5, 0.0) EnemyNext (1.5, -3.5, 0.0)
+Enemy1 (3.5, -4.5, 0.0) EnemyNext (2.5, -4.5, 0.0)
+
+prVec: (2.5, -4.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+prVec: (2.5, -4.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+prVec: (2.5, -4.5, 0.0) newChVec: (2.5, -5.5, 0.0) res: False
+prVec: (2.5, -4.5, 0.0) newChVec: (1.5, -4.5, 0.0) res: True
+
+ no: 7
+Enemy0 (1.5, -3.5, 0.0) EnemyNext (1.5, -4.5, 0.0)
+Enemy1 (2.5, -4.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+
+prVec: (3.5, -4.5, 0.0) newChVec: (3.5, -3.5, 0.0) res: True
+prVec: (3.5, -4.5, 0.0) newChVec: (4.5, -4.5, 0.0) res: True
+prVec: (3.5, -4.5, 0.0) newChVec: (3.5, -5.5, 0.0) res: False
+prVec: (3.5, -4.5, 0.0) newChVec: (2.5, -4.5, 0.0) res: True
+
+ no: 8
+Enemy0 (1.5, -4.5, 0.0) EnemyNext (1.5, -3.5, 0.0)
+Enemy1 (3.5, -4.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+
+prVec: (3.5, -3.5, 0.0) newChVec: (3.5, -2.5, 0.0) res: True
+prVec: (3.5, -3.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (3.5, -3.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+prVec: (3.5, -3.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+
+ no: 9
+Enemy0 (1.5, -4.5, 0.0) EnemyNext (2.5, -4.5, 0.0)
+Enemy1 (3.5, -4.5, 0.0) EnemyNext (4.5, -4.5, 0.0)
+
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (5.5, -4.5, 0.0) res: True
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -5.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+
+ no: 10
+Enemy0 (1.5, -3.5, 0.0) EnemyNext (1.5, -2.5, 0.0)
+Enemy1 (3.5, -3.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+
+prVec: (3.5, -2.5, 0.0) newChVec: (3.5, -1.5, 0.0) res: False
+prVec: (3.5, -2.5, 0.0) newChVec: (4.5, -2.5, 0.0) res: True
+prVec: (3.5, -2.5, 0.0) newChVec: (3.5, -3.5, 0.0) res: True
+prVec: (3.5, -2.5, 0.0) newChVec: (2.5, -2.5, 0.0) res: False
+
+ no: 11
+Enemy0 (2.5, -4.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+Enemy1 (4.5, -4.5, 0.0) EnemyNext (5.5, -4.5, 0.0)
+
+prVec: (5.5, -4.5, 0.0) newChVec: (5.5, -3.5, 0.0) res: False
+prVec: (5.5, -4.5, 0.0) newChVec: (6.5, -4.5, 0.0) res: True
+prVec: (5.5, -4.5, 0.0) newChVec: (5.5, -5.5, 0.0) res: False
+prVec: (5.5, -4.5, 0.0) newChVec: (4.5, -4.5, 0.0) res: True
+prNo11 bfsDist: 8Item3
+
+ no: 0
+Enemy0 (4.5, -0.5, 0.0) EnemyNext (3.5, -0.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (4.5, -1.5, 0.0)
+
+prVec: (1.5, -0.5, 0.0) newChVec: (1.5, 0.5, 0.0) res: False
+prVec: (1.5, -0.5, 0.0) newChVec: (2.5, -0.5, 0.0) res: True
+prVec: (1.5, -0.5, 0.0) newChVec: (1.5, -1.5, 0.0) res: True
+prVec: (1.5, -0.5, 0.0) newChVec: (0.5, -0.5, 0.0) res: False
+
+ no: 1
+Enemy0 (3.5, -0.5, 0.0) EnemyNext (2.5, -0.5, 0.0)
+Enemy1 (4.5, -1.5, 0.0) EnemyNext (4.5, -2.5, 0.0)
+
+prVec: (2.5, -0.5, 0.0) newChVec: (2.5, 0.5, 0.0) res: False
+prVec: (2.5, -0.5, 0.0) newChVec: (3.5, -0.5, 0.0) res: False
+prVec: (2.5, -0.5, 0.0) newChVec: (2.5, -1.5, 0.0) res: False
+prVec: (2.5, -0.5, 0.0) newChVec: (1.5, -0.5, 0.0) res: True
+
+ no: 2
+Enemy0 (3.5, -0.5, 0.0) EnemyNext (2.5, -0.5, 0.0)
+Enemy1 (4.5, -1.5, 0.0) EnemyNext (4.5, -2.5, 0.0)
+
+prVec: (1.5, -1.5, 0.0) newChVec: (1.5, -0.5, 0.0) res: True
+prVec: (1.5, -1.5, 0.0) newChVec: (2.5, -1.5, 0.0) res: False
+prVec: (1.5, -1.5, 0.0) newChVec: (1.5, -2.5, 0.0) res: True
+prVec: (1.5, -1.5, 0.0) newChVec: (0.5, -1.5, 0.0) res: False
+
+ no: 3
+Enemy0 (2.5, -0.5, 0.0) EnemyNext (1.5, -0.5, 0.0)
+Enemy1 (4.5, -2.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+
+prVec: (1.5, -2.5, 0.0) newChVec: (1.5, -1.5, 0.0) res: True
+prVec: (1.5, -2.5, 0.0) newChVec: (2.5, -2.5, 0.0) res: False
+prVec: (1.5, -2.5, 0.0) newChVec: (1.5, -3.5, 0.0) res: True
+prVec: (1.5, -2.5, 0.0) newChVec: (0.5, -2.5, 0.0) res: False
+
+ no: 4
+Enemy0 (1.5, -0.5, 0.0) EnemyNext (1.5, -1.5, 0.0)
+Enemy1 (3.5, -2.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+
+prVec: (1.5, -3.5, 0.0) newChVec: (1.5, -2.5, 0.0) res: True
+prVec: (1.5, -3.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+prVec: (1.5, -3.5, 0.0) newChVec: (1.5, -4.5, 0.0) res: True
+prVec: (1.5, -3.5, 0.0) newChVec: (0.5, -3.5, 0.0) res: False
+
+ no: 5
+Enemy0 (1.5, -1.5, 0.0) EnemyNext (1.5, -2.5, 0.0)
+Enemy1 (3.5, -3.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+
+prVec: (1.5, -4.5, 0.0) newChVec: (1.5, -3.5, 0.0) res: True
+prVec: (1.5, -4.5, 0.0) newChVec: (2.5, -4.5, 0.0) res: True
+prVec: (1.5, -4.5, 0.0) newChVec: (1.5, -5.5, 0.0) res: False
+prVec: (1.5, -4.5, 0.0) newChVec: (0.5, -4.5, 0.0) res: False
+
+ no: 6
+Enemy0 (1.5, -2.5, 0.0) EnemyNext (1.5, -3.5, 0.0)
+Enemy1 (3.5, -4.5, 0.0) EnemyNext (2.5, -4.5, 0.0)
+
+prVec: (2.5, -4.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+prVec: (2.5, -4.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+prVec: (2.5, -4.5, 0.0) newChVec: (2.5, -5.5, 0.0) res: False
+prVec: (2.5, -4.5, 0.0) newChVec: (1.5, -4.5, 0.0) res: True
+
+ no: 7
+Enemy0 (1.5, -3.5, 0.0) EnemyNext (1.5, -4.5, 0.0)
+Enemy1 (2.5, -4.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+
+prVec: (3.5, -4.5, 0.0) newChVec: (3.5, -3.5, 0.0) res: True
+prVec: (3.5, -4.5, 0.0) newChVec: (4.5, -4.5, 0.0) res: True
+prVec: (3.5, -4.5, 0.0) newChVec: (3.5, -5.5, 0.0) res: False
+prVec: (3.5, -4.5, 0.0) newChVec: (2.5, -4.5, 0.0) res: True
+
+ no: 8
+Enemy0 (1.5, -4.5, 0.0) EnemyNext (1.5, -3.5, 0.0)
+Enemy1 (3.5, -4.5, 0.0) EnemyNext (3.5, -3.5, 0.0)
+
+prVec: (3.5, -3.5, 0.0) newChVec: (3.5, -2.5, 0.0) res: True
+prVec: (3.5, -3.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (3.5, -3.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+prVec: (3.5, -3.5, 0.0) newChVec: (2.5, -3.5, 0.0) res: False
+
+ no: 9
+Enemy0 (1.5, -4.5, 0.0) EnemyNext (2.5, -4.5, 0.0)
+Enemy1 (3.5, -4.5, 0.0) EnemyNext (4.5, -4.5, 0.0)
+
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (5.5, -4.5, 0.0) res: True
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -5.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: True
+
+ no: 10
+Enemy0 (1.5, -3.5, 0.0) EnemyNext (1.5, -2.5, 0.0)
+Enemy1 (3.5, -3.5, 0.0) EnemyNext (3.5, -2.5, 0.0)
+
+prVec: (3.5, -2.5, 0.0) newChVec: (3.5, -1.5, 0.0) res: False
+prVec: (3.5, -2.5, 0.0) newChVec: (4.5, -2.5, 0.0) res: True
+prVec: (3.5, -2.5, 0.0) newChVec: (3.5, -3.5, 0.0) res: True
+prVec: (3.5, -2.5, 0.0) newChVec: (2.5, -2.5, 0.0) res: False
+
+ no: 11
+Enemy0 (2.5, -4.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+Enemy1 (4.5, -4.5, 0.0) EnemyNext (5.5, -4.5, 0.0)
+
+prVec: (5.5, -4.5, 0.0) newChVec: (5.5, -3.5, 0.0) res: False
+prVec: (5.5, -4.5, 0.0) newChVec: (6.5, -4.5, 0.0) res: True
+prVec: (5.5, -4.5, 0.0) newChVec: (5.5, -5.5, 0.0) res: False
+prVec: (5.5, -4.5, 0.0) newChVec: (4.5, -4.5, 0.0) res: True
+
+ no: 12
+Enemy0 (1.5, -2.5, 0.0) EnemyNext (1.5, -3.5, 0.0)
+Enemy1 (3.5, -2.5, 0.0) EnemyNext (4.5, -2.5, 0.0)
+
+prVec: (4.5, -2.5, 0.0) newChVec: (4.5, -1.5, 0.0) res: True
+prVec: (4.5, -2.5, 0.0) newChVec: (5.5, -2.5, 0.0) res: False
+prVec: (4.5, -2.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (4.5, -2.5, 0.0) newChVec: (3.5, -2.5, 0.0) res: True
+Item4
+nearItm: Item3 dist: 8 Pos: (5.5, -4.5, 0.0)
+BestWay len: 9
+(5.5, -4.5, 0.0)
+(4.5, -4.5, 0.0)
+(3.5, -4.5, 0.0)
+(2.5, -4.5, 0.0)
+(1.5, -4.5, 0.0)
+(1.5, -3.5, 0.0)
+(1.5, -2.5, 0.0)
+(1.5, -1.5, 0.0)
+(1.5, -0.5, 0.0)
+dist: 7 no: 3
+dist: 6 no: 3
+dist: 5 no: 3
+dist: 4 no: 3
+dist: 3 no: 3
+dist: 2 no: 3
+dist: 1 no: 3
+dist: 0 no: 3
+
+
+ no: 0
+Enemy0 (2.5, -4.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+Enemy1 (4.5, -0.5, 0.0) EnemyNext (4.5, -1.5, 0.0)
+
+prVec: (5.5, -4.5, 0.0) newChVec: (5.5, -3.5, 0.0) res: False
+prVec: (5.5, -4.5, 0.0) newChVec: (6.5, -4.5, 0.0) res: True
+prVec: (5.5, -4.5, 0.0) newChVec: (5.5, -5.5, 0.0) res: False
+prVec: (5.5, -4.5, 0.0) newChVec: (4.5, -4.5, 0.0) res: True
+
+ no: 1
+Enemy0 (3.5, -4.5, 0.0) EnemyNext (4.5, -4.5, 0.0)
+Enemy1 (4.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (6.5, -4.5, 0.0) newChVec: (6.5, -3.5, 0.0) res: False
+prVec: (6.5, -4.5, 0.0) newChVec: (7.5, -4.5, 0.0) res: True
+prVec: (6.5, -4.5, 0.0) newChVec: (6.5, -5.5, 0.0) res: False
+prVec: (6.5, -4.5, 0.0) newChVec: (5.5, -4.5, 0.0) res: True
+
+ no: 2
+Enemy0 (3.5, -4.5, 0.0) EnemyNext (4.5, -4.5, 0.0)
+Enemy1 (4.5, -1.5, 0.0) EnemyNext (4.5, -2.5, 0.0)
+
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (5.5, -4.5, 0.0) res: True
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -5.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: False
+
+ no: 3
+Enemy0 (4.5, -4.5, 0.0) EnemyNext (5.5, -4.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (7.5, -4.5, 0.0) newChVec: (7.5, -3.5, 0.0) res: True
+prVec: (7.5, -4.5, 0.0) newChVec: (8.5, -4.5, 0.0) res: True
+prVec: (7.5, -4.5, 0.0) newChVec: (7.5, -5.5, 0.0) res: False
+prVec: (7.5, -4.5, 0.0) newChVec: (6.5, -4.5, 0.0) res: True
+
+ no: 4
+Enemy0 (5.5, -4.5, 0.0) EnemyNext (6.5, -4.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (6.5, -2.5, 0.0)
+
+prVec: (7.5, -3.5, 0.0) newChVec: (7.5, -2.5, 0.0) res: True
+prVec: (7.5, -3.5, 0.0) newChVec: (8.5, -3.5, 0.0) res: False
+prVec: (7.5, -3.5, 0.0) newChVec: (7.5, -4.5, 0.0) res: True
+prVec: (7.5, -3.5, 0.0) newChVec: (6.5, -3.5, 0.0) res: False
+
+ no: 5
+Enemy0 (5.5, -4.5, 0.0) EnemyNext (6.5, -4.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (6.5, -2.5, 0.0)
+
+prVec: (8.5, -4.5, 0.0) newChVec: (8.5, -3.5, 0.0) res: False
+prVec: (8.5, -4.5, 0.0) newChVec: (9.5, -4.5, 0.0) res: True
+prVec: (8.5, -4.5, 0.0) newChVec: (8.5, -5.5, 0.0) res: False
+prVec: (8.5, -4.5, 0.0) newChVec: (7.5, -4.5, 0.0) res: True
+
+ no: 6
+Enemy0 (6.5, -4.5, 0.0) EnemyNext (7.5, -4.5, 0.0)
+Enemy1 (6.5, -2.5, 0.0) EnemyNext (7.5, -2.5, 0.0)
+
+prVec: (7.5, -2.5, 0.0) newChVec: (7.5, -1.5, 0.0) res: False
+prVec: (7.5, -2.5, 0.0) newChVec: (8.5, -2.5, 0.0) res: True
+prVec: (7.5, -2.5, 0.0) newChVec: (7.5, -3.5, 0.0) res: True
+prVec: (7.5, -2.5, 0.0) newChVec: (6.5, -2.5, 0.0) res: True
+
+ no: 7
+Enemy0 (6.5, -4.5, 0.0) EnemyNext (7.5, -4.5, 0.0)
+Enemy1 (6.5, -2.5, 0.0) EnemyNext (7.5, -2.5, 0.0)
+
+prVec: (9.5, -4.5, 0.0) newChVec: (9.5, -3.5, 0.0) res: True
+prVec: (9.5, -4.5, 0.0) newChVec: (10.5, -4.5, 0.0) res: False
+prVec: (9.5, -4.5, 0.0) newChVec: (9.5, -5.5, 0.0) res: False
+prVec: (9.5, -4.5, 0.0) newChVec: (8.5, -4.5, 0.0) res: True
+
+ no: 8
+Enemy0 (7.5, -4.5, 0.0) EnemyNext (7.5, -3.5, 0.0)
+Enemy1 (7.5, -2.5, 0.0) EnemyNext (8.5, -2.5, 0.0)
+
+prVec: (8.5, -2.5, 0.0) newChVec: (8.5, -1.5, 0.0) res: False
+prVec: (8.5, -2.5, 0.0) newChVec: (9.5, -2.5, 0.0) res: True
+prVec: (8.5, -2.5, 0.0) newChVec: (8.5, -3.5, 0.0) res: False
+prVec: (8.5, -2.5, 0.0) newChVec: (7.5, -2.5, 0.0) res: True
+
+ no: 9
+Enemy0 (7.5, -4.5, 0.0) EnemyNext (7.5, -3.5, 0.0)
+Enemy1 (7.5, -2.5, 0.0) EnemyNext (6.5, -2.5, 0.0)
+
+prVec: (6.5, -2.5, 0.0) newChVec: (6.5, -1.5, 0.0) res: True
+prVec: (6.5, -2.5, 0.0) newChVec: (7.5, -2.5, 0.0) res: True
+prVec: (6.5, -2.5, 0.0) newChVec: (6.5, -3.5, 0.0) res: False
+prVec: (6.5, -2.5, 0.0) newChVec: (5.5, -2.5, 0.0) res: False
+
+ no: 10
+Enemy0 (7.5, -4.5, 0.0) EnemyNext (7.5, -3.5, 0.0)
+Enemy1 (7.5, -2.5, 0.0) EnemyNext (8.5, -2.5, 0.0)
+
+prVec: (9.5, -3.5, 0.0) newChVec: (9.5, -2.5, 0.0) res: True
+prVec: (9.5, -3.5, 0.0) newChVec: (10.5, -3.5, 0.0) res: False
+prVec: (9.5, -3.5, 0.0) newChVec: (9.5, -4.5, 0.0) res: True
+prVec: (9.5, -3.5, 0.0) newChVec: (8.5, -3.5, 0.0) res: False
+
+ no: 11
+Enemy0 (7.5, -3.5, 0.0) EnemyNext (7.5, -2.5, 0.0)
+Enemy1 (8.5, -2.5, 0.0) EnemyNext (9.5, -2.5, 0.0)
+
+prVec: (9.5, -2.5, 0.0) newChVec: (9.5, -1.5, 0.0) res: True
+prVec: (9.5, -2.5, 0.0) newChVec: (10.5, -2.5, 0.0) res: False
+prVec: (9.5, -2.5, 0.0) newChVec: (9.5, -3.5, 0.0) res: True
+prVec: (9.5, -2.5, 0.0) newChVec: (8.5, -2.5, 0.0) res: True
+
+ no: 12
+Enemy0 (7.5, -3.5, 0.0) EnemyNext (7.5, -2.5, 0.0)
+Enemy1 (6.5, -2.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (6.5, -1.5, 0.0) newChVec: (6.5, -0.5, 0.0) res: True
+prVec: (6.5, -1.5, 0.0) newChVec: (7.5, -1.5, 0.0) res: False
+prVec: (6.5, -1.5, 0.0) newChVec: (6.5, -2.5, 0.0) res: True
+prVec: (6.5, -1.5, 0.0) newChVec: (5.5, -1.5, 0.0) res: True
+
+ no: 11
+Enemy0 (7.5, -3.5, 0.0) EnemyNext (7.5, -2.5, 0.0)
+Enemy1 (8.5, -2.5, 0.0) EnemyNext (9.5, -2.5, 0.0)
+
+prVec: (9.5, -2.5, 0.0) newChVec: (9.5, -1.5, 0.0) res: True
+prVec: (9.5, -2.5, 0.0) newChVec: (10.5, -2.5, 0.0) res: False
+prVec: (9.5, -2.5, 0.0) newChVec: (9.5, -3.5, 0.0) res: True
+prVec: (9.5, -2.5, 0.0) newChVec: (8.5, -2.5, 0.0) res: True
+
+ no: 14
+Enemy0 (7.5, -2.5, 0.0) EnemyNext (8.5, -2.5, 0.0)
+Enemy1 (9.5, -2.5, 0.0) EnemyNext (9.5, -1.5, 0.0)
+
+prVec: (9.5, -1.5, 0.0) newChVec: (9.5, -0.5, 0.0) res: True
+prVec: (9.5, -1.5, 0.0) newChVec: (10.5, -1.5, 0.0) res: False
+prVec: (9.5, -1.5, 0.0) newChVec: (9.5, -2.5, 0.0) res: True
+prVec: (9.5, -1.5, 0.0) newChVec: (8.5, -1.5, 0.0) res: False
+
+ no: 15
+Enemy0 (7.5, -2.5, 0.0) EnemyNext (6.5, -2.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (6.5, -0.5, 0.0)
+
+prVec: (6.5, -0.5, 0.0) newChVec: (6.5, 0.5, 0.0) res: False
+prVec: (6.5, -0.5, 0.0) newChVec: (7.5, -0.5, 0.0) res: True
+prVec: (6.5, -0.5, 0.0) newChVec: (6.5, -1.5, 0.0) res: True
+prVec: (6.5, -0.5, 0.0) newChVec: (5.5, -0.5, 0.0) res: False
+
+ no: 16
+Enemy0 (7.5, -2.5, 0.0) EnemyNext (6.5, -2.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (5.5, -1.5, 0.0) newChVec: (5.5, -0.5, 0.0) res: False
+prVec: (5.5, -1.5, 0.0) newChVec: (6.5, -1.5, 0.0) res: True
+prVec: (5.5, -1.5, 0.0) newChVec: (5.5, -2.5, 0.0) res: False
+prVec: (5.5, -1.5, 0.0) newChVec: (4.5, -1.5, 0.0) res: True
+
+ no: 14
+Enemy0 (7.5, -2.5, 0.0) EnemyNext (8.5, -2.5, 0.0)
+Enemy1 (9.5, -2.5, 0.0) EnemyNext (9.5, -1.5, 0.0)
+
+prVec: (9.5, -1.5, 0.0) newChVec: (9.5, -0.5, 0.0) res: True
+prVec: (9.5, -1.5, 0.0) newChVec: (10.5, -1.5, 0.0) res: False
+prVec: (9.5, -1.5, 0.0) newChVec: (9.5, -2.5, 0.0) res: True
+prVec: (9.5, -1.5, 0.0) newChVec: (8.5, -1.5, 0.0) res: False
+
+ no: 18
+Enemy0 (8.5, -2.5, 0.0) EnemyNext (9.5, -2.5, 0.0)
+Enemy1 (9.5, -1.5, 0.0) EnemyNext (9.5, -0.5, 0.0)
+
+prVec: (9.5, -0.5, 0.0) newChVec: (9.5, 0.5, 0.0) res: False
+prVec: (9.5, -0.5, 0.0) newChVec: (10.5, -0.5, 0.0) res: False
+prVec: (9.5, -0.5, 0.0) newChVec: (9.5, -1.5, 0.0) res: True
+prVec: (9.5, -0.5, 0.0) newChVec: (8.5, -0.5, 0.0) res: True
+
+ no: 19
+Enemy0 (6.5, -2.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+Enemy1 (6.5, -0.5, 0.0) EnemyNext (7.5, -0.5, 0.0)
+
+prVec: (7.5, -0.5, 0.0) newChVec: (7.5, 0.5, 0.0) res: False
+prVec: (7.5, -0.5, 0.0) newChVec: (8.5, -0.5, 0.0) res: True
+prVec: (7.5, -0.5, 0.0) newChVec: (7.5, -1.5, 0.0) res: False
+prVec: (7.5, -0.5, 0.0) newChVec: (6.5, -0.5, 0.0) res: True
+
+ no: 20
+Enemy0 (6.5, -2.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (4.5, -1.5, 0.0)
+
+prVec: (4.5, -1.5, 0.0) newChVec: (4.5, -0.5, 0.0) res: False
+prVec: (4.5, -1.5, 0.0) newChVec: (5.5, -1.5, 0.0) res: True
+prVec: (4.5, -1.5, 0.0) newChVec: (4.5, -2.5, 0.0) res: True
+prVec: (4.5, -1.5, 0.0) newChVec: (3.5, -1.5, 0.0) res: False
+
+ no: 18
+Enemy0 (8.5, -2.5, 0.0) EnemyNext (9.5, -2.5, 0.0)
+Enemy1 (9.5, -1.5, 0.0) EnemyNext (9.5, -0.5, 0.0)
+
+prVec: (9.5, -0.5, 0.0) newChVec: (9.5, 0.5, 0.0) res: False
+prVec: (9.5, -0.5, 0.0) newChVec: (10.5, -0.5, 0.0) res: False
+prVec: (9.5, -0.5, 0.0) newChVec: (9.5, -1.5, 0.0) res: True
+prVec: (9.5, -0.5, 0.0) newChVec: (8.5, -0.5, 0.0) res: True
+
+ no: 22
+Enemy0 (9.5, -2.5, 0.0) EnemyNext (9.5, -1.5, 0.0)
+Enemy1 (9.5, -0.5, 0.0) EnemyNext (8.5, -0.5, 0.0)
+
+prVec: (8.5, -0.5, 0.0) newChVec: (8.5, 0.5, 0.0) res: False
+prVec: (8.5, -0.5, 0.0) newChVec: (9.5, -0.5, 0.0) res: True
+prVec: (8.5, -0.5, 0.0) newChVec: (8.5, -1.5, 0.0) res: False
+prVec: (8.5, -0.5, 0.0) newChVec: (7.5, -0.5, 0.0) res: True
+
+ no: 22
+Enemy0 (6.5, -1.5, 0.0) EnemyNext (6.5, -0.5, 0.0)
+Enemy1 (7.5, -0.5, 0.0) EnemyNext (8.5, -0.5, 0.0)
+
+prVec: (8.5, -0.5, 0.0) newChVec: (8.5, 0.5, 0.0) res: False
+prVec: (8.5, -0.5, 0.0) newChVec: (9.5, -0.5, 0.0) res: True
+prVec: (8.5, -0.5, 0.0) newChVec: (8.5, -1.5, 0.0) res: False
+prVec: (8.5, -0.5, 0.0) newChVec: (7.5, -0.5, 0.0) res: True
+
+ no: 24
+Enemy0 (6.5, -1.5, 0.0) EnemyNext (6.5, -2.5, 0.0)
+Enemy1 (4.5, -1.5, 0.0) EnemyNext (4.5, -2.5, 0.0)
+
+prVec: (4.5, -2.5, 0.0) newChVec: (4.5, -1.5, 0.0) res: True
+prVec: (4.5, -2.5, 0.0) newChVec: (5.5, -2.5, 0.0) res: False
+prVec: (4.5, -2.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (4.5, -2.5, 0.0) newChVec: (3.5, -2.5, 0.0) res: True
+prNo24 bfsDist: 9Item1
+
+ no: 0
+Enemy0 (2.5, -4.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+Enemy1 (4.5, -0.5, 0.0) EnemyNext (4.5, -1.5, 0.0)
+
+prVec: (5.5, -4.5, 0.0) newChVec: (5.5, -3.5, 0.0) res: False
+prVec: (5.5, -4.5, 0.0) newChVec: (6.5, -4.5, 0.0) res: True
+prVec: (5.5, -4.5, 0.0) newChVec: (5.5, -5.5, 0.0) res: False
+prVec: (5.5, -4.5, 0.0) newChVec: (4.5, -4.5, 0.0) res: True
+
+ no: 1
+Enemy0 (3.5, -4.5, 0.0) EnemyNext (4.5, -4.5, 0.0)
+Enemy1 (4.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (6.5, -4.5, 0.0) newChVec: (6.5, -3.5, 0.0) res: False
+prVec: (6.5, -4.5, 0.0) newChVec: (7.5, -4.5, 0.0) res: True
+prVec: (6.5, -4.5, 0.0) newChVec: (6.5, -5.5, 0.0) res: False
+prVec: (6.5, -4.5, 0.0) newChVec: (5.5, -4.5, 0.0) res: True
+
+ no: 2
+Enemy0 (3.5, -4.5, 0.0) EnemyNext (4.5, -4.5, 0.0)
+Enemy1 (4.5, -1.5, 0.0) EnemyNext (4.5, -2.5, 0.0)
+
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (5.5, -4.5, 0.0) res: True
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -5.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: False
+
+ no: 3
+Enemy0 (4.5, -4.5, 0.0) EnemyNext (5.5, -4.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (7.5, -4.5, 0.0) newChVec: (7.5, -3.5, 0.0) res: True
+prVec: (7.5, -4.5, 0.0) newChVec: (8.5, -4.5, 0.0) res: True
+prVec: (7.5, -4.5, 0.0) newChVec: (7.5, -5.5, 0.0) res: False
+prVec: (7.5, -4.5, 0.0) newChVec: (6.5, -4.5, 0.0) res: True
+
+ no: 4
+Enemy0 (5.5, -4.5, 0.0) EnemyNext (6.5, -4.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (6.5, -2.5, 0.0)
+
+prVec: (7.5, -3.5, 0.0) newChVec: (7.5, -2.5, 0.0) res: True
+prVec: (7.5, -3.5, 0.0) newChVec: (8.5, -3.5, 0.0) res: False
+prVec: (7.5, -3.5, 0.0) newChVec: (7.5, -4.5, 0.0) res: True
+prVec: (7.5, -3.5, 0.0) newChVec: (6.5, -3.5, 0.0) res: False
+
+ no: 5
+Enemy0 (5.5, -4.5, 0.0) EnemyNext (6.5, -4.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (6.5, -2.5, 0.0)
+
+prVec: (8.5, -4.5, 0.0) newChVec: (8.5, -3.5, 0.0) res: False
+prVec: (8.5, -4.5, 0.0) newChVec: (9.5, -4.5, 0.0) res: True
+prVec: (8.5, -4.5, 0.0) newChVec: (8.5, -5.5, 0.0) res: False
+prVec: (8.5, -4.5, 0.0) newChVec: (7.5, -4.5, 0.0) res: True
+
+ no: 6
+Enemy0 (6.5, -4.5, 0.0) EnemyNext (7.5, -4.5, 0.0)
+Enemy1 (6.5, -2.5, 0.0) EnemyNext (7.5, -2.5, 0.0)
+
+prVec: (7.5, -2.5, 0.0) newChVec: (7.5, -1.5, 0.0) res: False
+prVec: (7.5, -2.5, 0.0) newChVec: (8.5, -2.5, 0.0) res: True
+prVec: (7.5, -2.5, 0.0) newChVec: (7.5, -3.5, 0.0) res: True
+prVec: (7.5, -2.5, 0.0) newChVec: (6.5, -2.5, 0.0) res: True
+
+ no: 7
+Enemy0 (6.5, -4.5, 0.0) EnemyNext (7.5, -4.5, 0.0)
+Enemy1 (6.5, -2.5, 0.0) EnemyNext (7.5, -2.5, 0.0)
+
+prVec: (9.5, -4.5, 0.0) newChVec: (9.5, -3.5, 0.0) res: True
+prVec: (9.5, -4.5, 0.0) newChVec: (10.5, -4.5, 0.0) res: False
+prVec: (9.5, -4.5, 0.0) newChVec: (9.5, -5.5, 0.0) res: False
+prVec: (9.5, -4.5, 0.0) newChVec: (8.5, -4.5, 0.0) res: True
+
+ no: 8
+Enemy0 (7.5, -4.5, 0.0) EnemyNext (7.5, -3.5, 0.0)
+Enemy1 (7.5, -2.5, 0.0) EnemyNext (8.5, -2.5, 0.0)
+
+prVec: (8.5, -2.5, 0.0) newChVec: (8.5, -1.5, 0.0) res: False
+prVec: (8.5, -2.5, 0.0) newChVec: (9.5, -2.5, 0.0) res: True
+prVec: (8.5, -2.5, 0.0) newChVec: (8.5, -3.5, 0.0) res: False
+prVec: (8.5, -2.5, 0.0) newChVec: (7.5, -2.5, 0.0) res: True
+
+ no: 9
+Enemy0 (7.5, -4.5, 0.0) EnemyNext (7.5, -3.5, 0.0)
+Enemy1 (7.5, -2.5, 0.0) EnemyNext (6.5, -2.5, 0.0)
+
+prVec: (6.5, -2.5, 0.0) newChVec: (6.5, -1.5, 0.0) res: True
+prVec: (6.5, -2.5, 0.0) newChVec: (7.5, -2.5, 0.0) res: True
+prVec: (6.5, -2.5, 0.0) newChVec: (6.5, -3.5, 0.0) res: False
+prVec: (6.5, -2.5, 0.0) newChVec: (5.5, -2.5, 0.0) res: False
+prNo9 bfsDist: 5Item2
+
+ no: 0
+Enemy0 (2.5, -4.5, 0.0) EnemyNext (3.5, -4.5, 0.0)
+Enemy1 (4.5, -0.5, 0.0) EnemyNext (4.5, -1.5, 0.0)
+
+prVec: (5.5, -4.5, 0.0) newChVec: (5.5, -3.5, 0.0) res: False
+prVec: (5.5, -4.5, 0.0) newChVec: (6.5, -4.5, 0.0) res: True
+prVec: (5.5, -4.5, 0.0) newChVec: (5.5, -5.5, 0.0) res: False
+prVec: (5.5, -4.5, 0.0) newChVec: (4.5, -4.5, 0.0) res: True
+
+ no: 1
+Enemy0 (3.5, -4.5, 0.0) EnemyNext (4.5, -4.5, 0.0)
+Enemy1 (4.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (6.5, -4.5, 0.0) newChVec: (6.5, -3.5, 0.0) res: False
+prVec: (6.5, -4.5, 0.0) newChVec: (7.5, -4.5, 0.0) res: True
+prVec: (6.5, -4.5, 0.0) newChVec: (6.5, -5.5, 0.0) res: False
+prVec: (6.5, -4.5, 0.0) newChVec: (5.5, -4.5, 0.0) res: True
+
+ no: 2
+Enemy0 (3.5, -4.5, 0.0) EnemyNext (4.5, -4.5, 0.0)
+Enemy1 (4.5, -1.5, 0.0) EnemyNext (4.5, -2.5, 0.0)
+
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (5.5, -4.5, 0.0) res: True
+prVec: (4.5, -4.5, 0.0) newChVec: (4.5, -5.5, 0.0) res: False
+prVec: (4.5, -4.5, 0.0) newChVec: (3.5, -4.5, 0.0) res: False
+
+ no: 3
+Enemy0 (4.5, -4.5, 0.0) EnemyNext (5.5, -4.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (7.5, -4.5, 0.0) newChVec: (7.5, -3.5, 0.0) res: True
+prVec: (7.5, -4.5, 0.0) newChVec: (8.5, -4.5, 0.0) res: True
+prVec: (7.5, -4.5, 0.0) newChVec: (7.5, -5.5, 0.0) res: False
+prVec: (7.5, -4.5, 0.0) newChVec: (6.5, -4.5, 0.0) res: True
+
+ no: 4
+Enemy0 (5.5, -4.5, 0.0) EnemyNext (6.5, -4.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (6.5, -2.5, 0.0)
+
+prVec: (7.5, -3.5, 0.0) newChVec: (7.5, -2.5, 0.0) res: True
+prVec: (7.5, -3.5, 0.0) newChVec: (8.5, -3.5, 0.0) res: False
+prVec: (7.5, -3.5, 0.0) newChVec: (7.5, -4.5, 0.0) res: True
+prVec: (7.5, -3.5, 0.0) newChVec: (6.5, -3.5, 0.0) res: False
+
+ no: 5
+Enemy0 (5.5, -4.5, 0.0) EnemyNext (6.5, -4.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (6.5, -2.5, 0.0)
+
+prVec: (8.5, -4.5, 0.0) newChVec: (8.5, -3.5, 0.0) res: False
+prVec: (8.5, -4.5, 0.0) newChVec: (9.5, -4.5, 0.0) res: True
+prVec: (8.5, -4.5, 0.0) newChVec: (8.5, -5.5, 0.0) res: False
+prVec: (8.5, -4.5, 0.0) newChVec: (7.5, -4.5, 0.0) res: True
+
+ no: 6
+Enemy0 (6.5, -4.5, 0.0) EnemyNext (7.5, -4.5, 0.0)
+Enemy1 (6.5, -2.5, 0.0) EnemyNext (7.5, -2.5, 0.0)
+
+prVec: (7.5, -2.5, 0.0) newChVec: (7.5, -1.5, 0.0) res: False
+prVec: (7.5, -2.5, 0.0) newChVec: (8.5, -2.5, 0.0) res: True
+prVec: (7.5, -2.5, 0.0) newChVec: (7.5, -3.5, 0.0) res: True
+prVec: (7.5, -2.5, 0.0) newChVec: (6.5, -2.5, 0.0) res: True
+
+ no: 7
+Enemy0 (6.5, -4.5, 0.0) EnemyNext (7.5, -4.5, 0.0)
+Enemy1 (6.5, -2.5, 0.0) EnemyNext (7.5, -2.5, 0.0)
+
+prVec: (9.5, -4.5, 0.0) newChVec: (9.5, -3.5, 0.0) res: True
+prVec: (9.5, -4.5, 0.0) newChVec: (10.5, -4.5, 0.0) res: False
+prVec: (9.5, -4.5, 0.0) newChVec: (9.5, -5.5, 0.0) res: False
+prVec: (9.5, -4.5, 0.0) newChVec: (8.5, -4.5, 0.0) res: True
+prNo7 bfsDist: 4Item4
+nearItm: Item4 dist: 4 Pos: (9.5, -4.5, 0.0)
+BestWay len: 5
+(9.5, -4.5, 0.0)
+(8.5, -4.5, 0.0)
+(7.5, -4.5, 0.0)
+(6.5, -4.5, 0.0)
+(5.5, -4.5, 0.0)
+dist: 3 no: 4
+dist: 2 no: 4
+dist: 1 no: 4
+dist: 0 no: 4
+
+
+ no: 0
+Enemy0 (6.5, -4.5, 0.0) EnemyNext (7.5, -4.5, 0.0)
+Enemy1 (6.5, -0.5, 0.0) EnemyNext (7.5, -0.5, 0.0)
+
+prVec: (9.5, -4.5, 0.0) newChVec: (9.5, -3.5, 0.0) res: True
+prVec: (9.5, -4.5, 0.0) newChVec: (10.5, -4.5, 0.0) res: False
+prVec: (9.5, -4.5, 0.0) newChVec: (9.5, -5.5, 0.0) res: False
+prVec: (9.5, -4.5, 0.0) newChVec: (8.5, -4.5, 0.0) res: True
+
+ no: 1
+Enemy0 (7.5, -4.5, 0.0) EnemyNext (7.5, -3.5, 0.0)
+Enemy1 (7.5, -0.5, 0.0) EnemyNext (8.5, -0.5, 0.0)
+
+prVec: (9.5, -3.5, 0.0) newChVec: (9.5, -2.5, 0.0) res: True
+prVec: (9.5, -3.5, 0.0) newChVec: (10.5, -3.5, 0.0) res: False
+prVec: (9.5, -3.5, 0.0) newChVec: (9.5, -4.5, 0.0) res: True
+prVec: (9.5, -3.5, 0.0) newChVec: (8.5, -3.5, 0.0) res: False
+
+ no: 2
+Enemy0 (7.5, -4.5, 0.0) EnemyNext (8.5, -4.5, 0.0)
+Enemy1 (7.5, -0.5, 0.0) EnemyNext (8.5, -0.5, 0.0)
+
+prVec: (8.5, -4.5, 0.0) newChVec: (8.5, -3.5, 0.0) res: False
+prVec: (8.5, -4.5, 0.0) newChVec: (9.5, -4.5, 0.0) res: True
+prVec: (8.5, -4.5, 0.0) newChVec: (8.5, -5.5, 0.0) res: False
+prVec: (8.5, -4.5, 0.0) newChVec: (7.5, -4.5, 0.0) res: False
+
+ no: 3
+Enemy0 (7.5, -3.5, 0.0) EnemyNext (7.5, -2.5, 0.0)
+Enemy1 (8.5, -0.5, 0.0) EnemyNext (9.5, -0.5, 0.0)
+
+prVec: (9.5, -2.5, 0.0) newChVec: (9.5, -1.5, 0.0) res: True
+prVec: (9.5, -2.5, 0.0) newChVec: (10.5, -2.5, 0.0) res: False
+prVec: (9.5, -2.5, 0.0) newChVec: (9.5, -3.5, 0.0) res: True
+prVec: (9.5, -2.5, 0.0) newChVec: (8.5, -2.5, 0.0) res: True
+
+ no: 4
+Enemy0 (7.5, -2.5, 0.0) EnemyNext (8.5, -2.5, 0.0)
+Enemy1 (9.5, -0.5, 0.0) EnemyNext (9.5, -1.5, 0.0)
+
+prVec: (9.5, -1.5, 0.0) newChVec: (9.5, -0.5, 0.0) res: True
+prVec: (9.5, -1.5, 0.0) newChVec: (10.5, -1.5, 0.0) res: False
+prVec: (9.5, -1.5, 0.0) newChVec: (9.5, -2.5, 0.0) res: True
+prVec: (9.5, -1.5, 0.0) newChVec: (8.5, -1.5, 0.0) res: False
+
+ no: 5
+Enemy0 (7.5, -2.5, 0.0) EnemyNext (8.5, -2.5, 0.0)
+Enemy1 (9.5, -0.5, 0.0) EnemyNext (8.5, -0.5, 0.0)
+
+prVec: (8.5, -2.5, 0.0) newChVec: (8.5, -1.5, 0.0) res: False
+prVec: (8.5, -2.5, 0.0) newChVec: (9.5, -2.5, 0.0) res: True
+prVec: (8.5, -2.5, 0.0) newChVec: (8.5, -3.5, 0.0) res: False
+prVec: (8.5, -2.5, 0.0) newChVec: (7.5, -2.5, 0.0) res: True
+
+ no: 6
+Enemy0 (8.5, -2.5, 0.0) EnemyNext (9.5, -2.5, 0.0)
+Enemy1 (9.5, -1.5, 0.0) EnemyNext (9.5, -0.5, 0.0)
+
+prVec: (9.5, -0.5, 0.0) newChVec: (9.5, 0.5, 0.0) res: False
+prVec: (9.5, -0.5, 0.0) newChVec: (10.5, -0.5, 0.0) res: False
+prVec: (9.5, -0.5, 0.0) newChVec: (9.5, -1.5, 0.0) res: True
+prVec: (9.5, -0.5, 0.0) newChVec: (8.5, -0.5, 0.0) res: True
+
+ no: 7
+Enemy0 (8.5, -2.5, 0.0) EnemyNext (7.5, -2.5, 0.0)
+Enemy1 (8.5, -0.5, 0.0) EnemyNext (7.5, -0.5, 0.0)
+
+prVec: (7.5, -2.5, 0.0) newChVec: (7.5, -1.5, 0.0) res: False
+prVec: (7.5, -2.5, 0.0) newChVec: (8.5, -2.5, 0.0) res: True
+prVec: (7.5, -2.5, 0.0) newChVec: (7.5, -3.5, 0.0) res: True
+prVec: (7.5, -2.5, 0.0) newChVec: (6.5, -2.5, 0.0) res: True
+
+ no: 8
+Enemy0 (9.5, -2.5, 0.0) EnemyNext (9.5, -1.5, 0.0)
+Enemy1 (9.5, -0.5, 0.0) EnemyNext (8.5, -0.5, 0.0)
+
+prVec: (8.5, -0.5, 0.0) newChVec: (8.5, 0.5, 0.0) res: False
+prVec: (8.5, -0.5, 0.0) newChVec: (9.5, -0.5, 0.0) res: True
+prVec: (8.5, -0.5, 0.0) newChVec: (8.5, -1.5, 0.0) res: False
+prVec: (8.5, -0.5, 0.0) newChVec: (7.5, -0.5, 0.0) res: True
+
+ no: 9
+Enemy0 (7.5, -2.5, 0.0) EnemyNext (7.5, -3.5, 0.0)
+Enemy1 (7.5, -0.5, 0.0) EnemyNext (6.5, -0.5, 0.0)
+
+prVec: (7.5, -3.5, 0.0) newChVec: (7.5, -2.5, 0.0) res: True
+prVec: (7.5, -3.5, 0.0) newChVec: (8.5, -3.5, 0.0) res: False
+prVec: (7.5, -3.5, 0.0) newChVec: (7.5, -4.5, 0.0) res: False
+prVec: (7.5, -3.5, 0.0) newChVec: (6.5, -3.5, 0.0) res: False
+
+ no: 10
+Enemy0 (7.5, -2.5, 0.0) EnemyNext (6.5, -2.5, 0.0)
+Enemy1 (7.5, -0.5, 0.0) EnemyNext (6.5, -0.5, 0.0)
+
+prVec: (6.5, -2.5, 0.0) newChVec: (6.5, -1.5, 0.0) res: True
+prVec: (6.5, -2.5, 0.0) newChVec: (7.5, -2.5, 0.0) res: True
+prVec: (6.5, -2.5, 0.0) newChVec: (6.5, -3.5, 0.0) res: False
+prVec: (6.5, -2.5, 0.0) newChVec: (5.5, -2.5, 0.0) res: False
+
+ no: 11
+Enemy0 (9.5, -1.5, 0.0) EnemyNext (9.5, -0.5, 0.0)
+Enemy1 (8.5, -0.5, 0.0) EnemyNext (7.5, -0.5, 0.0)
+
+prVec: (7.5, -0.5, 0.0) newChVec: (7.5, 0.5, 0.0) res: False
+prVec: (7.5, -0.5, 0.0) newChVec: (8.5, -0.5, 0.0) res: True
+prVec: (7.5, -0.5, 0.0) newChVec: (7.5, -1.5, 0.0) res: False
+prVec: (7.5, -0.5, 0.0) newChVec: (6.5, -0.5, 0.0) res: False
+
+ no: 12
+Enemy0 (6.5, -2.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+Enemy1 (6.5, -0.5, 0.0) EnemyNext (6.5, -1.5, 0.0)
+
+prVec: (6.5, -1.5, 0.0) newChVec: (6.5, -0.5, 0.0) res: False
+prVec: (6.5, -1.5, 0.0) newChVec: (7.5, -1.5, 0.0) res: False
+prVec: (6.5, -1.5, 0.0) newChVec: (6.5, -2.5, 0.0) res: True
+prVec: (6.5, -1.5, 0.0) newChVec: (5.5, -1.5, 0.0) res: True
+
+ no: 13
+Enemy0 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+Enemy1 (6.5, -1.5, 0.0) EnemyNext (5.5, -1.5, 0.0)
+
+prVec: (5.5, -1.5, 0.0) newChVec: (5.5, -0.5, 0.0) res: False
+prVec: (5.5, -1.5, 0.0) newChVec: (6.5, -1.5, 0.0) res: True
+prVec: (5.5, -1.5, 0.0) newChVec: (5.5, -2.5, 0.0) res: False
+prVec: (5.5, -1.5, 0.0) newChVec: (4.5, -1.5, 0.0) res: True
+
+ no: 14
+Enemy0 (5.5, -1.5, 0.0) EnemyNext (4.5, -1.5, 0.0)
+Enemy1 (5.5, -1.5, 0.0) EnemyNext (4.5, -1.5, 0.0)
+
+prVec: (4.5, -1.5, 0.0) newChVec: (4.5, -0.5, 0.0) res: True
+prVec: (4.5, -1.5, 0.0) newChVec: (5.5, -1.5, 0.0) res: True
+prVec: (4.5, -1.5, 0.0) newChVec: (4.5, -2.5, 0.0) res: True
+prVec: (4.5, -1.5, 0.0) newChVec: (3.5, -1.5, 0.0) res: False
+
+ no: 15
+Enemy0 (4.5, -1.5, 0.0) EnemyNext (4.5, -0.5, 0.0)
+Enemy1 (4.5, -1.5, 0.0) EnemyNext (4.5, -0.5, 0.0)
+
+prVec: (4.5, -0.5, 0.0) newChVec: (4.5, 0.5, 0.0) res: False
+prVec: (4.5, -0.5, 0.0) newChVec: (5.5, -0.5, 0.0) res: False
+prVec: (4.5, -0.5, 0.0) newChVec: (4.5, -1.5, 0.0) res: True
+prVec: (4.5, -0.5, 0.0) newChVec: (3.5, -0.5, 0.0) res: True
+
+ no: 16
+Enemy0 (4.5, -1.5, 0.0) EnemyNext (4.5, -2.5, 0.0)
+Enemy1 (4.5, -1.5, 0.0) EnemyNext (4.5, -2.5, 0.0)
+
+prVec: (4.5, -2.5, 0.0) newChVec: (4.5, -1.5, 0.0) res: True
+prVec: (4.5, -2.5, 0.0) newChVec: (5.5, -2.5, 0.0) res: False
+prVec: (4.5, -2.5, 0.0) newChVec: (4.5, -3.5, 0.0) res: False
+prVec: (4.5, -2.5, 0.0) newChVec: (3.5, -2.5, 0.0) res: True
+prNo16 bfsDist: 9Item1
+
+ no: 0
+Enemy0 (6.5, -4.5, 0.0) EnemyNext (7.5, -4.5, 0.0)
+Enemy1 (6.5, -0.5, 0.0) EnemyNext (7.5, -0.5, 0.0)
+
+prVec: (9.5, -4.5, 0.0) newChVec: (9.5, -3.5, 0.0) res: True
+prVec: (9.5, -4.5, 0.0) newChVec: (10.5, -4.5, 0.0) res: False
+prVec: (9.5, -4.5, 0.0) newChVec: (9.5, -5.5, 0.0) res: False
+prVec: (9.5, -4.5, 0.0) newChVec: (8.5, -4.5, 0.0) res: True
+
+ no: 1
+Enemy0 (7.5, -4.5, 0.0) EnemyNext (7.5, -3.5, 0.0)
+Enemy1 (7.5, -0.5, 0.0) EnemyNext (8.5, -0.5, 0.0)
+
+prVec: (9.5, -3.5, 0.0) newChVec: (9.5, -2.5, 0.0) res: True
+prVec: (9.5, -3.5, 0.0) newChVec: (10.5, -3.5, 0.0) res: False
+prVec: (9.5, -3.5, 0.0) newChVec: (9.5, -4.5, 0.0) res: True
+prVec: (9.5, -3.5, 0.0) newChVec: (8.5, -3.5, 0.0) res: False
+
+ no: 2
+Enemy0 (7.5, -4.5, 0.0) EnemyNext (8.5, -4.5, 0.0)
+Enemy1 (7.5, -0.5, 0.0) EnemyNext (8.5, -0.5, 0.0)
+
+prVec: (8.5, -4.5, 0.0) newChVec: (8.5, -3.5, 0.0) res: False
+prVec: (8.5, -4.5, 0.0) newChVec: (9.5, -4.5, 0.0) res: True
+prVec: (8.5, -4.5, 0.0) newChVec: (8.5, -5.5, 0.0) res: False
+prVec: (8.5, -4.5, 0.0) newChVec: (7.5, -4.5, 0.0) res: False
+
+ no: 3
+Enemy0 (7.5, -3.5, 0.0) EnemyNext (7.5, -2.5, 0.0)
+Enemy1 (8.5, -0.5, 0.0) EnemyNext (9.5, -0.5, 0.0)
+
+prVec: (9.5, -2.5, 0.0) newChVec: (9.5, -1.5, 0.0) res: True
+prVec: (9.5, -2.5, 0.0) newChVec: (10.5, -2.5, 0.0) res: False
+prVec: (9.5, -2.5, 0.0) newChVec: (9.5, -3.5, 0.0) res: True
+prVec: (9.5, -2.5, 0.0) newChVec: (8.5, -2.5, 0.0) res: True
+
+ no: 4
+Enemy0 (7.5, -2.5, 0.0) EnemyNext (8.5, -2.5, 0.0)
+Enemy1 (9.5, -0.5, 0.0) EnemyNext (9.5, -1.5, 0.0)
+
+prVec: (9.5, -1.5, 0.0) newChVec: (9.5, -0.5, 0.0) res: True
+prVec: (9.5, -1.5, 0.0) newChVec: (10.5, -1.5, 0.0) res: False
+prVec: (9.5, -1.5, 0.0) newChVec: (9.5, -2.5, 0.0) res: True
+prVec: (9.5, -1.5, 0.0) newChVec: (8.5, -1.5, 0.0) res: False
+
+ no: 5
+Enemy0 (7.5, -2.5, 0.0) EnemyNext (8.5, -2.5, 0.0)
+Enemy1 (9.5, -0.5, 0.0) EnemyNext (8.5, -0.5, 0.0)
+
+prVec: (8.5, -2.5, 0.0) newChVec: (8.5, -1.5, 0.0) res: False
+prVec: (8.5, -2.5, 0.0) newChVec: (9.5, -2.5, 0.0) res: True
+prVec: (8.5, -2.5, 0.0) newChVec: (8.5, -3.5, 0.0) res: False
+prVec: (8.5, -2.5, 0.0) newChVec: (7.5, -2.5, 0.0) res: True
+
+ no: 6
+Enemy0 (8.5, -2.5, 0.0) EnemyNext (9.5, -2.5, 0.0)
+Enemy1 (9.5, -1.5, 0.0) EnemyNext (9.5, -0.5, 0.0)
+
+prVec: (9.5, -0.5, 0.0) newChVec: (9.5, 0.5, 0.0) res: False
+prVec: (9.5, -0.5, 0.0) newChVec: (10.5, -0.5, 0.0) res: False
+prVec: (9.5, -0.5, 0.0) newChVec: (9.5, -1.5, 0.0) res: True
+prVec: (9.5, -0.5, 0.0) newChVec: (8.5, -0.5, 0.0) res: True
+
+ no: 7
+Enemy0 (8.5, -2.5, 0.0) EnemyNext (7.5, -2.5, 0.0)
+Enemy1 (8.5, -0.5, 0.0) EnemyNext (7.5, -0.5, 0.0)
+
+prVec: (7.5, -2.5, 0.0) newChVec: (7.5, -1.5, 0.0) res: False
+prVec: (7.5, -2.5, 0.0) newChVec: (8.5, -2.5, 0.0) res: True
+prVec: (7.5, -2.5, 0.0) newChVec: (7.5, -3.5, 0.0) res: True
+prVec: (7.5, -2.5, 0.0) newChVec: (6.5, -2.5, 0.0) res: True
+
+ no: 8
+Enemy0 (9.5, -2.5, 0.0) EnemyNext (9.5, -1.5, 0.0)
+Enemy1 (9.5, -0.5, 0.0) EnemyNext (8.5, -0.5, 0.0)
+
+prVec: (8.5, -0.5, 0.0) newChVec: (8.5, 0.5, 0.0) res: False
+prVec: (8.5, -0.5, 0.0) newChVec: (9.5, -0.5, 0.0) res: True
+prVec: (8.5, -0.5, 0.0) newChVec: (8.5, -1.5, 0.0) res: False
+prVec: (8.5, -0.5, 0.0) newChVec: (7.5, -0.5, 0.0) res: True
+
+ no: 9
+Enemy0 (7.5, -2.5, 0.0) EnemyNext (7.5, -3.5, 0.0)
+Enemy1 (7.5, -0.5, 0.0) EnemyNext (6.5, -0.5, 0.0)
+
+prVec: (7.5, -3.5, 0.0) newChVec: (7.5, -2.5, 0.0) res: True
+prVec: (7.5, -3.5, 0.0) newChVec: (8.5, -3.5, 0.0) res: False
+prVec: (7.5, -3.5, 0.0) newChVec: (7.5, -4.5, 0.0) res: False
+prVec: (7.5, -3.5, 0.0) newChVec: (6.5, -3.5, 0.0) res: False
+
+ no: 10
+Enemy0 (7.5, -2.5, 0.0) EnemyNext (6.5, -2.5, 0.0)
+Enemy1 (7.5, -0.5, 0.0) EnemyNext (6.5, -0.5, 0.0)
+
+prVec: (6.5, -2.5, 0.0) newChVec: (6.5, -1.5, 0.0) res: True
+prVec: (6.5, -2.5, 0.0) newChVec: (7.5, -2.5, 0.0) res: True
+prVec: (6.5, -2.5, 0.0) newChVec: (6.5, -3.5, 0.0) res: False
+prVec: (6.5, -2.5, 0.0) newChVec: (5.5, -2.5, 0.0) res: False
+prNo10 bfsDist: 5Item2
+nearItm: Item2 dist: 5 Pos: (6.5, -2.5, 0.0)
+BestWay len: 6
+(6.5, -2.5, 0.0)
+(7.5, -2.5, 0.0)
+(8.5, -2.5, 0.0)
+(9.5, -2.5, 0.0)
+(9.5, -3.5, 0.0)
+(9.5, -4.5, 0.0)
+dist: 4 no: 2
+dist: 3 no: 2
+dist: 2 no: 2
+dist: 1 no: 2

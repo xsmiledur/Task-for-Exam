@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Enemy/EnemyBehaviour.cs">
+    <Files>
+      <File FileName="Assets/Enemy/EnemyBehaviour.cs" Line="415" Column="11" />
+      <File FileName="Assets/Enemy/InitBehaviour.cs" Line="465" Column="9" />
+      <File FileName="Assets/Enemy/Methods.cs" Line="25" Column="5" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
