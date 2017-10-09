@@ -280,11 +280,11 @@ public class InitBehaviour : MonoBehaviour {
 		/* 敵情報を取得 */
 		getEnemyPos ();
 
-		/* 壁情報を取得 */
-		getWallPos ();
-
 		/* アイテム情報を取得 */
 		getItemPos ();
+
+		/* 壁情報を取得 */
+		getWallPos ();
 
 		/* 一番近いアイテムは初期化しておく */
 		nearItm = mt.initNearItm ();
@@ -348,7 +348,7 @@ public class InitBehaviour : MonoBehaviour {
 		for (int i = 0; i < 4; i++) {
 			for (int j = 0; j < 4; j++) {
 				mvE [i, 2 * j] = mvC [i, j];
-				mvE [i, 2 * j + 1] = mvC [i, j];
+				mvE [i, 2 * j + 1] = mvD [i, j];
 			}
 		}
 

@@ -83,9 +83,6 @@ public class Methods : MonoBehaviour {
 		string type = eInfo.type;
 		Vector3 nowPos = eInfo.pos;
 		Vector3 move = eInfo.move;
-		if (eIndex == 1) {
-			print (move);
-		}
 
 		Vector3[,] eMove = new Vector3[0,0];
 		if (type == "C") {
@@ -99,7 +96,7 @@ public class Methods : MonoBehaviour {
 		Vector3 newVec;
 		for (int i = 0; i < init.drct.Length; i++) {
 			if (checkVecEqual (move, init.drct [i])) {
-				for (int j = 0; j < eMove.Length; j++) {
+				for (int j = 0; j < eMove.GetLength(1); j++) {
 					newVec = nowPos + eMove [i, j];
 					if (eb.checkEnemyCollider (newVec, eIndex)) {
 						return newVec;
@@ -124,12 +121,14 @@ public class Methods : MonoBehaviour {
 			eMove = init.mvD;
 		} else if (type == "E") {
 			eMove = init.mvE;
+		} else {
+			eMove = init.mvE;
 		}
 
 		Vector3 newVec;
 		for (int i = 0; i < init.drct.Length; i++) {
 			if (checkVecEqual (move, init.drct [i])) {
-				for (int j = 0; j < eMove.Length; j++) {
+				for (int j = 0; j < eMove.GetLength(1); j++) {
 					newVec = nowPos + eMove [i, j];
 					if (eb.check_bfsEnemyCollider (newVec, eIndex, eInfos)) {
 						return newVec;
@@ -779,7 +778,7 @@ public class Methods : MonoBehaviour {
 	public bool checkRankOfEnemy(int i, int j) {
 		string type1 = init.eInfos [i].type;
 		string type2 = init.eInfos [j].type;
-		string[] rank = new string[5] { "B", "A", "C", "D", "E" };
+		string[] rank = new string[5] { "B", "A", "E", "D", "C" };
 		int rank1 = -1, rank2 = -1;
 		for (int n = 0; n < rank.Length; n++) {
 			if (rank [n] == type1)

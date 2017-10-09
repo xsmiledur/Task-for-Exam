@@ -1098,7 +1098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fileName: quiz02.txt
   timeOut: 0.5
-  KeyPlay: 0
+  KeyPlay: 1
   outputFlg: 0
   setSubWall: 0
   count: -1
