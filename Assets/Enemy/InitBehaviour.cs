@@ -173,48 +173,8 @@ public class InitBehaviour : MonoBehaviour {
 		wallEdgePos [3] = pos; // 壁の右下の座標
 		wallEdgePos [2] = new Vector3 (0.5f, wallEdgePos [3].y); // 壁の左下の座標
 
-		/* enemyC,D,Eによる壁を作る */
-		//createEnemyWallPos ();
-
-		/* アイテムがenemyC,D,Eと被っているかどうかチェックする */
-		//checkEnemyWallPos (); : itemが敵とかぶることがないので廃止予定
-	
 	}
 
-	/* enemyC,D,Eの動く範囲で壁を作る */
-//	private void createEnemyWallPos() {
-//		int no = 0;
-//		for (int i = 0; i < eInfos.Length; i++) {
-//			if (eInfos [i].type == "C" || eInfos [i].type == "D" || eInfos [i].type == "E") {	
-//				Vector3 _pos = eInfos [i].pos;
-//				for (int testCnt = 0; testCnt < 20; testCnt++) {
-//					Vector3[] _enemyWallPos = new Vector3[enemyWallPos.Length + 1];
-//					System.Array.Copy (enemyWallPos, _enemyWallPos, enemyWallPos.Length);
-//					_enemyWallPos [enemyWallPos.Length] = _pos;
-//					enemyWallPos = _enemyWallPos;
-//					_pos = updt.enemyMove (new eInfo (Convert.ToString (eInfos [i].type), _pos), -1, new Vector3 (), testCnt);
-//				}
-//
-//				no++;
-//
-//						
-//			}
-//			
-//		}
-//	}
-
-	/* アイテムがenemyC,D,Eと被っているかどうかチェックする */
-//	private void checkEnemyWallPos() {
-//		for (int i = 0; i < iInfos.Length; i++) {
-//			Vector3 pos = iInfos [i].pos;
-//			for (int j = 0; j < enemyWallPos.Length; j++) {
-//				if (pos.x == enemyWallPos [j].x && pos.y == enemyWallPos [j].y) {
-//					//iInfos [i].inWall = true;
-//					break;
-//				}
-//			}
-//		}
-//	}
 
 	private GameObject gameObj;
 	/* 壁情報を取得 */
@@ -228,15 +188,6 @@ public class InitBehaviour : MonoBehaviour {
 
 
 		wall = GameObject.Find ("SubWall");
-		if (setSubWall) {
-//			for (int i = 0; i < enemyWallPos.Length; i++) {
-//				gameObj = Instantiate (wall) as GameObject;
-//				Vector3 wPos = enemyWallPos [i];
-//				wPos.z = 10;
-//				gameObj.transform.position = wPos;
-//
-//			}
-		}
 		wall.SetActive (false);
 
 	}

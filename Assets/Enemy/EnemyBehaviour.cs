@@ -287,32 +287,6 @@ public class EnemyBehaviour : MonoBehaviour {
 			}
 		} else if (eInfo.type == "C" || eInfo.type == "D" || eInfo.type == "E") {
 			return mt.enemyMoveCDE (index, eInfo, playerFlg, pPos, target);
-//			Vector3[] pVecType = new Vector3[4] { new Vector3(-1,0), new Vector3(0,1), new Vector3(1,0), new Vector3(0,-1) };
-//			Vector3[] moveC = new Vector3[4] { new Vector3(0,1), new Vector3(-1,0), new Vector3(0,-1), new Vector3(1,0)};
-//			Vector3 moveC_ = mt.enemyMoveCDE (eInfo.move);
-//
-//			Vector3 eNextPos = eInfo.pos + moveC [Cnt % 4];
-//			if (checkCollider (eNextPos, false, index)) {
-//				return eNextPos;
-//			} else {
-//				return eInfo.pos;
-//			}
-//		} else if (eInfo.type == "D") {
-//			Vector3[] moveD = new Vector3[4] { new Vector3(+1,0), new Vector3(0,+1), new Vector3(-1,0), new Vector3(0,-1)};
-//			Vector3 eNextPos = eInfo.pos + moveD [Cnt % 4];
-//			if (checkCollider (eNextPos, false, index)) {
-//				return eNextPos;
-//			} else {
-//				return eInfo.pos;
-//			}
-//		} else if (eInfo.type == "E") {
-//			Vector3[] moveE = new Vector3[8] { new Vector3(-1,0), new Vector3(+1,0), new Vector3(0,+1), new Vector3(0,+1), new Vector3(+1,0), new Vector3(-1,0), new Vector3(0,-1), new Vector3(0,-1)};
-//			Vector3 eNextPos = eInfo.pos + moveE [Cnt % 8];
-//			if (checkCollider (eNextPos, false, index)) {
-//				return eNextPos;
-//			} else {
-//				return eInfo.pos;
-//			}
 		}
 		return new Vector3 ();
 	}
@@ -411,93 +385,9 @@ public class EnemyBehaviour : MonoBehaviour {
 				return false;
 			}
 		}
-
-
-//		for (int i = 0; i < init.eInfos.Length; i++) {
-//			if (i != index) {
-//				Vector3 ePos_ = init.eInfos [i].pos;
-//				float dist = Mathf.Abs (nextPos.x - ePos_.x) + Mathf.Abs (nextPos.y - ePos_.y);
-//				// 距離が0になってしまうの場合
-//				if (dist == 0) {
-//					return false;
-//
-//				} 
-//				// 距離が1の場合
-//				else if (dist == 1) {
-//					// index番号の小さい方が優先的に進めるという設定で。
-//					if (mt.checkRankOfEnemy(index, i)) {
-//						// 何もしない(番号iの方が遠慮して進むことにする)
-//					} else {
-//						// enemy_ の次の動きと被った場合false
-//						Vector3 e_nextPos = enemyMove (init.eInfos[i], i, init.playerPos, playerFlg, target);
-//						if (e_nextPos == nextPos) {
-//							return false;
-//						}
-//
-//						if (playerFlg) {
-//							if (e_nextPos == nowPos && ePos_ == nextPos) {
-//								return false;
-//							}
-//							if (nextPos == target && nextPos == e_NextPos) {
-//								return false;
-//							}
-//
-//						}
-//
-//					}
-//				}
-//			}
-//		}
-
+			
 		return true;
 	}
-
-//
-//	/* 他のenemyと衝突するかも加味する */
-//	public bool checkColliderWithEnemy(Vector3 NextPos, int eIndex) {
-//		int m;
-//		for (m = 0; m < init.wallPos.Length; m++) {
-//			if (mt.checkVecEqual(init.wallPos [m], NextPos)) {
-//
-//				return false;
-//			}
-//		}
-//		for (m = 0; m < init.iInfos.Length; m++) {
-//			Vector3 iPos = init.iInfos [m].pos;
-//			if (iPos.x != 0 || iPos.y != 0) {
-//				if (mt.checkVecEqual (iPos, NextPos)) {
-//					return false;
-//				}
-//			}
-//		}
-//		if (eIndex >= 0) { // eInfoにEnemy値が入っている=>敵の動きである場合 他の敵に当たる場合も考慮する
-//			for (int i = 0; i < init.eInfos.Length; i++) {
-//				if (i != eIndex) {
-//					Vector3 ePos_ = init.eInfos [i].pos;
-//					float dist = Mathf.Abs (NextPos.x - ePos_.x) + Mathf.Abs (NextPos.y - ePos_.y);
-//					// 距離が0になってしまうの場合
-//					if (dist == 0) {
-//						return false;
-//
-//					} 
-//					// 距離が1の場合
-//					else if (dist == 1) {
-//						// index番号の小さい方が優先的に進めるという設定で。
-//						if (mt.checkRankOfEnemy(eIndex, i)) {
-//							// 何もしない(番号iの方が遠慮して進むことにする)
-//						} else {
-//							// enemy_ の次の動きと被った場合false
-//							Vector3 e_NextPos = enemyMove (init.eInfos[i], -1, init.playerPos);
-//							if (e_NextPos == NextPos) {
-//								return false;
-//							}
-//						}
-//					}
-//				}
-//			}
-//		}
-//		return true;
-//	}
 
 	// Update is called once per frame
 
