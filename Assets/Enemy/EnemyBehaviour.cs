@@ -50,6 +50,7 @@ public class bfsPos {
 	public int[] chNo;
 	public int layNo;
 	public float bfsDist = 0;
+
 	public bfsPos(Vector3 _pos, int _layNo, int _prNo, int[] _chNo) {
 		pos = _pos;
 		layNo = _layNo;
@@ -114,16 +115,16 @@ public class EnemyBehaviour : MonoBehaviour {
 			if (!mt.checkNearItemExist (init.nearItm)) {
 				mt.getNearItemInfo (); // 一番近いitem情報を出す
 
-				sw.WriteLine ("\nbfsPos");
+//				sw.WriteLine ("\nbfsPos");
 				bfsPos[] bfsPos =  init.nearItm.bfsPos;
-				for (int i = 0; i < bfsPos.Length; i++) {
-					sw.Write ("no: " + i.ToString() + " layNo: " + bfsPos [i].layNo.ToString() + " pr: " + bfsPos [i].prNo.ToString() + " pos: " + bfsPos [i].pos + " ch: ");
-					for (int j = 0; j < bfsPos [i].chNo.Length; j++) {
-						sw.Write (bfsPos [i].chNo [j].ToString() + " ");
-					}
-					sw.WriteLine ();
-				}
-				sw.WriteLine ("=====");
+//				for (int i = 0; i < bfsPos.Length; i++) {
+//					sw.Write ("no: " + i.ToString() + " layNo: " + bfsPos [i].layNo.ToString() + " pr: " + bfsPos [i].prNo.ToString() + " pos: " + bfsPos [i].pos + " ch: ");
+//					for (int j = 0; j < bfsPos [i].chNo.Length; j++) {
+//						sw.Write (bfsPos [i].chNo [j].ToString() + " ");
+//					}
+//					sw.WriteLine ();
+//				}
+//				sw.WriteLine ("=====");
 
 				// 最適経路を作成
 				//print(init.nearItm.dist);
@@ -131,10 +132,10 @@ public class EnemyBehaviour : MonoBehaviour {
 				// 作成した最適経路はnearItmに格納する
 				init.nearItm.setBestWay (BestWay);
 
-				sw.WriteLine ("BestWay len: " + BestWay.Length.ToString());
-				for (int i = 0; i < BestWay.Length; i++) {
-					sw.WriteLine (BestWay [i]);
-				}
+//				sw.WriteLine ("BestWay len: " + BestWay.Length.ToString());
+//				for (int i = 0; i < BestWay.Length; i++) {
+//					sw.WriteLine (BestWay [i]);
+//				}
 			}
 
 			// 格納されているBestWayに沿って動く
@@ -148,12 +149,12 @@ public class EnemyBehaviour : MonoBehaviour {
 
 			init.updtMem.setUpdtPlayer( pNewPos, true);
 			init.nearItm.dist--;
-			sw.WriteLine ("dist: " + init.nearItm.dist + " no: " + init.nearItm.no.ToString());
+//			sw.WriteLine ("dist: " + init.nearItm.dist + " no: " + init.nearItm.no.ToString());
 
 			// itemとの距離が0の場合、該当するアイテムを消し、nearItmを初期化する
 			if (init.nearItm.dist == 0) {
-				print ("dist0");
-				sw.WriteLine ();
+//				print ("dist0");
+//				sw.WriteLine ();
 				mt.destroyItem (init.nearItm);
 				init.iInfos [init.nearItm.no].pos = new Vector3 ();
 				init.nearItm = mt.initNearItm ();
@@ -258,9 +259,9 @@ public class EnemyBehaviour : MonoBehaviour {
 					Vector3 ePos_ = init.eInfos [i].pos;
 					float dist = Mathf.Abs (NextPos.x - ePos_.x) + Mathf.Abs (NextPos.y - ePos_.y);
 
-					if (this.name == "Player") {
-						sw.WriteLine ("dist: " + dist.ToString());
-					}
+//					if (this.name == "Player") {
+//						sw.WriteLine ("dist: " + dist.ToString());
+//					}
 					// 距離が0になってしまうの場合
 					if (dist == 0) {
 						return false;
@@ -329,7 +330,7 @@ public class EnemyBehaviour : MonoBehaviour {
 				}
 			}
 		} else if (eInfos[index].type == "C" || eInfos[index].type == "D" || eInfos[index].type == "E") {
-			return mt.enemyMoveCDE (index, eInfos[index], pPos);
+			return mt.enemyMoveCDE (index, eInfos, pPos);
 		}
 		return new Vector3 ();
 	}
@@ -361,9 +362,9 @@ public class EnemyBehaviour : MonoBehaviour {
 					Vector3 ePos_ = eInfos [i].pos;
 					float dist = Mathf.Abs (NextPos.x - ePos_.x) + Mathf.Abs (NextPos.y - ePos_.y);
 
-					if (this.name == "Player") {
-						sw.WriteLine ("dist: " + dist.ToString());
-					}
+//					if (this.name == "Player") {
+//						sw.WriteLine ("dist: " + dist.ToString());
+//					}
 					// 距離が0になってしまうの場合
 					if (dist == 0) {
 						return false;
@@ -377,7 +378,7 @@ public class EnemyBehaviour : MonoBehaviour {
 						} else {
 							// enemy_ の次の動きと被った場合false
 							Vector3 e_NextPos = bfs_enemyMove (eInfos, i, NextPos);
-							sw.WriteLine ("相手のenemyのpos" + ePos_ +  " nextPos: " + e_NextPos);
+//							sw.WriteLine ("相手のenemyのpos" + ePos_ +  " nextPos: " + e_NextPos);
 							if (e_NextPos == NextPos) {
 								return false;
 							}

@@ -20,12 +20,18 @@ public struct eInfo {
 
 public struct iInfo {
 	public Vector3 pos;
-	//public bool inWall;
-
-	public iInfo(Vector3 a, bool flg) {
+	public float dist; // getNearItemInfo() でアイテムを入れ替えるときに使う
+	public int no; // getNearItemInfo() でアイテムを入れ替えるときに使う
+	public iInfo(Vector3 a) {
 		pos = a;
-		//inWall = flg;
+		dist = 0;
+		no = 0;
 	}
+	public void setItemSortInfo(float _dist, int _no) {
+		dist = _dist;
+		no = _no;
+	}
+
 }
 
 /* updateする際の格納変数 */
@@ -149,7 +155,7 @@ public class InitBehaviour : MonoBehaviour {
 				} else if (text [i] == 'o') { // アイテムを作る
 					_iInfos = new iInfo[iInfos.Length + 1];
 					System.Array.Copy (iInfos, _iInfos, iInfos.Length);
-					_iInfos [iInfos.Length] = new iInfo(pos, false);
+					_iInfos [iInfos.Length] = new iInfo(pos);
 					iInfos = _iInfos;
 				} else if (text [i] == 'A' || text [i] == 'B' || text [i] == 'C' || text [i] == 'D' || text [i] == 'E') { // 敵を作る
 					string str = Convert.ToString(text[i]);
@@ -462,8 +468,13 @@ public class InitBehaviour : MonoBehaviour {
 			enemyObj.transform.position = updtMem.eInfos [i].pos;
 		}
 
-		// updtMemを初期化
-		updtMem = new updtMem (new Vector3 (), false, new eInfo[eInfos.Length], createUpdtInitBool(eInfos.Length));
+		// updtMemのflgを下げる
+		setUpdateFlgFalse();
+
+	}
+	void setUpdateFlgFalse() {
+		updtMem.pFlg = false;
+		updtMem.eFlg = createUpdtInitBool (eInfos.Length);
 	}
 
 	/* 各動体の位置情報を取得し保存 */
@@ -476,7 +487,10 @@ public class InitBehaviour : MonoBehaviour {
 		for (int i = 0; i < eInfos.Length; i++) {
 			enemyObj = GameObject.Find( "Enemy" + i.ToString() );
 			eInfos [i].pos = enemyObj.transform.position;
+			eInfos [i].move = updtMem.eInfos [i].move;
 		}
+		// updtMemを初期化
+		updtMem = new updtMem (new Vector3 (), false, new eInfo[eInfos.Length], createUpdtInitBool(eInfos.Length));
 	}
 		
 }

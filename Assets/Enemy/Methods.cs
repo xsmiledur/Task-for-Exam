@@ -83,6 +83,9 @@ public class Methods : MonoBehaviour {
 		string type = eInfo.type;
 		Vector3 nowPos = eInfo.pos;
 		Vector3 move = eInfo.move;
+		//if (eIndex == 1) {
+//			print ("Enemy" + eIndex.ToString () + " " + move);
+		//}
 
 		Vector3[] mvC = new Vector3[4] { new Vector3 (-1, 0), new Vector3 (0, 1), new Vector3 (1, 0), new Vector3 (0, -1) };
 		Vector3[] mvD = new Vector3[4] { new Vector3 (1, 0), new Vector3 (0, 1), new Vector3 (-1, 0), new Vector3 (0, -1) };
@@ -118,12 +121,55 @@ public class Methods : MonoBehaviour {
 		return new Vector3 ();
 	}
 
+	/* bfsの場合の敵C,D,Eの動きを決定 */
+	public Vector3 enemyMoveCDE(int eIndex, eInfo[] eInfos, Vector3 pNowPos) {
+		string type = eInfos[eIndex].type;
+		Vector3 nowPos = eInfos[eIndex].pos;
+		Vector3 move = eInfos[eIndex].move;
+
+		Vector3[] mvC = new Vector3[4] { new Vector3 (-1, 0), new Vector3 (0, 1), new Vector3 (1, 0), new Vector3 (0, -1) };
+		Vector3[] mvD = new Vector3[4] { new Vector3 (1, 0), new Vector3 (0, 1), new Vector3 (-1, 0), new Vector3 (0, -1) };
+		Vector3[] mvE = new Vector3[8];
+		for (int i = 0; i < 4; i++) {
+			mvE [2 * i] = mvC [i];
+			mvE [2 * i + 1] = mvD [i];
+		}
+
+		Vector3[] eMove = new Vector3[0];
+		int N = 4;
+		if (type == "C") {
+			eMove = mvC;
+		} else if (type == "D") {
+			eMove = mvD;
+		} else if (type == "E") {
+			eMove = mvE;
+			N = 8;
+		}
+
+		Vector3[] drct = new Vector3[4] { new Vector3 (0, 1), new Vector3 (1, 0), new Vector3 (0, -1), new Vector3 (-1, 0) };
+		Vector3 newVec;
+		for (int i = 0; i < drct.Length; i++) {
+			if (checkVecEqual (move, drct [i])) {
+				for (int j = 0; j < eMove.Length; j++) {
+					newVec = nowPos + eMove [(i + j) % N];
+					if (eb.check_bfsEnemyCollider (newVec, eIndex, eInfos)) {
+						return newVec;
+					}
+				}
+			}
+		}
+		return new Vector3 ();
+	}
+
 
 	/* 最適経路を作成する */
 	public Vector3[] createBestWay(Vector3 targetPos, bfsPos[] bfsPos, int layNo) {
 		Vector3[] BestWay = new Vector3[0];
 		int[] BestNo = new int[1] { bfsPos.Length - 1 };
 		BestWay = _createBestWay (BestWay, bfsPos, layNo, BestNo);
+		for (int i = 0; i < BestWay.Length; i++) {
+			eb.sw.WriteLine (BestWay [i]);
+		}
 		return BestWay;
 	}
 
@@ -162,8 +208,8 @@ public class Methods : MonoBehaviour {
 
 		// nearItemの初期化
 
-		// キュー, bfsPos
-		iInfo[] iInfos = init.iInfos;
+		// アイテムを相対距離が短い順で入れ替えておく
+		iInfo[] iInfos = bubbleSortForItem (init.iInfos, false);
 
 		for (int l = 0; l < iInfos.Length; l++) {
 
@@ -180,21 +226,23 @@ public class Methods : MonoBehaviour {
 				// enemyのキューを作る
 				eInfo[,] dnmeCue = bfs_allDnmeCuePrepare (init.eInfos);
 
+
 				// 幅優先探索を行う
 				bfsPos = bfs(bfsPos, cue, iInfos[l].pos, posHist, dnmeCue, init.nearItm.dist);
 
-//				eb.sw.WriteLine ("Item" + l.ToString ());
 				// 道のりの長さを求める
 				float bfsDist = bfsPos [0].bfsDist;
+				eb.sw.WriteLine ("Item" + iInfos[l].no.ToString () + " bfsDist: " + bfsDist.ToString()) ;
+			
 
 				// 距離最小の場合、最小itemとして記録
 				if (bfsDist < init.nearItm.dist) {
-					init.nearItm = new nearItemInfo (l, iInfos [l], bfsDist, bfsPos, new Vector3[0]);
+					init.nearItm = new nearItemInfo (iInfos[l].no, iInfos [l], bfsDist, bfsPos, new Vector3[0]);
 				}
 
 			}	
 		}
-//		eb.sw.WriteLine ("nearItm: Item" + init.nearItm.no + " dist: " + init.nearItm.dist + " Pos: " + init.nearItm.info.pos);
+		eb.sw.WriteLine ("nearItm: Item" + init.nearItm.no + " dist: " + init.nearItm.dist + " Pos: " + init.nearItm.info.pos);
 
 	}
 
@@ -484,7 +532,7 @@ public class Methods : MonoBehaviour {
 				if (!res)
 					break;
 			}
-			eb.sw.WriteLine ("prVec: " + prVec + " newChVec: " + newVec + " res: " + res);
+//			eb.sw.WriteLine ("prVec: " + prVec + " newChVec: " + newVec + " res: " + res);
 
 			if (res && !checkVisited(prVec, newVec, posHist)) { // 壁や敵にぶつからず、かつ訪れたことがない場合
 				
@@ -510,7 +558,7 @@ public class Methods : MonoBehaviour {
 					float bfsDist = getBfsDist(bfsPos, chNo);
 					bfsPos [0].set_bfsDist (bfsDist);
 
-					eb.sw.WriteLine ("終了 prNo" + prNo.ToString() + " bfsDist: " +  bfsDist.ToString());
+//					eb.sw.WriteLine ("終了 prNo" + prNo.ToString() + " bfsDist: " +  bfsDist.ToString());
 					return bfsPos; // 終了
 				}
 
@@ -522,7 +570,7 @@ public class Methods : MonoBehaviour {
 		if (cue.Length == 0) { // cueの長さが0の場合
 			 // bfsPosのindex=0のところに格納しておく
 
-			eb.sw.Write ("cue0 ");
+//			eb.sw.Write ("cue0 ");
 
 			bfsPos [0].set_bfsDist (1000);
 //			eb.sw.WriteLine ("prNo" + prNo.ToString() + " bfsDist: " +  bfsDist.ToString());
@@ -547,9 +595,9 @@ public class Methods : MonoBehaviour {
 
 		if (zeroNeed) {
 			move = new Vector3[5] {
-				new Vector3 (0, 0),
 				new Vector3 (1, 0),
 				new Vector3 (-1, 0),
+				new Vector3 (0, 0),
 				new Vector3 (0, 1),
 				new Vector3 (0, -1),
 			};
@@ -582,6 +630,72 @@ public class Methods : MonoBehaviour {
 				}
 			}
 		}
+	}
+
+	/// <summary>
+	/// Bubbles the sort2.
+	/// </summary>
+	/// <param name="crt">Crt.</param>
+	/// <param name="index">Index.</param>
+	/// アイテムを距離順でソートするときに使う
+	iInfo[] bubbleSortForItem(iInfo[] iInfos, bool upFlg) {
+		
+		iInfo[] iInfos_ = new iInfo[0];
+
+		for (int i = 0; i < iInfos.Length; i++) {
+			
+			if (!checkVecEqual (iInfos [i].pos, new Vector3 ())) {
+				
+				Vector3 rltPos = iInfos [i].pos - init.playerPos;
+				float dist = Mathf.Abs (rltPos.x) + Mathf.Abs (rltPos.y);
+
+				iInfo[] tmpiInfos_ = new iInfo[iInfos_.Length + 1];
+				System.Array.Copy (iInfos_, tmpiInfos_, iInfos_.Length);
+				tmpiInfos_ [iInfos_.Length] = new iInfo (iInfos [i].pos);
+				tmpiInfos_ [iInfos_.Length].setItemSortInfo (dist, i);
+
+				iInfos_ = tmpiInfos_;
+
+			}
+		}
+
+		float[] crt = new float[iInfos_.Length];
+		int[] index = new int[iInfos_.Length];
+		int len = iInfos_.Length;
+
+		for (int i = 0; i < len; i++) {
+			crt [i] = iInfos_ [i].dist;
+			index [i] = i;
+		}
+			
+
+		float tmpcrt; int tmpIndex;
+		for (int i = 0; i < len; i++) {
+			for (int j = len - 1; j > i; j--) {
+				if(upFlg && (crt[j] > crt[j-1]) || !upFlg && (crt[j] < crt[j-1])){
+					tmpcrt = crt [j];
+					crt [j] = crt [j - 1];
+					crt [j - 1] = tmpcrt;
+
+					tmpIndex = index [j];
+					index [j] = index [j - 1];
+					index [j - 1] = tmpIndex;
+				}
+			}
+		}
+
+		iInfos = new iInfo[iInfos_.Length];
+		for (int i = 0; i < iInfos_.Length; i++) {
+			// index[i]は、i番目に小さいものの番号
+			iInfos [i].dist = crt [i];
+			iInfos [i].pos = iInfos_ [index[i]].pos;
+			iInfos [i].no = index [i];
+			eb.sw.WriteLine (index [i].ToString () + " dist: " + crt[i] + " pos: " + iInfos[i].pos);
+
+		}
+
+		//Pause ();
+		return iInfos;
 	}
 
 	/* BestWayがあるか否かの判定 */
