@@ -422,98 +422,6 @@ public class Methods : MonoBehaviour {
 		2に戻る。
 		ノードの展開により得られる子ノードはキューに追加される。訪問済みの管理は配列やセットなどでも行える。
 	*/
-	// 旧バージョン
-//	public bfsPos[] _bfs(bfsPos[] bfsPos, Vector3[] cue, Vector3 target, bool[,] posHist, bool dynamicFlg, eInfo[] dnmeCue, int[] cntCue) {
-//
-//		Vector3[] move = getMoveDirect (false);
-//
-//		// キューの先頭のvecを出す(player)
-//		Vector3 prVec = cue [0]; 
-//		// 訪問済みの印をつける
-//		setVisited (prVec, posHist);
-//		// キューを詰める
-//		cue = packCue (cue);
-//
-//		eInfo dnmcEnemy = new eInfo("", new Vector3());
-//		int Cnt = 0, _Cnt = 0; //_Cntは子ノードのキューに入れる方のcount
-//
-//		if (dynamicFlg) {
-//			// キューの先頭のenemyを出す
-//			dnmcEnemy = dnmeCue [0];
-//			dnmeCue = packDnmeCue (dnmeCue);
-//
-//			// キューの先頭のcountを出す
-//			Cnt = cntCue [0];
-//			cntCue = packCntCue (cntCue);
-//			_Cnt = Cnt + 1;
-//		}
-//
-//		// 現在の親ノードの番号を記録。bfsPosの最後尾にいることを利用
-//		int prNo = getParentNo(prVec, bfsPos);
-//
-//		Vector3 newVec;
-//		eInfo dnmeNext = new eInfo("", new Vector3());
-//
-//		if (dynamicFlg) {
-//			dnmeNext = new eInfo (dnmcEnemy.type, eb.enemyMove (dnmcEnemy, prVec, Cnt));
-//		}
-//		for (int i = 0; i < 4; i++) {
-//			newVec = prVec + move [i]; // 子を定義
-//			//eb.sw.WriteLine ("prNo: " + prNo.ToString() + "newChildVec: " + newVec + " target: " + target + "cue Length: " + cue.Length.ToString());
-//			bool res;
-//
-//			// 動く敵に対して
-//			//sw.WriteLine("dynamicFlg: " + dynamicFlg);
-//			if (dynamicFlg == true) {
-//				res = checkColliderWallAndDynamicEnemy (prVec, newVec, target, dnmcEnemy, dnmeNext, true);
-//			} else {
-//				res = checkColliderWallAndEnemyWall (newVec, true);
-//			}
-//
-//			if (res && !checkVisited(newVec, posHist)) { // 壁や敵にぶつからず、かつ訪れたことがない場合
-//
-//				// このnewVecは子ノードであるので、キューに追加
-//				cue = insertToCue (cue, newVec);
-//
-//				// 動く敵がいる場合、その敵のキューも追加
-//				if (dynamicFlg) {
-//					dnmeCue = insertToDnmeCue (dnmeCue, dnmeNext);
-//					cntCue = insertToCntCue (cntCue, _Cnt);
-//				}
-//
-//				// bfsPosにこの子ノードの情報を追加
-//				bfsPos = insertTo_bfsPos(bfsPos, newVec, prVec, prNo);
-//
-//				// bfsPosの親ノード情報に対し、この子ノード情報を付け加える
-//				bfsPos = insertChildTo_bfsPos(bfsPos, prNo, newVec);
-//
-//
-//			}
-//		}
-////		eb.sw.WriteLine (" prVec: " + prVec + " target: " + target + " equal: " + checkVecEqual(prVec, target) + " cue.len: " + cue.Length.ToString());
-//		if (checkVecEqual(prVec, target) || cue.Length == 0) { // 目的地である場合 or cueの長さが0の場合
-//			//sw.WriteLine ("=======");
-//			//sw.Write("成功 ");
-//			// 道のりの長さを求める
-//			float bfsDist = getBfsDist(bfsPos, prNo);
-//			//eb.sw.WriteLine ("prNo: " + prNo.ToString() + " prVec: " + prVec + " target: " + target + " bfsDist: " + bfsDist.ToString ());
-//			// bfsPosのindex=0のところに格納しておく
-//			bfsPos[0].set_bfsDist(bfsDist);
-//
-//			return bfsPos; // 終了
-//
-//		} else {
-//
-//			if (dynamicFlg) {
-//				Cnt++;
-//			}
-//
-//			return bfs (bfsPos, cue, target, posHist, dynamicFlg, dnmeCue, cntCue);
-//
-//		}
-//
-//	}
-
 
 	public bfsPos[] bfs(bfsPos[] bfsPos, Vector3[] cue, Vector3 target, bool[,] posHist, eInfo[,] dnmeAllCue, int[] cntCue, float nowLeastDist) {
 
@@ -614,24 +522,6 @@ public class Methods : MonoBehaviour {
 
 	}
 
-//
-//
-//	/* 対象の全周囲方向のベクトルを返す */
-//	public Vector3[] getAllDirect() {
-//		Vector3[] direct = new Vector3[9] {
-//			new Vector3 (0, 0),
-//			new Vector3 (1, 0),
-//			new Vector3 (-1, 0),
-//			new Vector3 (0, 1),
-//			new Vector3 (0, -1),
-//			new Vector3 (1, 1),
-//			new Vector3 (1, -1),
-//			new Vector3 (-1, 1),
-//			new Vector3 (-1, -1) // +2, -2も追加したい
-//		};
-//		return direct;
-//	}
-
 	/* 操作物体の動く方向を取得 */
 	public Vector3[] getMoveDirect(bool zeroNeed) {
 		Vector3[] move;
@@ -655,50 +545,6 @@ public class Methods : MonoBehaviour {
 
 		return move;
 	}
-
-//	/* 敵の位置から最も離れられる/近くような方向に進めるよう、moveの順序を変化させて出力 */
-//	public Vector3[] getMoveDirectWithEnemy(bool zeroNeed, bool upFlg){
-//		// 相対距離でいいので、一番近い敵を見出す
-//		float dist, leastDist = 1000; int leastNo = -1; Vector3 rPos;
-//		for (int i=0; i < init.eInfos.Length; i++) {
-//			
-//			rPos = init.playerPos - init.eInfos [i].pos;
-//			dist = Mathf.Abs (rPos.x) + Mathf.Abs (rPos.y);
-//			if (dist < leastDist) {
-//				leastDist = dist; leastNo = i;
-//			}
-//		}
-//
-//		// 一番近い敵の次の位置から最も離れられる方向を出す
-//		Vector3 eNextPos = eb.enemyMove (init.eInfos [leastNo], init.playerPos, init.count);
-//		Vector3[] drct = getMoveDirect (zeroNeed); 
-//		Vector3[] move = new Vector3[0]; Vector3[] _move;
-//		Vector3 pNextPos;
-//		int[] allDist = new int[0]; int[] _allDist;
-//		for (int i = 0; i < drct.Length; i++) {
-//			pNextPos = init.playerPos + drct [i];
-//			if (eb.checkCollider(pNextPos, true)) {
-//			//if (eb.checkCollider(pNextPos, true, "")) {
-//				rPos = pNextPos - eNextPos;
-//
-//				_allDist = new int[allDist.Length + 1];
-//				System.Array.Copy(allDist, _allDist, allDist.Length);
-//				_allDist[allDist.Length] = (int)(Mathf.Abs (rPos.x) + Mathf.Abs (rPos.y));
-//				allDist = _allDist;
-//
-//				_move = new Vector3[move.Length + 1];
-//				System.Array.Copy(move, _move, move.Length);
-//				_move[move.Length] = drct[i];
-//				move = _move;
-//			}
-//		}
-//
-//		// allDistの中身を基準に昇順にソート
-//		bubbleSort (allDist, move, upFlg);
-//
-//		return move;
-//
-//	}
 		
 	void bubbleSort(int[] crt, Vector3[] vec, bool upFlg){
 		int i,j;
@@ -718,25 +564,6 @@ public class Methods : MonoBehaviour {
 			}
 		}
 	}
-
-//	void bubbleSort2(float[] crt, int[] index) {
-//		int i,j;
-//		int len = crt.Length;
-//		float tmpcrt; int tmpIndex;
-//		for(i=0; i<len; i++){
-//			for(j=len-1; j>i; j--){
-//				if(crt[j] < crt[j-1]){
-//					tmpcrt = crt[j];
-//					crt[j] = crt[j-1];
-//					crt[j-1] = tmpcrt;
-//
-//					tmpIndex = index[j];
-//					index[j] = index[j-1];
-//					index[j-1] = tmpIndex;
-//				}
-//			}
-//		}
-//	}
 
 	/* BestWayがあるか否かの判定 */
 	public bool checkBestWayExist(Vector3[] BestWay) {
@@ -772,11 +599,8 @@ public class Methods : MonoBehaviour {
 
 				// 敵や壁とぶつかるか判定
 				bool res;
-//				if (nearItm.info.inWall) {
-//					res = checkColliderWallAndDynamicEnemy (pPos, _nextPos, nearItm.info.pos, dnme, nextDnme, true);
-//				} else {
-					res = checkColliderWallAndEnemyWall (_nextPos, true);
-//				}
+
+				res = checkColliderWallAndEnemyWall (_nextPos, true);
 
 				if (res) { // 敵や壁とぶつからなければ
 					// 距離が最小なら適用
@@ -865,11 +689,6 @@ public class Methods : MonoBehaviour {
 				}
 			}	
 		}
-//		for (int k = 0; k < init.enemyWallPos.Length; k++) {
-//			if (NextPos.x == init.enemyWallPos [k].x && NextPos.y == init.enemyWallPos [k].y) {
-//				return false;
-//			}
-//		}
 		return true;
 	}
 

@@ -98,7 +98,6 @@ public class EnemyBehaviour : MonoBehaviour {
 				Vector3[] BestWay = mt.createBestWay (init.nearItm.info.pos, init.nearItm.bfsPos, (int)init.nearItm.dist);
 				// 作成した最適経路はnearItmに格納する
 				init.nearItm.setBestWay (BestWay);
-				//init.nearItm.dist--;
 
 				sw.WriteLine ("BestWay len: " + BestWay.Length.ToString());
 				for (int i = 0; i < BestWay.Length; i++) {
