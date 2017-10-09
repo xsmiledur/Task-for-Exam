@@ -234,15 +234,14 @@ public class Methods : MonoBehaviour {
 		// 距離を初期化
 		float bfsDist = 1000;
 		// 根ノードを空のキューに加える。
-		Vector3[] cue = new Vector3[1]{ init.playerPos }; 
+		Vector3[] cue = new int[1]{ 0 }; 
 		// bfsPosに根ノードを入れる
 		bfsPos[] bfsPos = new bfsPos[1]{ new global::bfsPos (init.playerPos, 0, 0, new int[0]) };
 		// 幅優先探索を始める
 		//bfsPos = bfs (bfsPos,  cue, init.goalPos, posHist, bfsDist , false, new eInfo[0], new int[0]);
 
 		eInfo[,] dnmeCue = bfs_allDnmeCuePrepare (init.eInfos);
-		int[] cntcue = bfs_cntcuePrepare (true);
-		bfsPos = bfs(bfsPos, cue, init.goalPos, posHist, dnmeCue, cntcue, 1000);
+		bfsPos = bfs(bfsPos, cue, init.goalPos, posHist, dnmeCue, 1000);
 
 		// 道のりの長さも出す
 		bfsDist = bfsPos [0].bfsDist;
@@ -428,13 +427,13 @@ public class Methods : MonoBehaviour {
 		ノードの展開により得られる子ノードはキューに追加される。訪問済みの管理は配列やセットなどでも行える。
 	*/
 
-	public bfsPos[] bfs(bfsPos[] bfsPos, Vector3[] cue, Vector3 target, bool[,] posHist, eInfo[,] dnmeAllCue, int[] cntCue, float nowLeastDist) {
+	public bfsPos[] bfs(bfsPos[] bfsPos, int[] cue, Vector3 target, bool[,] posHist, eInfo[,] dnmeAllCue, float nowLeastDist) {
 
 		Vector3[] move = getMoveDirect (true);
 
 		// キューの先頭のvecを出す(player)
 		int prNo = cue [0];  // 親のノード番号を取得
-		Vector3 prVec = bfsPos[prNo].pos;
+		Vector3 prVec = bfsPos[prNo].pos; // 親のvectorを取る
 
 		// 現在のlayer番号を取得
 		int layNo = bfsPos[prNo].layNo;
@@ -489,23 +488,18 @@ public class Methods : MonoBehaviour {
 
 				// 動く敵がいる場合、その敵のキューも追加
 				dnmeAllCue = insertToAllDnmeCue (dnmeAllCue, dnmeNext);
-				cntCue = insertToCntCue (cntCue, _Cnt);
-
 
 				// bfsPosにこの子ノードの情報を追加
-				insertTo_bfsPos(bfsPos, vec:, prNo, layNo);
 				bfsPos = insertTo_bfsPos(bfsPos, newVec, prNo, layNo);
 				int chNo = bfsPos.Length - 1; // たった今bfsPosに代入したので、子ノードの番号は最後の番号
 
 				// bfsPosの親ノード情報に対し、この子ノード情報を付け加える
-				bfsPos = insertChildTo_bfsPos(bfsPos, prNo, newVec);
-				eb.sw.Write ("bfsPosLen増加: " + bfsPos.Length.ToString () + " bfsCh増加: " + bfsPos [prNo].chNo.Length);
+				bfsPos = insertChildTo_bfsPos(bfsPos, prNo, chNo);
+//				eb.sw.Write ("bfsPosLen増加: " + bfsPos.Length.ToString () + " bfsCh増加: " + bfsPos [prNo].chNo.Length);
 
 
 			}
 		}
-
-
 
 		float bfsDist = getBfsDist(bfsPos, prNo);
 		if (checkVecEqual (prVec, target) || cue.Length == 0) { // 目的地である場合 or cueの長さが0の場合
@@ -525,9 +519,7 @@ public class Methods : MonoBehaviour {
 			bfsPos [0].set_bfsDist (bfsDist);
 			return bfsPos; // 終了
 		} else {
-			Cnt++;
-
-			return bfs (bfsPos, cue, target, posHist, dnmeAllCue, cntCue, nowLeastDist);
+			return bfs (bfsPos, cue, target, posHist, dnmeAllCue, nowLeastDist);
 
 		}
 
