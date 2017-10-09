@@ -109,7 +109,7 @@ public class Methods : MonoBehaviour {
 			if (checkVecEqual (move, drct [i])) {
 				for (int j = 0; j < eMove.Length; j++) {
 					newVec = nowPos + eMove [(i + j) % N];
-					if (eb.checkCollider (pNowPos, newVec, playerFlg, eIndex, target)) {
+					if (eb.checkEnemyCollider (newVec, eIndex)) {
 						return newVec;
 					}
 				}
@@ -470,9 +470,6 @@ public class Methods : MonoBehaviour {
 			bool res = true;
 
 			// 動く敵に対して
-			//sw.WriteLine("dynamicFlg: " + dynamicFlg);
-
-			//res = checkColliderWallAndAllDynamicEnemy (prVec, newVec, target, dnme, dnmeNext, true);
 			res = eb.checkPlayerCollider(prVec, newVec);
 			for (int j = 0; j < dnme.Length; j++) {
 				res = eb.checkPlayerCollider (prVec, newVec, dnme, dnmeNext, target);
@@ -580,16 +577,16 @@ public class Methods : MonoBehaviour {
 
 	/* BestWayがなかった場合の、update後のplayerの動きを取得 */
 	public Vector3 get_pPos_whenNoBestWay(nearItemInfo nearItm, Vector3 pPos, eInfo[] eInfos, int cnt) {
-//		eInfo dnme = new eInfo("", new Vector3());
-//		eInfo nextDnme = new eInfo("", new Vector3());
-//
+		//		eInfo dnme = new eInfo("", new Vector3());
+		//		eInfo nextDnme = new eInfo("", new Vector3());
+		//
 		Vector3[] move = getMoveDirect (true);
 
 		float leastDist = 1000;
 
 		Vector3 resPos;
 		Vector3 _resPos = new Vector3 ();
-	
+
 		if (nearItm.dist == 1) {
 			resPos = pPos;
 		} else {
@@ -622,6 +619,7 @@ public class Methods : MonoBehaviour {
 
 		return resPos;
 	}
+
 
 
 	/* 訪れたことのある点を記録する箱をつくる */
@@ -669,126 +667,6 @@ public class Methods : MonoBehaviour {
 	/* nearItmの内容を初期化 */
 	public nearItemInfo initNearItm() {
 		return new nearItemInfo (-1, new iInfo (), 500, new bfsPos[0], new Vector3[0]);
-	}
-
-
-	/* 新しい位置が壁とも敵とも衝突しないかどうか確認 */
-	public bool checkColliderWallAndEnemyWall(Vector3 NextPos, bool playerFlg) {
-		for (int k = 0; k < init.wallPos.Length; k++) {
-			if (NextPos.x == init.wallPos [k].x && NextPos.y == init.wallPos [k].y) {
-				return false;
-			}
-		}
-		if (!playerFlg) {
-			for (int m = 0; m < init.iInfos.Length; m++) {
-				Vector3 iPos = init.iInfos [m].pos;
-				if (iPos.x != 0 || iPos.y != 0) {
-					if (checkVecEqual (iPos, NextPos)) {
-						return false;
-					}
-				}
-			}	
-		}
-		return true;
-	}
-
-
-	/* 新しい位置が壁とも動的な敵とも衝突しないかどうか確認 */
-	public bool checkColliderWallAndDynamicEnemy(Vector3 nowPos, Vector3 NextPos, Vector3 target, eInfo DNMEnemy, eInfo nextDNMEnemy, bool playerFlg) {
-
-		//eb.sw.WriteLine ("pNow: " + nowPos + " pNext: " + NextPos + " eNow: " + DNMEnemy.pos + " eNext: " + nextDNMEnemy + " target: " + target);
-		for (int k = 0; k < init.wallPos.Length; k++) {
-			if (NextPos.x == init.wallPos [k].x && NextPos.y == init.wallPos [k].y) {
-				return false;
-			}
-		}
-		if (!playerFlg) {
-			for (int m = 0; m < init.iInfos.Length; m++) {
-				Vector3 iPos = init.iInfos [m].pos;
-				if (iPos.x != 0 || iPos.y != 0) {
-					if (checkVecEqual (iPos, NextPos)) {
-						return false;
-					}
-				}
-			}
-		}
-
-		if (nowPos == target) {
-			return false;
-		}
-
-		// 次移動した時の位置が現在のenemyの位置と一致していた場合、そこも避けなければならない
-
-		if (nextDNMEnemy.pos == NextPos) {
-			//sw.WriteLine ("次の移動位置が現在のenemyと一致");
-			return false;
-		}
-		if (nextDNMEnemy.pos == nowPos && DNMEnemy.pos == NextPos) {
-			//sw.WriteLine ("入れ替わり交差");
-			return false;
-		}
-
-		// 次の位置がターゲットとも、敵の次の位置とも同じである場合
-		//if (NextPos == target && nowPos == nextDNMEnemy.pos) {
-		if (NextPos == target && NextPos == nextDNMEnemy.pos) {
-			//sw.WriteLine ("次の位置がターゲットとも、敵の次の位置とも同じ");
-			return false;
-		}
-
-
-		return true;
-	}
-
-	/* 新しい位置が壁とも動的な敵とも衝突しないかどうか確認 */
-	public bool checkColliderWallAndAllDynamicEnemy(Vector3 nowPos, Vector3 NextPos, Vector3 target, eInfo[] DNMEnemy, eInfo[] nextDNMEnemy, bool playerFlg) {
-
-		//eb.sw.WriteLine ("pNow: " + nowPos + " pNext: " + NextPos + " eNow: " + DNMEnemy.pos + " eNext: " + nextDNMEnemy + " target: " + target);
-		for (int k = 0; k < init.wallPos.Length; k++) {
-			if (NextPos.x == init.wallPos [k].x && NextPos.y == init.wallPos [k].y) {
-				return false;
-			}
-		}
-		if (!playerFlg) {
-			for (int m = 0; m < init.iInfos.Length; m++) {
-				Vector3 iPos = init.iInfos [m].pos;
-				if (iPos.x != 0 || iPos.y != 0) {
-					if (checkVecEqual (iPos, NextPos)) {
-						return false;
-					}
-				}
-			}
-		}
-
-		if (nowPos == target) {
-			return false;
-		}
-
-		int len = nextDNMEnemy.Length;
-		// 次移動した時の位置が現在のenemyの位置と一致していた場合、そこも避けなければならない
-		for (int i=0; i<len; i++) {
-			if (nextDNMEnemy[i].pos == NextPos) {
-				//sw.WriteLine ("次の移動位置が現在のenemyと一致");
-				return false;
-			}
-		}
-		for (int i=0; i<len; i++) {
-			if (nextDNMEnemy[i].pos == nowPos && DNMEnemy[i].pos == NextPos) {
-				//sw.WriteLine ("入れ替わり交差");
-				return false;
-			}
-		}
-
-		// 次の位置がターゲットとも、敵の次の位置とも同じである場合
-		for (int i=0; i<len; i++) {
-			//if (NextPos == target && nowPos == nextDNMEnemy.pos) {
-			if (NextPos == target && NextPos == nextDNMEnemy[i].pos) {
-				//sw.WriteLine ("次の位置がターゲットとも、敵の次の位置とも同じ");
-				return false;
-			}
-		}
-
-
-		return true;
 	}
 
 

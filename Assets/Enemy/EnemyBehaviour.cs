@@ -154,39 +154,39 @@ public class EnemyBehaviour : MonoBehaviour {
 		if (eInfo.type == "A") {
 			if (rPos.y != 0) {
 				Vector3 eNextPos = eInfo.pos + new Vector3 (0, rPos.y / Mathf.Abs (rPos.y));
-				if (checkCollider (eNextPos, playerFlg, index, pPos, target)) {
+				if (checkEnemyCollider (eNextPos, index)) {
 					return eNextPos;
 				}
 			}
 			if (rPos.x != 0) {
 				Vector3 eNextPos = eInfo.pos + new Vector3 (rPos.x / Mathf.Abs(rPos.x), 0);
-				if (checkCollider (eNextPos, playerFlg, index, pPos, target)) {
+				if (checkEnemyCollider (eNextPos, index)) {
 					return eNextPos;
 				}
 			}
 			Vector3[] moveA= new Vector3[4] { new Vector3(0,-1), new Vector3(-1,0), new Vector3(0,+1), new Vector3(+1,0) };
 			for (iA = 0; iA < moveA.Length; iA++) {
 				Vector3 eNextPos = eInfo.pos + moveA[iA];
-				if (checkCollider (eNextPos, playerFlg, index, pPos, target)) {
+				if (checkEnemyCollider (eNextPos, index)) {
 					return eNextPos;
 				}
 			}
 		} else if (eInfo.type == "B") {
 			if (rPos.x != 0) {
 				Vector3 eNextPos = eInfo.pos + new Vector3 (rPos.x / Mathf.Abs (rPos.x), 0);
-				if (checkCollider (eNextPos, playerFlg, index, pPos, target)) {
+				if (checkEnemyCollider (eNextPos, index)) {
 					return eNextPos;
 				}
 			} if (rPos.y != 0) {
 				Vector3 eNextPos = eInfo.pos + new Vector3 (0, rPos.y / Mathf.Abs (rPos.y));
-				if (checkCollider (eNextPos, playerFlg, index, pPos, target)) {
+				if (checkEnemyCollider (eNextPos, index)) {
 					return eNextPos;
 				}
 			}
 			Vector3[] moveB = new Vector3[4] { new Vector3(0,+1), new Vector3(-1,0), new Vector3(0,-1), new Vector3(+1,0) };
 			for (iB = 0; iB < moveB.Length; iB++) {
 				Vector3 eNextPos = eInfo.pos + moveB [iB];
-				if (checkCollider (eNextPos, playerFlg, index, pPos, target)) {
+				if (checkEnemyCollider (eNextPos, index)) {
 					return eNextPos;
 				}
 			}
@@ -198,8 +198,8 @@ public class EnemyBehaviour : MonoBehaviour {
 
 
 
-	/* 新しい位置が衝突位置でないかどうか確認 */
-	public bool checkCollider(Vector3 nowPos, Vector3 NextPos, bool playerFlg, int index, Vector3 target) {
+	/* 敵の動きに対するCollider判定 新しい位置が衝突位置でないかどうか確認 */
+	public bool checkEnemyCollider(Vector3 NextPos, int eIndex) {
 		int m;
 		for (m = 0; m < init.wallPos.Length; m++) {
 			if (mt.checkVecEqual(init.wallPos [m], NextPos)) {
@@ -207,19 +207,19 @@ public class EnemyBehaviour : MonoBehaviour {
 				return false;
 			}
 		}
-		if (!playerFlg) {
-			for (m = 0; m < init.iInfos.Length; m++) {
-				Vector3 iPos = init.iInfos [m].pos;
-				if (iPos.x != 0 || iPos.y != 0) {
-					if (mt.checkVecEqual (iPos, NextPos)) {
-						return false;
-					}
-				}
-			}
-		}
-		if (index >= 0) {
+//		if (!playerFlg) {
+//			for (m = 0; m < init.iInfos.Length; m++) {
+//				Vector3 iPos = init.iInfos [m].pos;
+//				if (iPos.x != 0 || iPos.y != 0) {
+//					if (mt.checkVecEqual (iPos, NextPos)) {
+//						return false;
+//					}
+//				}
+//			}
+//		}
+		if (eIndex >= 0) {
 			for (int i = 0; i < init.eInfos.Length; i++) {
-				if (i != index) {
+				if (i != eIndex) {
 					Vector3 ePos_ = init.eInfos [i].pos;
 					float dist = Mathf.Abs (NextPos.x - ePos_.x) + Mathf.Abs (NextPos.y - ePos_.y);
 					// 距離が0になってしまうの場合
@@ -229,24 +229,14 @@ public class EnemyBehaviour : MonoBehaviour {
 					} 
 					// 距離が1の場合
 					else if (dist == 1) {
-						// index番号の小さい方が優先的に進めるという設定で。
-						if (mt.checkRankOfEnemy(index, i)) {
+						// eIndex番号の小さい方が優先的に進めるという設定で。
+						if (mt.checkRankOfEnemy(eIndex, i)) {
 							// 何もしない(番号iの方が遠慮して進むことにする)
 						} else {
 							// enemy_ の次の動きと被った場合false
 							Vector3 e_NextPos = enemyMove (init.eInfos[i], i, init.playerPos, playerFlg, target);
 							if (e_NextPos == NextPos) {
 								return false;
-							}
-
-							if (playerFlg) {
-								if (e_NextPos == nowPos && ePos_ == NextPos) {
-									return false;
-								}
-								if (NextPos == target && NextPos == e_NextPos) {
-									return false;
-								}
-
 							}
 
 						}
@@ -257,6 +247,7 @@ public class EnemyBehaviour : MonoBehaviour {
 		return true;
 	}
 
+	/* playerの動きに対するCollier判定 */
 	public bool checkPlayerCollider(Vector3 nowPos, Vector3 nextPos, eInfo[] dnme, eInfo[] dnmeNext, Vector3 target) {
 		int m;
 		for (m = 0; m < init.wallPos.Length; m++) {
@@ -266,6 +257,9 @@ public class EnemyBehaviour : MonoBehaviour {
 			}
 		}
 
+//		if (nowPos == target) {
+//			return false;
+//		}
 
 		int len = dnmeNext.Length;
 		// 次移動した時の位置が現在のenemyの位置と一致していた場合、そこも避けなければならない
@@ -284,7 +278,6 @@ public class EnemyBehaviour : MonoBehaviour {
 
 		// 次の位置がターゲットとも、敵の次の位置とも同じである場合
 		for (int i=0; i<len; i++) {
-			//if (nextPos == target && nowPos == dnmeNext.pos) {
 			if (nextPos == target && nextPos == dnmeNext[i].pos) {
 				//sw.WriteLine ("次の位置がターゲットとも、敵の次の位置とも同じ");
 				return false;
